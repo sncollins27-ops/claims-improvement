@@ -140,6 +140,12 @@ runs, leaderboard, my miner), Network run (batch scores, per-paper Silver
 heatmap, paper PDFs), Skill (mounted pack), Agenda (next steps + handoff prompt
 for the next Claude session).
 
+## Start here
+
+New to this project? Read [docs/ONBOARDING.md](docs/ONBOARDING.md): how the
+subnet scores a paper, why the stock miner loses, what this repo does about it,
+the measured results, and the traps that cost time.
+
 ## Versions
 
 The committed code is v6. v5 is the same code with two features switched off in
