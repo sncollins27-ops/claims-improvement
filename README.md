@@ -140,6 +140,13 @@ runs, leaderboard, my miner), Network run (batch scores, per-paper Silver
 heatmap, paper PDFs), Skill (mounted pack), Agenda (next steps + handoff prompt
 for the next Claude session).
 
+## Versions
+
+The committed code is v6. v5 is the same code with two features switched off in
+`.env`, and it is what the miner currently runs. See
+[docs/V5-VS-V6.md](docs/V5-VS-V6.md) for the exact differences, the measured
+results for each, and what still needs validating.
+
 ## The improvement loop
 
 1. Run a paper (`tools/run_paper.py ... --judge`).
