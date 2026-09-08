@@ -148,6 +148,10 @@ the measured results, and the traps that cost time.
 
 ## Versions
 
+[docs/VERSION-HISTORY.md](docs/VERSION-HISTORY.md) walks v1 through v6: the core
+idea behind each change, what it measured, and the two regressions worth
+studying.
+
 The committed code is v6. v5 is the same code with two features switched off in
 `.env`, and it is what the miner currently runs. See
 [docs/V5-VS-V6.md](docs/V5-VS-V6.md) for the exact differences, the measured
