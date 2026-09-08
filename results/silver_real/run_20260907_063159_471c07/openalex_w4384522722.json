@@ -1,0 +1,162 @@
+{
+  "paper_id": "openalex_w4384522722",
+  "run_id": "run_20260907_063159_471c07",
+  "silver_record_id": "silver_run_20260907_063159_471c07_openalex_w4384522722",
+  "bronze_record_id": "bronze_6c68d7600831ca7a",
+  "units": [
+    {
+      "silver_unit_id": "silver_unit_e31ff2714835cb9a",
+      "statement": "The urban ecosystem of Douala supports 72 epiphyte species from 57 genera and 32 families, dominated by Polypodiaceae; casual epiphytes are the most abundant life form (48 species, 66.67% of species; 63.86% of individuals) while true epiphytes are the least (8 species, 11.11%; ~10% of individuals), composed mainly of pteridophytes with Calyptrochilium spp. as the sole Orchidaceae; this richness exceeds that reported for comparable urban forest sites elsewhere.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 34,
+      "source_span_ids": [
+        "openalex_w4384522722-span-0001",
+        "openalex_w4384522722-span-0002",
+        "openalex_w4384522722-span-0003",
+        "openalex_w4384522722-span-0004",
+        "openalex_w4384522722-span-0006",
+        "openalex_w4384522722-span-0009"
+      ],
+      "source_quotes": [
+        "$33",
+        "A total of 72 species of epiphytes were identified, dominated by Polypodiaceae.",
+        "$34",
+        "belonging to 57 genera grouped into 32 families.",
+        "08 species (11.11%) of True epiphytes, 16 species (22.22%) of Hemi-epiphytes, and 48 species (66.67 %) of Casual epiphytes."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_399972d1ba3fbf3e",
+      "statement": "The host tree inventory recorded 347 phorophyte individuals from 22 species, 17 genera, and 13 families, with Rutaceae the most represented family (6 species); Apocynaceae and Burseraceae were paucispecific (one species each); Elaeis guineensis was the most colonised host supporting 55 epiphyte species, followed by Cocos nucifera and Mangifera indica (27 each), identifying palms as especially important epiphyte hosts.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 20,
+      "source_span_ids": [
+        "openalex_w4384522722-span-0001",
+        "openalex_w4384522722-span-0002",
+        "openalex_w4384522722-span-0003",
+        "openalex_w4384522722-span-0004",
+        "openalex_w4384522722-span-0008"
+      ],
+      "source_quotes": [
+        "$36",
+        "Elaeis guineensis, was phorophyte with most epiphyte species (55), followed by Cocos nucifera and Mangifera indica (27 species each).",
+        "The inventory of phorophytes revealed 347 individuals belonging to 22 species, 17 genera and 13 families.",
+        "The presence of epiphytes in considerable abundance on E. guineensis and C. nucifera shows the importance of palm trees as host plants for the epiphytes.",
+        "The inventory of phorophytes revealed 347 individuals decreasing gradient (for top to the trunk) for Casual. belonging to 22 species, 17 genera and 13 families."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_4ee2b797ef58ba03",
+      "statement": "Epiphyte abundance and life-form composition varied spatially across four sectors: 804 individuals were recorded, with the urban sector highest (323) and peri-urban lowest (99); true epiphytes predominated in seaside (75.37%) and peripheral sectors while casual and hemi-epiphytes dominated central industrial (casual 50.84%) and urban (casual 49.85%) sectors, indicating urbanization constrains strict epiphytes; epiphyte abundance was not proportional to host tree density.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 45,
+      "source_span_ids": [
+        "openalex_w4384522722-span-0001",
+        "openalex_w4384522722-span-0002",
+        "openalex_w4384522722-span-0003",
+        "openalex_w4384522722-span-0004",
+        "openalex_w4384522722-span-0006",
+        "openalex_w4384522722-span-0008",
+        "openalex_w4384522722-span-0009"
+      ],
+      "source_quotes": [
+        "In SS, True epiphytes were the dominate life-form (75.37%), followed by Casual (16.26%), and Hemi-epiphytes (8.37%); in IS, there was a similar proportion of Casual (50.84%) and True (49.16%); PUS recorded a proportion of True epiphytes of 50.51%, Casual (28.28%) and Hemi at 21.21%; in US, we recorded a proportion of 49.85% of Casual epiphytes, followed by True (38.08%), and Hemi epiphytes (12.07%).",
+        "True epiphytes were abundant in seaside and peripheral areas, while Casual and Hemiepiphytes were in the central sectors.",
+        "A total of 804 individuals of epiphytes was recorded in the studied area, the US showed the higher number (323 individuals), followed by SS (203 individuals), IS (179 individuals) and PUS (99 individuals.",
+        "In SS, True epiphytes were the dominate life- form (75.37%), followed by Casual (16.26%), and Hemi- epiphytes (8.37%); in IS, there was a similar proportion of Casual (50.84%) and True (49.16%);",
+        "PUS recorded a proportion of True epiphytes of 50.51%, Casual (28.28%) and Hemi at 21.21%; in US, we recorded a proportion of 49.85% of Casual epiphytes, followed by True (38.08%), and Hemi epiphytes (12.07%)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_5cffe06367d9f0ce",
+      "statement": "Epiphyte life forms show vertical segregation on host trees: true epiphytes exhibit an ascending fixation gradient from trunk to crown (upper canopy 80% true) while hemi- and casual epiphytes show a decreasing gradient; the trunk was dominated by 48 casual, 16 hemi-, and 8 true epiphyte species.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 20,
+      "source_span_ids": [
+        "openalex_w4384522722-span-0002",
+        "openalex_w4384522722-span-0003",
+        "openalex_w4384522722-span-0004",
+        "openalex_w4384522722-span-0006",
+        "openalex_w4384522722-span-0007",
+        "openalex_w4384522722-span-0008",
+        "openalex_w4384522722-span-0009"
+      ],
+      "source_quotes": [
+        "True epiphytes showed an ascending gradient of fixation, from trunk to crown, while Hemi and Casual epiphytes had a decreasing gradient of fixation, from crown to trunk.",
+        "Trunk was dominated by Casual epiphytes (48 species), Hemi (16 species), and True epiphytes (8 species) (Figure 6).",
+        "Upper canopy was colonized by True epiphytes with four species (80%), and Hemi epiphytes (1 species). Middle canopy recorded three life-forms, dominated by True epiphytes (5 species), followed by Hemi (2 species), and Casual epiphytes with one species. The inner canopy was also dominated by True epiphytes (7 species), but this time followed by Casual (4 species), and Hemi epiphytes (1 species). Trunk was dominated by Casual epiphytes (48 species), Hemi (16 species), and True epiphytes (8 species) (Figure 6).",
+        "Upper canopy was colonized by True epiphytes with four Anacardiaceae were most represented with four species, species (80%), and Hemi epiphytes (1 species).",
+        "Middle followed by Rutaceae (3 species), Arecaceae (2 species) canopy recorded three life-forms, dominated by True and Combretaceae (2 species)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_9f968d2837ffbb32",
+      "statement": "Calyptrochilium spp., the sole Orchidaceae recorded, was found only in the administrative sector away from industrial and urban pollution sources, interpreted as evidence of adaptation to urban conditions.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 9,
+      "source_span_ids": [
+        "openalex_w4384522722-span-0004",
+        "openalex_w4384522722-span-0006",
+        "openalex_w4384522722-span-0007",
+        "openalex_w4384522722-span-0009"
+      ],
+      "source_quotes": [
+        "It can therefore be said that the peripheral areas of the city of Douala are the wettest, and could constitute a site for the conservation of epiphytes. *Calyptrochilium* spp., the only Orchidaceae species was found in the administrative sector.",
+        "The presence of *Calyptrochilium* spp. in the urban ecosystem implies an adaptation to survive in this environment.",
+        "Orchidaceae|Calyptrochilium spp. (Rchb.f.) Summerh.|True|||+||",
+        "Indeed, epiphytes are indicators of the humidity of the environment.",
+        "It can therefore be said that the peripheral areas of the city of Douala are the wettest"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_6dc604c865178804",
+      "statement": "Micrograma species and Platycerium stemaria were ubiquitous across all surveyed sectors; Nephrolepis biserrata and Pyrrosia species occurred in three sectors (escorts); Asplenium nidus, Calyptrochilium species, and Pyrrosia mechowii were each restricted to one sector and qualified as characteristic species.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 8,
+      "source_span_ids": [
+        "openalex_w4384522722-span-0004",
+        "openalex_w4384522722-span-0006"
+      ],
+      "source_quotes": [
+        "True epiphytes belonged to two sectors and were qualified as escorts; *Syngonium* groups, Pteridophytes (7 species) and Angiosperms with *podophyllum* was encountered in IS and US, while the Orchidaceae (1 species).",
+        "The specific richness of life- *Asplenium nidus*, *Calyptrochilium* species and *Pyrrosia* forms in the studied sectors revealed a higher number of *mechowii* have only been reported respectively in one True epiphytes in US (6 species) and SS (5 species), sector.",
+        "They were qualified as characteristic of the Urban Hemi-epiphytes were more abundant in PU (10 species) sector for *A. nidus*, and of Sea side for both others. and US (9 species), while Casual epiphytes showed higher specific richness in PU (30 species) and IS (28 species) (Table 1). **Distribution of epiphytes life-forms among host trees**",
+        "Micrograma species and\nPlatycerium stemaria were recorded in  all  the  sectors, and were thus qualified as ubiquitous.",
+        "Source: Author\n\nspecies."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_f5ab6c7301e93bb1",
+      "statement": "Peripheral areas of Douala, interpreted as the wettest and least industrialised, could serve as conservation sites for epiphytes; epiphytes may persist in fairly stable numbers unless industrial activity and urbanisation intensify, supporting further assessment for conservation.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 6,
+      "source_span_ids": [
+        "openalex_w4384522722-span-0001",
+        "openalex_w4384522722-span-0008",
+        "openalex_w4384522722-span-0009"
+      ],
+      "source_quotes": [
+        "Indeed, epiphytes are indicators of the humidity of the environment.",
+        "It can therefore be said that the peripheral areas of the city of Douala are the wettest, and could constitute a site for the conservation of epiphytes. *Calyptrochilium* spp., the only Orchidaceae species was found in the administrative sector.",
+        "The status of epiphytes would also help to identify areas of the city with higher humidity.",
+        "The research aim was to\ncharacterize the epiphytic flora of the urban ecosystem of Douala.",
+        "This is\ncertainly due to the high level of industrial and\nanthropogenic activities that take place there."
+      ]
+    }
+  ],
+  "fetched_at": "2026-09-07T21:42:40Z"
+}

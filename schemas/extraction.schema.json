@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ExtractionArtifact",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "paper",
+    "spans",
+    "claims",
+    "evidence_items",
+    "claim_evidence_links"
+  ],
+  "properties": {
+    "paper": {
+      "$ref": "paper.schema.json"
+    },
+    "spans": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "span.schema.json"
+      }
+    },
+    "claims": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "claim.schema.json"
+      }
+    },
+    "evidence_items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "evidence_item.schema.json"
+      }
+    },
+    "claim_evidence_links": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "claim_evidence_link.schema.json"
+      }
+    }
+  }
+}

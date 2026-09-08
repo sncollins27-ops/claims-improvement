@@ -1,0 +1,163 @@
+{
+  "paper_id": "openalex_w4224249713",
+  "run_id": "run_20260907_063159_471c07",
+  "silver_record_id": "silver_run_20260907_063159_471c07_openalex_w4224249713",
+  "bronze_record_id": "bronze_a5210dc632182892",
+  "units": [
+    {
+      "silver_unit_id": "silver_unit_369913588a968abe",
+      "statement": "GSDMB promotes intestinal epithelial restitution and repair through a PDGFA/PDGF-AA-FAK signaling pathway, independently of pyroptosis: its expression is elevated in inflamed IBD epithelium, it enhances epithelial proliferation, migration, and adhesion, and its mutations impair epithelial repair capacity.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 45,
+      "source_span_ids": [
+        "openalex_w4224249713-span-0001",
+        "openalex_w4224249713-span-0002",
+        "openalex_w4224249713-span-0003"
+      ],
+      "source_quotes": [
+        "## Signal Transduction and Targeted Therapy www.nature.com/sigtrans\n\nRESEARCH HIGHLIGHT **OPEN**\n\n# Novel pyroptosis-independent functions of gasdermins\n\nZiran QinÂ¹, Fangfang ZhouÂ² â and Long Zhangââ Signal Transduction and Targeted Therapy (2022) 7:127; [https://doi.org/10.1038/s41392-022-00991-3](https://doi.org/10.1038/s41392-022-00991-3)\n\n|Recently,|Rana et al.|Zhang et|al.",
+        "GSDMB is increased in IBD and regulates epithelial restitution/repair",
+        "GSDMB is increased in IBD and regulates epithelial restitution/repair\nmaterial in this article are included in the article indicated otherwise in a credit line to the material.",
+        "GSDMB is increased in IBD and regulates epithelial restitution/repair independent of pyroptosis",
+        "GSDMB regulates cell migration and adhesion functions"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_128210ef7e7a7e7f",
+      "statement": "GSDMD pores in intestinal goblet cells mediate calcium ion influx that activates scinderin-dependent F-actin disassembly and mucus vesicle secretion, thereby forming the colonic mucus layer and maintaining the host-microbial interface; GSDMD deficiency causes near-complete loss of the mucus layer, direct bacterial contact with the epithelium, and increased susceptibility to infection.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 43,
+      "source_span_ids": [
+        "openalex_w4224249713-span-0001",
+        "openalex_w4224249713-span-0002",
+        "openalex_w4224249713-span-0003"
+      ],
+      "source_quotes": [
+        "## Signal Transduction and Targeted Therapy www.nature.com/sigtrans\n\nRESEARCH HIGHLIGHT **OPEN**\n\n# Novel pyroptosis-independent functions of gasdermins\n\nZiran QinÂ¹, Fangfang ZhouÂ² â and Long Zhangââ Signal Transduction and Targeted Therapy (2022) 7:127; [https://doi.org/10.1038/s41392-022-00991-3](https://doi.org/10.1038/s41392-022-00991-3)\n\n|Recently,|Rana et al.|Zhang et|al.",
+        "Among these, scinderin, a cytoskeletal regulatory protein, was most significantly downregulated.",
+        "Epithelial gasdermin D shapes the host-microbial interface by\nregulation or exceeds the permitted use, you will need to obtain permission directly driving mucus layer formation.",
+        "Fig. 1 Function of gasdermins in intestinal epithelial restitution and immune homeostasis. a In goblet cells, GSDMD pores mediate calcium",
+        "GSDMD deficiency leads to the absence of the mucus layer and direct bacterial contact with the epithelium."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_0adf8d1ad239a2d4",
+      "statement": "Gasdermin proteins have biologically significant pyroptosis-independent intestinal functions including epithelial barrier restoration, epithelial reconstitution, and maintenance of gut mucosal homeostasis.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 9,
+      "source_span_ids": [
+        "openalex_w4224249713-span-0001",
+        "openalex_w4224249713-span-0002",
+        "openalex_w4224249713-span-0003"
+      ],
+      "source_quotes": [
+        "## Signal Transduction and Targeted Therapy www.nature.com/sigtrans\n\nRESEARCH HIGHLIGHT **OPEN**\n\n# Novel pyroptosis-independent functions of gasdermins\n\nZiran QinÂ¹, Fangfang ZhouÂ² â and Long Zhangââ Signal Transduction and Targeted Therapy (2022) 7:127; [https://doi.org/10.1038/s41392-022-00991-3](https://doi.org/10.1038/s41392-022-00991-3)\n\n|Recently,|Rana et al.|Zhang et|al.",
+        "GSDMD deficiency leads to the absence of the mucus layer and direct bacterial contact with the epithelium.",
+        "GSDMD pores mediate calcium ion influx, thereby activating scinderin-mediated F-actin disassembly and mucus secretion to form the mucus layer.",
+        "GSDMD uses a common membrane-targeting mechanism to form pores which lead to lytic cell death, membrane repair, or granule exocytosis in different physiological contexts",
+        "Moreover, neither of the\nfunctions of GSDMs revealed by these two studies are related to\npyroptosis, which may provide new insights into the nonpyroptosis-dependent functions of GSDM proteins."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_dc7588fae1ad4657",
+      "statement": "GSDMD uses a common membrane-targeting mechanism to form pores whose outcomes are context-dependent, producing lytic cell death, membrane repair, or granule exocytosis; differences in pore number and size between cell types and accessory proteins are proposed as potential determinants of these divergent outcomes.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 16,
+      "source_span_ids": [
+        "openalex_w4224249713-span-0001",
+        "openalex_w4224249713-span-0002"
+      ],
+      "source_quotes": [
+        "GSDMD uses a common membrane-targeting mechanism to form pores which lead to lytic cell death, membrane repair, or granule exocytosis in different physiological contexts",
+        "these two studies in humans demonstrate novel functions of GSDMs in pyroptosis-independent processes",
+        "these two studies in humans demonstrate novel functions of GSDMs in pyroptosis-independent processes, particularly, in the maintenance of immune homeostasis and epithelial reconstitution in the intestine",
+        "GSDMD uses a common membrane-targeting mechanism to form pores which lead to lytic cell death, membrane repair, or granule exocytosis in different physiological contexts.",
+        "differences in the number and size of GSDMD pores between different cell types and populations may be the cause"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_34b80b275c08ab07",
+      "statement": "The highlighted gasdermin mechanisms in epithelial restitution and mucus-barrier maintenance provide a rationale for exploring gasdermin-targeted therapeutic strategies for inflammatory bowel disease.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 8,
+      "source_span_ids": [
+        "openalex_w4224249713-span-0001",
+        "openalex_w4224249713-span-0002"
+      ],
+      "source_quotes": [
+        "## Signal Transduction and Targeted Therapy www.nature.com/sigtrans\n\nRESEARCH HIGHLIGHT **OPEN**\n\n# Novel pyroptosis-independent functions of gasdermins\n\nZiran QinÂ¹, Fangfang ZhouÂ² â and Long Zhangââ Signal Transduction and Targeted Therapy (2022) 7:127; [https://doi.org/10.1038/s41392-022-00991-3](https://doi.org/10.1038/s41392-022-00991-3)\n\n|Recently,|Rana et al.|Zhang et|al.",
+        "Future studies utilizing animal models that transgenically express human GSDMB may clarify its role in an in vivo setting.",
+        "In addition, Rana et al. identified methotrexate as a non-inflammatory stimulus capable of upregulating GSDMB, and Zhang et al. successfully established an in vitro colon organoid culture system by three-ACKNOWLEDGEMENTS dimensional printing. 1,2 These findings provide strong support forThis work was supported by a special program from the Ministry of Science and the further development of drugs targeting GSDMs and optimiza-Technology of China (2021YFA101000), the Chinese National Natural Science Funds tion of therapeutic strategies for the treatment of IBD.",
+        "The carriage of GSDMB mutations leads to a defect in the repair capacity of epithelial cells",
+        "These findings provide strong support for\nthe further development of drugs targeting GSDMs and optimization of therapeutic strategies for the treatment of IBD."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_e16f1f274179fb44",
+      "statement": "Other gasdermin family members demonstrate non-pyroptotic functions: GSDMA exhibits TGF-beta-regulated growth-inhibition activity in gastric cancer, and mutations in GSDME and DFNB59/pejvakin cause nonsyndromic hearing loss, indicating broader pyroptosis-independent gasdermin roles.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 8,
+      "source_span_ids": [
+        "openalex_w4224249713-span-0002"
+      ],
+      "source_quotes": [
+        "Genetic mutations of GSDME and DFNB59 (pejvakin) cause nonsyndromic hearing loss.",
+        "For example, GSDMA Natural Science Foundation of Jiangsu Province (19KJA550003), and A project is frequently silenced in gastric cancer and has tumor growth Funded by the Priority Acadamic Program Development of Jiangsu Higher Education factor-Î²-regulated growth-inhibition activity.",
+        "Genetic mutations ofInstitutions and the Postgraduate Research & Practice Innovation Program of Jiangsu GSDME and DFNB59 (pejvakin) cause nonsyndromic hearing loss Province (KYCX17_2036).",
+        "For example, GSDMA\nis frequently silenced in gastric cancer and has tumor growth\nfactor-Î²-regulated growth-inhibition activity.",
+        "Genetic mutations of\nGSDME and DFNB59 (pejvakin) cause nonsyndromic hearing loss in humans."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_f9c56f85d3b0ddec",
+      "statement": "Methotrexate is a non-inflammatory stimulus capable of upregulating GSDMB expression, linking pharmacologic induction to the gasdermin epithelial repair pathway.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 8,
+      "source_span_ids": [
+        "openalex_w4224249713-span-0001",
+        "openalex_w4224249713-span-0002"
+      ],
+      "source_quotes": [
+        "Rana et al. identified methotrexate as a non-inflammatory stimulus capable of upregulating GSDMB",
+        "identified methotrexate as a non-inflammatory stimulus capable of upregulating GSDMB, and Zhang et al.",
+        "The carriage of GSDMB mutations leads to a defect in the repair capacity of epithelial cells\n\nTaken together with the study by Rana et al., these two studies in humans.",
+        "Rana et al. identified methotrexate as a non-inflammatory stimulus capable of upregulating GSDMB,",
+        "In addition, Rana et al. identified methotrexate as a non-inflammatory stimulus capable of upregulating GSDMB, and Zhang et al. successfully established an in vitro colon organoid culture system by three-ACKNOWLEDGEMENTS dimensional printing. 1,2 These findings provide strong support forThis work was supported by a special program from the Ministry of Science and the further development of drugs targeting GSDMs and optimiza-Technology of China (2021YFA101000), the Chinese National Natural Science Funds tion of therapeutic strategies for the treatment of IBD."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_6f9fb593ea1bcb79",
+      "statement": "In vivo models remain limited for determining the biological significance of non-pyroptotic gasdermin functions, the GSDMB-PDGFA molecular mechanism remains unresolved, and the determinants of context-dependent GSDMD pore outcomes require further investigation; the evidence supports a primarily pyroptosis-independent view of intestinal gasdermin biology but does not establish the full set of mechanisms or context-specific regulators.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 9,
+      "source_span_ids": [
+        "openalex_w4224249713-span-0001",
+        "openalex_w4224249713-span-0002"
+      ],
+      "source_quotes": [
+        "Future work in structural biology may help address this question.",
+        "functional studies are limited by the lack of in vivo models",
+        "the specific molecular mechanism by which GSDMB regulates PDGFA remains unknown.",
+        "Although current literature suggests an undeniable link between GSDMB and genetic susceptibility to IBD, functional studies are limited by the lack of in vivo models.",
+        "Future studies utilizing animal models that transgenically express human GSDMB may clarify its role in an in vivo setting."
+      ]
+    }
+  ],
+  "fetched_at": "2026-09-07T21:42:36Z"
+}

@@ -1,0 +1,63 @@
+{
+  "paper_id": "openalex_w4214582509",
+  "run_id": "run_20260907_063159_471c07",
+  "silver_record_id": "silver_run_20260907_063159_471c07_openalex_w4214582509",
+  "bronze_record_id": "bronze_d4105702f904dcb3",
+  "units": [
+    {
+      "silver_unit_id": "silver_unit_951e10d58f5c181a",
+      "statement": "circCAMSAP1 functions as an oncogenic circular RNA in nasopharyngeal carcinoma through a SERPINH1/c-Myc/SRSF10 positive feedback loop, driving NPC cell proliferation, migration, invasion, and tumor growth and metastasis in vitro and in vivo.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 242,
+      "source_span_ids": [
+        "openalex_w4214582509-span-0001",
+        "openalex_w4214582509-span-0002",
+        "openalex_w4214582509-span-0004",
+        "openalex_w4214582509-span-0006",
+        "openalex_w4214582509-span-0007",
+        "openalex_w4214582509-span-0008",
+        "openalex_w4214582509-span-0009",
+        "openalex_w4214582509-span-0011",
+        "openalex_w4214582509-span-0012",
+        "openalex_w4214582509-span-0014",
+        "openalex_w4214582509-span-0016",
+        "openalex_w4214582509-span-0017",
+        "openalex_w4214582509-span-0018",
+        "openalex_w4214582509-span-0019"
+      ],
+      "source_quotes": [
+        "(**D**), tumor volume (**E**) and tumor weights (**F**) show that *circCAMSAP1* promoted CNE2 xenograft growth 27 days after subcutaneous injection. *n*= 5; *, *p*< 0.05; **, *p*< 0.01; ***, *p*< 0.001",
+        "**Animal testing** First, CNE2 (2 Ã 10 6 ) transfected with the *circCAM-* *SAP1* overexpression vector, *circCAMSAP1* siRNA1, or the empty vector and scrambled siRNA were injected through the tail vein of nude mice (5 mice per group).",
+        "*circCAMSAP1* promotes proliferation, migra- tion, and invasion of NPC cells through SERPINH1.",
+        "Furthermore, we found that *circCAMSAP1* affects the proliferation and metastasis of NPC in vitro and in vivo.",
+        "Nude mice were injected with NPC cells subcutaneously in the armpit after overexpression or knockdown of *circCAMSAP1*. *n*= 5; *, *p*< 0.05; **, *p*< 0.01. **D-F** Image of subcutaneous tumor tissues in nude mice"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_a790059f6e93a695",
+      "statement": "High circCAMSAP1 expression in NPC tissues correlates with advanced TNM classification, T stage, N stage, and M stage in NPC patients, supporting its candidacy as a clinical biomarker.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 13,
+      "source_span_ids": [
+        "openalex_w4214582509-span-0001",
+        "openalex_w4214582509-span-0002",
+        "openalex_w4214582509-span-0004",
+        "openalex_w4214582509-span-0006",
+        "openalex_w4214582509-span-0012",
+        "openalex_w4214582509-span-0017"
+      ],
+      "source_quotes": [
+        "In this study, we found that the circRNA *circCAMSAP1* is highly expressed in patients with NPC tissues, and strongly associated with the clinical and TNM stages of NPC patients.",
+        "We found that *circCAMSAP1* was highly expressed in NPC tissues and promoted NPC proliferation and metastasis.",
+        "**Fig. 1** *circCAMSAP1* is highly expressed in NPC. **A** The expression of *circCAMSAP1* was measured in 29 NPC tissues and 12 non-cancerous NPE tissue",
+        "The relative RNA levels of *circCAMSAP1* and *CAMSAP1* mRNA in NPC cells were measured by RT-qPCR. **, *p*< 0.01; ***, *p*< 0.001; ****, *p*< 0.0001. **E** Intracellular localization of *circCAMSAP1* (red) in three NPC cells, as determined by fluorescence in situ hybridization using a digoxigenin-labeled *circCAMSAP1* probe.",
+        "The results showed that *circCAMSAP1* was expressed significantly more in the 29 NPC samples (Fig. 1A) than in the 12 non- cancer nasopharyngeal epithelial (NPE) tissues."
+      ]
+    }
+  ],
+  "fetched_at": "2026-09-07T21:42:38Z"
+}

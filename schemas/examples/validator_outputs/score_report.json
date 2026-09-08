@@ -1,0 +1,16 @@
+{
+  "paper_id": "paper_hanlon_2025_jama",
+  "validator_id": "demo-validator-001",
+  "accepted": true,
+  "score_total": 1.0,
+  "score_components": {
+    "schema_validity": 1.0,
+    "structure": 1.0,
+    "grounding": 1.0,
+    "relations": 1.0,
+    "ontology": 1.0
+  },
+  "notes": [
+    "Payload passed the demo validator checks."
+  ]
+}

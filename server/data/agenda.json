@@ -1,0 +1,180 @@
+{
+  "items": [
+    {
+      "id": "a17",
+      "title": "Scored against REAL Silver units: coverage 0.9506, batch 0.8640 vs winner 0.7762",
+      "detail": "1101/1404 units matched across 22 papers; 17 papers at coverage 1.0. Silver units are fetchable from the public dashboard via ?run_id=&paper_id=.",
+      "priority": "p0",
+      "tag": "eval",
+      "status": "done",
+      "created_at": "2026-09-08T03:34:03Z",
+      "updated_at": "2026-09-08T03:34:03Z"
+    },
+    {
+      "id": "a18",
+      "title": "Short commentary papers under-extract: w4224249713 gave 4 claims against 8 real units (coverage 0.412)",
+      "detail": "3-page research highlights need a lower per-span candidate floor or a second pass; this is now the only real coverage failure.",
+      "priority": "p0",
+      "tag": "skill",
+      "status": "todo",
+      "created_at": "2026-09-08T03:34:03Z"
+    },
+    {
+      "id": "a15",
+      "title": "Coverage measured at 0.885 on reconstructed Bronze units; estimated batch 0.8017 vs winner 0.7762",
+      "detail": "Quality (0.911) now costs more than coverage. Fixing the remaining rejects is worth more than more claims.",
+      "priority": "p0",
+      "tag": "eval",
+      "status": "done",
+      "created_at": "2026-09-07T20:47:28Z",
+      "updated_at": "2026-09-07T20:47:28Z"
+    },
+    {
+      "id": "a16",
+      "title": "Investigate the 4 papers below 0.75 coverage (w4376609015, w4388792900, w4390732271, w4388551909)",
+      "detail": "TomoTwin-style method papers: Bronze units are composite workflow statements; our claims are finer-grained and the comparator does not always link them. Consider adding one summary-level claim per paper.",
+      "priority": "p1",
+      "tag": "skill",
+      "status": "todo",
+      "created_at": "2026-09-07T20:47:28Z"
+    },
+    {
+      "id": "a13",
+      "title": "Kill the 17 rejects: all are duplicate or over-asserted claims on 3 papers (w7166575844, w4404747328, w4406365831)",
+      "detail": "Hygiene pass shipped (drops 0.49%, catches 3 of 17 rejects). Entity-name and signature-dedupe rules were measured and rejected (30 and 108 false drops). Remaining 9 duplicate rejects need consolidation-prompt work.",
+      "priority": "p0",
+      "tag": "skill",
+      "status": "doing",
+      "created_at": "2026-09-07T19:38:36Z",
+      "updated_at": "2026-09-07T19:58:33Z"
+    },
+    {
+      "id": "a14",
+      "title": "Consider CLAIMS_MINER_BATCH_MAX_WORKERS 8 -> 10 for deadline margin (47 min projected vs 60 min limit)",
+      "detail": "Kept at 8 workers per operator decision. Mainnet restarted 2026-09-07 19:58 UTC on the hygiene build.",
+      "priority": "p1",
+      "tag": "deploy",
+      "status": "done",
+      "created_at": "2026-09-07T19:38:36Z",
+      "updated_at": "2026-09-07T19:58:33Z"
+    },
+    {
+      "id": "a11",
+      "title": "Run the local 50-paper test: ./scripts/run_50_paper_test.sh 8 --judge",
+      "detail": "50/50 papers, $15.06, 450 s/paper, quality 0.9105, 17 rejects of 5497 claims. Projected batch 0.737-0.852 vs winner 0.7762.",
+      "priority": "p0",
+      "tag": "eval",
+      "status": "done",
+      "created_at": "2026-09-07T18:10:35Z",
+      "updated_at": "2026-09-07T19:38:36Z"
+    },
+    {
+      "id": "a12",
+      "title": "Watch the next mainnet evaluation of UID 192 and compare the real Silver score to the local estimate",
+      "detail": "Network view -> my reports. First selection since the deploy will show whether coverage translates into a real score.",
+      "priority": "p0",
+      "tag": "eval",
+      "status": "todo",
+      "created_at": "2026-09-07T18:10:35Z"
+    },
+    {
+      "id": "a10",
+      "title": "Re-run the 5-paper batch with v5 code to confirm 0 weak/0 reject and timing before deploying",
+      "detail": "v5 batch: 600 accept / 4 weak / 2 reject (both duplicates -> dedupe threshold 0.50 + mechanism-merge rule); 392 s/paper",
+      "priority": "p0",
+      "tag": "eval",
+      "status": "done",
+      "created_at": "2026-09-07T17:50:54Z",
+      "updated_at": "2026-09-07T18:10:35Z"
+    },
+    {
+      "id": "a8",
+      "title": "Calibrate consolidation: v2 over-merged (120→37), v3 under-merged (131→130); v4 adds deterministic pre-merge (Jaccard≥0.5 or shared number) + refined prompt",
+      "detail": "v5 on paper 1: 120 claims, 0 findings, 120/120 judge accept, quality 1.0, $0.17, 6.2 min",
+      "priority": "p0",
+      "tag": "runtime",
+      "status": "done",
+      "created_at": "2026-09-07T17:29:02Z",
+      "updated_at": "2026-09-07T17:50:54Z"
+    },
+    {
+      "id": "a9",
+      "title": "Review v3 judge verdicts (130 claims) and the 5-paper batch (staged-v3-batch) for rejects / weak claims; encode fixes in prompts",
+      "detail": "12 weak / 0 reject across 5 papers + paper 1; causes: comparator swaps, mouse→human scope, cited-work generalisations. Rules added to prompts/extract.md (v5).",
+      "priority": "p0",
+      "tag": "eval",
+      "status": "done",
+      "created_at": "2026-09-07T17:29:02Z",
+      "updated_at": "2026-09-07T17:48:36Z"
+    },
+    {
+      "id": "a1",
+      "title": "Run paper 1 (openalex_w4415340077) with the staged runtime and judge; target 60+ grounded claims, 0 rejections",
+      "detail": "staged-v3: 130 claims, 0 deterministic/local findings, $0.18, 5.3 min (baseline: 4 claims, 12 critical quote failures)",
+      "priority": "p0",
+      "tag": "eval",
+      "status": "done",
+      "created_at": "2026-09-07T17:00:00Z",
+      "updated_at": "2026-09-07T17:29:02Z"
+    },
+    {
+      "id": "a2",
+      "title": "Fix every quote_not_in_source / number_not_grounded finding by tightening prompts/extract.md and the repair pass",
+      "detail": "v3 has 0 grounding findings on paper 1 (quote relocation + number verification); keep checking on new papers",
+      "priority": "p0",
+      "tag": "skill",
+      "status": "done",
+      "created_at": "2026-09-07T17:00:00Z",
+      "updated_at": "2026-09-07T17:29:02Z"
+    },
+    {
+      "id": "a3",
+      "title": "Review judge 'reject' and 'weak' claims; add rules to prompts/consolidate.md so they are merged, narrowed or dropped",
+      "detail": "0 rejects and 0 weak on paper 1 (v5) after assertion/comparator/scope rules",
+      "priority": "p0",
+      "tag": "skill",
+      "status": "done",
+      "created_at": "2026-09-07T17:00:00Z",
+      "updated_at": "2026-09-07T17:50:54Z"
+    },
+    {
+      "id": "a4",
+      "title": "Run 5 more papers from the latest mainnet batch (URLs in Network > run > pdf) to check generality and timing",
+      "detail": "staged-v3-batch: 5/5 papers, 69-313 claims, 0 grounding findings, 0 judge rejects, avg 366 s/paper extraction (~38 min per 50 papers @8 workers)",
+      "priority": "p1",
+      "tag": "eval",
+      "status": "done",
+      "created_at": "2026-09-07T17:00:00Z",
+      "updated_at": "2026-09-07T17:48:36Z"
+    },
+    {
+      "id": "a5",
+      "title": "Try a stronger consolidation/structure model (e.g. gpt-5.4-mini or claude-sonnet-5) vs gpt-5-mini and compare cost/quality",
+      "detail": "SUBNET_CLAIMS_STAGED_CONSOLIDATE_MODEL / STRUCTURE_MODEL",
+      "priority": "p1",
+      "tag": "runtime",
+      "status": "todo",
+      "created_at": "2026-09-07T17:00:00Z"
+    },
+    {
+      "id": "a6",
+      "title": "Deploy: stop the old miner in ../Claims, start scripts/run_mainnet_miner_pm2.sh from this repo (same wallet, port 8091)",
+      "detail": "Deployed 2026-09-07 18:08 UTC as pm2 app claims-miner-sn111-improved (UID 192, axon 8091). Rollback: pm2 stop claims-miner-sn111-improved && pm2 start claims-miner-sn111",
+      "priority": "p1",
+      "tag": "deploy",
+      "status": "done",
+      "created_at": "2026-09-07T17:00:00Z",
+      "updated_at": "2026-09-07T18:10:35Z"
+    },
+    {
+      "id": "a7",
+      "title": "After the next mainnet evaluation, pull silver feedback for UID 192 into the Network view and compare to local estimates",
+      "detail": "Calibrate the local judge against real Silver scores",
+      "priority": "p2",
+      "tag": "eval",
+      "status": "todo",
+      "created_at": "2026-09-07T17:00:00Z"
+    }
+  ],
+  "updated_at": "2026-09-08T03:34:03Z"
+}

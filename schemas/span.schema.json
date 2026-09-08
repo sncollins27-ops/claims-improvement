@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Span",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["span_id", "paper_id", "text"],
+  "properties": {
+    "span_id": {
+      "type": "string"
+    },
+    "paper_id": {
+      "type": "string"
+    },
+    "section_type": {
+      "type": "string"
+    },
+    "section_name": {
+      "type": "string"
+    },
+    "page": {
+      "type": "integer"
+    },
+    "char_start": {
+      "type": "integer"
+    },
+    "char_end": {
+      "type": "integer"
+    },
+    "text": {
+      "type": "string"
+    },
+    "table_id": {
+      "type": "string"
+    },
+    "figure_id": {
+      "type": "string"
+    },
+    "caption_id": {
+      "type": "string"
+    }
+  }
+}

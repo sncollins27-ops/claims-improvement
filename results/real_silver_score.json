@@ -1,0 +1,483 @@
+{
+  "run_id": "run_20260907_063159_471c07",
+  "run_name": "v5-50paper",
+  "papers": 22,
+  "silver_units_total": 1404,
+  "silver_units_judged": 1404,
+  "units_matched": 1101,
+  "mean_coverage": 0.9506,
+  "estimated_batch_score": 0.864,
+  "papers_beating_median_miner": 14,
+  "real_ranking": [
+    {
+      "rank": 1,
+      "uid": 249,
+      "batch_score": 0.7762,
+      "winner": true
+    },
+    {
+      "rank": 2,
+      "uid": 166,
+      "batch_score": 0.7515,
+      "winner": false
+    },
+    {
+      "rank": 3,
+      "uid": 205,
+      "batch_score": 0.7107,
+      "winner": false
+    },
+    {
+      "rank": 4,
+      "uid": 64,
+      "batch_score": 0.6875,
+      "winner": false
+    },
+    {
+      "rank": 5,
+      "uid": 89,
+      "batch_score": 0.6834,
+      "winner": false
+    },
+    {
+      "rank": 6,
+      "uid": 230,
+      "batch_score": 0.6265,
+      "winner": false
+    },
+    {
+      "rank": 7,
+      "uid": 41,
+      "batch_score": 0.536,
+      "winner": false
+    },
+    {
+      "rank": 8,
+      "uid": 43,
+      "batch_score": 0.0,
+      "winner": false
+    },
+    {
+      "rank": 8,
+      "uid": 50,
+      "batch_score": 0.0,
+      "winner": false
+    },
+    {
+      "rank": 8,
+      "uid": 71,
+      "batch_score": 0.0,
+      "winner": false
+    },
+    {
+      "rank": 8,
+      "uid": 235,
+      "batch_score": 0.0,
+      "winner": false
+    }
+  ],
+  "judge_passes": 3,
+  "judge_usage": {
+    "prompt_tokens": 1537896,
+    "completion_tokens": 383417,
+    "reasoning_tokens": 293568,
+    "cache_read_tokens": 991872,
+    "cache_write_tokens": null,
+    "total_tokens": 1921313,
+    "cost_usd": 0.9281368,
+    "cost_kind": "actual",
+    "source": "openai_compatible_response",
+    "requests": 207,
+    "elapsed_seconds": 5034.806,
+    "by_stage": {
+      "real_silver_judge": {
+        "prompt_tokens": 1537896,
+        "completion_tokens": 383417,
+        "reasoning_tokens": 293568,
+        "cache_read_tokens": 991872,
+        "cache_write_tokens": null,
+        "total_tokens": 1921313,
+        "cost_usd": 0.9281368,
+        "cost_kind": "actual",
+        "source": "openai_compatible_response",
+        "requests": 207,
+        "elapsed_seconds": 5034.806
+      }
+    },
+    "model": "openrouter/openai/gpt-5-mini"
+  },
+  "papers_detail": [
+    {
+      "paper_id": "openalex_w3215052327",
+      "units": 6,
+      "units_total": 6,
+      "matched": 6,
+      "coverage": 1.0,
+      "quality": 0.98,
+      "score": 0.98,
+      "importance_mix": {
+        "central": 3,
+        "supporting": 3
+      },
+      "real_coverage_median_scoring": 1.0,
+      "real_coverage_max": 1.0,
+      "real_score_max": 1.0
+    },
+    {
+      "paper_id": "openalex_w4214582509",
+      "units": 2,
+      "units_total": 2,
+      "matched": 2,
+      "coverage": 1.0,
+      "quality": 1.0,
+      "score": 1.0,
+      "importance_mix": {
+        "central": 1,
+        "supporting": 1
+      },
+      "real_coverage_median_scoring": 1.0,
+      "real_coverage_max": 1.0,
+      "real_score_max": 1.0
+    },
+    {
+      "paper_id": "openalex_w4224249713",
+      "units": 8,
+      "units_total": 8,
+      "matched": 2,
+      "coverage": 0.4118,
+      "quality": 0.75,
+      "score": 0.3089,
+      "importance_mix": {
+        "central": 3,
+        "supporting": 4,
+        "minor": 1
+      },
+      "real_coverage_median_scoring": 0.7941,
+      "real_coverage_max": 1.0,
+      "real_score_max": 1.0
+    },
+    {
+      "paper_id": "openalex_w4282944305",
+      "units": 3,
+      "units_total": 3,
+      "matched": 3,
+      "coverage": 1.0,
+      "quality": 1.0,
+      "score": 1.0,
+      "importance_mix": {
+        "central": 1,
+        "supporting": 2
+      },
+      "real_coverage_median_scoring": 0.7692,
+      "real_coverage_max": 1.0,
+      "real_score_max": 1.0
+    },
+    {
+      "paper_id": "openalex_w4322766013",
+      "units": 20,
+      "units_total": 20,
+      "matched": 20,
+      "coverage": 1.0,
+      "quality": 1.0,
+      "score": 1.0,
+      "importance_mix": {
+        "central": 4,
+        "supporting": 13,
+        "minor": 3
+      },
+      "real_coverage_median_scoring": 0.8715,
+      "real_coverage_max": 1.0,
+      "real_score_max": 1.0
+    },
+    {
+      "paper_id": "openalex_w4324381152",
+      "units": 17,
+      "units_total": 17,
+      "matched": 17,
+      "coverage": 1.0,
+      "quality": 0.75,
+      "score": 0.75,
+      "importance_mix": {
+        "central": 3,
+        "supporting": 11,
+        "minor": 3
+      },
+      "real_coverage_median_scoring": 0.5981,
+      "real_coverage_max": 1.0,
+      "real_score_max": 1.0
+    },
+    {
+      "paper_id": "openalex_w4376609015",
+      "units": 12,
+      "units_total": 12,
+      "matched": 12,
+      "coverage": 1.0,
+      "quality": 1.0,
+      "score": 1.0,
+      "importance_mix": {
+        "central": 3,
+        "supporting": 7,
+        "minor": 2
+      },
+      "real_coverage_median_scoring": 0.9772,
+      "real_coverage_max": 1.0,
+      "real_score_max": 1.0
+    },
+    {
+      "paper_id": "openalex_w4382138752",
+      "units": 4,
+      "units_total": 4,
+      "matched": 3,
+      "coverage": 0.95,
+      "quality": 0.75,
+      "score": 0.7125,
+      "importance_mix": {
+        "central": 2,
+        "supporting": 1,
+        "minor": 1
+      },
+      "real_coverage_median_scoring": 0.95,
+      "real_coverage_max": 1.0,
+      "real_score_max": 0.95
+    },
+    {
+      "paper_id": "openalex_w4384522722",
+      "units": 7,
+      "units_total": 7,
+      "matched": 6,
+      "coverage": 1.0,
+      "quality": 1.0,
+      "score": 1.0,
+      "importance_mix": {
+        "central": 1,
+        "supporting": 3,
+        "minor": 3
+      },
+      "real_coverage_median_scoring": 1.0,
+      "real_coverage_max": 1.0,
+      "real_score_max": 1.0
+    },
+    {
+      "paper_id": "openalex_w4384664135",
+      "units": 9,
+      "units_total": 9,
+      "matched": 9,
+      "coverage": 1.0,
+      "quality": 1.0,
+      "score": 1.0,
+      "importance_mix": {
+        "central": 2,
+        "supporting": 4,
+        "minor": 3
+      },
+      "real_coverage_median_scoring": 0.8106,
+      "real_coverage_max": 0.95,
+      "real_score_max": 0.8769
+    },
+    {
+      "paper_id": "openalex_w4388551909",
+      "units": 14,
+      "units_total": 14,
+      "matched": 13,
+      "coverage": 0.9559,
+      "quality": 1.0,
+      "score": 0.9559,
+      "importance_mix": {
+        "central": 7,
+        "supporting": 6,
+        "minor": 1
+      },
+      "real_coverage_median_scoring": 0.8897,
+      "real_coverage_max": 1.0,
+      "real_score_max": 0.9463
+    },
+    {
+      "paper_id": "openalex_w4388792900",
+      "units": 8,
+      "units_total": 8,
+      "matched": 8,
+      "coverage": 1.0,
+      "quality": 1.0,
+      "score": 1.0,
+      "importance_mix": {
+        "central": 2,
+        "supporting": 5,
+        "minor": 1
+      },
+      "real_coverage_median_scoring": 1.0,
+      "real_coverage_max": 1.0,
+      "real_score_max": 1.0
+    },
+    {
+      "paper_id": "openalex_w4390732271",
+      "units": 533,
+      "units_total": 533,
+      "matched": 401,
+      "coverage": 0.8423,
+      "quality": 1.0,
+      "score": 0.8423,
+      "importance_mix": {
+        "central": 54,
+        "supporting": 115,
+        "minor": 364
+      },
+      "real_coverage_median_scoring": 0.1564,
+      "real_coverage_max": 0.6216,
+      "real_score_max": 0.6216
+    },
+    {
+      "paper_id": "openalex_w4392103766",
+      "units": 17,
+      "units_total": 17,
+      "matched": 17,
+      "coverage": 1.0,
+      "quality": 1.0,
+      "score": 1.0,
+      "importance_mix": {
+        "central": 2,
+        "supporting": 8,
+        "minor": 7
+      },
+      "real_coverage_median_scoring": 0.925,
+      "real_coverage_max": 1.0,
+      "real_score_max": 1.0
+    },
+    {
+      "paper_id": "openalex_w4406365831",
+      "units": 9,
+      "units_total": 9,
+      "matched": 9,
+      "coverage": 1.0,
+      "quality": 0.7275,
+      "score": 0.7275,
+      "importance_mix": {
+        "central": 2,
+        "supporting": 7
+      },
+      "real_coverage_median_scoring": 1.0,
+      "real_coverage_max": 1.0,
+      "real_score_max": 1.0
+    },
+    {
+      "paper_id": "openalex_w4407203151",
+      "units": 23,
+      "units_total": 23,
+      "matched": 18,
+      "coverage": 1.0,
+      "quality": 1.0,
+      "score": 1.0,
+      "importance_mix": {
+        "central": 1,
+        "supporting": 3,
+        "minor": 19
+      },
+      "real_coverage_median_scoring": 1.0,
+      "real_coverage_max": 1.0,
+      "real_score_max": 1.0
+    },
+    {
+      "paper_id": "openalex_w4409855429",
+      "units": 53,
+      "units_total": 53,
+      "matched": 50,
+      "coverage": 1.0,
+      "quality": 0.75,
+      "score": 0.75,
+      "importance_mix": {
+        "central": 6,
+        "supporting": 19,
+        "minor": 28
+      },
+      "real_coverage_median_scoring": 0.6545,
+      "real_coverage_max": 0.7869,
+      "real_score_max": 0.7869
+    },
+    {
+      "paper_id": "openalex_w4411929908",
+      "units": 606,
+      "units_total": 606,
+      "matched": 457,
+      "coverage": 0.7541,
+      "quality": 1.0,
+      "score": 0.7541,
+      "importance_mix": {
+        "supporting": 606
+      },
+      "real_coverage_median_scoring": 0.1188,
+      "real_coverage_max": 0.4026,
+      "real_score_max": 0.17
+    },
+    {
+      "paper_id": "openalex_w4414114341",
+      "units": 8,
+      "units_total": 8,
+      "matched": 8,
+      "coverage": 1.0,
+      "quality": 1.0,
+      "score": 1.0,
+      "importance_mix": {
+        "central": 2,
+        "supporting": 4,
+        "minor": 2
+      },
+      "real_coverage_median_scoring": 0.8904,
+      "real_coverage_max": 1.0,
+      "real_score_max": 1.0
+    },
+    {
+      "paper_id": "openalex_w7128392847",
+      "units": 19,
+      "units_total": 19,
+      "matched": 18,
+      "coverage": 1.0,
+      "quality": 1.0,
+      "score": 1.0,
+      "importance_mix": {
+        "central": 1,
+        "supporting": 6,
+        "minor": 12
+      },
+      "real_coverage_median_scoring": 0.886,
+      "real_coverage_max": 1.0,
+      "real_score_max": 1.0
+    },
+    {
+      "paper_id": "openalex_w7135084011",
+      "units": 6,
+      "units_total": 6,
+      "matched": 6,
+      "coverage": 1.0,
+      "quality": 0.98,
+      "score": 0.98,
+      "importance_mix": {
+        "central": 4,
+        "supporting": 2
+      },
+      "real_coverage_median_scoring": 0.7941,
+      "real_coverage_max": 1.0,
+      "real_score_max": 1.0
+    },
+    {
+      "paper_id": "openalex_w7166575844",
+      "units": 20,
+      "units_total": 20,
+      "matched": 16,
+      "coverage": 1.0,
+      "quality": 0.2475,
+      "score": 0.2475,
+      "importance_mix": {
+        "central": 3,
+        "supporting": 7,
+        "minor": 10
+      },
+      "real_coverage_median_scoring": 0.7738,
+      "real_coverage_max": 0.9321,
+      "real_score_max": 0.9321
+    }
+  ],
+  "caveats": [
+    "Silver units are the real ones for this run, read from the public dashboard.",
+    "Units our own accepted claims would have added are not modelled; they would raise our coverage and lower other miners'.",
+    "Matching is judged by an LLM over N passes, not by the validator's own comparator models."
+  ]
+}

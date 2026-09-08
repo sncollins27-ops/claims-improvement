@@ -1,0 +1,435 @@
+{
+  "paper_id": "openalex_w4324381152",
+  "run_id": "run_20260907_063159_471c07",
+  "silver_record_id": "silver_run_20260907_063159_471c07_openalex_w4324381152",
+  "bronze_record_id": "bronze_fc752d256efafbb2",
+  "units": [
+    {
+      "silver_unit_id": "silver_unit_6f390eeef65fefce",
+      "statement": "Engineered exosomes are a modifiable cancer drug-delivery platform that, after appropriate surface decoration and internal therapeutic cargo loading, can deliver antitumor drugs to tumor sites efficiently and precisely with fewer treatment-related adverse effects than free-drug or unmodified-exosome controls.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 9,
+      "source_span_ids": [
+        "openalex_w4324381152-span-0001",
+        "openalex_w4324381152-span-0002",
+        "openalex_w4324381152-span-0003",
+        "openalex_w4324381152-span-0004",
+        "openalex_w4324381152-span-0007",
+        "openalex_w4324381152-span-0008",
+        "openalex_w4324381152-span-0012",
+        "openalex_w4324381152-span-0013",
+        "openalex_w4324381152-span-0015",
+        "openalex_w4324381152-span-0016",
+        "openalex_w4324381152-span-0017",
+        "openalex_w4324381152-span-0018",
+        "openalex_w4324381152-span-0019",
+        "openalex_w4324381152-span-0020"
+      ],
+      "source_quotes": [
+        "Engineered exosomes are the sort of exosomes modified with surface decoration and internal therapeutic molecules.",
+        "deliver antitumor drugs to tumor sites efficiently and precisely with fewer treatment-related adverse effects.",
+        "next-generation drug delivery platform",
+        "shed light on the clinic-staged exosome-based drug delivery platform",
+        "which is prospective to accelerate the clinical"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_c332f6538f2f78c7",
+      "statement": "The source of exosomes determines their intrinsic targeting properties and immunogenicity, with tumor-cell-derived exosomes possessing inherent homing potential and immune-cell-derived exosomes capable of modulating antitumor immunity, while natural exosomes are easily cleared by the mononuclear phagocyte system resulting in minimal tumor accumulation.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 9,
+      "source_span_ids": [
+        "openalex_w4324381152-span-0001",
+        "openalex_w4324381152-span-0002",
+        "openalex_w4324381152-span-0004",
+        "openalex_w4324381152-span-0008",
+        "openalex_w4324381152-span-0015",
+        "openalex_w4324381152-span-0016",
+        "openalex_w4324381152-span-0017"
+      ],
+      "source_quotes": [
+        "185 However, tumor- derived natural exosomes may lead to immune cell suppression and the escapes of immune surveillance, which extremely constrain the clinical application of natural exosomes.",
+        "Immunotherapy Engineered exosomes derived from immune cells and tumor cells, serving as immune mediators, have attracted increasing attention owing to the inherent characteristic of exosomes (Table 2).",
+        "The combination of radiotherapy and engineered exosomes with inherent surface proteins and synthetic targeting molecules, such as brain-tumor-targeting cyclic RGDyK peptide, 124 not only alleviates radio-resistance and subsequently reboot immune response, but also increases the accumulation of drug- loaded exosomes in tumor sites.",
+        "Tumor- derived exosomes after proper modification, serving as antitumor vaccine, not only inherit molecules and tumor antigens, but also lead to more powerful antitumor immune activity and lower protumorigenic effects.",
+        "(ACNVs) were found to inhibit hepatocellular carcinoma (HCC) proliferation by activating apoptosis pathway. 23 Despite the pronounced antitumor effects of natural ACNVs, the macropinocytosis of mononuclear phagocyte system (MPS), including in the liver and spleen, results in the quick clearance of exosomes in bloodstream and minimal accumulation within tumor area. 24 Therefore, researchers decorated ACNVs with distearoyl phosphoethanolamine-polyethylene glycol 2000 (DSPE- PEG) to modify the pharmacokinetic profile of ACNVs."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_b5cbf49ad4442560",
+      "statement": "Spatial targeting and temporal release are complementary engineered-exosome properties: combining targeting surface ligands with external physical triggers (such as laser, ultrasound, pH, or magnetic fields) enables engineered exosomes to deliver therapeutic cargo to cancer sites and release bioactive molecules in a controlled spatiotemporal manner.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 14,
+      "source_span_ids": [
+        "openalex_w4324381152-span-0001",
+        "openalex_w4324381152-span-0002",
+        "openalex_w4324381152-span-0003",
+        "openalex_w4324381152-span-0004",
+        "openalex_w4324381152-span-0005",
+        "openalex_w4324381152-span-0007",
+        "openalex_w4324381152-span-0008",
+        "openalex_w4324381152-span-0012",
+        "openalex_w4324381152-span-0013",
+        "openalex_w4324381152-span-0015",
+        "openalex_w4324381152-span-0016",
+        "openalex_w4324381152-span-0017",
+        "openalex_w4324381152-span-0018",
+        "openalex_w4324381152-span-0019",
+        "openalex_w4324381152-span-0020"
+      ],
+      "source_quotes": [
+        "Engineered exosomes from different sources for cancer-targeted therapy <u>Zhang et al.</u>\n\nFig. 2 Schematic illustration of the engineered exosomes exhibiting antitumor effects on preclinical models. After intravenous injection, the\n\nengineered exosomes carrying the therapeutic molecules arrive at the tumor site under the guide of multiple targeting molecules or a magnetic field.",
+        "Engineered exosomes from different sources for cancer-targeted therapy <u>Zhang et al.</u>\n\nFig. 3 The common strategies of exosome engineering. a The integration of multiple basic isolation techniques is a common and efficient\n\nmethod to extract high-purity and high-yield exosomes. b The modified strategies comprise biological, immunological, physical, and chemical modification.",
+        "Engineered exosomes, serving as",
+        "achieves not only tumor-targeting drug delivery spatially, but also drug liberation temporally",
+        "engineered exosomes carrying the therapeutic molecules arrive at the tumor site under the guide of multiple targeting molecules or a magnetic field."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_5aa14fef447621be",
+      "statement": "Immunoaffinity capture with submicron magnetic particles (magneto-immunocapture, yielding 10â15 times more exosomes than ultracentrifugation) and microfluidic-based isolation techniques that integrate multiple preprocessing and analytical methods in a single device achieve higher exosome recovery, purity, throughput, and sensitivity suitable for limited clinical samples, outperforming conventional methods such as ultracentrifugation, size-based filtration, size-exclusion chromatography, and polymer precipitation.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 8,
+      "source_span_ids": [
+        "openalex_w4324381152-span-0004",
+        "openalex_w4324381152-span-0005",
+        "openalex_w4324381152-span-0007"
+      ],
+      "source_quotes": [
+        "Conventional isolation methods of exosomes include ultracentrifugation, size-based filtration, size-exclusion chromatography, and polymer precipitation.",
+        "The microfluidic-based isolation techniques integrate multiple pre-processing steps and methodologies in a single device, which are capable of recovering, analyzing, and quantifying exosomes within limited clinical samples, in a high-throughput manner with elevated sensitivity and multiplexing capabilities.",
+        "magneto-immunocapture, which yields 10 to 15 times higher quantities of exosomes than ultracentrifugation",
+        "Each strategy has its own strengths and weaknesses. Therefore, combining different modification strategies is recommended.",
+        "The microfluidic-based isolation techniques integrate multiple pre-processing steps and methodologies in a single device"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_13807ef229fe6a73",
+      "statement": "PEGylation and CD47 overexpression on exosome surfaces reduce recognition and internalization by the mononuclear phagocyte system, thereby avoiding clearance and significantly increasing circulation time in vivo for improved tumor delivery.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 8,
+      "source_span_ids": [
+        "openalex_w4324381152-span-0002",
+        "openalex_w4324381152-span-0004",
+        "openalex_w4324381152-span-0008",
+        "openalex_w4324381152-span-0009",
+        "openalex_w4324381152-span-0013",
+        "openalex_w4324381152-span-0018"
+      ],
+      "source_quotes": [
+        "PEG reduces the recognition and internalization by MPS and therefore avoids being cleaned, significantly increasing the circulation time of engineered exosomes in vivo.",
+        "CD47, a widely expressed integrin-associated transmem- brane protein that functions in part to protect cells from phagocytosis, 57,58 is the ligand for signal regulatory protein alpha (SIRPÎ±, also known as CD172a), and CD47âSIRPÎ± binding initiates the âdonâteatmeâ signal, inhibiting phagocytosis. 59 Exosomes could be functionalized in order to improve retention time in blood with CD47 overexpression. 60â62 Once engineered exosomes arrive in tumor sites, CD47 immune checkpoint blockade endows CRC with the macrophages-mediated phagocytosis by blocking CD47 signal. 25,63,64 In brief, specific antibodies are the main immunological modified strategies for engineered exosomes, which endow natural exosomes with more targeting ability (Fig. 3b).",
+        "Engineering exosomes from macrophage with incorporated aminoethylanisamide-polyethylene glycol (AA-PEG) and PTX had pronounced anticancer impact on a mouse model of pulmonary metastases. 111 PEG reduces the recognition and internalization by MPS and therefore avoids being cleaned, significantly increasing the circulation time of engineered exosomes in vivo. 112 Collectively, chemotherapeutic drug-loaded exosomes could elicit more powerful antitumor activity with less systemic toxicity than that chemotherapy alone.",
+        "Therefore, a combinatorial treatment platform was presented, which inte- grated CD47-overexpressed exosomes and ICG to resolve the above problem and consequently enhance the efficacy of ICG- mediated PTT. 67,152 Additionally, another drug delivery system was designed based on exosomes-camouflaged porous silicon nano- particles, to co-load ICG and DOX.",
+        "$2f"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_2ad753ad79dd1603",
+      "statement": "Biological modification using targeting peptides (e.g., c(RGDyK), tLyp-1) and aptamers (e.g., AS1411) is the most widely used strategy for exosome membrane modification and endows natural exosomes with spatial tumor-targeting properties, improving specific accumulation and barrier penetration.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 8,
+      "source_span_ids": [
+        "openalex_w4324381152-span-0002",
+        "openalex_w4324381152-span-0004",
+        "openalex_w4324381152-span-0010",
+        "openalex_w4324381152-span-0012",
+        "openalex_w4324381152-span-0013",
+        "openalex_w4324381152-span-0014"
+      ],
+      "source_quotes": [
+        "Biological modification Biological modification is the most widely used strategy for membrane modification, including targeted peptide and biomi- metic exosome modification (Table 1).",
+        "For instance, cyclo(Arg-Gly- Asp-D-Tyr-Lys) peptide (c(RGDyK)) is one of the cyclic RGD peptide (cRGD), which endows natural exosomes with a pronounced targeting ability for tumor and exerts high affinity with Î±vÎ²â integrin receptors overexpressing on the surface of tumor vascular endothelial cells or tumor cells in osteosarcoma (OS). 36â38 Similarly, exosomes were functionalized by cyclic RGD peptide and consequently improved the specific accumulation of che- motherapeutic drugs, DOX-loaded into exosomes within tumor extracellular milieu.",
+        "In brief, specific targeting peptides and aptamers are the main biological modified strategies for engineered exosomes, which endow natural exosomes with spatially targeting property (Fig. 3b).",
+        "TLyp- 1 peptide-decorated exosomes had high transfection efficiency",
+        "Aptamers are short single-stranded oligonucleotides or pep- tides with specific three-dimensional structures, targeting cancer cells with high affinity and specificity. 46,47 E3-aptamer-modified exosomes, carrying SIRT6 siRNA, exhibited remarkably antitumor effects on prostate cancer in vitro and in vivo. 48 Besides, extracellular vesicles coated with RNA aptamers are capable of binding to epithelial cell adhesion molecule (EpCAM) in HCC. 49 Similarly, AS1411 aptamer-modified macrophage exosomes pre- sent efficient blood-brain barrier (BBB) penetration and precise cancer cell-targeting capability in glioblastoma (GBM). 50 Therefore, in addition to targeting peptide and antibody, aptamer is another direction of exosome engineering."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_6f69bf710c5ca167",
+      "statement": "Lipophilic dyes (PKH67, DiR/DiD, MemGlow) have been used to label engineered exosomes, but their half-lives greatly exceed those of engineered exosomes, causing recycling and redistribution of fluorescent dye that masks exosome degradation after cellular uptake; bioluminescence-based reporters (gLuc-lactadherin, GlucB) offer higher signal-to-noise and are recommended for whole-animal imaging, while SIM, CLSM, STORM, and MRI detect sub-200-nm exosomes in vivo.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 15,
+      "source_span_ids": [
+        "openalex_w4324381152-span-0001",
+        "openalex_w4324381152-span-0002",
+        "openalex_w4324381152-span-0003",
+        "openalex_w4324381152-span-0004",
+        "openalex_w4324381152-span-0005",
+        "openalex_w4324381152-span-0006",
+        "openalex_w4324381152-span-0007",
+        "openalex_w4324381152-span-0008",
+        "openalex_w4324381152-span-0009",
+        "openalex_w4324381152-span-0010",
+        "openalex_w4324381152-span-0011",
+        "openalex_w4324381152-span-0012",
+        "openalex_w4324381152-span-0013",
+        "openalex_w4324381152-span-0014",
+        "openalex_w4324381152-span-0015",
+        "openalex_w4324381152-span-0017",
+        "openalex_w4324381152-span-0019"
+      ],
+      "source_quotes": [
+        "However, as the half-life of lipid dyes greatly exceeds that of engineered exosomes, exosomes degradation after cellular uptake is masked by recycling and redistribution of fluorescent dye.",
+        "Therefore, lipophilic dye labeling may not be best suited for cancer studies.",
+        "Compared with fluorescent proteins, bioluminescent proteins emit signal after substrate addition with a high signal-to-noise ratio but comparatively lower spatiotemporal resolution. 83 Therefore, bioluminescence-based reporters, such as gLuc-lactadherin and GlucB are recommended for labeling engineered exosomes insmallanimalmodelsatwhole-animal.",
+        "In some experiments, given the availability of imaging equipment, the researchers also used MRI to detect the biological action of engineered exosomes in vivo. 95,96 Taken together, the integration of bioluminescent proteins and SIM or CLSM is one appropriate strategy for live imaging of engineered exosomes in vivo.",
+        "Labeled proteins in cytosol can be loaded into the lumen of engineered exosomes. 80 Besides, reporters (including GFPs, RFPs, and the bioluminescent ThermoLuc) are attached to engineered exo- somes cargos, such as TSPAN4, CD63, CD81, and CD9, of which CD63 is the most widely used. 15â17,81,82 Compared with fluorescent proteins, bioluminescent proteins emit signal after substrate addition with a high signal-to-noise ratio but comparatively lower spatiotemporal resolution. 83 Therefore, bioluminescence-based reporters, such as gLuc-lactadherin and GlucB are recommended for labeling engineered exosomes insmallanimalmodelsatwhole-animal. 84,85 The administration of engineered exosomes is equally essential."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_5df9b86b1173fbca",
+      "statement": "Engineered exosomes loaded with chemotherapeutic agents (doxorubicin, paclitaxel, docetaxel) and decorated with targeting moieties achieve enhanced antitumor efficacy while reducing off-target toxicity to heart, liver, spleen, lung, and kidney in preclinical models, preferentially accumulating at disease sites through spatial targeting via decorated surface molecules and minimizing systemic therapy-related adverse effects.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 12,
+      "source_span_ids": [
+        "openalex_w4324381152-span-0002",
+        "openalex_w4324381152-span-0008",
+        "openalex_w4324381152-span-0009",
+        "openalex_w4324381152-span-0012"
+      ],
+      "source_quotes": [
+        "23 In brief, the spatial targeting delivery of engineered exosomes depends on the targeted molecules on surface, which enables a heavier concentration of engineered exosomes inside tumors with lower in other healthy organs, such as liver, spleen, and kidney.",
+        "39,43,65,101â108 The DOX-loaded and targeted molecules- decorated exosomes achieve pronounced antitumor effects with less major organs damage 65,101,104â106,109 in preclinical models, including heart, liver, spleen, lung, and kidney.",
+        "melanoma-derived, doxorubicin (DOX)-loaded, and targeted peptide-decorated exosomes were developed to amplify the specific characteristics. The engineered exosomes preferen- tially target disease sites coupled with minimizing systemic off- target issues22.",
+        "In brief, the spatial targeting delivery of engineered exosomes depends on the targeted molecules on surface, which enables a heavier concentration of engineered exosomes inside tumors with lower in other healthy organs, such as liver, spleen, and kidney.",
+        "However, due to the low targeting ability, this approach generally causes various therapy-related adverse effects (TRAEs) including leukocytopenia, hypothyroidism, and ALT or AST elevation."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_5542555347e6b6a9",
+      "statement": "Combining photodynamic agents (photosensitizers, chlorin e6, Rose Bengal) or ferroptosis inducers with engineered exosomes enables synergistic tumor ablation through both direct cytotoxicity and activation of antitumor immune responses; dual-stage light-guided PDT using multifunctional chimeric peptide (ChiP)-engineered exosomes can disrupt plasma membranes under first-stage light and generate intranuclear ROS under second-stage light, showing enhanced inhibition of tumor development without serious systemic toxicity compared to conventional PDT.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 22,
+      "source_span_ids": [
+        "openalex_w4324381152-span-0002",
+        "openalex_w4324381152-span-0003",
+        "openalex_w4324381152-span-0005",
+        "openalex_w4324381152-span-0008",
+        "openalex_w4324381152-span-0009",
+        "openalex_w4324381152-span-0012",
+        "openalex_w4324381152-span-0013",
+        "openalex_w4324381152-span-0014",
+        "openalex_w4324381152-span-0015",
+        "openalex_w4324381152-span-0017",
+        "openalex_w4324381152-span-0018",
+        "openalex_w4324381152-span-0019",
+        "openalex_w4324381152-span-0020"
+      ],
+      "source_quotes": [
+        "Notably, the endo/lysosomal entrapment and enzymatic degrada- tion is a severe hurdle, despite the link of photosensitizer to NLS peptide promoting its nuclear penetration efficiency.",
+        "Mast cell-derived exosomes induce phenotypic and functional maturation of dendritic cells and elicit specific immune responses in vivo.",
+        "Tumor necrosis factor gene-engineered J558 tumor cell-released exosomes stimulate tumor antigen P1A-specific CD8+ CTL responses and antitumor immunity.",
+        "Under laser irradiation, these engineered exosomes not only silenced PAK4, but also primed TME through PDT, hence synchronously boosting intratumoral infiltration and immune activation.",
+        "therapy 223 B-LCL HPV-E6-Exo IT Trigger a stronger antigen cross-presentation in both B- lymphoblastoid and monocyte-derived immature DCs Increase TAA-specific CD8+ T cells 93 Myeloma EXOHSP IT Stimulate maturation of DCs Activate Th1 cell responses, and more efficient P1A-specific CD8+ CTL responses 227 CML CoEX-A2s IT Stimulate antigen-specific CD8+ T cells both directly and indirectly via CoEX-A2 crossdressed cells Generate HCMV pp65-specific and MART1-specific CD8+ T cells as DEX in vitro 183 HCC DEXP&A2&N IT Promote recruitment, accumulation and activation of DCs Enhance cross-presentation of tumor neoantigens and de novo T-cell response."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_471dd64fabababee",
+      "statement": "Photothermal therapy (PTT) via photothermal agents (ICG, gold nanorods, V2C QDs) loaded in engineered exosomes ablates tumor cells through NIR-laser-generated hyperthermia and can trigger controlled drug release; however, tumoricidal efficacy is impaired by limited NIR-I penetration depth and HSP-mediated thermoresistance, motivating use of the NIR-II biowindow which exhibits deeper tissue penetration.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 16,
+      "source_span_ids": [
+        "openalex_w4324381152-span-0003",
+        "openalex_w4324381152-span-0005",
+        "openalex_w4324381152-span-0008",
+        "openalex_w4324381152-span-0009",
+        "openalex_w4324381152-span-0013",
+        "openalex_w4324381152-span-0015"
+      ],
+      "source_quotes": [
+        "Notably, the photothermal agents loaded into the extracellular milieu with modified targeted molecules. engineered vesicles could achieve excellent photothermal ther- apeutic effects under laser irradiation. 67 Similarly, external near- Physical modification infrared irradiation (NIR) could trigger the liberation of chemother- Engineered exosomes could achieve more accurate tumor-apeutic drugs controllably in glioma. 68",
+        "Photothermal therapy Compared to PDT generating ROS, photothermal therapy (PTT) exploits hyperthermia, generated by photothermal agents (PTAs), upon NIR laser radiation, to ablate tumor cellsÂ¹â´â¶ and liberate drug controllably 147,148 (Table 2).",
+        "The heat energy caused by NIR light leads to the instability of exosomes, hence accelerating the releasing of DOX and miR-21. 106 However, the tumoricidal efficacy of PTT generally is impaired by the limited penetration depth in the NIR-I biowindow and the heat shock protein (HSP)-mediated thermoresistance. 155,156 Addi- tionally, in order to ablate tumor tissue efficiently and overcome the HSP-caused thermoresistance, a high temperature of over 50 Â°C is essential, which inevitably leads to heating damage of normal organs near the tumor. 157 Alternatively, the second NIR (NIR-II) biowindow (1000â1350 nm) exhibited deeper tissue penetration than that of the NIR-I biowindow (750â1000 nm). 158 Particularly, ultrasmall 2D vanadium carbide quantum dots (V2C QDs) possess intense photothermal effects at the NIR-II biowin- dow.",
+        "Enter the nucleus to realize low-temperature PTT Accumulate at cancer site with an increased concentration 163 CDs induce localized hyperpyrexia to ablate tumors Exhibit higher MRI/CT imaging contrast enhancement of tumor sites Retain the photothermal effect of ICG and cytotoxicity of DOX 103 Produce hyperthermia to collapse E-MSNs nanovehicles, accelerate drug release, and induce tumor ablation under 808 nm near-infrared irradiation Inhibit the growth and metastasis of tumor",
+        "Furthermore, combining chemotherapy and PTT could improve the susceptibility of chemotherapeutic agents, reduce the drug dose and overcome multi-drug resistance."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_1dccf96cdf2d1fde",
+      "statement": "Combining radiotherapy with engineered exosomes increases accumulation of drug-loaded exosomes at tumor sites, alleviates radio-resistance, reboots immune response, and overcomes physical barriers such as the blood-brain barrier, with bursts of radiation mediating BBB penetration; NIS-loaded exosomes increase NIS protein on the plasma membrane of liver cancer cells facilitating radioiodine (131I) uptake and producing significantly greater antitumor effects of radionuclide therapy.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 9,
+      "source_span_ids": [
+        "openalex_w4324381152-span-0002",
+        "openalex_w4324381152-span-0008",
+        "openalex_w4324381152-span-0009",
+        "openalex_w4324381152-span-0012",
+        "openalex_w4324381152-span-0015",
+        "openalex_w4324381152-span-0019"
+      ],
+      "source_quotes": [
+        "However, the study was not conducted in vivo, which impairs the reliability of the research results.",
+        "In addition to external beam radiotherapy (EBRT), the efficacy of 131 I internal radiotherapy could also be augmented by the sodium iodide symporter (NIS) protein-loaded exosomes.",
+        "$34",
+        "The NIS-loaded exosomes increase the amount of NIS protein on the plasma membrane of liver cancer cells, which facilitate radioiodine uptake and consequently promotes 131 I internal radiotherapy. 130 The results proved significantly greater antitumor effect of 131 I radionuclide therapy following exosome NIS delivery.",
+        "Another example of radiotherapy combined with engineered exosomes is that the bursts of radiation could mediate the penetration of engineered exosomes through BBB and ultimately increase the accumulation of exosomes inside GBM."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_d32db807acf3858f",
+      "statement": "Engineered exosomes can remodel the immunosuppressive tumor microenvironment by reprogramming tumor-associated macrophages from M2 to M1 phenotypes, polarizing macrophages, activating dendritic cells, promoting CD8+ T-cell responses and infiltration, increasing serum cytokines (TNF-Î±, IL-6, IFN-Î³), inducing immunogenic cell death, priming the TME, and activating adaptive antitumor immune responses through antibody-engineered exosomes (anti-CD3/anti-EGFR, anti-PD1/anti-PDL1), CAR-T-cell-inspired exosomes, FAP-expressing exosomes, and immune-adjuvant-loaded exosomes.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 23,
+      "source_span_ids": [
+        "openalex_w4324381152-span-0004",
+        "openalex_w4324381152-span-0007",
+        "openalex_w4324381152-span-0008",
+        "openalex_w4324381152-span-0009",
+        "openalex_w4324381152-span-0011",
+        "openalex_w4324381152-span-0012",
+        "openalex_w4324381152-span-0015",
+        "openalex_w4324381152-span-0016",
+        "openalex_w4324381152-span-0017",
+        "openalex_w4324381152-span-0018",
+        "openalex_w4324381152-span-0020"
+      ],
+      "source_quotes": [
+        "HPV-E6-Exo IT Trigger a stronger antigen cross-presentation in both B- lymphoblastoid and monocyte-derived immature DCs Increase TAA-specific CD8+ T cells",
+        "EXOHSPIT Stimulate maturation of DCs Activate Th1 cell responses, and more efficient P1A-specific CD8+ CTL responses",
+        "CoEX-A2s IT Stimulate antigen-specific CD8+ T cells both directly and indirectly via CoEX-A2 crossdressed cells Generate HCMV pp65-specific and MART1-specific CD8+ T cells as DEX in vitro",
+        "DEXP&A2&N IT Promote recruitment, accumulation and activation of DCs Enhance cross-presentation of tumor neoantigens and de novo T-cell response. Increase immunological memory against tumor re-challenge",
+        "EXOTNF-aIT Induce more efficient P1A-specific CD8Ã¾ T-cell response"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_4537325f116e69c2",
+      "statement": "Engineered exosomes shorten the translational gap for ncRNA and CRISPR/Cas9-mediated gene therapies by enabling tumor-targeting delivery with biocompatibility, delivering siRNA, miRNA, antisense oligonucleotides, and CRISPR-Cas9 components to reverse drug resistance, silence oncogenic targets, and inhibit tumor growth across multiple cancer models.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 16,
+      "source_span_ids": [
+        "openalex_w4324381152-span-0002",
+        "openalex_w4324381152-span-0008",
+        "openalex_w4324381152-span-0009",
+        "openalex_w4324381152-span-0010",
+        "openalex_w4324381152-span-0011",
+        "openalex_w4324381152-span-0014",
+        "openalex_w4324381152-span-0015",
+        "openalex_w4324381152-span-0017",
+        "openalex_w4324381152-span-0018",
+        "openalex_w4324381152-span-0020"
+      ],
+      "source_quotes": [
+        "Engineered exosomes have shortened the gap between preclinical and clinical trials of ncRNA and CRISPR/Cas9-mediated gene therapy due to their high tumor-targeting ability and biocompatibility.",
+        "The miR-HER2 (human epidermal growth factor receptor 2)-loaded exosomes coated with ligands, which enables them to adhere to HER2 on the surface of human laryngeal carcinoma cells and",
+        "Most surprisingly, the QDs and DOX can synergistically penetrate the whole tumor with a diameter of about 9 mm, which is superior to DOX administration alone. 109 Besides DOX, docetaxel, and PTX can also trigger more efficient antitumor response after being encapsulated into exosomes.",
+        "$3f",
+        "Although CRISPR/ Cas9 is a potent therapeutic tool, delivering this editing tool in vivo specifically and safely is still challenging."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_0e72935561a42152",
+      "statement": "Engineered or hybrid exosome-based nanovesicles significantly accumulate at tumor sites (and lymph nodes) in mice under external guidance (magnetic localization, homologous targeting), enabling brain delivery through transcytosis and targeting GBM cells via LRP-1 receptor recognition, and engineered exosomes with magnetic nanoparticles and physiological BBB-targeting ligands cross the BBB more efficiently under external guidance.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 5,
+      "source_span_ids": [
+        "openalex_w4324381152-span-0004",
+        "openalex_w4324381152-span-0005",
+        "openalex_w4324381152-span-0008",
+        "openalex_w4324381152-span-0011",
+        "openalex_w4324381152-span-0012",
+        "openalex_w4324381152-span-0013",
+        "openalex_w4324381152-span-0018",
+        "openalex_w4324381152-span-0019"
+      ],
+      "source_quotes": [
+        "Accumulate in the brain under local magnetic localization 127 Trigger transcytosis Target GBM cells by recognizing the LRP-1 receptor",
+        "In tumor-bearing mice, these engineered exosomes accumulate at tumor sites under the Gd and Dy- mediated images and exert pronounced antitumor effects. 163 In brief, compared with ICG-based conventional PTT, the biomimetic nanoparticle-based dual-targeted or dual-stage PTT possesses more advantages.",
+        "Macrophage-tumor chimeric exosomes accumulate in lymph node and tumor to activate the immune response and the tumor micro- environment.",
+        "SBC-EVs(ICG/PTX) are accumulated at tumor sites under the vision of high-resolution PA imaging in breast tumor- bearing mice.",
+        "The hybrid nanovesicles significantly tial and tumor-associated antigens on surface, which could trigger target the homologous tumor in mice, remarkably accumulating at a more precise and fiercer antitumor immune response inside tumor sites."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_51420328f8516acf",
+      "statement": "Engineered exosomes can also support sonodynamic therapy (SDT) by improving cellular uptake of sonosensitizers, enhancing ROS generation, and triggering sonotoxicity against cancer cells, as demonstrated by SBC-EV(ICG/PTX) and DVDMS-loaded exosome systems; unlike ROS-mediated PDT limited by penetration depth, SDT could treat deep-seated tumors with high biocompatibility.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 3,
+      "source_span_ids": [
+        "openalex_w4324381152-span-0001",
+        "openalex_w4324381152-span-0002",
+        "openalex_w4324381152-span-0007",
+        "openalex_w4324381152-span-0008",
+        "openalex_w4324381152-span-0013"
+      ],
+      "source_quotes": [
+        "Unlike ROS-mediated PDT, which is limited by the penetration depth and damage to normal tissue, SDT could treat deep-seated tumors",
+        "Briefly, engineered exosomes combining with US irradiation not only show high biocompatibility, long blood retention, and precise tumor targeting, but also achieve drug release controllably and no adjacent normal tissue damage.",
+        "Additionally, the latest preclinical trials\nabout the engineered exosome-based therapies were summarized, which were potential and beneficial for the translation of\nengineered exosomes in the future.",
+        "However, there still exist many challenges for the clinical translation of engineered\nexosomes.",
+        "In some experiments, given the availability of imaging\nequipment, the researchers also used MRI to detect the biological\naction of engineered exosomes in vivo."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_3062b7bcc410f1dd",
+      "statement": "M1 macrophage-derived engineered exosomes (M1Exos) can be loaded with catalase to alleviate tumor hypoxia, deliver DNA-damage repair inhibitors, polarize macrophages from M2 to M1, and carry anti-PD-L1 nanobodies to terminate T-cell immunosuppression, thereby overcoming three radiotherapy-limiting factors simultaneously.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 7,
+      "source_span_ids": [
+        "openalex_w4324381152-span-0008",
+        "openalex_w4324381152-span-0013",
+        "openalex_w4324381152-span-0019",
+        "openalex_w4324381152-span-0020"
+      ],
+      "source_quotes": [
+        "Finally, the synthetic anti-PD-L1 nanobody on the surface of M1Exos was found to terminate the immunosuppression of T cells.",
+        "One example of radiotherapy combined with engineered exosomes is that M1 macrophage-derived engineered exosomes (M1Exos) were developed in order to sensitize Lewis lung carcinoma-bearing mice to radiotherapy. 125 Mechanistically, cat- alases expressed on the inside of M1Exos membrane could effectively alleviate hypoxia inside TME and strengthen DNA damage synchronously.",
+        "Besides, the oxygen from CAT-catalyzed endogenous hydrogen peroxide could efficiently overcome tumor hypoxia. 168 In vivo experiments demonstrated that these engineered exosomes promoted the efficacy of SDT, which showed a promising perspective for clinical translation.",
+        "Catalase-loaded TaOx nanoshells as bio-nanoreactors combining high-Z element and enzyme delivery for enhancing radiotherapy.",
+        "M1 macrophage-derived engineered exosomes\n(M1Exos) were developed in order to sensitize Lewis lung\ncarcinoma-bearing mice to radiotherapy. 125"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_40d4d3efd8019714",
+      "statement": "The NIR light-responsive macrophage-derived exosomes composed of DOX and 4.2 nm AgâS quantum dots (QDs) can be monitored by NIR fluorescence imaging and release DOX under laser irradiation, with QDs and DOX synergistically penetrating the whole tumor.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 4,
+      "source_span_ids": [
+        "openalex_w4324381152-span-0008",
+        "openalex_w4324381152-span-0013"
+      ],
+      "source_quotes": [
+        "Particularly, a kind of NIR light-responsive macrophage-derived exosomes were designed, composing of DOX and 4.2 nm AgâS quantum dots (QDs).",
+        "Particularly, a kind\nof NIR light-responsive macrophage-derived exosomes were\ndesigned, composing of DOX and 4.2 nm Agâ S quantum dots\n(QDs).",
+        "ICG is one of the common classical\nPTAs, which could trigger apoptosis in tumor under laser\nirradiation.",
+        "The âTrojan horseâ could be monitored by NIR fluorescence\nimaging of the Agâ S QDs and release DOX under the irradiation of NIR.",
+        "Most surprisingly, the QDs and DOX can synergistically\npenetrate the whole tumor with a diameter of about 9 mm, which\nis superior to DOX administration alone. 109"
+      ]
+    }
+  ],
+  "fetched_at": "2026-09-07T21:42:38Z"
+}

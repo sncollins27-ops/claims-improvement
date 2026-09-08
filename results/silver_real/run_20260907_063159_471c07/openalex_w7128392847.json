@@ -1,0 +1,358 @@
+{
+  "paper_id": "openalex_w7128392847",
+  "run_id": "run_20260907_063159_471c07",
+  "silver_record_id": "silver_run_20260907_063159_471c07_openalex_w7128392847",
+  "bronze_record_id": "bronze_21e93ca1c683530e",
+  "units": [
+    {
+      "silver_unit_id": "silver_unit_e7ed75b0675f9d06",
+      "statement": "Near-cellular co-profiling of chromatin state (ATAC-seq/H3K27me3 CUT&Tag), whole-transcriptome RNA, and antibody-derived protein tags from the same spatial tissue section via spatial ARP-seq and spatial CTRP-seq enables resolution of spatially organized biological programs across chromatin, transcriptomic, and protein layers at near-single-cell resolution.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 15,
+      "source_span_ids": [
+        "openalex_w7128392847-span-0001",
+        "openalex_w7128392847-span-0002"
+      ],
+      "source_quotes": [
+        "By developing an in situ spatial triâomics platform â spatial ARP-seq and spatial CTRP-seq â at a near single-cell resolution that simultaneously profiles the genome-wide chromatin state, the whole-transcriptome RNA and the proteome",
+        "a spatiotemporal triâomics brain atlas and maps of spatial dynamics during neuroinflammation",
+        "at a near single-cell resolution that simultaneously profiles the genome-wide chromatin state, the whole-transcriptome RNA and the proteome",
+        "near single- cell resolution that simultaneously profiles the genome-wide chromatin state, the whole-transcriptome RNA and the proteome",
+        "to unravel dynamic changes in the brain"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_5251d35c5f1755eb",
+      "statement": "In the developing mouse cortex, layer-defining transcription factors exhibit persistent chromatin accessibility that spreads across layers even after RNA expression declines, consistent with an 'epigenetic trailing' of developmental states that preserves spatial identity information beyond transcriptional activity.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 10,
+      "source_span_ids": [
+        "openalex_w7128392847-span-0001"
+      ],
+      "source_quotes": [
+        "in the wild type cortex layer-defining transcription factors whose chromatin accessibility persists in time and spreads across layers even after their RNA expression declines",
+        "chromatin accessibility persists in time and spreads across layers even after their RNA expression declines",
+        "consistent with an âepigenetic trailingâ of developmental states.",
+        "identified in the wild type cortex layer-defining transcription factors whose chromatin accessibility persists in time and spreads across layers even after their RNA expression declines, consistent with an âepigenetic trailingâ of developmental states.",
+        "Leveraging this approach, Zhang et al. identified in the wild type cortex layer-defining transcription factors whose chromatin accessibility persists in time and spreads across layers even after their RNA expression declines, consistent with an âepigenetic trailingâ of developmental states."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_1a719d001768afb9",
+      "statement": "In the developing corpus callosum, myelin genes are epigenetically primed (open chromatin with reduced H3K27me3 silencing) before full transcriptional and protein-level myelination, with spatial organization of this priming coordinated across callosal subregions and layer-specific projection neuron tracts.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 12,
+      "source_span_ids": [
+        "openalex_w7128392847-span-0001"
+      ],
+      "source_quotes": [
+        "In the corpus callosum, myelin genes were epigenetically primed before full transcriptional and protein-level myelination",
+        "with patterns organised across callosal subregions in coordination with layer- specific projection neuron tracts.",
+        "In the corpus callosum, myelin genes were epigenetically primed before full transcriptional and protein-level myelination, with patterns organised across callosal subregions in coordination with layer- specific projection neuron tracts.",
+        "1 Conversely, in a lysolecithin- induced focal white-matter demyelination mouse model, the spatial triâomics platform reveals coordinated changes in chro- matin accessibility, H3K27me3-associated silencing, RNA expres- sion, and protein abundance for oligodendrocyte and myelin genes across de-and re-myelination, together with delayed microglial activation and neuroinflammatory responses in distal white-matter tracts.",
+        "1 Brain development and demyelinating injury are regulated across layers of cellular information: chromatin accessibility and epigenetic modifications (e.g., H3K27me3 repression) shape transcriptional potential, while RNA and protein outputs can diverge, making the in situ triâomics co-profiling essential for resolving the temporal scale."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_56b76fa71c418682",
+      "statement": "In lysolecithin-induced focal white-matter demyelination, the spatial tri-omics platform reveals coordinated changes in chromatin accessibility, H3K27me3-associated silencing, RNA expression, and protein abundance for oligodendrocyte and myelin genes across de- and re-myelination stages.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 7,
+      "source_span_ids": [
+        "openalex_w7128392847-span-0001"
+      ],
+      "source_quotes": [
+        "brains subjected to lysolecithin-induced demyelination at 5, 10, and 21 d.p.l.",
+        "the spatial triâomics platform reveals coordinated changes in chromatin accessibility, H3K27me3-associated silencing, RNA expression, and protein abundance for oligodendrocyte and myelin genes across de-and re-myelination",
+        "1 Conversely, in a lysolecithin- induced focal white-matter demyelination mouse model, the spatial triâomics platform reveals coordinated changes in chro- matin accessibility, H3K27me3-associated silencing, RNA expres- sion, and protein abundance for oligodendrocyte and myelin genes across de-and re-myelination, together with delayed microglial activation and neuroinflammatory responses in distal white-matter tracts.",
+        "2 Spatial triâomics maps sampled across disease timepoints (stages) may therefore systematically reveal features whose chromatin opening, tran- scriptional induction, and protein upregulation follow distinct temporal orders.",
+        "In the corpus callosum, myelin genes were epigenetically primed before full transcriptional and protein-level myelination, with patterns organised across callosal subregions in coordination with layer- specific projection neuron tracts. 1 Conversely, in a lysolecithin- induced focal white-matter demyelination mouse model, the spatial triâomics platform reveals coordinated changes in chro- matin accessibility, H3K27me3-associated silencing, RNA expres- sion, and protein abundance for oligodendrocyte and myelin genes across de-and re-myelination, together with delayed microglial activation and neuroinflammatory responses in distal white-matter tracts."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_2f0b05a50abdacd0",
+      "statement": "Microglia in primary and distal lesion-like regions after demyelinating injury occupy distinct multimodal states with gene modules overlapping known disease- and injury-associated programs. Distal white-matter tracts show delayed microglial activation compared to the primary lesion, indicating lesion geography shapes the timing and molecular character of the neuroinflammatory response.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 15,
+      "source_span_ids": [
+        "openalex_w7128392847-span-0001",
+        "openalex_w7128392847-span-0002"
+      ],
+      "source_quotes": [
+        "Within primary and distal lesion-like regions, microglia occupy distinct multimodal states",
+        "together with delayed microglial activation and neuroinflammatory responses in distal white-matter tracts.",
+        "Within primary and distal lesion-like regions, microglia occupy distinct multimodal states with gene modules overlapping with known disease- and injury-associated programs",
+        "while the overall neuroinflammatory response follows similar spatial and temporal trajectories.",
+        "1 Conversely, in a lysolecithin- induced focal white-matter demyelination mouse model, the spatial triâomics platform reveals coordinated changes in chro- matin accessibility, H3K27me3-associated silencing, RNA expres- sion, and protein abundance for oligodendrocyte and myelin genes across de-and re-myelination, together with delayed microglial activation and neuroinflammatory responses in distal white-matter tracts."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_8533ada8935ba52e",
+      "statement": "The overall neuroinflammatory response following demyelination follows similar spatial and temporal trajectories across primary and distal lesion-like regions, despite region-specific differences in microglial multimodal states.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 5,
+      "source_span_ids": [
+        "openalex_w7128392847-span-0001"
+      ],
+      "source_quotes": [
+        "Within primary and distal lesion-like regions, microglia occupy distinct multimodal states",
+        "while the overall neuroinflammatory response follows similar spatial and temporal trajectories.",
+        "1 Conversely, in a lysolecithin- induced focal white-matter demyelination mouse model, the spatial triâomics platform reveals coordinated changes in chro- matin accessibility, H3K27me3-associated silencing, RNA expres- sion, and protein abundance for oligodendrocyte and myelin genes across de-and re-myelination, together with delayed microglial activation and neuroinflammatory responses in distal white-matter tracts.",
+        "Within primary and distal lesion-like regions, microglia occupy distinct multimodal states with gene modules overlapping with known disease- and injury-associated programs, while the overall neuroinflammatory response follows similar spatial and temporal trajectories.",
+        "Within primary and distal lesion-like regions, microglia occupy distinct multimodal states with gene modules overlapping with known disease- and injury-associated programs, while the overall neuroinflammatory response follows similar spatial and temporal trajectories. 1 While most spatial multiâomics studies employ integrated modalities that are measured in separate, matched tissue sections or in independent datasets â with only a subset of newer platforms co-profiling two modalities in the same sectionÂ² â, the study of Zhang et al."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_a24e1e289c829103",
+      "statement": "Developmental and demyelination-associated biology shows distinct temporal ordering, spatial persistence, and coordination across chromatin state, RNA expression, and protein abundance, so immune and inflammatory programs are best understood when multiple modalities are read out together in situ rather than through single-modality analysis.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 6,
+      "source_span_ids": [
+        "openalex_w7128392847-span-0001",
+        "openalex_w7128392847-span-0002"
+      ],
+      "source_quotes": [
+        "chromatin accessibility persists in time and spreads across layers even after their RNA expression declines",
+        "coordinated changes in chromatin accessibility, H3K27me3-associated silencing, RNA expression, and protein abundance for oligodendrocyte and myelin genes across de-and re-myelination, together with delayed microglial activation",
+        "delayed microglial activation and neuroinflammatory responses in distal white-matter tracts",
+        "myelin genes were epigenetically primed before full transcriptional and protein-level myelination",
+        "1 The demyelination model underscores a central message: immune and inflammatory programs are inherently spatial and multi-layered, and are best understood when different âomics modalities are read out together in situ."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_aa5297def47035d6",
+      "statement": "The pattern- and correlation-based integration methodology in spatial multi-omics analysis is useful for atlas construction but is largely correlative, proceeding by aligning modalities into shared latent or spatial space, and does not fully capture mechanistic links across molecular layers.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 10,
+      "source_span_ids": [
+        "openalex_w7128392847-span-0001",
+        "openalex_w7128392847-span-0002"
+      ],
+      "source_quotes": [
+        "largely correlative and to not fully capture mechanistic links across âomics layers",
+        "such a pattern-and correlation-based integration is powerful, but it has the limitations to be largely correlative and to not fully capture mechanistic links across âomics layers",
+        "the cellâcell communication analysis â through CellChat and NICHES â leverages only the transcriptome, even though additional chromatin and protein information is available",
+        "integration proceeds by aligning selected modalities into a shared latent or spatial space and correlating their spatial or temporal patterns.",
+        "such a pattern-and correlation-based integration is powerful, but it has the limitations to be largely correlative and to not fully capture mechanistic links across âomics layers."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_74cc132984d0f237",
+      "statement": "The cell-cell communication analysis (CellChat and NICHES) leverages only the transcriptome, ignoring available chromatin and protein information, which limits mechanistic depth of inter-cellular interaction inference.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 6,
+      "source_span_ids": [
+        "openalex_w7128392847-span-0001",
+        "openalex_w7128392847-span-0002"
+      ],
+      "source_quotes": [
+        "the cellâcell communication analysis â through CellChat and NICHES â leverages only the transcriptome, even though additional chromatin and protein information is available.",
+        "In this study, biological insights are mainly derived from modality-specific clustering and pairwise integration of RNA and ATAC (via SpatialGlue and related tools), joint spatiotemporal patterning of RNA and chromatin accessibility through negative binomial generalized additive model (NB-GAM), and cellâcell communica- tion inferred from spatial RNA alone.",
+        "Moreover, the cellâcell communication analysis â through CellChat and NICHES â leverages only the transcriptome, even though additional chromatin and protein information is available.",
+        "In each section, chromatin state (ATAC or H3K27me3), transcriptomes and antibody-derived protein tags are captured from the same spatial pixels, followed by pre-processing: normalisation, batch correction, and quality control.",
+        "These are achieved through pattern- and correlation-based integration (SpatialGlue and joint RNAâATAC clustering, negative binomial generalised additive model (NB-GAM) spatiotemporal modelling, and RNA-based cellâcell communication with CellChat and NICHES), with the protein layer (ADT and complementary CODEX imaging) used to refine cell types and validate spatial patterns."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_d6b1842d1ea90d2f",
+      "statement": "Knowledge-based network integration maps spatial multi-omics data onto curated molecular interaction and pathway databases (e.g., KEGG, Reactome, STRING, Gene Ontology), providing a mechanistically interpretable complement to correlation-based integration by linking genes, proteins, and metabolites along curated biochemical and signalling relations.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 12,
+      "source_span_ids": [
+        "openalex_w7128392847-span-0001",
+        "openalex_w7128392847-span-0002"
+      ],
+      "source_quotes": [
+        "1 To move away beyond purely correlative multiâomics integration strategy, a knowledge-based network integration may be pursued: mapping genes, proteins, and metabolites onto curated biochemical pathways and networks (for example the KEGG database, the Reactome pathway database and related resources), and linking modalities along known biochemical and signalling interactions.",
+        "mapping genes, proteins and metabolites onto curated molecular interaction and pathway databases (e.g., KEGG, Reactome, STRING, Gene Ontology)",
+        "mapping genes, proteins, and metabolites onto curated biochemical pathways and networks",
+        "multiâomics features from healthy and diseased tissues are integrated by (i) knowledge-based network integration, mapping genes, proteins and metabolites onto curated molecular interaction and pathway databases",
+        "These network-informed representations are then fed into an explainable AI framework"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_25ce5c1dba0fb691",
+      "statement": "Pathway- and network-based representations allow spatial tri-omics readouts to be embedded in mechanistic molecular circuits rather than only in abstract latent spaces.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 4,
+      "source_span_ids": [
+        "openalex_w7128392847-span-0001",
+        "openalex_w7128392847-span-0002"
+      ],
+      "source_quotes": [
+        "1 To move away beyond purely correlative multiâomics integration strategy, a knowledge-based network integration may be pursued: mapping genes, proteins, and metabolites onto curated biochemical pathways and networks (for example the KEGG database, the Reactome pathway database and related resources), and linking modalities along known biochemical and signalling interactions.",
+        "Applied systematically across different tissues and disease contexts, the integration of spatialâomics and knowledge- based network can prioritise novel targets and highlight convergent functional modules that may overlap with targets of existing drugs, thereby generating testable hypotheses for drug repurposing.",
+        "readouts to be embedded in mechanistic, molecular circuits rather than only in abstract latent spaces.",
+        "1 This reflects the prevailing paradigm in many spatial multiâomics analyses, where integra- tion proceeds by aligning selected modalities into a shared latent or spatial space and correlating their spatial or temporal patterns."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_1e76b0f733f8ce1d",
+      "statement": "Large language models can mine recent literature for putative links across multi-omics features to supplement incomplete pathway databases, but these mined relations should be reconciled with curated networks and treated as hypothesis-generating rather than definitive.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 10,
+      "source_span_ids": [
+        "openalex_w7128392847-span-0002"
+      ],
+      "source_quotes": [
+        "Because existing pathway databases are incomplete and require time to incorporate new findings",
+        "large language models (LLMs) may be used to mine recent literature for additional putative links across âomics features, which would then be reconciled with curated networks and treated as hypothesis-generating rather than definitive.",
+        "Because existing pathway databases are incomplete and require time to incorporate new findings, large language models (LLMs) may be used to mine recent literature for additional putative links across âomics features, which would then be reconciled with curated networks and treated as hypothesis-generating rather than definitive.",
+        "Complementarily, mechanistic networks that combine curated pathways with literature-mined relations that are linked to disease-prediction models offer a route to propose, prioritise and possibly test multi-omics network-based targets and repurposing opportunities.",
+        "|Reactome, STRING, Gene Ontology), and (ii) mining recent literature using large language models (LLMs), thereby linking modalities along|||||||||||"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_149affdea9b55914",
+      "statement": "Network-informed spatial multi-omics representations can be fed into an explainable AI framework such as scDisPreAI to support disease and disease-stage prediction and the prioritisation of spatially and mechanistically grounded multi-omics biomarkers as potential drug targets, maintaining interpretability via methods such as SHAP.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 10,
+      "source_span_ids": [
+        "openalex_w7128392847-span-0001",
+        "openalex_w7128392847-span-0002"
+      ],
+      "source_quotes": [
+        "Applied systematically across different tissues and disease contexts, the integration of spatialâomics and knowledge- based network can prioritise novel targets and highlight convergent functional modules that may overlap with targets of existing drugs, thereby generating testable hypotheses for drug repurposing.",
+        "Complementarily, mechanistic networks that combine curated pathways with literature-mined relations that are linked to disease-prediction models offer a route to propose, prioritise and possibly test multi-omics network-based targets and repurposing opportunities.",
+        "Currently, no unified, disease-centric framework exists that can jointly perform multi-omics disease prediction, leverage spatial structure, build mechanistic networks, and generate testable biological hypotheses",
+        "In triâomics spatial datasets, such a mechanistically informed feature can then be coupled to predictive frameworks such as the recently proposed single-cell âomics-based Disease Predictor through AI (scDis- PreAI), 4 aunified framework that leverages AI to integrate single- cell âomics data.",
+        "Notably, disease mechanisms modu- lated by spatial multiâomics biomarkers may be reflected in metabolic changes, with metabolites being detected in the blood, 5 a viable biofluid to clinically unmask inflammatory diseases such as ALS."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_baef73ec4471e206",
+      "statement": "Across tissues and disease contexts, integrating spatial-omics with knowledge-based networks can prioritize novel targets and highlight convergent functional modules that may overlap with existing drug targets, generating testable hypotheses for drug repurposing.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 9,
+      "source_span_ids": [
+        "openalex_w7128392847-span-0001",
+        "openalex_w7128392847-span-0002"
+      ],
+      "source_quotes": [
+        "Applied systematically across different tissues and disease contexts, the integration of spatialâomics and knowledge- based network can prioritise novel targets and highlight convergent functional modules that may overlap with targets of existing drugs",
+        "thereby generating testable hypotheses for drug repurposing.",
+        "Applied systematically across different tissues and disease contexts, the integration of spatialâomics and knowledge- based network can prioritise novel targets and highlight convergent functional modules that may overlap with targets of existing drugs, thereby generating testable hypotheses for drug repurposing.",
+        "Currently, no unified, disease-centric framework exists that can jointly perform multiâomics disease prediction, leverage spatial structure, build mechanistic networks, and generate testable biological hypotheses.",
+        "In triâomics spatial datasets, such a mechanistically informed feature can then be coupled to predictive frameworks such as the recently proposed single-cell âomics-based Disease Predictor through AI (scDis- PreAI), 4 aunified framework that leverages AI to integrate single- cell âomics data."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_879f9c89e879d41b",
+      "statement": "Spatial tri-omics maps sampled across disease timepoints may reveal features whose chromatin opening, transcriptional induction, and protein upregulation follow distinct temporal orders, enabling prioritisation of early versus late intervention targets and stage-specific biomarker identification.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 7,
+      "source_span_ids": [
+        "openalex_w7128392847-span-0001",
+        "openalex_w7128392847-span-0002"
+      ],
+      "source_quotes": [
+        "Spatial triâomics maps sampled across disease timepoints (stages) may therefore systematically reveal features whose chromatin opening, tran- scriptional induction, and protein upregulation follow distinct temporal orders.",
+        "to prioritise early versus late intervention targets",
+        "1 Brain development and demyelinating injury are regulated across layers of cellular information: chromatin accessibility and epigenetic modifications (e.g., H3K27me3 repression) shape transcriptional potential, while RNA and protein outputs can diverge, making the in situ triâomics co-profiling essential for resolving the temporal scale.",
+        "2 Spatial triâomics maps sampled across disease timepoints (stages) may therefore systematically reveal features whose chromatin opening, tran- scriptional induction, and protein upregulation follow distinct temporal orders.",
+        "Applied systematically across different tissues and disease contexts, the integration of spatialâomics and knowledge- based network can prioritise novel targets and highlight convergent functional modules that may overlap with targets of existing drugs, thereby generating testable hypotheses for drug repurposing."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_967aaa41a4e3fc2e",
+      "statement": "Integrating spatial tri-omics with network-based representations and predictive frameworks may enable personalised medicine by providing a rational basis to prioritise early versus late intervention targets, identify biomarkers of disease onset and progression, and deliver combinatorial therapeutic strategies.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 12,
+      "source_span_ids": [
+        "openalex_w7128392847-span-0001",
+        "openalex_w7128392847-span-0002"
+      ],
+      "source_quotes": [
+        "Spatial triâomics maps sampled across disease timepoints (stages) may therefore systematically reveal features",
+        "this approach may have significant implications for personalised medicine strategies aiming to provide a rational basis (i) to prioritise early versus late intervention targets, (ii) to identify biomarkers associated to disease onset and progression, and (iii) to deliver combinatorial therapeutic st",
+        "Applied systematically across different tissues and disease contexts, the integration of spatialâomics and knowledge- based network can prioritise novel targets and highlight convergent functional modules that may overlap with targets of existing drugs, thereby generating testable hypotheses for drug repurposing.",
+        "Thus, this approach may have significant implications for personalised medicine strategies aiming to provide a rational basis (i) to prioritise early versus late intervention targets, (ii) to identify biomarkers associated to disease onset and progression, and (iii) to deliver combinatorial therapeutic strategies.",
+        "Thus, this approach may have significant implications for personalised medicine strategies aiming to provide a rational basis (i) to prioritise early versus late intervention targets, (ii) to identify biomarkers associated to disease onset and progression, and (iii) to deliver combinatorial therapeu"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_1e24a2e77518e8d0",
+      "statement": "Spatial multi-omics integration maps can provide time- and space-resolved readouts to characterise inflammatory brain disease onset and progression, such as the neuroinflammatory niche and glial-neuronal interactions in ALS, and such biomarkers may be reflected in metabolic changes detectable in blood, providing a translational bridge to clinical application.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 14,
+      "source_span_ids": [
+        "openalex_w7128392847-span-0001",
+        "openalex_w7128392847-span-0002"
+      ],
+      "source_quotes": [
+        "Looking ahead, spatial multiâomics integration maps can provide time-and space- resolved readouts to mechanistically characterise the onset and progression of inflammatory (brain) diseases, such as for example the neuroinflammatory niche and glial-neuronal interactions observed within the amyotrophic lateral sclerosis (ALS) brain or spinal cord tissue sections.",
+        "Notably, disease mechanisms modu- lated by spatial multiâomics biomarkers may be reflected in metabolic changes, with metabolites being detected in the blood, 5 a viable biofluid to clinically unmask inflammatory diseases such as ALS.",
+        "1 This reflects the prevailing paradigm in many spatial multiâomics analyses, where integra- tion proceeds by aligning selected modalities into a shared latent or spatial space and correlating their spatial or temporal patterns.",
+        "2 Spatial triâomics maps sampled across disease timepoints (stages) may therefore systematically reveal features whose chromatin opening, tran- scriptional induction, and protein upregulation follow distinct temporal orders.",
+        "Thus, this approach may have significant implications for personalised medicine strategies aiming to provide a rational basis (i) to prioritise early versus late intervention targets, (ii) to identify biomarkers associated to disease onset and progression, and (iii) to deliver combinatorial therapeutic strategies."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_dcdb88b0e61ea2fa",
+      "statement": "The study generated a spatiotemporal tri-omics atlas of the mouse postnatal brain benchmarked to corresponding regions of the developing human visual cortex.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w7128392847-span-0001"
+      ],
+      "source_quotes": [
+        "a spatiotemporal triâomics brain atlas and maps of spatial dynamics during neuroinflammation",
+        "with an atlas of the mouse postnatal brain benchmarked to corresponding regions of the developing human visual cortex.",
+        "1 By developing an in situ spatial triâomics platform â spatial ARP-seq and spatial CTRP-seq â at a near single- cell resolution that simultaneously profiles the genome-wide chromatin state, the whole-transcriptome RNA and the proteome, the study unravels the spatiotemporal dynamics of brain 1234567890();,: development and neuroinflammatory responses, with an atlas of the mouse postnatal brain benchmarked to corresponding regions of the developing human visual cortex."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_3e8b873db42326ac",
+      "statement": "The spatial tri-omics platform and proposed integrative strategies lay a foundation for multi-omics disease modelling, biomarker discovery, and target prioritisation.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 1,
+      "source_span_ids": [
+        "openalex_w7128392847-span-0002"
+      ],
+      "source_quotes": [
+        "1 Spatial âomics workflow for building atlas of inflammatory dynamics and for disease prediction and biomarker discovery.",
+        "In triâomics spatial datasets, such a mechanistically informed feature can then be coupled to predictive frameworks such as the recently proposed single-cell âomics-based Disease Predictor through AI (scDis- PreAI), 4 aunified framework that leverages AI to integrate single- cell âomics data.",
+        "and the discussed emerging integrative strategies lay a solid foundation for multiâomics disease modelling, biomarker discovery, and target prioritisation (Fig."
+      ]
+    }
+  ],
+  "fetched_at": "2026-09-07T21:42:43Z"
+}

@@ -1,0 +1,402 @@
+{
+  "paper_id": "openalex_w7166575844",
+  "run_id": "run_20260907_063159_471c07",
+  "silver_record_id": "silver_run_20260907_063159_471c07_openalex_w7166575844",
+  "bronze_record_id": "bronze_a1b8d7a9944e3582",
+  "units": [
+    {
+      "silver_unit_id": "silver_unit_839161d7480359b8",
+      "statement": "Brain2Qwerty employs a three-stage deep learning architecture â convolutional module, sentence-level transformer, and pretrained character-level language model â that synthesizes pre-existing components into a novel approach for decoding language production from noninvasive signals.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 8,
+      "source_span_ids": [
+        "openalex_w7166575844-span-0001",
+        "openalex_w7166575844-span-0002",
+        "openalex_w7166575844-span-0005",
+        "openalex_w7166575844-span-0009"
+      ],
+      "source_quotes": [
+        "Our Brain2Qwerty model includes three core stages to decode text from brain activity: (1) a convolutional module, (2) a transformer module trained at the sentence level and (3) a pretrained language model to correct the outputs of the transformer.",
+        "Our Brain2Qwerty model is composed of three successive modules (Fig. 1).",
+        "For this, we present Brain2Qwerty, a new deep learning architecture trained to decode sentences from either electro- or magnetoencephalography, while participants typed briefly memorized sentences on a QWERTY keyboard.",
+        "Our Brain2Qwerty model shares several elements with these approaches, notably through the use of both a subject layerÂ²â¹ and a language modelÂ³â¸, although here restricted to a pretrained 9-gram character-level model.",
+        "Together, these elements indicate that, with modern AI techniques, high-quality MEG signals and natural language tasks could be combined to decode the production of language from noninvasive recordings of the brain."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_551aebf71842e17d",
+      "statement": "Brain2Qwerty demonstrates that noninvasive MEG/EEG recordings can decode typed sentences from healthy volunteers, narrowing the gap between invasive and noninvasive BCI performance for language production.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 13,
+      "source_span_ids": [
+        "openalex_w7166575844-span-0001",
+        "openalex_w7166575844-span-0002",
+        "openalex_w7166575844-span-0003",
+        "openalex_w7166575844-span-0005",
+        "openalex_w7166575844-span-0006",
+        "openalex_w7166575844-span-0007",
+        "openalex_w7166575844-span-0008",
+        "openalex_w7166575844-span-0012"
+      ],
+      "source_quotes": [
+        "Overall, these results narrow the gap between invasive and noninvasive methods and thus open the path for developing safe brainâcomputer interfaces for noncommunicating patients.",
+        "While the decoding performance of Brain2Qwerty narrows the gap between noninvasive and invasive BCIs, this gap remains significant.",
+        "<u>Materials & experimental systems Methods</u> n/a Involved in the study n/a Involved in the study Antibodies ChIP-seq Eukaryotic cell lines Flow cytometry Palaeontology and archaeology MRI-based neuroimaging Animals and other organisms Clinical data Dual use research of concern Plants April 2023",
+        "A potential concern in language decoding is that performance metrics might be artificially inflated by the accurate prediction of high-frequency, low-information tokens (for example, spaces or deter- miners).",
+        "To address this issue we trained a linear model as well as EEGNetâa popular architecture used in BCIsÂ³â¶âwith the same approach, and compared their decoding performance to Brain2Qwertyâs with a Wilcoxon test across subjects (Fig."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_d6e8fef9f52881b1",
+      "statement": "MEG substantially outperforms EEG for noninvasive sentence decoding (CER 29% vs 65%) due to higher signal-to-noise ratio; future BCIs may benefit from prioritizing MEG over EEG.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 11,
+      "source_span_ids": [
+        "openalex_w7166575844-span-0001",
+        "openalex_w7166575844-span-0002",
+        "openalex_w7166575844-span-0003",
+        "openalex_w7166575844-span-0006",
+        "openalex_w7166575844-span-0008"
+      ],
+      "source_quotes": [
+        "This demonstration suggests that future BCIs may benefit not only from optimizing the task (keyboard versus P300-speller) and decoder (AI versus Riemannian approaches), but also from prioritizing MEG over EEG.",
+        "While we expected MEG to surpass EEG, the magnitude of the observed difference was substantial.",
+        "For the best participants, the model achieves a character error rate of 18%, and can perfectly decode a variety of sentences outside of the training set.",
+        "Given the inherently low signal-to-noise ratio of non- invasive modalities, the path toward achieving continuous decoding without these explicit triggers remains uncertain.",
+        "Our results demonstrate that MEG significantly outperforms EEG, achieving an average character error rate (CER) of 29% compared to 65% for EEG."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_5fd6344ba1373256",
+      "statement": "Brain2Qwerty's language model can correct participants' typographical errors, leveraging natural-language statistical regularities.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 4,
+      "source_span_ids": [
+        "openalex_w7166575844-span-0002",
+        "openalex_w7166575844-span-0003"
+      ],
+      "source_quotes": [
+        "Brain2Qwertyâs language model can correct the typographical errors of the participant.",
+        "sentence-level contextualization provided by the transformer together with the leverage of natural languageâs statistical regularities effectively improves the decoding of individual characters.",
+        "Interest- ingly, some of these examples show that Brain2Qwertyâs language model can correct the typographical errors of the participant.",
+        "Significant time points (two-sided one-sample Wilcoxon signed-rank test against a model always predicting the most common class, *P* < 0.05, uncorrected) are marked\n\n**Analyses of decoded sentences** To go beyond aggregate metrics and qualitatively assess the modelâs output, we inspected specific examples of decoded sentences.",
+        "For example, EL BENEFICIO SUPERA LOS RIESGOS was perfectly decoded, even though the participants typed: EK BENEFUCUI SYOERA KIS RUES- GIS."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_f3ec8174bd133f9f",
+      "statement": "The decoder generalizes beyond memorized training sentences: in the best MEG participants it can perfectly decode some entirely unseen sentences.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 10,
+      "source_span_ids": [
+        "openalex_w7166575844-span-0001",
+        "openalex_w7166575844-span-0002",
+        "openalex_w7166575844-span-0003",
+        "openalex_w7166575844-span-0004"
+      ],
+      "source_quotes": [
+        "For the best participants, the model achieves a character error rate of 18%, and can perfectly decode a variety of sentences outside of the training set.",
+        "Out-of-vocabulary (OOV) decoding",
+        "can perfectly decode a variety of sentences outside of the training set.",
+        "frequent words are better decoded than rare words",
+        "words absent from the training set (out-of-vocabulary words) can also be decoded, although with a relatively poor CER (70 Â± 1.2%)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_5c868fc92f11769a",
+      "statement": "Brain2Qwerty is an offline proof of concept, not a real-time clinical decoder: it requires sentence-level processing, keystroke-aligned MEG segments, and does not yet operate continuously, though it may be immediately suitable for patients who retain motor abilities.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 22,
+      "source_span_ids": [
+        "openalex_w7166575844-span-0001",
+        "openalex_w7166575844-span-0002",
+        "openalex_w7166575844-span-0003",
+        "openalex_w7166575844-span-0005",
+        "openalex_w7166575844-span-0006",
+        "openalex_w7166575844-span-0008",
+        "openalex_w7166575844-span-0009"
+      ],
+      "source_quotes": [
+        "our model does not currently operate in real time; the transformer and language model operate at the sentence level and thus require the trial to conclude before an output can be produced. Furthermore, the input of Brain2Qwerty currently requires MEG segments to be aligned to specific keystroke onsets.",
+        "Given the inherently low signal-to-noise ratio of non- invasive modalities, the path toward achieving continuous decoding without these explicit triggers remains uncertain.",
+        "Another critical limitation to address is the translation from healthy participants performing overt movements to paralyzed patients utilizing motor imagery or attempted movements.",
+        "bridging the gap to locked-in individuals will likely involve adapting our task into a motor imagery paradigm and designing AI systems capable of robust generalization across participantsâ´Â³.",
+        "First, our model does not currently operate in real time; the transformer and language model operate at the sentence level and thus require the trial to conclude before an output can be produced."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_b089287f6121c0b1",
+      "statement": "The model's learned representations encode the QWERTY keyboard's spatial layout: confusion rates increase with physical key distance (r = 0.73) and K-means clustering separates left- and right-hand keys.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 19,
+      "source_span_ids": [
+        "openalex_w7166575844-span-0001",
+        "openalex_w7166575844-span-0002",
+        "openalex_w7166575844-span-0003",
+        "openalex_w7166575844-span-0004",
+        "openalex_w7166575844-span-0005"
+      ],
+      "source_quotes": [
+        "The results show a strong Pearson correlation between physical distance and confusion rate: r = 0.73, P = 0.02, n = 19 participants.",
+        "the spatial layout of the keyboard is well encoded in the high-dimensional representations learned by our model.",
+        "The results show that with our Conv+Trans model, correctly typed characters lead to a better CER (36%) than incorrectly typed characters (69%).",
+        "correctly typed characters lead to a better CER (36%) than incorrectly typed characters (69%).",
+        "When trained on two clusters, this unsupervised model fully separates the left-hand and right-hand keys."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_03ec8b8ec95919a0",
+      "statement": "Correctly typed characters yield substantially better CER (36%) than incorrectly typed characters (69%); interkey intervals double for errors (49 ms vs 111 ms).",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 19,
+      "source_span_ids": [
+        "openalex_w7166575844-span-0001",
+        "openalex_w7166575844-span-0002",
+        "openalex_w7166575844-span-0004",
+        "openalex_w7166575844-span-0005",
+        "openalex_w7166575844-span-0006"
+      ],
+      "source_quotes": [
+        "The results show a strong Pearson correlation between physical distance and confusion rate: r = 0.73, P = 0.02, n = 19 participants.",
+        "The results show that with our Conv+Trans model, correctly typed characters lead to a better CER (36%) than incorrectly typed characters (69%).",
+        "correctly typed characters lead to a better CER (36%) than incorrectly typed characters (69%).",
+        "Furthermore, they are associated with a specific behavior (Fig. 6c): the time taken to type a characterâas measured by the interkey interval",
+        "the time taken to type a characterâas measured by the interkey intervalâdoubles between correctly (49 Â± 8 ms) and incorrectly typed characters (111 Â± 13 ms; two-sided Wilcoxon signed-rank test, P = 7.63 Ã 10 â6 )."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_1abf904e9213000b",
+      "statement": "Frequent words are decoded better than rare words.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 4,
+      "source_span_ids": [
+        "openalex_w7166575844-span-0003",
+        "openalex_w7166575844-span-0005"
+      ],
+      "source_quotes": [
+        "Our results show that CER decreases as a function of the amount of training data: r = â 0.93, P = 4.95 Ã 10 â8 (Pearson correlation, n = 20 training subsets).",
+        "The results confirm that frequent words are better decoded than rare words.",
+        "The results show that CER decreases as a function of the amount of training data: r = â 0.93, P = 4.95 Ã 10â8 (Pearson correlation, n = 20 training subsets).",
+        "frequent words are better decoded than rare words",
+        "The results confirm that frequent words are better decoded than rare words (two-sided paired Wilcoxon signed-rank test: *P* = 3.81 Ã 10 â6 )."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_cacbe10dbdbab6b1",
+      "statement": "Character error rate decreases strongly as training-data amount increases (r = -0.93, P = 4.95e-8; n = 20 training subsets).",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 9,
+      "source_span_ids": [
+        "openalex_w7166575844-span-0003",
+        "openalex_w7166575844-span-0005",
+        "openalex_w7166575844-span-0008"
+      ],
+      "source_quotes": [
+        "Our results show that CER decreases as a function of the amount of training data: r = â 0.93, P = 4.95 Ã 10 â8 (Pearson correlation, n = 20 training subsets).",
+        "The results confirm that frequent words are better decoded than rare words.",
+        "The results show that CER decreases as a function of the amount of training data: r = â 0.93, P = 4.95 Ã 10â8 (Pearson correlation, n = 20 training subsets).",
+        "frequent words are better decoded than rare words",
+        "For this, we retrained our model on uniformly sampled subsets of the training set (Fig. 5d)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_2a8cd5970db00dcf",
+      "statement": "Character frequency is strongly negatively correlated with decoding error rate (r = -0.87, P = 2.07e-9); rare characters are harder to decode than frequent ones.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 12,
+      "source_span_ids": [
+        "openalex_w7166575844-span-0003",
+        "openalex_w7166575844-span-0005"
+      ],
+      "source_quotes": [
+        "The results show a significant negative correla- tion between character frequency and error rate: r = â0.87, P = 2.07 Ã 10 â9 (Pearson correlation, n = 28 characters; Fig. 5c).",
+        "CER as a function of normalized character frequency (Pearson correlation: *r* = â0.87, *P* = 2.07 Ã 10â9; *n* = 28 characters).",
+        "The results show a significant negative correla- tion between character frequency and error rate: r = â0.87, P = 2.07 Ã 10 â9",
+        "These results suggest that the number of repetitions (of words and characters) encountered during training directly affects performance.",
+        "Note that this may be due to the fact that on a random partition of train, vali- dation and test splits, out-of-vocabulary words tend to be rare words."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_8651447f5ba73669",
+      "statement": "Out-of-vocabulary words can be decoded but with relatively poor CER (70 Â± 1.2%).",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 3,
+      "source_span_ids": [
+        "openalex_w7166575844-span-0003",
+        "openalex_w7166575844-span-0005"
+      ],
+      "source_quotes": [
+        "Interestingly, we verify that the words absent from the training set (out-of-vocabulary words) can also be decoded, although with a relatively poor CER (70 Â± 1.2%).",
+        "tests whether Brain2Qwerty can decode words absent from the training set."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_dbb4b2f6a6bf2bb7",
+      "statement": "Left- and right-handed key presses produce cortical motor-activity topographies typical of cortical motor activity.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 4,
+      "source_span_ids": [
+        "openalex_w7166575844-span-0002"
+      ],
+      "source_quotes": [
+        "The resulting topographies are typical of those associated with motor activity in the cortexÂ³Â¹.",
+        "## Article\n\n**[https://doi.org/10.1038/s41593-026-02303-2**](https://doi.org/10.1038/s41593-026-02303-2**)\n\nR ead Conv\n\n||Conv||\n|---|---|---|\n|R|ME G or EE|G|\n\n+ E L EL CONSUME 1.5 s MOTOR Â± 0.1 s Â± 0.565 Â± 0.565\n\n0.565 128 sentences per session\n5â8 words per sentence Character error rate: Q WERTY 2/2 7 = 7%\n\n**Fig.",
+        "Overall, these findings confirm that the present protocol leads to the expected brain responses to key presses",
+        "This latency is consistent with the physi- ological convergence of the efferent motor command and the afferent somatosensory feedback"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_cf17c61193a74262",
+      "statement": "Left- versus right-handed key-press classification accuracy peaks 40 ms after keystroke; character accuracy reaches 22% (MEG) and 16% (EEG), confirming the protocol produces expected motor-related brain responses.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 14,
+      "source_span_ids": [
+        "openalex_w7166575844-span-0002",
+        "openalex_w7166575844-span-0003",
+        "openalex_w7166575844-span-0005"
+      ],
+      "source_quotes": [
+        "The classification accuracy peaks at *t* = 40 ms after the keystroke (Fig. 2). This latency is consistent with the physi- ological convergence of the efferent motor command and the afferent somatosensory feedback in EEG and MEG 31,32.",
+        "29 showed that the perception of natural speech segments could be decoded from MEG signals, with up to 41% top-10 accuracy (chance level = 0.1%).",
+        "Character accuracy peaks around the same time, reaching a value of 22 Â± 0.8% for MEG and 16 Â± 0.5% for EEG, significantly above the chance level (14%).",
+        "Our Brain2Qwerty model shares several elements with these approaches, notably through the use of both a subject layerÂ²â¹ and a language modelÂ³â¸, although here restricted to a pretrained 9-gram character-level model.",
+        "The classification accuracy peaks at *t* = 40 ms after the keystroke (Fig."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_36ad5ffedc65e8d7",
+      "statement": "Brain2Qwerty and its convolutional module alone outperform EEGNet on MEG (1.2-to-2.5-fold CER improvement) and on EEG CER.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 4,
+      "source_span_ids": [
+        "openalex_w7166575844-span-0002",
+        "openalex_w7166575844-span-0009"
+      ],
+      "source_quotes": [
+        "Brain2Qwertyâs with a Wilcoxon test across subjects (Fig. 2eâh). EEGNet remains less effective than our model, which, in comparison, achieves a 1.2-fold improvement in CER with EEG (*P* = 1.9 Ã 10 â6 ) and a 2.5-fold improvement in CER with MEG (*P* = 3.8 Ã 10 â6 ).",
+        "Conv alone outperforms EEGNet on MEG (HER: *P* = 1.9 Ã 10 â5, CER: *P* = 3.8 Ã 10 â6 ) and on the CER for EEG (*P* = 2.0 Ã 10 â3 ).",
+        "Specifically, we retrained and evaluated (1) the convolutional module (that is, no transformer, no language model; Conv)",
+        "However, EEGNet remains less effective than our model, which, in comparison, achieves a 1.2-fold improvement in CER with EEG (*P* = 1.9 Ã 10 â6 ) and a 2.5-fold improvement in CER with MEG (*P* = 3.8 Ã 10 â6 ).",
+        "To address this issue we trained a linear model as well as EEGNetâa popular architecture used in BCIsÂ³â¶âwith the same approach, and compared their decoding performance to Brain2Qwertyâs with a Wilcoxon test across subjects (Fig. 2eâh)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_fe4ebba5d404787d",
+      "statement": "Adding the transformer significantly improves CER for both EEG and MEG (P = 5.9e-4 and P = 2.7e-5), and the language model provides additional CER improvement for both modalities.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 11,
+      "source_span_ids": [
+        "openalex_w7166575844-span-0002",
+        "openalex_w7166575844-span-0003",
+        "openalex_w7166575844-span-0005",
+        "openalex_w7166575844-span-0009"
+      ],
+      "source_quotes": [
+        "Adding Trans only appears significantly beneficial to CER, both for EEG (*P* = 5.9 Ã 10 â4 ) and MEG (*P* = 2.7 Ã 10 â5 ).",
+        "Finally, the use of a language model module leads to an additional improvement of the CER for EEG (*P* = 8.5 Ã 10 â4 ) and MEG (*P* = 3.8 Ã 10 â6 ).",
+        "Finally, the output of the transformer **Y**Ë is fed into a language model so as to leverage the statistical regularities of natural language.",
+        "Specifically, we retrained and evaluated (1) the convolutional module (that is, no transformer, no language model; Conv) and (2) the convolutional and transformer mod- ules (that is, no language model; Conv+Trans) with the same hyperparameters.",
+        "1 | Approach.** Recordings from 35 healthy participants were obtained using\n\nof MEG or EEG signals, (2) a transformer module trained at the sentence level EEG and MEG."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_e5dba5e19571409b",
+      "statement": "All part-of-speech categories are decoded significantly below chance (determiners at 16 Â± 1.8% CER); some rare Spanish characters ('z', 'k', 'w') are not decoded above chance level.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 4,
+      "source_span_ids": [
+        "openalex_w7166575844-span-0003",
+        "openalex_w7166575844-span-0005"
+      ],
+      "source_quotes": [
+        "Rare characters, such as âz,â âkâ and âwâ in Spanish, are not decoded above chance level",
+        "but only account for 0.08%, 0.08% and 0.05% of the characters in our sentences.",
+        "All part-of-speech categories are significantly below chance (two-sided one-sample Wilcoxon signed-rank test, *P* = 3.81 Ã 10â6, uncorrected for multiple comparisons).",
+        "significantly better decoded than chance (two-sided one-sample Wil- coxon signed-rank test, all *P* < 10 â5, uncorrected), with determiners exhibiting a remarkably low CER (16 Â± 1.8%).",
+        "significantly better decoded than chance (two-sided one-sample Wilcoxon signed-rank test, all P < 10 â5 , uncorrected), with determiners\nexhibiting a remarkably low CER (16 Â± 1.8%)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_cde517af19969924",
+      "statement": "EEG decoding performance is poor (CER 61-69% across subjects) and rarely produces comprehensible text.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 3,
+      "source_span_ids": [
+        "openalex_w7166575844-span-0002",
+        "openalex_w7166575844-span-0003"
+      ],
+      "source_quotes": [
+        "In comparison, the poor EEG decoding (Fig. 4, top left) rarely led to comprehensible text.",
+        "The best and worst EEG subjects reach CERs of 61 Â± 1.9% and 69 Â± 1.8% across sentences, respectively."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_96975948b8023248",
+      "statement": "The keyboard-based typing approach is more efficient and easier to use than traditional noninvasive BCI protocols such as P300-speller, SSVEP, or fMRI-based approaches.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w7166575844-span-0006"
+      ],
+      "source_quotes": [
+        "In particular, the present keyboard approach enables the collection of a vast number of keystroke events per participant, facilitating the training of a supervised decoderâa significantly more efficient strategy than standard EEG BCI paradigms.",
+        "our approach is more efficient than the traditional protocols used in noninvasive BCIs, such as the P300-spellerâ´â°, SSVEPâ´Â¹ and functional magnetic resonance imaging localizerÂ¹â¹.",
+        "In contrast, our approach is based on a task that is comparatively easier to use."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_86bee169a0e6c9b7",
+      "statement": "New MEG sensors based on optically pumped magnetometers may someday offer MEG sensitivity in a wearable form.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w7166575844-span-0006"
+      ],
+      "source_quotes": [
+        "This transition may be further facilitated by the development of new MEG sensors based on optically pumped magnetometers 44â46, which might someday offer the sensitivity of MEG in a wearable form.",
+        "This transition may be further facilitated by the development of new MEG sensors based on optically pumped magnetometers 44â46, which might someday offer the sensitiv- ity of MEG in a wearable form."
+      ]
+    }
+  ],
+  "fetched_at": "2026-09-07T21:42:44Z"
+}

@@ -1,0 +1,105 @@
+{
+  "paper_id": "openalex_w4382138752",
+  "run_id": "run_20260907_063159_471c07",
+  "silver_record_id": "silver_run_20260907_063159_471c07_openalex_w4382138752",
+  "bronze_record_id": "bronze_69ab896eb7d6868e",
+  "units": [
+    {
+      "silver_unit_id": "silver_unit_3350795cc9ddef80",
+      "statement": "LNA-i-miR-221 was well tolerated across the studied dose-escalation regimen with no grade 3-4 dose-limiting toxicity, no maximum tolerated dose reached, and no clinically significant changes in vital signs, ECG, physical examination, or safety laboratory findings; adverse events were CTCAE grade 0-2, most without suspected relationship, supporting dose escalation and future clinical development.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 49,
+      "source_span_ids": [
+        "openalex_w4382138752-span-0001",
+        "openalex_w4382138752-span-0002",
+        "openalex_w4382138752-span-0003",
+        "openalex_w4382138752-span-0004",
+        "openalex_w4382138752-span-0005",
+        "openalex_w4382138752-span-0006",
+        "openalex_w4382138752-span-0007",
+        "openalex_w4382138752-span-0008",
+        "openalex_w4382138752-span-0009",
+        "openalex_w4382138752-span-0010"
+      ],
+      "source_quotes": [
+        "**Fig. 5** Progressive tumor shrinkage in a 60-year-old metastatic colon carcinoma patient with confirmed PR evaluated on three index lesions.",
+        "**Patients** Twenty-four patients with solid tumors were screened for eligibility and 19 of them underwent treatment.",
+        "**Study outcomes** The primary study endpoint was safety of LNA-i- miR-221, with assessment of the MTD, and of the RP2D.",
+        "24 patients were screened",
+        "37 AEs were reported by 15 patients. All AEs were CTCAE grade 0â2."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_ac77caaf969a3451",
+      "statement": "Systemic LNA-i-miR-221 treatment produced measurable exposure-dependent pharmacokinetics (non-linear PK, rapid plasma clearance with tissue distribution, half-life 1.1-4.9 hours, urine detectability up to 2 days post-dose), concentration-dependent downregulation of miR-221 with upregulation of canonical targets CDKN1B/p27 and PTEN in circulating PBMCs, and preliminary disease-control signals including stable disease in 50.0% and an isolated partial response in a colorectal cancer patient at 5 mg/kg; however, the uncontrolled single-arm phase 1 design, heterogeneous tumor types, small cohorts, and absence of tumor-tissue pharmacodynamic assessment mean these observations establish pharmacodynamic activity but not clinical efficacy.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 159,
+      "source_span_ids": [
+        "openalex_w4382138752-span-0001",
+        "openalex_w4382138752-span-0002",
+        "openalex_w4382138752-span-0003",
+        "openalex_w4382138752-span-0004",
+        "openalex_w4382138752-span-0005",
+        "openalex_w4382138752-span-0006",
+        "openalex_w4382138752-span-0007",
+        "openalex_w4382138752-span-0008",
+        "openalex_w4382138752-span-0009",
+        "openalex_w4382138752-span-0010",
+        "openalex_w4382138752-span-0011"
+      ],
+      "source_quotes": [
+        "**Antiâtumor activity of LNAâiâmiRâ221** Finally, exploratory analysis of the putative anti-tumor activity of LNA-i-miR-221 was also planned.",
+        "**Pharmacokinetics (PK)** Assessment of the PK profile of LNA-i-miR-221 was per- formed by mass spectrometry analysis of blood and urine samples collected on up to nine occasions up to 12 h post-infusion, using a previously developed analytical method [15].",
+        "A and B show modulation of miR-221 and",
+        "A and B show modulation of miR-221 and CDKN1B after LNA-miR-221 treatment (paired sample t test, P < 0.05; 95% CI: 95%\nconfidence interval).",
+        "A) Treatment Day 1, B)\nTreatment Day 4."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_05ae69804a466283",
+      "statement": "As a first-in-human proof-of-concept study for miRNA-targeting therapy in cancer, the trial identified 5 mg/kg (administered as 4 daily 30-minute IV infusions) as the recommended phase II dose and provided the rationale for a planned phase II basket study, while the authors explicitly acknowledge that the small study population, limited cohort sizes, and uncontrolled single-arm design preclude definitive efficacy conclusions and position the results as hypothesis-generating rather than confirmatory.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 58,
+      "source_span_ids": [
+        "openalex_w4382138752-span-0001",
+        "openalex_w4382138752-span-0002",
+        "openalex_w4382138752-span-0003",
+        "openalex_w4382138752-span-0004",
+        "openalex_w4382138752-span-0005",
+        "openalex_w4382138752-span-0007",
+        "openalex_w4382138752-span-0008",
+        "openalex_w4382138752-span-0009",
+        "openalex_w4382138752-span-0010",
+        "openalex_w4382138752-span-0011"
+      ],
+      "source_quotes": [
+        "0.5Â  mg/kg, was detectable in the last urine samples col-",
+        "24 patients were screened",
+        "A and B show modulation of miR-221 and",
+        "Allometric interspecies scaling allowed us to define the first-in-class LNA-i-miR-221 safe starting dose for the clinical translation.",
+        "An independent expansion cohort was also planned at the RP2D."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_fc14f2caecbecc89",
+      "statement": "Two additional patients were enrolled in the pre-planned expansion cohort.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4382138752-span-0003"
+      ],
+      "source_quotes": [
+        "Two additional patients were enrolled in the pre-planned expansion cohort."
+      ]
+    }
+  ],
+  "fetched_at": "2026-09-07T21:42:39Z"
+}

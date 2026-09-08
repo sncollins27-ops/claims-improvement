@@ -1,0 +1,159 @@
+{
+  "paper_id": "openalex_w4388792900",
+  "run_id": "run_20260907_063159_471c07",
+  "silver_record_id": "silver_run_20260907_063159_471c07_openalex_w4388792900",
+  "bronze_record_id": "bronze_ef70c30ac56642db",
+  "units": [
+    {
+      "silver_unit_id": "silver_unit_bc81b8f745f2d7ca",
+      "statement": "BTNL3 and BTNL8 form functional heterodimers expressed on colonic epithelial cells that are required for the selection and maintenance of human colonic CD103+ VÎ³4 intraepithelial lymphocytes, providing an MHC-independent route for epithelial immune surveillance and establishing the BTNL/VÎ³4 axis as a disease modifier in IBD.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 49,
+      "source_span_ids": [
+        "openalex_w4388792900-span-0001",
+        "openalex_w4388792900-span-0002"
+      ],
+      "source_quotes": [
+        "2 BTN and BTN-like molecules (BTNL) are Ig superfamily-member, B7- related transmembrane proteins with multiple roles in the immune system and beyond.",
+        "5 However, it remained unresolved whether the reciprocal liaison of intraepithelial VÎ³4Î³Î´ T cells with epithelial BTNL3/BTNL8 ligands has any implications for chronic inflammatory bowel diseases (IBD) like Crohnâs disease (CD) and ulcerative colitis (UC).",
+        "BTNL3 and BTNL8 are indeed required for the selection of human VÎ³4 IEL.",
+        "First, they identified among VÎ´2-negative Î³Î´ IEL a major subset (around 47%) that expressed VÎ³4 and the integrin CD103 as a marker of IEL and tissue-resident memory (TRM) T cells.",
+        "In a previous study from the Hayday group, it was already shown that the human colon harbors intraepithelial VÎ³4-expressing Î³Î´ T cells which can specifically interact with BTNL3/BTNL8 heterodimers expressed on the colonic epithelial cells (Fig."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_67e12fab1afabc87",
+      "statement": "The colonic CD103+ VÎ³4 IEL compartment is selectively depleted or disproportionately reduced in active inflammatory bowel disease, and its renormalization or reconstitution is associated with disease remission and macroscopically healed mucosa, indicating that this subset tracks disease activity and treatment response.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 33,
+      "source_span_ids": [
+        "openalex_w4388792900-span-0001",
+        "openalex_w4388792900-span-0002"
+      ],
+      "source_quotes": [
+        "CD103 is a receptor for E-cadherin on endothelial cells.",
+        "In a recent article published in Science, Dart and colleagues reported that colonic T cells expressing the VÎ³4 T-cell receptor (TCR) interact with epithelial butyrophilin-like (BTNL) proteins BTNL3 and BTNL8 in healthy individuals, and they observed a depletion of VÎ³4 T cells in inflammatory bowel diseases with renormalization associated with disease remission. 1 This paper identifies the BTNL/VÎ³4 axis as a new disease modifier in IBD. 1 Conventional T cells express the Î±Î² TCR and recognize peptides presented by MHC class I (CD8) or MHC class II (CD4) molecules.",
+        "More detailed analysis\nrevealed a disproportionate loss of CD103 + VÎ³4 cells.",
+        "More detailed analysis revealed a disproportionate loss of CD103 + VÎ³4 cells.",
+        "Moreover, their preliminary investigation with 19 IBD patients suggests that reconstitution of colonic CD103 + VÎ³4 IEL might be associated with sustained remission."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_f15fa79d4020f257",
+      "statement": "BTNL3 loss-of-function is significantly associated with penetrating (B3) Crohn's disease in a large cohort, and the loss of VÎ³4 IELs in IBD is accompanied by increased Î³Î´ TCR repertoire diversity indicating the depletion is not driven by antigen-mediated clonal selection.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 18,
+      "source_span_ids": [
+        "openalex_w4388792900-span-0001",
+        "openalex_w4388792900-span-0002"
+      ],
+      "source_quotes": [
+        "5 However, it remained unresolved whether the reciprocal liaison of intraepithelial VÎ³4Î³Î´ T cells with epithelial BTNL3/BTNL8 ligands has any implications for chronic inflammatory bowel diseases (IBD) like Crohnâs disease (CD) and ulcerative colitis (UC).",
+        "Figure created with BioRender.com antigen-driven activation and subsequent deletion, they per- formed VÎ³ TCR repertoire analysis.",
+        "In line, they found in a\nlarge CD cohort a significant association between BTNL3 loss of\nfunction and penetrating (B3) disease.",
+        "In line, they found in a large CD cohort",
+        "In line, they found in a large CD cohort a significant association between BTNL3 loss of function and penetrating (B3) disease."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_b45ae230ef55ffeb",
+      "statement": "A homozygous BTNL8*3 copy-number variant creates an in-frame BTNL8-BTNL3 fusion that impairs BTNL cell-surface expression and is associated with strongly reduced numbers of colonic CD103+ VÎ³4 IEL, providing human genetic evidence that BTNL3/BTNL8 surface expression is required for VÎ³4 IEL selection.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 8,
+      "source_span_ids": [
+        "openalex_w4388792900-span-0002"
+      ],
+      "source_quotes": [
+        "BTNL3 and BTNL8 are indeed required for the selection of human VÎ³4 IEL.",
+        "In line, they found in a large CD cohort a significant association between BTNL3 loss of function and penetrating (B3) disease.",
+        "These individuals\nhad strongly reduced numbers of colonic CD103 + VÎ³4 IEL, which\nelegantly supports the notion that BTNL3 and BTNL8 are indeed\nrequired for the selection of human VÎ³4 IEL.",
+        "These individuals had strongly reduced numbers of colonic CD103 + VÎ³4 IEL",
+        "These individuals had strongly reduced numbers of colonic CD103 + VÎ³4 IEL, which elegantly supports the notion that BTNL3 and BTNL8 are indeed required for the selection of human VÎ³4 IEL."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_fae3700b3b63a4a2",
+      "statement": "CD103+ VÎ³4 IEL respond to BTNL3/BTNL8 engagement with TCR down-regulation, 41BB and GZMB up-regulation, little TNFalpha/IFNgamma production, and no CD107 mobilization, and are refractory to phorbolester plus ionomycin, indicating selective functional specialization for epithelial surveillance rather than broad inflammatory or cytotoxic activation.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 15,
+      "source_span_ids": [
+        "openalex_w4388792900-span-0001"
+      ],
+      "source_quotes": [
+        "They observed a specific TCR down-regulation together with up-regulation of 41BB and GZMB but little if any cytokines like TNFÎ±,IFNÎ³, and no mobilization of CD107",
+        "They observed a specific TCR down-regulation together with up-regulation of 41BB and GZMB but little if any cytokines like TNFÎ±,IFNÎ³, and no mobilization of CD107 as a surrogate marker of cytotoxic activity.",
+        "these cells were also largely refractory to activation with phorbolester plus ionomycin, and thus displayed a selective pattern of responsiveness.",
+        "They used HEK392T cells transduced with BTNL3 + BTNL8 to interrogate the activation of the CD103 + VÎ³4IEL.",
+        "but little if any cytokines like TNFÎ±,IFNÎ³, and no mobilization of CD107 as a surrogate marker of cytotoxic activity."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_148cbc35fd60c0bc",
+      "statement": "CD103+ VÎ³4 IELs are enriched for effector-function, activation, and migration genes (including KIR2DLA, TIGIT, CCR9, GZMA, FGF9) and express high levels of FcepsilonRIgamma, NKp46, and NKG2C compared with their CD103-negative counterparts, defining a transcriptional program consistent with an effector-ready tissue-resident phenotype.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 10,
+      "source_span_ids": [
+        "openalex_w4388792900-span-0001",
+        "openalex_w4388792900-span-0002"
+      ],
+      "source_quotes": [
+        "Further characterization of the CD103 + VÎ³4IEL revealed high expression of FcÎµRIÎ³ (involved in signal transduction) and NK receptors NKp46 and NKG2C.",
+        "The transcriptomic analysis of CD103 + VÎ³4 T cells revealed an enrichment of genes important for effector function, activation and migration (e.g., KIR2DLA, TIGIT, CCR9, GZMA, FGF9)whencomparedto CD103 neg VÎ³4 IEL.",
+        "The transcriptomic analysis of CD103 + VÎ³4 T cells revealed an enrichment of genes important for effector function, activation and migration",
+        "Further characterization of the CD103 + VÎ³4IEL\nrevealed high expression of FcÎµRIÎ³ (involved in signal transduction)\nand NK receptors NKp46 and NKG2C.",
+        "enrichment of genes important for effector function, activation and migration"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_dbe6fe9e70ac29e5",
+      "statement": "Inflammatory cytokines IL-12 and IL-18 remodel the VÎ³4 IEL phenotype by reducing expression of CD103, TIGIT, and NKp44, providing a mechanistic model for how the inflammatory milieu in IBD may erode VÎ³4 IEL tissue-residency markers; VÎ³4 IELs express cytokine receptor RNA, placing them under potential control by the inflammatory milieu.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 14,
+      "source_span_ids": [
+        "openalex_w4388792900-span-0001",
+        "openalex_w4388792900-span-0002"
+      ],
+      "source_quotes": [
+        "In line, they found in a large CD cohort a significant association between BTNL3 loss of function and penetrating (B3) disease.",
+        "These individuals had strongly reduced numbers of colonic CD103 + VÎ³4 IEL, which elegantly supports the notion that BTNL3 and BTNL8 are indeed required for the selection of human VÎ³4 IEL.",
+        "culturing primary gut T cells in IL12 + IL18 changed the phenotype of VÎ³4 cells with significant reduction of CD103, TIGIT, NKp44",
+        "in macroscopically healed mucosa from several UC patients an increased proportion of CD103 + VÎ³4 IEL, indicating that these cells might recover locally upon effective treatment. Moreover, their preliminary investigation with 19 IBD patients suggests that reconstitution of colonic CD103 + VÎ³4 IEL might be associated with sustained remission.",
+        "reconstitution of colonic CD103 + VÎ³4 IEL might be associated with sustained remission"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_a486ba1dcffc3b30",
+      "statement": "Monitoring CD103+ VÎ³4 IEL frequency in routine endoscopic biopsies is proposed as a potentially useful novel biomarker for assessing IBD disease activity and remission.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 7,
+      "source_span_ids": [
+        "openalex_w4388792900-span-0001",
+        "openalex_w4388792900-span-0002"
+      ],
+      "source_quotes": [
+        "monitoring of specific immune subsets like CD103 + VÎ³4 cells (which can be performed upon routine endoscopic biopsy) might be a useful novel biomarker to assess disease activity in IBD.",
+        "reconstitution of colonic CD103 + VÎ³4 IEL might be associated with sustained remission.",
+        "As the authors discuss, monitoring of specific immune subsets like CD103 + VÎ³4 cells (which can be performed upon routine endoscopic biopsy) might be a useful novel biomarker to assess disease activity in IBD.",
+        "CD103 is a receptor for E-cadherin on epithelial cells.",
+        "monitoring of specific\nimmune subsets like CD103 + VÎ³4 cells (which can be performed\nupon routine endoscopic biopsy) might be a useful novel\nbiomarker to assess disease activity in IBD."
+      ]
+    }
+  ],
+  "fetched_at": "2026-09-07T21:42:40Z"
+}

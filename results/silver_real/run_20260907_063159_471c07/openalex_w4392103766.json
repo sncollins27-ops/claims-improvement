@@ -1,0 +1,365 @@
+{
+  "paper_id": "openalex_w4392103766",
+  "run_id": "run_20260907_063159_471c07",
+  "silver_record_id": "silver_run_20260907_063159_471c07_openalex_w4392103766",
+  "bronze_record_id": "bronze_dda16d83e98aae1c",
+  "units": [
+    {
+      "silver_unit_id": "silver_unit_47713aff032786bf",
+      "statement": "Epistasis in OXA-48 directed evolution arose from shifting the rate-limiting step of ceftazidime hydrolysis from substrate binding in the wild type to chemistry or product release in evolved variants, driven by mutations that act on distinct catalytic-cycle steps.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 17,
+      "source_span_ids": [
+        "openalex_w4392103766-span-0001",
+        "openalex_w4392103766-span-0002",
+        "openalex_w4392103766-span-0003",
+        "openalex_w4392103766-span-0004",
+        "openalex_w4392103766-span-0005",
+        "openalex_w4392103766-span-0007",
+        "openalex_w4392103766-span-0008",
+        "openalex_w4392103766-span-0010",
+        "openalex_w4392103766-span-0011"
+      ],
+      "source_quotes": [
+        "Epistasis is most probably driven by a change in the rate-limiting step resulting from faster substrate binding (k1) and not by improved substrate affinity (KD).",
+        "In Q4, k1 is tenfold faster than kcat/KM, indicating that evolution shifted the catalytic bottleneck from substrate binding to either the chemical steps or product release",
+        "The burst-phase kcat/KM values excellently correlate with the in vivo IC50 values",
+        "because substrate binding is slow in wtOXA-48, it is likely that neither S212A nor T213A substantially affect activity in the wild-type background and require F72L to accelerate substrate binding for their improvements to take effect fully.",
+        "evolution successively optimized the catalytic cycle and gradually changed the rate-limiting step"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_19a880e36e529c97",
+      "statement": "The selected mutations contribute through distinct mechanistic effects on different steps of the catalytic cycle: F72L alters flexibility and accelerates substrate binding, whereas S212A and T213A strengthen dynamical coupling and boost the chemical steps.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 8,
+      "source_span_ids": [
+        "openalex_w4392103766-span-0001",
+        "openalex_w4392103766-span-0002",
+        "openalex_w4392103766-span-0005",
+        "openalex_w4392103766-span-0006",
+        "openalex_w4392103766-span-0007"
+      ],
+      "source_quotes": [
+        "Burst-phase binding and catalysis kinetics",
+        "F72L primarily decreased the dynamical correlation between S70 and the Î© loop",
+        "S212A and T213A enhanced the correlation",
+        "S212A and T213A enhanced the correlation of S70 with the neighbouring Î²-strands",
+        "increased mobility of the Î© loop"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_3d07a8dbb54b66dd",
+      "statement": "Positive epistasis among the four selected mutations (F72L, S212A, T213A, A33V) produced a 40-fold ceftazidime resistance increase in Q4, far exceeding the 3.4-fold increase predicted from additive single-mutation effects.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 15,
+      "source_span_ids": [
+        "openalex_w4392103766-span-0001",
+        "openalex_w4392103766-span-0002",
+        "openalex_w4392103766-span-0003"
+      ],
+      "source_quotes": [
+        "40-fold in contrast to the 3.4-fold predicted increase",
+        "epistasis is primarily driven by interactions with F72L",
+        "Overall, positive epistasis greatly shaped the evolution of Q4 and resulted in a resistance increase of 40-fold in contrast to the 3.4-fold predicted increase for strictly additive gains from single-point mutations.",
+        "positive epistasis greatly shaped the evolution of Q4",
+        "positive epistasis greatly shaped the evolution of Q4 and resulted in a resistance increase of 40-fold in contrast to the 3.4-fold predicted increase for strictly additive gains from single-point mutations."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_e598de68ce099e46",
+      "statement": "F72L, the first mutation acquired, accelerates substrate binding by increasing Omega-loop flexibility and is the key permissive mutation that enables later mutations to produce large synergistic resistance gains.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 18,
+      "source_span_ids": [
+        "openalex_w4392103766-span-0003",
+        "openalex_w4392103766-span-0004",
+        "openalex_w4392103766-span-0005",
+        "openalex_w4392103766-span-0006",
+        "openalex_w4392103766-span-0007"
+      ],
+      "source_quotes": [
+        "analysis of variance (ANOVA), degrees of freedom (d.f.) 4, *P* < 0.001",
+        "epistasis is primarily driven by interactions with F72L, the first mutation acquired during evolution and the only single-point mutation that significantly (twofold) increased resistance in the wild-type background",
+        "The slow phase indicates the presence of a second state that is probably related to the steady-state ensemble.",
+        "fast phase probably reflects binding to the burst phase ensemble.",
+        "Strikingly, epistasis is primarily driven by interactions with F72L, the first mutation acquired during evolution and the only single-point mutation that significantly (twofold) increased resistance in the wild-type background (analysis of variance (ANOVA), degrees of freedom (d.f.) 4, *P* < 0.001; Supple- mentary Table 3)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_4cf85c306d579239",
+      "statement": "Alanine mutations S212A and T213A predominantly boost the chemical steps by strengthening dynamical coupling between the catalytic serine S70 and the oxyanion-hole region, without altering the global active-site architecture.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 10,
+      "source_span_ids": [
+        "openalex_w4392103766-span-0001",
+        "openalex_w4392103766-span-0003",
+        "openalex_w4392103766-span-0005",
+        "openalex_w4392103766-span-0006",
+        "openalex_w4392103766-span-0007",
+        "openalex_w4392103766-span-0009"
+      ],
+      "source_quotes": [
+        "In contrast, the MichaelisâMenten plots remained linear upon intro- ducing S212A or T213A and only showed marginal increases in *k*cat/*K*M (1.6-fold).",
+        "In other words, because substrate binding is slow in wtOXA-48, it is likely that neither S212A nor T213A substantially affect activity in the wild-type background and require F72L to accelerate substrate binding for their improvements to take effect fully.",
+        "Since these mutations did not affect the sampled conformational space, we hypothesized that dynamical cross-correlation analysis might allow us to identify regions that show correlated movements with the substrate covalently bound to S70 (Fig. 3e and Supplementary Fig. 15).",
+        "This increased correlation could be rooted in the increased rigidification of the Î²5âÎ²6 loop, harbouring the S212A and T213A mutations, which in turn allows for a tighter interaction of the loop with the substrate (Supplementary Figs. 11 and 15).",
+        "Despite their differences in resolution (Supplementary Table 6), both F72L and Q5 revealed an increased flexibility primarily resulting in the Î© loop adopting various alternate conformations."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_a55beecb1a308ff9",
+      "statement": "Evolution selectively improved burst-phase activity over steady-state activity; burst-phase catalytic efficiency correlates strongly with in vivo IC50 values and explains resistance gains better than steady-state metrics.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 20,
+      "source_span_ids": [
+        "openalex_w4392103766-span-0001",
+        "openalex_w4392103766-span-0002",
+        "openalex_w4392103766-span-0003",
+        "openalex_w4392103766-span-0004",
+        "openalex_w4392103766-span-0005",
+        "openalex_w4392103766-span-0007",
+        "openalex_w4392103766-span-0010"
+      ],
+      "source_quotes": [
+        "Evolution thus selectively improved the burst-phase over the steady-state activity.",
+        "The burst-phase kcat/KM values excellently correlate with the in vivo IC50 values",
+        "The burst-phase kcat/KM values excellently correlate with the in vivo IC50 values (RÂ² = 0.97; Pearson correlation, d.f. 7, P < 0.001)",
+        "The burst-phase kcat/KM values excellently correlate with the in vivo IC50 values (RÂ² = 0.97; Pearson correlation, d.f. 7, P < 0.001; Fig. 2c), notably, that correlation is much stronger than the corresponding effect observed for the steady-state kcat/KM values (RÂ² = 0.85; Pearson correlation, d.f. 7, P < 0.001).",
+        "F72L and Q4 show 4.6-fold and 48-fold higher burst-phase rates than their respective steady states"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_7a966d06bcacbf4c",
+      "statement": "F72L and the alanine mutations remodel dynamics in largely orthogonal ways: F72L decreases coupling between S70 and the Omega loop and increases flexibility through alternate Omega-loop conformations, while S212A/T213A strengthen coupling with the oxyanion-hole region.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 15,
+      "source_span_ids": [
+        "openalex_w4392103766-span-0001",
+        "openalex_w4392103766-span-0002",
+        "openalex_w4392103766-span-0003",
+        "openalex_w4392103766-span-0004",
+        "openalex_w4392103766-span-0005",
+        "openalex_w4392103766-span-0006",
+        "openalex_w4392103766-span-0007",
+        "openalex_w4392103766-span-0009"
+      ],
+      "source_quotes": [
+        "F72L modulates the conformational landscape",
+        "S212A and T213A enhanced the correlation of S70 with the neighbouring Î²-strands that harbour the oxyanion hole",
+        "both F72L and Q5 revealed an increased flexibility primarily resulting from the Î© loop adopting various alternate conformations",
+        "the adaptive mutations introduced into OXA-48 are structurally orthogonal, but mechanistically epistatic",
+        "F72L primarily decreased the dynamical correlation between S70 and the Î© loop"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_c93db52a0fc7a373",
+      "statement": "Higher-order variants along the evolutionary trajectory show diminishing returns epistasis, with later mutations providing smaller incremental resistance improvements.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 10,
+      "source_span_ids": [
+        "openalex_w4392103766-span-0001",
+        "openalex_w4392103766-span-0002",
+        "openalex_w4392103766-span-0003",
+        "openalex_w4392103766-span-0010"
+      ],
+      "source_quotes": [
+        "reveals diminishing returns (purple area) in CAZ resistance",
+        "Comparison of the fold-change improvements relative to the previous variants reveals diminishing returns (purple area) in CAZ resistance.",
+        "Diminishing returns",
+        "All later mutations, however, provided lower improvements than expected.",
+        "we observed diminishing returns epistasis in resistance development for higher-order variants along the evolutionary trajectory"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_0791c4f8c4cac0c8",
+      "statement": "Evolution of burst-phase kinetics introduced a reversible, substrate-induced inactivation mechanism that restricts efficiency at elevated CAZ concentrations but is irrelevant under selection conditions.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 25,
+      "source_span_ids": [
+        "openalex_w4392103766-span-0003",
+        "openalex_w4392103766-span-0004",
+        "openalex_w4392103766-span-0007",
+        "openalex_w4392103766-span-0009"
+      ],
+      "source_quotes": [
+        "For example, Q4 displayed a burst-phase amplitude corresponding to 3.8 turnovers at 400 ÂµM CAZ",
+        "Such super-stoichiometric bursts cannot be explained by a simple two-step reaction mechanism comprising a fast followed by a slow step",
+        "Notably, substrate-induced inactivation appeared fully reversible, as indicated by activity assays after incubating Q4 with CAZ",
+        "inactivation is not caused by a change in the oligomeric state, as shown by both dynamic light scat- tering and size exclusion chromatography",
+        "The inactivation rate also increases with substrate concentrations, which argues for an induced-fit mechanism"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_32d601e3eae6b90c",
+      "statement": "CAZ binding kinetics became biphasic and was substantially accelerated during evolution: k1 increased 3.2-fold in F72L and 6,000-fold in Q4.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 5,
+      "source_span_ids": [
+        "openalex_w4392103766-span-0004",
+        "openalex_w4392103766-span-0005",
+        "openalex_w4392103766-span-0007"
+      ],
+      "source_quotes": [
+        "Here, evolution shifted the slowest step from binding to chemistry",
+        "In Q4, k1 is tenfold faster than kcat/KM, indicating that evolution shifted the catalytic bottleneck from substrate binding to either the chemical steps or product release",
+        "The slowest step appears to be substrate binding in wtOXA-48, binding or deacylation in F72L, and acylation in Q4",
+        "bindingâand not bond-breaking or product releaseâlimits catalytic efficiency in the wild type",
+        "k1 constantly increases during evolution (3.2-fold in F72L and 6,000-fold in Q4)"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_87f84d057571be4c",
+      "statement": "Solvent isotope effect measurements support the shift in rate-limiting step: burst-phase KIE is near 1 for wtOXA-48 and Q4 but 1.4 for F72L, while steady-state KIE is pronounced for F72L and Q4.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 12,
+      "source_span_ids": [
+        "openalex_w4392103766-span-0003",
+        "openalex_w4392103766-span-0005",
+        "openalex_w4392103766-span-0006",
+        "openalex_w4392103766-span-0007"
+      ],
+      "source_quotes": [
+        "The burst-phase isotope effects for wtOXA-48 and Q4 are close to 1, whereas a small isotope effect was observed for F72L (1.4).",
+        "|b Burst-phase KIE|0.7|1.4|1.0|",
+        "In contrast to the burst-phase effect, F72L and Q4 had pronounced isotope effects of 2.8 and 2.5 in their steady state.",
+        "|b Steady-state KIE|0.8|2.8|2.5|",
+        "Since our data on the evolution of super-stoichiometric burst phases suggest that a conformational change triggers inactivation, the observed increase in isotope effects\n\nlysis becomes rate-limiting in the less active state."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_aa15ab5fcada0729",
+      "statement": "Changes in thermostability did not drive epistatic adaptation: F72L reduced Tm by 6 degrees C while other selected mutations barely affected thermostability.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 5,
+      "source_span_ids": [
+        "openalex_w4392103766-span-0002",
+        "openalex_w4392103766-span-0003"
+      ],
+      "source_quotes": [
+        "Except for F72L, which reduced the *T*m by 6 Â°C, the selected mutations barely affected the thermostability.",
+        "We note that changes in thermostability (*T*m) did not drive epistatic adaptation",
+        "Except for F72L, which reduced the *T*m by 6 Â°C, the selected",
+        "Except for F72L, which reduced the Tm by 6 Â°C, the selected mutations barely affected the thermostability.",
+        "We note that changes in thermostability (Tm) did not drive epistatic adaptation (Supplementary Fig. 1d and Supplementary Table 4). Except for F72L, which reduced the Tm by 6 Â°C, the selected mutations barely affected the thermostability."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_e2c51e5a538321cf",
+      "statement": "Crystal structures and MD simulations reveal that F72L displaces the Omega loop and adjacent alpha-helix, increasing flexibility, while the overall active-site architecture is preserved across all variants.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 9,
+      "source_span_ids": [
+        "openalex_w4392103766-span-0005",
+        "openalex_w4392103766-span-0006",
+        "openalex_w4392103766-span-0007",
+        "openalex_w4392103766-span-0009"
+      ],
+      "source_quotes": [
+        "Despite the introduction of S212A and T213A in the Î²5âÎ²6 loop, the overall shape of this loop is preserved in Q5. Similarly, the overall active site architecture (for example, S70 and K73) was maintained in all variants",
+        "we determined the crystal structures of F72L, Q5, and Q5 covalently bound to CAZ",
+        "Average structure refinement and ensemble refinement was performed using PHENIX 1.12.",
+        "To explore how evolution affected the enzyme flexibility, we determined per- residue root-mean-square fluctuations (RMSFs) for all variants (Fig. 3b and Supplementary Fig. 11).",
+        "of wtOXA-48, F72L and Q5 reveals increased mobility of the Î© loop. **b**, ÎRMSF by the arrow. **e**, Dynamical correlation analysis reveals that the movement of the values relative to wtOXA-48, F72L and Q4 from MD simulations reproduce the acylated S70 becomes tightly coupled with the protein scaffold, particularly increased flexibility of the Î©-loop region (see Supplementary Fig. 11 for other the oxyanion hole, by means of the alanine mutations."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_a9ba4185b60c43e1",
+      "statement": "F72L displays strong pairwise epistasis with S212A and T213A at the kinetic level, producing burst-phase kcat/KM values far above additive expectations.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 7,
+      "source_span_ids": [
+        "openalex_w4392103766-span-0003"
+      ],
+      "source_quotes": [
+        "epistasis is primarily driven by interactions with F72L",
+        "the combination of F72L with either S212A or T213A (referred to as alanine mutations hereafter) confers 8.2-fold and 11.7-fold higher resistance than expected",
+        "addition of T213A to F72L/S212A resulting in Q3 conferred only a 3-fold increase in resistance instead of the 6.3-fold effect of T213A in F72L.",
+        "their effects do not combine additively and lead to lower-than-expected improvements.",
+        "For instance, addition of T213A to F72L/S212A resulting in Q3 conferred only a 3-fold increase in resistance instead of the 6.3-fold effect of T213A in F72L."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_3ec2ae575f6ac8fe",
+      "statement": "K51E, the fifth mutation in Q5, increased resistance by only 1.1-fold, confirming that the four-mutation Q4 variant captured the major epistatic effect.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4392103766-span-0003"
+      ],
+      "source_quotes": [
+        "K51E increased resistance development by only 1.1-fold compared with Q4.",
+        "Thus, we focused analysis on the molecular origins of epistasis in Q4",
+        "1.1-fold compared with Q4."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_333821b389a7f4df",
+      "statement": "Mutations acquired during evolution cluster around the active site S70 and the Omega and beta5-beta6 loops that affect substrate specificity.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 3,
+      "source_span_ids": [
+        "openalex_w4392103766-span-0002",
+        "openalex_w4392103766-span-0003"
+      ],
+      "source_quotes": [
+        "F72L and T213A have been described in environmental and clinical isolates",
+        "The mutations acquired during evolution cluster around the active site or structural elements known to alter substrate specificity, such as the nucleophilic S70 or the Î© (D143âI164) and Î²5âÎ²6 (T213âK218) loops",
+        "evolution of OXA-48, selection for resistance against the oxyimino-cephalosporin CAZ was performed at increasing CAZ concentrations from 0.5 to 14 ÂµM. **b**, CAZ resistance conferred by OXA-48 was improved 43-fold over five rounds of evolution (see Supplementary Table 1 for all ICââ values). **c**, Mutations acquired during evolution, such as F72L, S212 and T213A, cluster around the active site serine (S70) and the Î© and Î²5âÎ²6 loops that affect substrate specificity (purple). **d**, The adaptive landscape of the mutations found during evolution shows high",
+        "The mutations acquired during evolution cluster around the active site or structural elements known to alter substrate specificity, such as the nucleophilic S70 or the Î© (D143âI164) and Î²5âÎ²6 (T213âK218) loops (Fig. 1c) 27."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_39082962053a484a",
+      "statement": "The study supports using mechanistic kinetic bottleneck analysis to understand enzyme evolution, and the mechanism may generalize to other biocatalysts.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 3,
+      "source_span_ids": [
+        "openalex_w4392103766-span-0002",
+        "openalex_w4392103766-span-0007"
+      ],
+      "source_quotes": [
+        "We describe how distinct mutations shifted the rate-limiting step from substrate binding to the chemical reaction in the Î²-lactamase OXA-48, thereby causing strong phenotypic epistasis",
+        "our MD analysis supports that F72L accelerates substrate binding and thereby shifts the rate-limiting step",
+        "gaining detailed insights into the origins of epistasis was only possible by in-depth characterizations of the burst-phase and steady-state kinetics, isotope effects and dynamical analysis",
+        "only possible by in-depth characterizations of the burst-phase and steady-state kinetics, isotope effects and dynamical analysis",
+        "structurally orthogonal, but mechanistically epistatic"
+      ]
+    }
+  ],
+  "fetched_at": "2026-09-07T21:42:41Z"
+}

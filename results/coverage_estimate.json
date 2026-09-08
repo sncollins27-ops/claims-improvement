@@ -1,0 +1,836 @@
+{
+  "run_id": "run_20260907_063159_471c07",
+  "batch_id": "batch_20260907_d7b6080b73fb",
+  "papers_estimated": 22,
+  "papers_failed": [],
+  "bronze_units_total": 81,
+  "unjudged_units_total": 0,
+  "judge_passes": 3,
+  "units_with_split_vote": 16,
+  "matched_units_total": 71,
+  "mean_coverage": 0.8854,
+  "coverage_only_batch_score": 0.8854,
+  "coverage_only_mean": 0.8854,
+  "coverage_only_median": 1.0,
+  "estimated_batch_score": 0.8017,
+  "real_ranking": [
+    {
+      "rank": 1,
+      "uid": 249,
+      "batch_score": 0.7762,
+      "winner": true
+    },
+    {
+      "rank": 2,
+      "uid": 166,
+      "batch_score": 0.7515,
+      "winner": false
+    },
+    {
+      "rank": 3,
+      "uid": 205,
+      "batch_score": 0.7107,
+      "winner": false
+    },
+    {
+      "rank": 4,
+      "uid": 64,
+      "batch_score": 0.6875,
+      "winner": false
+    },
+    {
+      "rank": 5,
+      "uid": 89,
+      "batch_score": 0.6834,
+      "winner": false
+    },
+    {
+      "rank": 6,
+      "uid": 230,
+      "batch_score": 0.6265,
+      "winner": false
+    },
+    {
+      "rank": 7,
+      "uid": 41,
+      "batch_score": 0.536,
+      "winner": false
+    },
+    {
+      "rank": 8,
+      "uid": 43,
+      "batch_score": 0.0,
+      "winner": false
+    },
+    {
+      "rank": 8,
+      "uid": 50,
+      "batch_score": 0.0,
+      "winner": false
+    },
+    {
+      "rank": 8,
+      "uid": 71,
+      "batch_score": 0.0,
+      "winner": false
+    },
+    {
+      "rank": 8,
+      "uid": 235,
+      "batch_score": 0.0,
+      "winner": false
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "openalex_w3215052327",
+      "bronze_units": 3,
+      "matched_units": 3,
+      "our_claims": 150,
+      "coverage": 1.0,
+      "coverage_score_only": 1.0,
+      "measured_quality": 0.98,
+      "score_with_measured_quality": 0.98,
+      "importance_mix": {
+        "central": 2,
+        "supporting": 1,
+        "minor": 0
+      },
+      "real_coverage_median": 0.7667,
+      "real_coverage_median_scoring": 1.0,
+      "real_coverage_max": 1.0,
+      "beats_real_median": false,
+      "missing_units": [],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 3,
+        "units_with_disagreement": 0,
+        "vote_counts": {
+          "r0": 3,
+          "r1": 3,
+          "r2": 3
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w4214582509",
+      "bronze_units": 3,
+      "matched_units": 3,
+      "our_claims": 115,
+      "coverage": 1.0,
+      "coverage_score_only": 1.0,
+      "measured_quality": 1.0,
+      "score_with_measured_quality": 1.0,
+      "importance_mix": {
+        "central": 2,
+        "supporting": 1,
+        "minor": 0
+      },
+      "real_coverage_median": 1.0,
+      "real_coverage_median_scoring": 1.0,
+      "real_coverage_max": 1.0,
+      "beats_real_median": false,
+      "missing_units": [],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 3,
+        "units_with_disagreement": 1,
+        "vote_counts": {
+          "r0": 3,
+          "r1": 3,
+          "r2": 2
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w4224249713",
+      "bronze_units": 3,
+      "matched_units": 2,
+      "our_claims": 4,
+      "coverage": 0.8235,
+      "coverage_score_only": 0.8235,
+      "measured_quality": 0.75,
+      "score_with_measured_quality": 0.6176,
+      "importance_mix": {
+        "central": 2,
+        "supporting": 1,
+        "minor": 0
+      },
+      "real_coverage_median": 0.6765,
+      "real_coverage_median_scoring": 0.7941,
+      "real_coverage_max": 1.0,
+      "beats_real_median": true,
+      "missing_units": [
+        "Full-length GSDMB elevates intracellular PDGF-AA which promotes FAK phosphorylation, enhancing epithelial cell"
+      ],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 3,
+        "units_with_disagreement": 0,
+        "vote_counts": {
+          "r0": 3,
+          "r1": 3,
+          "r2": 0
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w4282944305",
+      "bronze_units": 3,
+      "matched_units": 2,
+      "our_claims": 87,
+      "coverage": 0.8235,
+      "coverage_score_only": 0.8235,
+      "measured_quality": 1.0,
+      "score_with_measured_quality": 0.8235,
+      "importance_mix": {
+        "central": 2,
+        "supporting": 1,
+        "minor": 0
+      },
+      "real_coverage_median": 0.7692,
+      "real_coverage_median_scoring": 0.7692,
+      "real_coverage_max": 1.0,
+      "beats_real_median": true,
+      "missing_units": [
+        "Sequence homology between RfxCas13d and Cas13d proteins from human-associated Ruminococcus species plausibly c"
+      ],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 3,
+        "units_with_disagreement": 0,
+        "vote_counts": {
+          "r0": 3,
+          "r1": 3,
+          "r2": 0
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w4322766013",
+      "bronze_units": 4,
+      "matched_units": 4,
+      "our_claims": 150,
+      "coverage": 1.0,
+      "coverage_score_only": 1.0,
+      "measured_quality": 1.0,
+      "score_with_measured_quality": 1.0,
+      "importance_mix": {
+        "central": 4,
+        "supporting": 0,
+        "minor": 0
+      },
+      "real_coverage_median": 0.3286,
+      "real_coverage_median_scoring": 0.8715,
+      "real_coverage_max": 1.0,
+      "beats_real_median": true,
+      "missing_units": [],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 4,
+        "units_with_disagreement": 1,
+        "vote_counts": {
+          "r0": 3,
+          "r1": 2,
+          "r2": 3,
+          "r3": 3
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w4324381152",
+      "bronze_units": 4,
+      "matched_units": 4,
+      "our_claims": 150,
+      "coverage": 1.0,
+      "coverage_score_only": 1.0,
+      "measured_quality": 0.75,
+      "score_with_measured_quality": 0.75,
+      "importance_mix": {
+        "central": 3,
+        "supporting": 1,
+        "minor": 0
+      },
+      "real_coverage_median": 0.3343,
+      "real_coverage_median_scoring": 0.5981,
+      "real_coverage_max": 1.0,
+      "beats_real_median": true,
+      "missing_units": [],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 4,
+        "units_with_disagreement": 0,
+        "vote_counts": {
+          "r0": 3,
+          "r1": 3,
+          "r2": 3,
+          "r3": 3
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w4376609015",
+      "bronze_units": 4,
+      "matched_units": 2,
+      "our_claims": 150,
+      "coverage": 0.4167,
+      "coverage_score_only": 0.4167,
+      "measured_quality": 1.0,
+      "score_with_measured_quality": 0.4167,
+      "importance_mix": {
+        "central": 3,
+        "supporting": 1,
+        "minor": 0
+      },
+      "real_coverage_median": 0.8636,
+      "real_coverage_median_scoring": 0.9772,
+      "real_coverage_max": 1.0,
+      "beats_real_median": false,
+      "missing_units": [
+        "Embedding tomograms into a high-dimensional representation plus either (a) selecting a reference embedding or ",
+        "TomoTwin achieves high picking accuracy across a range of protein sizes and in experimental tomograms, enablin"
+      ],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 4,
+        "units_with_disagreement": 2,
+        "vote_counts": {
+          "r0": 3,
+          "r1": 0,
+          "r2": 1,
+          "r3": 2
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w4382138752",
+      "bronze_units": 4,
+      "matched_units": 4,
+      "our_claims": 108,
+      "coverage": 1.0,
+      "coverage_score_only": 1.0,
+      "measured_quality": 0.75,
+      "score_with_measured_quality": 0.75,
+      "importance_mix": {
+        "central": 1,
+        "supporting": 3,
+        "minor": 0
+      },
+      "real_coverage_median": 0.95,
+      "real_coverage_median_scoring": 0.95,
+      "real_coverage_max": 1.0,
+      "beats_real_median": true,
+      "missing_units": [],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 4,
+        "units_with_disagreement": 1,
+        "vote_counts": {
+          "r0": 3,
+          "r1": 3,
+          "r2": 3,
+          "r3": 2
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w4384522722",
+      "bronze_units": 4,
+      "matched_units": 4,
+      "our_claims": 60,
+      "coverage": 1.0,
+      "coverage_score_only": 1.0,
+      "measured_quality": 1.0,
+      "score_with_measured_quality": 1.0,
+      "importance_mix": {
+        "central": 2,
+        "supporting": 2,
+        "minor": 0
+      },
+      "real_coverage_median": 0.95,
+      "real_coverage_median_scoring": 1.0,
+      "real_coverage_max": 1.0,
+      "beats_real_median": false,
+      "missing_units": [],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 4,
+        "units_with_disagreement": 0,
+        "vote_counts": {
+          "r0": 3,
+          "r1": 3,
+          "r2": 3,
+          "r3": 3
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w4384664135",
+      "bronze_units": 4,
+      "matched_units": 4,
+      "our_claims": 32,
+      "coverage": 1.0,
+      "coverage_score_only": 1.0,
+      "measured_quality": 1.0,
+      "score_with_measured_quality": 1.0,
+      "importance_mix": {
+        "central": 1,
+        "supporting": 3,
+        "minor": 0
+      },
+      "real_coverage_median": 0.6577,
+      "real_coverage_median_scoring": 0.8106,
+      "real_coverage_max": 0.95,
+      "beats_real_median": true,
+      "missing_units": [],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 4,
+        "units_with_disagreement": 0,
+        "vote_counts": {
+          "r0": 3,
+          "r1": 3,
+          "r2": 3,
+          "r3": 3
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w4388551909",
+      "bronze_units": 4,
+      "matched_units": 3,
+      "our_claims": 26,
+      "coverage": 0.7083,
+      "coverage_score_only": 0.7083,
+      "measured_quality": 1.0,
+      "score_with_measured_quality": 0.7083,
+      "importance_mix": {
+        "central": 3,
+        "supporting": 1,
+        "minor": 0
+      },
+      "real_coverage_median": 0.6618,
+      "real_coverage_median_scoring": 0.8897,
+      "real_coverage_max": 1.0,
+      "beats_real_median": false,
+      "missing_units": [
+        "Integration of multi-modal single-cell and spatial profiling enables high-resolution mapping of cell types to "
+      ],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 4,
+        "units_with_disagreement": 0,
+        "vote_counts": {
+          "r0": 0,
+          "r1": 3,
+          "r2": 3,
+          "r3": 3
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w4388792900",
+      "bronze_units": 3,
+      "matched_units": 2,
+      "our_claims": 23,
+      "coverage": 0.5882,
+      "coverage_score_only": 0.5882,
+      "measured_quality": 1.0,
+      "score_with_measured_quality": 0.5882,
+      "importance_mix": {
+        "central": 2,
+        "supporting": 1,
+        "minor": 0
+      },
+      "real_coverage_median": 0.9,
+      "real_coverage_median_scoring": 1.0,
+      "real_coverage_max": 1.0,
+      "beats_real_median": false,
+      "missing_units": [
+        "BTNL3/BTNL8-mediated interactions select for and maintain a population of CD103+ Vγ4 intraepithelial γδ T cell"
+      ],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 3,
+        "units_with_disagreement": 2,
+        "vote_counts": {
+          "r0": 1,
+          "r1": 2,
+          "r2": 3
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w4390732271",
+      "bronze_units": 3,
+      "matched_units": 2,
+      "our_claims": 150,
+      "coverage": 0.6667,
+      "coverage_score_only": 0.6667,
+      "measured_quality": 1.0,
+      "score_with_measured_quality": 0.6667,
+      "importance_mix": {
+        "central": 3,
+        "supporting": 0,
+        "minor": 0
+      },
+      "real_coverage_median": 0.0,
+      "real_coverage_median_scoring": 0.1564,
+      "real_coverage_max": 0.6216,
+      "beats_real_median": true,
+      "missing_units": [
+        "Key translational barriers — notably non-specific/off-target editing, delivery challenges to tumor sites, immu"
+      ],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 3,
+        "units_with_disagreement": 1,
+        "vote_counts": {
+          "r0": 3,
+          "r1": 3,
+          "r2": 1
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w4392103766",
+      "bronze_units": 4,
+      "matched_units": 4,
+      "our_claims": 96,
+      "coverage": 1.0,
+      "coverage_score_only": 1.0,
+      "measured_quality": 1.0,
+      "score_with_measured_quality": 1.0,
+      "importance_mix": {
+        "central": 3,
+        "supporting": 1,
+        "minor": 0
+      },
+      "real_coverage_median": 0.325,
+      "real_coverage_median_scoring": 0.925,
+      "real_coverage_max": 1.0,
+      "beats_real_median": true,
+      "missing_units": [],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 4,
+        "units_with_disagreement": 0,
+        "vote_counts": {
+          "r0": 3,
+          "r1": 3,
+          "r2": 3,
+          "r3": 3
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w4406365831",
+      "bronze_units": 5,
+      "matched_units": 4,
+      "our_claims": 150,
+      "coverage": 0.8696,
+      "coverage_score_only": 0.8696,
+      "measured_quality": 0.7275,
+      "score_with_measured_quality": 0.6326,
+      "importance_mix": {
+        "central": 2,
+        "supporting": 3,
+        "minor": 0
+      },
+      "real_coverage_median": 0.8286,
+      "real_coverage_median_scoring": 1.0,
+      "real_coverage_max": 1.0,
+      "beats_real_median": false,
+      "missing_units": [
+        "Polygenic scores derived from the GWAS predict case-control status for major depression across ancestries, wit"
+      ],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 5,
+        "units_with_disagreement": 0,
+        "vote_counts": {
+          "r0": 3,
+          "r1": 3,
+          "r2": 3,
+          "r3": 0,
+          "r4": 3
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w4407203151",
+      "bronze_units": 3,
+      "matched_units": 3,
+      "our_claims": 29,
+      "coverage": 1.0,
+      "coverage_score_only": 1.0,
+      "measured_quality": 1.0,
+      "score_with_measured_quality": 1.0,
+      "importance_mix": {
+        "central": 3,
+        "supporting": 0,
+        "minor": 0
+      },
+      "real_coverage_median": 0.8219,
+      "real_coverage_median_scoring": 1.0,
+      "real_coverage_max": 1.0,
+      "beats_real_median": false,
+      "missing_units": [],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 3,
+        "units_with_disagreement": 1,
+        "vote_counts": {
+          "r0": 3,
+          "r1": 2,
+          "r2": 3
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w4409855429",
+      "bronze_units": 3,
+      "matched_units": 3,
+      "our_claims": 150,
+      "coverage": 1.0,
+      "coverage_score_only": 1.0,
+      "measured_quality": 0.75,
+      "score_with_measured_quality": 0.75,
+      "importance_mix": {
+        "central": 2,
+        "supporting": 1,
+        "minor": 0
+      },
+      "real_coverage_median": 0.3455,
+      "real_coverage_median_scoring": 0.6545,
+      "real_coverage_max": 0.7869,
+      "beats_real_median": true,
+      "missing_units": [],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 3,
+        "units_with_disagreement": 0,
+        "vote_counts": {
+          "r0": 3,
+          "r1": 3,
+          "r2": 3
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w4411929908",
+      "bronze_units": 5,
+      "matched_units": 5,
+      "our_claims": 150,
+      "coverage": 1.0,
+      "coverage_score_only": 1.0,
+      "measured_quality": 1.0,
+      "score_with_measured_quality": 1.0,
+      "importance_mix": {
+        "central": 3,
+        "supporting": 2,
+        "minor": 0
+      },
+      "real_coverage_median": 0.0792,
+      "real_coverage_median_scoring": 0.1188,
+      "real_coverage_max": 0.4026,
+      "beats_real_median": true,
+      "missing_units": [],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 5,
+        "units_with_disagreement": 0,
+        "vote_counts": {
+          "r0": 3,
+          "r1": 3,
+          "r2": 3,
+          "r3": 3,
+          "r4": 3
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w4414114341",
+      "bronze_units": 4,
+      "matched_units": 4,
+      "our_claims": 147,
+      "coverage": 1.0,
+      "coverage_score_only": 1.0,
+      "measured_quality": 1.0,
+      "score_with_measured_quality": 1.0,
+      "importance_mix": {
+        "central": 3,
+        "supporting": 1,
+        "minor": 0
+      },
+      "real_coverage_median": 0.7308,
+      "real_coverage_median_scoring": 0.8904,
+      "real_coverage_max": 1.0,
+      "beats_real_median": true,
+      "missing_units": [],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 4,
+        "units_with_disagreement": 2,
+        "vote_counts": {
+          "r0": 2,
+          "r1": 3,
+          "r2": 2,
+          "r3": 3
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w7128392847",
+      "bronze_units": 4,
+      "matched_units": 4,
+      "our_claims": 22,
+      "coverage": 1.0,
+      "coverage_score_only": 1.0,
+      "measured_quality": 1.0,
+      "score_with_measured_quality": 1.0,
+      "importance_mix": {
+        "central": 3,
+        "supporting": 1,
+        "minor": 0
+      },
+      "real_coverage_median": 0.38,
+      "real_coverage_median_scoring": 0.886,
+      "real_coverage_max": 1.0,
+      "beats_real_median": true,
+      "missing_units": [],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 4,
+        "units_with_disagreement": 1,
+        "vote_counts": {
+          "r0": 3,
+          "r1": 2,
+          "r2": 3,
+          "r3": 3
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w7135084011",
+      "bronze_units": 3,
+      "matched_units": 2,
+      "our_claims": 49,
+      "coverage": 0.7692,
+      "coverage_score_only": 0.7692,
+      "measured_quality": 0.98,
+      "score_with_measured_quality": 0.7538,
+      "importance_mix": {
+        "central": 1,
+        "supporting": 2,
+        "minor": 0
+      },
+      "real_coverage_median": 0.7941,
+      "real_coverage_median_scoring": 0.7941,
+      "real_coverage_max": 1.0,
+      "beats_real_median": false,
+      "missing_units": [
+        "A contrastive clonality loss that enforces local proximity of identical TCR clones in the reconstructed TCR sp"
+      ],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 3,
+        "units_with_disagreement": 3,
+        "vote_counts": {
+          "r0": 2,
+          "r1": 2,
+          "r2": 1
+        }
+      }
+    },
+    {
+      "paper_id": "openalex_w7166575844",
+      "bronze_units": 4,
+      "matched_units": 3,
+      "our_claims": 90,
+      "coverage": 0.8125,
+      "coverage_score_only": 0.8125,
+      "measured_quality": 0.2475,
+      "score_with_measured_quality": 0.2011,
+      "importance_mix": {
+        "central": 1,
+        "supporting": 3,
+        "minor": 0
+      },
+      "real_coverage_median": 0.5702,
+      "real_coverage_median_scoring": 0.7738,
+      "real_coverage_max": 0.9321,
+      "beats_real_median": true,
+      "missing_units": [
+        "The presented Brain2Qwerty pipeline operates offline at the sentence level and requires keystroke-aligned segm"
+      ],
+      "unjudged_units": [],
+      "vote_stats": {
+        "passes": 3,
+        "units_voted": 4,
+        "units_with_disagreement": 1,
+        "vote_counts": {
+          "r0": 3,
+          "r1": 3,
+          "r2": 1,
+          "r3": 3
+        }
+      }
+    }
+  ],
+  "judge_usage": {
+    "prompt_tokens": 339927,
+    "completion_tokens": 106013,
+    "reasoning_tokens": 83072,
+    "cache_read_tokens": 322432,
+    "cache_write_tokens": null,
+    "total_tokens": 445940,
+    "cost_usd": 0.22446055,
+    "cost_kind": "actual",
+    "source": "openai_compatible_response",
+    "requests": 66,
+    "elapsed_seconds": 1368.951,
+    "by_stage": {
+      "coverage_judge": {
+        "prompt_tokens": 339927,
+        "completion_tokens": 106013,
+        "reasoning_tokens": 83072,
+        "cache_read_tokens": 322432,
+        "cache_write_tokens": null,
+        "total_tokens": 445940,
+        "cost_usd": 0.22446055,
+        "cost_kind": "actual",
+        "source": "openai_compatible_response",
+        "requests": 66,
+        "elapsed_seconds": 1368.951
+      }
+    },
+    "model": "openrouter/openai/gpt-5-mini"
+  },
+  "caveats": [
+    "Bronze is reconstructed with a named model; the validator uses its own private model, so unit sets differ.",
+    "Silver units created by other miners' accepted claims are not modelled and are not observable.",
+    "Silver units our own accepted claims would create are deliberately excluded, so this is a floor."
+  ]
+}

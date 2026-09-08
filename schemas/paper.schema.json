@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Paper",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["paper_id", "title", "authors", "year"],
+  "properties": {
+    "paper_id": {
+      "type": "string"
+    },
+    "doi": {
+      "type": "string"
+    },
+    "pmid": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "journal": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "open_access": {
+      "type": "boolean"
+    }
+  }
+}

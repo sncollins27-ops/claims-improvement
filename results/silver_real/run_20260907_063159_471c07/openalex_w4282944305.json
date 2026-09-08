@@ -1,0 +1,72 @@
+{
+  "paper_id": "openalex_w4282944305",
+  "run_id": "run_20260907_063159_471c07",
+  "silver_record_id": "silver_run_20260907_063159_471c07_openalex_w4282944305",
+  "bronze_record_id": "bronze_286f8207eccd46fe",
+  "units": [
+    {
+      "silver_unit_id": "silver_unit_48c47863a534939e",
+      "statement": "Pre-existing adaptive immunity to the RNA-editing enzyme RfxCas13d is prevalent in humans, encompassing IgG antibodies detected by ELISA in the majority of donors, antigen-induced CD4 and CD8 T-cell proliferative responses in most tested samples (CD4 in 24/24, CD8 in 23/24), inflammatory cytokine production (IFN-Î³, IL-17, TNF-Î±) by CD4 T cells in 21/24 (88%) samples, and CD8 cytotoxic potential evidenced by CD107a upregulation in 12/15 (80%) samples â with the overall prevalence and magnitude comparable to that observed for SpCas9 and SaCas9 controls.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 127,
+      "source_span_ids": [
+        "openalex_w4282944305-span-0001",
+        "openalex_w4282944305-span-0002",
+        "openalex_w4282944305-span-0003",
+        "openalex_w4282944305-span-0004",
+        "openalex_w4282944305-span-0006",
+        "openalex_w4282944305-span-0010",
+        "openalex_w4282944305-span-0011",
+        "openalex_w4282944305-span-0013"
+      ],
+      "source_quotes": [
+        "( a , n = 23 biologically independent samples. c , n = 15 biologically independent samples.).",
+        "(*n*= 19 biologically independent samples). **b**, Representative flow cytometric analyses of CD4 and CD8 T cell proliferation following stimulation with Cas proteins.",
+        "**RfxCas13d in healthy donors using ELISA and T cell culture assays.",
+        "**c,d**, Aggregate data showing the frequency of proliferated CD4 (**c**) or CD8 (**d**) T cells (*n*= 24 biologically independent samples).",
+        "4 | Correlation between antibody and CD 4 T cell responses to recombinant Cas proteins.** Frequency of CD4 T cell IFNÎ³ (top) or IL-17 (bottom) responses were plotted against the corresponding IgG antibodies detected recognizing each of the Cas proteins in 13 samples in which paired data was available."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_3f911a8f47458626",
+      "statement": "RfxCas13d shares 35â37% protein sequence identity with Cas13d from related human-gut Ruminococcus species, and detectable T-cell responses to peptide pools 1â3 suggest that sequence homology contributes to cross-reactive recognition, though responses to other pools indicate that homology does not fully explain pre-existing cellular immunity.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 24,
+      "source_span_ids": [
+        "openalex_w4282944305-span-0001",
+        "openalex_w4282944305-span-0003",
+        "openalex_w4282944305-span-0004",
+        "openalex_w4282944305-span-0006",
+        "openalex_w4282944305-span-0007",
+        "openalex_w4282944305-span-0014"
+      ],
+      "source_quotes": [
+        "**Homology analysis.** Protein sequence for RfxCas13d (accession number: SFX39573.1) was aligned with one of the top hits found using NCBI Protein Blast, Cas13d from a human gut isolate *Ruminococcus sp*.",
+        "7), suggesting that T cells and antibod- ies that recognize regions with greater homology may be sufficiently cross-reactive to respond to RfxCas13d.",
+        "A protein BLAST search found that the next closest protein matches were Cas13d from other bacteria belonging to *Ruminococcus* sp., such as *R. bicirculans*, a dominant human colonic bacteriaÂ¹Â².",
+        "AM28-13.** Protein sequence alignment between RfxCas13d (top row) and human gut isolate AM28-13 (bottom row) with dark blue boxes highlighting homologous amino acids.",
+        "All protein preparations had less than 0.2 EU/ml of endotoxins when tested at a final concentration of 10 Âµg/ml. Residual E. coli host cell proteins were present at less than 2% in all protein preparations ..."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_0913a69e978b8ae0",
+      "statement": "SpCas9-directed CD8 T-cell IFN-Î³ or TNF-Î± cytokine responses were detected in 9/15 (60%) samples and CD107a cytotoxic responses in 13/15 (87%) samples, providing comparative context for the RfxCas13d cellular response data.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4282944305-span-0004"
+      ],
+      "source_quotes": [
+        "For SpCas9 CD8 T cell responses, 9/15 (60%) samples showed IFN-Î³ or TNF-Î± cytokine responses",
+        "For SpCas9 CD8 T cell responses, 9/15 (60%) samples showed IFN-Î³ or TNF-Î± cytokine responses, and 13/15 (87%) samples showed CD107a cytotoxic responses."
+      ]
+    }
+  ],
+  "fetched_at": "2026-09-07T21:42:38Z"
+}

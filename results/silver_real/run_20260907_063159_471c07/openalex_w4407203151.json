@@ -1,0 +1,429 @@
+{
+  "paper_id": "openalex_w4407203151",
+  "run_id": "run_20260907_063159_471c07",
+  "silver_record_id": "silver_run_20260907_063159_471c07_openalex_w4407203151",
+  "bronze_record_id": "bronze_f18f2111b936cbb2",
+  "units": [
+    {
+      "silver_unit_id": "silver_unit_9b72631c9851e487",
+      "statement": "Mitochondria within a single cell can specialize into distinct metabolic subpopulations: one population performs oxidative phosphorylation (OXPHOS) via FâFO-ATP synthase, while a second population performs reductive biosynthesis of proline and ornithine via P5CS, allowing competing uses of glutamate to proceed concurrently.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 42,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "1 demonstrate the presence of metabolically distinct mitochondrial subpopulations within one cell.",
+        "3 However, only little is known about the metabolic specialization of mitochondrial subpopulations.",
+        "As a consequence, increased\noxidative utilization of glutamate impairs the metabolization of glutamate for biosynthesis of proline and ornithine.",
+        "Cellular ATP demand creates metabolically distinct subpopulations",
+        "Collectively, these experiments suggest the presence of two distinct\nsubpopulations of mitochondria within the same cell that either\ndisplay high OXPHOS activity or use glutamate for reductive proline\nand ornithine biosynthesis (Fig. 1)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_edc00720c5cef4c3",
+      "statement": "Metabolic specialization of mitochondrial subpopulations is coupled to distinct ultrastructure and molecular composition: the oxidative subpopulation retains cristae and FâFO-ATP synthase, while the reductive subpopulation contains P5CS filaments and lacks cristae, demonstrating that protein assembly and inner-membrane architecture partition alongside metabolic function.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 26,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "<u>den Brave et al.</u>\n\nFig. 1 Mitochondrial fusion and fission enable formation of mitochondrial subcompartments.",
+        "Analyzing the ultrastructure of these mitochon- dria by correlative light and electron microscopy revealed that P5CS-\n\ncontaining mitochondria are devoid of cristae membranes, whereas P5CS-negative mitochondria retained normal cristae.",
+        "Formation of mitochondrial subpopulations would involve segregation of a subset of assembled protein machineries like the F1Fo-ATP synthase into two distinct populations of mitochondria.",
+        "Immunofluorescence analysis revealed that mitochon- dria containing P5CS filaments were devoid of the F1FO-ATP synthase subunits, whereas mitochondria containing the F1FO-ATP synthase lack P5CS filaments.",
+        "Immunofluorescence analysis revealed that mitochon- dria containing P5CS filaments were devoid of the FâFO-ATP synthase subunits, whereas mitochondria containing the FâFO-ATP synthase lack P5CS filaments."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_6bdad5934c9c6666",
+      "statement": "Mitochondrial fusion and fission dynamics regulate the establishment and maintenance of functionally distinct mitochondrial subpopulations: fusion deficiency impairs OXPHOS while preserving proline synthesis, whereas fission blockade prevents subpopulation formation and reduces proline synthesis while OXPHOS remains efficient.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 59,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "1 How are these mitochondrial subpopulations formed?",
+        "3 However, only little is known about the metabolic specialization of mitochondrial subpopulations.",
+        "<u>den Brave et al.</u>\n\nFig. 1 Mitochondrial fusion and fission enable formation of mitochondrial subcompartments.",
+        "As a consequence, increased oxidative utilization of glutamate impairs the metabolization of glutamate for biosynthesis of proline and ornithine.",
+        "Conversely, cells blocked in mitochondrial fission are\nimpaired in the formation of the mitochondrial subpopulations and\nshowed efficient OXPHOS, while their ability to synthesize proline was\nreduced (Fig. 1)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_c51cbf28672cfd8a",
+      "statement": "The molecular mechanisms that govern P5CS filament segregation, cristae loss, selective protein import into distinct mitochondrial subpopulations, and protease-mediated quality control remain unresolved and represent open questions for future research.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 25,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "1 demonstrate the presence of metabolically distinct mitochondrial subpopulations within one cell.",
+        "4 Future studies have to reveal whether further mitochondrial subpopulations are formed to maintain the full metabolic capacity of the cell under different growth or stress conditions.",
+        "Formation of mitochondrial subpopulations would involve segregation of a subset of assembled protein machineries like the F1Fo-ATP synthase into two distinct populations of mitochondria.",
+        "Furthermore, distinct proteases remove orphaned and aberrant proteins within mitochondria.",
+        "Furthermore, distinct proteases remove orphaned and aberrant proteins within mitochondria. 2 Whether these proteases monitor formation of mitochondrial subpopulations remains to be estab- lished."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_bf520b3582f95718",
+      "statement": "P5CS (delta-1-pyrroline-5-carboxylate synthase) performs the rate-limiting step in proline and ornithine biosynthesis by reducing glutamate to glutamate semialdehyde, and links the three main mitochondrial enzyme clustersâTCA cycle, amino acid biosynthesis, and one-carbon metabolism.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001"
+      ],
+      "source_quotes": [
+        "P5CS performs the rate-limiting step in the biosynthesis of proline and ornithine, which is the reduction of glutamate to glutamate semialdehyde.",
+        "The presence of two distinct mitochondrial subpopulations allows conversion of glutamate to an intermediate of the tricarboxylic acid (TCA) cycle to power ATP production via OXPHOS and the metabolization of glutamate via P5CS for reductive biosynthesis of proline and ornithine in the same cell."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_ba586b873c85174a",
+      "statement": "Glutamate can be deaminated to Î±-ketoglutarate, which enters the TCA cycle to fuel ATP production via OXPHOS, representing the competing oxidative use of the common precursor glutamate.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "Glutamate can also be deaminated to Î±-ketoglutarate, which is utilized in the TCA cycle to power ATP production via OXPHOS.",
+        "Glutamate can also be deaminated to Î±-ketoglutarate,\nwhich is utilized in the TCA cycle to power ATP production via\nOXPHOS.",
+        "The presence of two distinct mitochondrial subpopulations\nallows conversion of glutamate to an intermediate of the tricarboxylic acid (TCA) cycle to power ATP production via OXPHOS and the metabolization\nof glutamate via P5CS for reductive biosynthesis of proline and ornithine in the same cell."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_2b81de77980e94db",
+      "statement": "In the proposed model, P5CS forms filaments under high-OXPHOS conditions, which are then separated into distinct mitochondrial subpopulations by mitochondrial fission.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "In this scenario, P5CS forms filaments, which are then separated into mitochondrial subpopulations by fission.",
+        "In this\nscenario, P5CS forms filaments, which are then separated into\nmitochondrial subpopulations by fission.",
+        "The molecular mechanisms that govern\nsegregation of P5CS into filaments or lead to the loss of the cristae\nremain unknown."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_23d9d52fa427286e",
+      "statement": "Mitochondrial heterogeneity has been previously described with respect to differences in morphology, ultrastructure, membrane potential, and protein composition, establishing a broader context for the metabolic specialization reported in this study.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "Mitochondrial heterogeneity has been described with respect to differences in morphology, ultrastructure, subcellular localization, membrane potential or mitochondrial DNA. 3 For instance, the separation of mitochondria with depleted membrane potential or mitochondrial DNA mutations facilitates the clearance of damaged mitochondria by mitophagy. 3 However, only little is known about the metabolic specialization of mitochondrial subpopulations.",
+        "Mitochondrial heterogeneity has been described with\nrespect to differences in morphology, ultrastructure, subcellular\nlocalization, membrane potential or mitochondrial DNA.",
+        "Mitochondrial heterogeneity: subpopulations with distinct metabolic. . ."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_54069e4670c87efd",
+      "statement": "The conversion of glutamate represents a critical branching point in mitochondrial metabolism: deamination to Î±-ketoglutarate feeds the TCA cycle for OXPHOS, whereas reduction via P5CS feeds proline and ornithine biosynthesis, and this branch point is resolved by spatial partitioning into distinct mitochondrial subpopulations.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 6,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "The data also reflect the importance of the functional separation of mitochondria into subpopulations to maintain full capacity to utilize glutamate for oxidative and reductive pathways in the cell (Fig.",
+        "The presence of two distinct mitochondrial subpopulations allows conversion of glutamate to an intermediate of the tricarboxylic acid (TCA) cycle to power ATP production via OXPHOS and the metabolization of glutamate via P5CS for reductive biosynthesis of proline and ornithine in the same cell.",
+        "Thus, the conversion of glutamate represents a critical branching point of mitochondrial metabolism, where the conversion of glutamate to an intermediate of the TCA cycle competes with the utilization of glutamate for reductive biosynthesis of amino acids.",
+        "Glutamate can also be deaminated to Î±-ketoglutarate, which is utilized in the TCA cycle to power ATP production via OXPHOS.",
+        "Interestingly, under conditions of increased glutamate utilization for OXPHOS, no reduction in the synthesis of proline and ornithine was observed."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_d90a5ce9e4d6b3e0",
+      "statement": "The study is limited to high-OXPHOS conditions in mouse embryonic fibroblasts; whether the same subpopulation types exist under different growth conditions, stress states, or in non-fibroblast cell types is not established and remains to be tested.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 4,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001"
+      ],
+      "source_quotes": [
+        "The authors determined the activity of these pathways under conditions of high or low OXPHOS activity in mouse embryonic fibroblasts.",
+        "4 Future studies have to reveal whether further mitochondrial subpopulations are formed to maintain the full metabolic capacity of the cell under different growth or stress conditions."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_808d8f5ff25e88bb",
+      "statement": "Mitochondrial heterogeneity adds a new layer of complexity to the organization of cellular metabolism: subpopulation formation preserves the cell's full capacity for both oxidative and biosynthetic pathways and suggests that mitochondrial heterogeneity is context-dependent rather than a fixed property.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 6,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "1 demonstrate the presence of metabolically distinct mitochondrial subpopulations within one cell.",
+        "3 However, only little is known about the metabolic specialization of mitochondrial subpopulations.",
+        "Conversely, cells blocked in mitochondrial fission are impaired in the formation of the mitochondrial subpopulations and showed efficient OXPHOS, while their ability to synthesize proline was reduced (Fig.",
+        "Their role in the establishment of mitochondrial heterogeneity may contribute to the multitude of defects observed in cells with impaired mitochondrial fusion and fission.",
+        "In conclusion, the presence of mitochondrial heterogeneity suggests further complexity of coordination and regulation of established"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_6faa6f8d1b09c125",
+      "statement": "The mitochondrial network is not merely a conduit for distributing metabolites; its remodeling through fusion and fission represents a relevant lever for preserving or altering the cell's metabolic capacities by controlling subpopulation formation.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "Impaired mitochondrial fission results in network expansion and prevents separation of F1FO-ATP synthase and P5CS into distinct mitochondrial populations.",
+        "The mitochondrial network 2 is constantly remodeled by opposing fusion and fission events.",
+        "Mitochondrial heterogeneity: subpopulations with distinct metabolic... <u>den Brave et al.</u>\n\nFig. 1 Mitochondrial fusion and fission enable formation of mitochondrial subcompartments. Middle panel: Under conditions of high oxidative\n\nphosphorylation (OXPHOS) distinct populations of mitochondria are formed dependent on mitochondrial fusion and fission.",
+        "These observations suggest a critical role of mitochondrial fusion and fissioninestablishing"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_dd538895371e462f",
+      "statement": "The oxidative mitochondrial pool is defined by the presence of FâFO-ATP synthase subunits and normal cristae membranes, powers ATP production via OXPHOS, and is mutually exclusive with the biosynthetic pool.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 6,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "One mitochondrial subpopulation contains cristae and the FâFO-ATP synthase",
+        "were devoid of the FâFO-ATP synthase subunits",
+        "devoid of the FâFO-ATP synthase subunits",
+        "contains cristae and the FâFO-ATP synthase",
+        "Mitochondrial heterogeneity: subpopulations with distinct metabolic... <u>den Brave et al.</u>\n\nFig. 1 Mitochondrial fusion and fission enable formation of mitochondrial subcompartments. Middle panel: Under conditions of high oxidative\n\nphosphorylation (OXPHOS) distinct populations of mitochondria are formed dependent on mitochondrial fusion and fission."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_1a2bf909a19d37b1",
+      "statement": "The biosynthetic mitochondrial pool is defined by P5CS filaments and performs reductive proline and ornithine biosynthesis; the segregation of P5CS and ATP synthase into different pools enables simultaneous operation of both metabolic programs within the same cell.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 5,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "a second population lacks cristae and contains filaments of the enzyme delta-1- pyrroline-5 carboxylate synthase (P5CS) required for proline and ornithine synthesis",
+        "formation of enzymatic active P5CS-containing filaments",
+        "Mitochondrial heterogeneity: subpopulations with distinct metabolic... <u>den Brave et al.</u>\n\nFig. 1 Mitochondrial fusion and fission enable formation of mitochondrial subcompartments. Middle panel: Under conditions of high oxidative\n\nphosphorylation (OXPHOS) distinct populations of mitochondria are formed dependent on mitochondrial fusion and fission.",
+        "mitochondrial heterogeneity: subpopulations with distinct metabolic... <u>den brave et al.</u> fig. 1 mitochondrial fusion and fission enable formation of mitochondrial subcompartments. middle panel: under conditions of high oxidative phosphorylation (oxphos) distinct populations of mitochondria are formed dependent on mitochondrial fusion and fission.",
+        "reductive biosynthesis of proline and ornithine"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_543274fbe79522a2",
+      "statement": "The STRING database analysis of mitochondrial enzyme networks defined three main functional clustersâTCA cycle, amino acid biosynthesis, and one-carbon metabolismâand identified P5CS as a hub enzyme linking all three clusters.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 11,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "Ryu and colleagues used the STRING database that combines results of experimental data and computa- tional analysis for prediction of protein-protein interactions to model the protein networks of mitochondrial enzymes.",
+        "They defined three main clusters, the tricarboxylic acid (TCA) cycle, amino acid biosynthesis and one-carbon metabolism, and found that the delta- 1-pyrroline-5 carboxylate synthase (P5CS) links all three clusters.",
+        "Thus, the conversion of glutamate represents a critical branching point of mitochondrial metabolism, where the conversion of glutamate to an intermediate of the TCA cycle competes with the utilization of glutamate for reductive biosynthesis of amino acids.",
+        "In order to understand how different metabolic pathways are interconnected in mitochondria, Ryu and colleagues used the STRING database that combines results of experimental data and computa- tional analysis for prediction of protein-protein interactions to model the protein networks of mitochondrial enzymes.",
+        "One mitochondrial subpopulation contains cristae and the FâFO-ATP synthase, whereas a second population lacks cristae and contains filaments of the enzyme delta-1- pyrroline-5 carboxylate synthase (P5CS) required for proline and ornithine synthesis."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_744bd55abb062447",
+      "statement": "Under high-OXPHOS conditions, P5CS forms enzymatically active filaments that cluster into discrete spots within mitochondria; this filament formation is reversible and appears to promote segregation of P5CS into distinct mitochondrial regions as an early step in subpopulation generation.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 13,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "Such conditions lead to the formation of enzymatic active P5CS-containing filaments, clustering the protein into few spots inside mitochondria.",
+        "The reversible formation of P5CS filaments appears to promote the segregation of this protein into distinct regions within mitochondria.",
+        "1 demonstrate the presence of metabolically distinct mitochondrial subpopulations within one cell.",
+        "Surprisingly, distinct subpopulations of mitochondria are present within the same cell under conditions with high OXPHOS activities such as growth on medium with galactose as the carbon source.",
+        "Eukaryotic cells contain different cellular organelles that provide compartments to spatially separate processes including metabolic pathways."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_01474d373a28da01",
+      "statement": "In adipocytes, a distinct mitochondrial subpopulation binds to lipid droplets and exhibits increased OXPHOS activity to deliver ATP for lipid droplet expansion, extending the principle of mitochondrial metabolic specialization beyond the described fibroblast system.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 6,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "One mitochondrial subpopulation binds to lipid droplets, whereas a second one is present in the cytosol.",
+        "The lipid droplet-associated mitochondria exhibit an increased OXPHOS activity to deliver ATP for lipid droplet expansion.",
+        "These observations suggest a critical role of mitochondrial fusion and fissioninestablishingmitochondrial heterogeneity with functionally distinct subpopulations.",
+        "In addition to the presented study, distinct mitochondrial subpopulations with specific metabolic activities have been found in adipocytes. 4 One mitochondrial subpopulation binds to lipid droplets, whereas a second one is present in the cytosol.",
+        "Mitochondria bound to lipid droplets have unique bioener- getics, composition, and dynamics that support lipid droplet expansion."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_dc094e1ce8f19b67",
+      "statement": "The metabolic specialization described in this study is distinct from previously characterized mitochondrial quality-control heterogeneity in which mitochondria with depleted membrane potential or mtDNA mutations are separated for removal; this work extends mitochondrial heterogeneity to functional metabolic specialization.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 4,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "3 However, only little is known about the metabolic specialization of mitochondrial subpopulations.",
+        "Mitochondrial complexome reveals quality-control pathways of protein import.",
+        "Mitochondrial heterogeneity has been described with respect to differences in morphology, ultrastructure, subcellular localization, membrane potential or mitochondrial DNA. 3 For instance, the separation of mitochondria with depleted membrane potential or mitochondrial DNA mutations facilitates the clearance of damaged mitochondria by mitophagy. 3 However, only little is known about the metabolic specialization of mitochondrial subpopulations.",
+        "In a recent study published in Nature, Ryu et al. 1 demonstrate the presence of metabolically distinct mitochondrial subpopulations within one cell.",
+        "cells blocked in mitochondrial fission are impaired in the formation of the mitochondrial subpopulations"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_b7e6c000264288fc",
+      "statement": "The separation of mitochondria into functionally distinct pools is reversible and context-dependent, suggesting that mitochondrial subpopulation formation is one mechanism by which cells preserve full metabolic capacity and dynamically allocate resources.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 10,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "Mitochondrial proteases: multifaceted reg-\nNature 635, 746â754 (2024).",
+        "One mitochondrial subpopulation contains the FâFO-ATP synthase for oxidative phosphorylation (OXPHOS), while a second population performs reductive biosynthesis of proline and ornithine.",
+        "The reversible formation of P5CS filaments appears to promote the segregation of this protein into distinct regions within mitochondria.",
+        "The data also reflect the importance of the functional separation of mitochondria into subpopulations to maintain full capacity to utilize glutamate for oxidative and reductive pathways in the cell (Fig. 1).",
+        "The separation of organelles into distinct subpopulations provides a new layer of complexity to organize and compartmentalize cellular functions."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_08f6f96ffcff89b9",
+      "statement": "The study employed mouse embryonic fibroblasts grown on galactose medium to induce high OXPHOS activity, using proline production and OXPHOS activity as functional readouts to assess the metabolic capacity of mitochondrial subpopulations.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 4,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "Surprisingly, distinct subpopulations of mitochondria are present within the same cell under conditions with high OXPHOS activities such as growth on medium with galactose as the carbon source.",
+        "The authors determined the activity of these pathways under conditions of high or low OXPHOS activity in mouse embryonic fibroblasts.",
+        "Collectively, these experiments suggest the presence of two distinct subpopulations of mitochondria within the same cell that either display high OXPHOS activity or use glutamate for reductive proline and ornithine biosynthesis (Fig.",
+        "The presence of two distinct mitochondrial subpopulations allows conversion of glutamate to an intermediate of the tricarboxylic acid (TCA) cycle to power ATP production via OXPHOS and the metabolization of glutamate via P5CS for reductive biosynthesis of proline and ornithine in the same cell.",
+        "One mitochondrial subpopulation contains cristae and the FâFO-ATP synthase, whereas a second population lacks cristae and contains filaments of the enzyme delta-1- pyrroline-5 carboxylate synthase (P5CS) required for proline and ornithine synthesis."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_ddd5078715f24098",
+      "statement": "The discovery of metabolically specialized mitochondrial subpopulations adds a new layer of complexity to cellular metabolism and suggests that organelle subpopulation formation may be a general principle for coordinating multifunctional organelles beyond mitochondria.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 14,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "The functional heterogeneity of mitochondria raises interesting questions about the molecular mechanism separating and main- taining mitochondrial subpopulations.",
+        "The separation of organelles into distinct subpopulations provides a new layer of complexity to organize and compartmentalize cellular functions.",
+        "In conclusion, the presence of mitochondrial heterogeneity suggests further complexity of coordination and regulation of established mitochondrial processes.",
+        "3 For instance, the separation of mitochondria with depleted membrane potential or mitochondrial DNA mutations facilitates the clearance of damaged mitochondria by mitophagy.",
+        "4 Future studies have to reveal whether further mitochondrial subpopulations are formed to maintain the full metabolic capacity of the cell under different growth or stress conditions."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_f69ecb7da0a4afea",
+      "statement": "The study uses STRING database analysis, immunofluorescence, correlative light/electron microscopy, and complexome profiling to characterize mitochondrial composition and organization.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 7,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "In order to understand how different metabolic pathways are interconnected in mitochondria, Ryu and colleagues used the STRING database that combines results of experimental data and computa- tional analysis for prediction of protein-protein interactions to model the protein networks of mitochondrial enzymes.",
+        "1 demonstrate the presence of metabolically distinct mitochondrial subpopulations within one cell.",
+        "These observations suggest a critical role of mitochondrial fusion and fissioninestablishingmitochondrial heterogeneity with functionally distinct subpopulations.",
+        "Interestingly, systematic complexome profiling of yeast mitochondria revealed that mitochondrial proteins form a large number of protein assemblies.",
+        "Mitochondrial complexome reveals quality-control pathways of protein import."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_80047fae1142448b",
+      "statement": "P5CS catalyzes the rate-limiting reduction of glutamate to glutamate semialdehyde in proline and ornithine biosynthesis, enabling tracing of the reductive branch of mitochondrial glutamate metabolism.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4407203151-span-0001",
+        "openalex_w4407203151-span-0002"
+      ],
+      "source_quotes": [
+        "1 P5CS performs the rate-limiting step in the biosynthesis of proline and ornithine, which is the reduction of glutamate to glutamate semialdehyde.",
+        "One mitochondrial subpopulation contains cristae and the FâFO-ATP synthase, whereas a second population lacks cristae and contains filaments of the enzyme delta-1- pyrroline-5 carboxylate synthase (P5CS) required for proline and ornithine synthesis.",
+        "One mitochondrial subpopulation contains the FâFO-ATP synthase for oxidative phosphorylation (OXPHOS), while a second population performs reductive biosynthesis of proline and ornithine."
+      ]
+    }
+  ],
+  "fetched_at": "2026-09-07T21:42:41Z"
+}

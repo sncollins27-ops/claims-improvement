@@ -1,0 +1,177 @@
+{
+  "paper_id": "openalex_w7135084011",
+  "run_id": "run_20260907_063159_471c07",
+  "silver_record_id": "silver_run_20260907_063159_471c07_openalex_w7135084011",
+  "bronze_record_id": "bronze_df1c9897201fdf5f",
+  "units": [
+    {
+      "silver_unit_id": "silver_unit_cfddb1c5eedcade2",
+      "statement": "Contrastive clonality loss preserves local clone-level TCR information useful for the joint RNA-TCR representation, without enforcing global TCR-space geometry.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 21,
+      "source_span_ids": [
+        "openalex_w7135084011-span-0006",
+        "openalex_w7135084011-span-0008",
+        "openalex_w7135084011-span-0018",
+        "openalex_w7135084011-span-0033",
+        "openalex_w7135084011-span-0034",
+        "openalex_w7135084011-span-0035"
+      ],
+      "source_quotes": [
+        "## ARTICLE IN PRESS\n\nproduces:\n\n*Âµ*RNA*, Ï*RNA= *E*RNA(xRNA*|l*) (1) *Âµ*TCR*, Ï*TCR= *E*TCR(xTCR*|l*) (2) z *â¼N* (mean(*Âµ*RNA*, Âµ*TCR)*,* mean(*Ï*RNA*, Ï*TCR)) (3) ËxRNA= *D*RNA(z*|l*) (4) ËxTCR= *D*TCR(z*|l*) (5)\n\nThe encoders and decoders are trained jointly under a variational autoen- coder regime [52].",
+        "## ARTICLE IN PRESS\n\nsequences differ at only a single position are just as far in the RNA space as\n\n# ARTICLE IN PRESS",
+        "For all other pairs of cells, their reconstructions in the TCR space must be sepa- rated by at least the margin *Î´*.",
+        "For the TCR space, we introduce the *contrastive clonality loss* ... where *dij*= *||* ËxTCR *iâ* ËxTCR *j||*, *I* = 1 if *i* = *j* ... and *Î´* is a chosen margin. Thus the full reconstruction loss is: *Lrecon*= *||*xRNA*-â* Ëx *||* + *L.* (8)",
+        "For the TCR space, we introduce the *contrastive clonality loss* ... where *dij*= *||* ËxTCR *iâ* ËxTCR *j||*, *I* = 1 if *i* = *j* and *Iij*= 0 if *i \\u2260 j*, and *Î´* is a chosen margin."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_9546c2d20f39c0d6",
+      "statement": "Within the analyzed conventional T-cell datasets, transcriptomic state provides a stronger basis for predicting T-cell fate and clonal expansion than global TCR sequence similarity; TCR-extrinsic effects are the larger determinant of T-cell fate.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 21,
+      "source_span_ids": [
+        "openalex_w7135084011-span-0007",
+        "openalex_w7135084011-span-0008",
+        "openalex_w7135084011-span-0010",
+        "openalex_w7135084011-span-0016",
+        "openalex_w7135084011-span-0018",
+        "openalex_w7135084011-span-0034",
+        "openalex_w7135084011-span-0035",
+        "openalex_w7135084011-span-0036"
+      ],
+      "source_quotes": [
+        "## ARTICLE IN PRESS\n\nproduces:\n\n*Âµ*RNA*, Ï*RNA= *E*RNA(xRNA*|l*) (1) *Âµ*TCR*, Ï*TCR= *E*TCR(xTCR*|l*) (2) z *â¼N* (mean(*Âµ*RNA*, Âµ*TCR)*,* mean(*Ï*RNA*, Ï*TCR)) (3) ËxRNA= *D*RNA(z*|l*) (4) ËxTCR= *D*TCR(z*|l*) (5)\n\nThe encoders and decoders are trained jointly under a variational autoen- coder regime [52].",
+        "Despite the weak relationship between TCR sequence similarity and gene expression, there was a strong relationship between gene expression and clonal expansion",
+        "Despite the weak relationship between TCR sequence similarity and gene expression, there was a strong relationship between gene expression and clonal expansion, which allowed for accurate prediction of T cell state and clonal expan- sion from pre-treatment blood samples.",
+        "Despite the weak relationship between TCR sequence similarity and gene expression, there was a strong relationship between gene expression and clonal expansion, which allowed for accurate prediction of T cell state and clonal expansion from pre-treatment blood samples.",
+        "Despite the weak relationship between TCR sequence similarity and gene expression, there was a strong relationship between gene expression and clonal expansion... TCR-extrinsic effects were the larger determinant of T cell fate."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_303eba8ee3a68dfe",
+      "statement": "TRIM's expansion-prediction signal generalizes across disease settings (HNSCC, CRC, pan-cancer), tissue compartments (blood, tumor, adjacent normal), and patient subgroups (age, sex, cell count), remaining robust in leave-one-out and leave-group-out evaluations.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 21,
+      "source_span_ids": [
+        "openalex_w7135084011-span-0002",
+        "openalex_w7135084011-span-0005",
+        "openalex_w7135084011-span-0010",
+        "openalex_w7135084011-span-0012",
+        "openalex_w7135084011-span-0013",
+        "openalex_w7135084011-span-0014",
+        "openalex_w7135084011-span-0016",
+        "openalex_w7135084011-span-0017"
+      ],
+      "source_quotes": [
+        "## ARTICLE IN PRESS\n\nand leave-more-cells-out, respectively; for CD4 cells, 0.83, 0.83, and 0.81; and\n\n# ARTICLE IN PRESS",
+        "## ARTICLE IN PRESS\n\ngen and cytokine exposure, variable costimulatory molecules, epigenetic plas- ticity, and stochastic cell fate bifurcations [48,49].",
+        "A more detailed clustering analysis also demonstrated strong agreement between real and generated data, with high correlations in median TCR clone counts across clustering resolutions (*r* = 0*.*94, 0*.*85, and 0*.*86 for *k* = 10, 25, and 50, respectively; Supplementary Fig.",
+        "Across different subgroup analyses, TRIM maintained strong performance, with AUCs for all T cells of 0.83, 0.90, and 0.81 for leave-female-out, leave-young-out,",
+        "Across different subgroup analyses, TRIM maintained strong performance, withAUCs for all T cells of 0.83, 0.90, and 0.81 for leave-female-out, leave-young-out,"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_0dc5034c998c5757",
+      "statement": "Expansion predictions recover biologically meaningful transcriptional programs: predicted expanding clones show enrichment for cell-cycle and proliferation pathways, effector/cytotoxic function, activation/co-stimulation markers, metabolism/signaling genes identified through saliency analysis, and alignment with pre-treatment expansion signatures and pathological response markers.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 80,
+      "source_span_ids": [
+        "openalex_w7135084011-span-0001",
+        "openalex_w7135084011-span-0012",
+        "openalex_w7135084011-span-0013",
+        "openalex_w7135084011-span-0014",
+        "openalex_w7135084011-span-0015",
+        "openalex_w7135084011-span-0016",
+        "openalex_w7135084011-span-0019",
+        "openalex_w7135084011-span-0020",
+        "openalex_w7135084011-span-0030",
+        "openalex_w7135084011-span-0031",
+        "openalex_w7135084011-span-0033",
+        "openalex_w7135084011-span-0036",
+        "openalex_w7135084011-span-0037"
+      ],
+      "source_quotes": [
+        "# ARTICLE IN PRESS\n\n**a** Real Data Generated Data **b** TCR diversity per condition (all patients) (all patients, leave-one-out)\n\n2.3+ Log Clone Count\ngenerated -\n\nUMAP2 UMAP2\n\nShannon entropy Shannon entropy-real UMAP1 UMAP1 0 **c** TCR Expansion Prediction RNA TCR RNA & TCR (from blood pre-treatment to blood post -treatment) TRIM KNN True Positive Rate\n\nTrue Positive Rate MLP\n\nTrue Positive Rat",
+        "## ARTICLE IN PRESS\n\n**a b** Signature genes Differentially expressed genes previously identified in expanded clonesfor (non-)expansion\n\n*1. CXCL13*Log\n*2. KLRC2*\n*3. GZMB*\n*4. KLRD1*-fold Non\n*5. GNLY*\n*6. EOMES*Expanded signature gene\n*7. IFNG*-change rank in pseudoclones-expanded signature gene\n*8. ZNF683*\n*9. PRF1*\n*10. GZMA*\n*11. LAG3*\n*12. CST7*\n*13. GZMK*\n*14. SAMD3*\n*15. TIGIT*\n*16.",
+        "## ARTICLE IN PRESS\n\nDR+ and found that this is also strongly correlated with pathological response (Fig. 5e). Our modelâs predictions are highly correlated with the real per-patient data (*r* = 0*.*90). Overall, these analyses show that TRIM generates accurate and meaningful predictions of clonal expansion.",
+        "## ARTICLE IN PRESS\n\nFig. 6: TRIM identifies genes associated with clonal expansion.\n\n# ARTICLE IN PRESS",
+        "## ARTICLE IN PRESS\n\ngen and cytokine exposure, variable costimulatory molecules, epigenetic plas- ticity, and stochastic cell fate bifurcations [48,49]."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_3490bbbc7d3a2ffc",
+      "statement": "TRIM is a multimodal conditional variational autoencoder with separate RNA and TCR encoders, shared latent space, separate decoders, contrastive clonality loss, and learned condition embeddings (patient, source, timepoint) enabling joint reconstruction and cross-modal generation.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 27,
+      "source_span_ids": [
+        "openalex_w7135084011-span-0002",
+        "openalex_w7135084011-span-0003",
+        "openalex_w7135084011-span-0005",
+        "openalex_w7135084011-span-0006",
+        "openalex_w7135084011-span-0009",
+        "openalex_w7135084011-span-0010",
+        "openalex_w7135084011-span-0015",
+        "openalex_w7135084011-span-0016",
+        "openalex_w7135084011-span-0017",
+        "openalex_w7135084011-span-0018",
+        "openalex_w7135084011-span-0019",
+        "openalex_w7135084011-span-0020",
+        "openalex_w7135084011-span-0028",
+        "openalex_w7135084011-span-0029",
+        "openalex_w7135084011-span-0030",
+        "openalex_w7135084011-span-0033",
+        "openalex_w7135084011-span-0034",
+        "openalex_w7135084011-span-0035"
+      ],
+      "source_quotes": [
+        "The encoders and decoders are trained jointly under a variational autoencoder regime.",
+        "### Results\n\nTRIM uses a conditional variational autoencoder to predict treatment effect in tumor from pre-treatment blood\n\nTo integrate the information from RNA and TCR sequences in T cells, and make predictions on T cell states in unseen tissue-sites and time points, we pro- pose TRIM, a generative model based on a conditional VAE (Fig.",
+        "Here we present the TCR- RNA Integrating Model (TRIM), a multi-modal variational autoencoder framework that integrates RNA-TCR data and predicts T cell clonal- ity and transcriptional states.",
+        "TRIM learns a shared representation of the data conditioned on patient, tissue source, and treatment timepoint.",
+        "b, Based on single-cell RNA and TCR sequencing data on the more easily accessible T cells in each patientâs blood pre-treatment, TRIM can predict the intra-tumor and post-treatment T cell distributions."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_48e4b905b0caf12d",
+      "statement": "TRIM predicts intra-tumor and post-treatment T cell clonal expansion and transcriptional status from pre-treatment blood-derived paired RNA+TCR data, outperforming RNA-only or TCR-only baselines and capturing faithful TCR repertoire diversity (Shannon entropy, clone size distributions) across held-out patients and conditions.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 11,
+      "source_span_ids": [
+        "openalex_w7135084011-span-0001",
+        "openalex_w7135084011-span-0002",
+        "openalex_w7135084011-span-0005",
+        "openalex_w7135084011-span-0006",
+        "openalex_w7135084011-span-0008",
+        "openalex_w7135084011-span-0010",
+        "openalex_w7135084011-span-0012",
+        "openalex_w7135084011-span-0013",
+        "openalex_w7135084011-span-0015",
+        "openalex_w7135084011-span-0016",
+        "openalex_w7135084011-span-0028",
+        "openalex_w7135084011-span-0033",
+        "openalex_w7135084011-span-0036"
+      ],
+      "source_quotes": [
+        "By explicitly modeling clonal identity and expansion dy- namics, TRIM enables predictions that go beyond label classification to generate full gene expression profiles and clonal behaviors for unseen cells at later time points or different tissue sites, overcoming the limitations of previous methods and unlocking new applications in immunological inference.",
+        "In all settings, TRIM accurately predicted intra-tumor T cell clonal expansion and transcriptional status based on T cells from blood or normal tissue before treatment, demonstrating its utility in modeling multimodal T cell data and predicting T cell response to treatment and disease progression.",
+        "TRIM is trained on paired single-cell RNA and TCR sequencing data from T cells in circulating blood before treatment, and it then predicts the state of the T cell population at the single-cell level in both pre- and post-treatment tumors, as well as in post-treatment blood samples (Fig.",
+        "We also observe that RNA-seq profiles contain limited information about a cellâs TCR sequence beyond its clonality (as we will discuss in more detail later), a direct translation between TCR and RNA is not possible.",
+        "### Results\n\nTRIM uses a conditional variational autoencoder to predict treatment effect in tumor from pre-treatment blood\n\nTo integrate the information from RNA and TCR sequences in T cells, and make predictions on T cell states in unseen tissue-sites and time points, we pro- pose TRIM, a generative model based on a conditional VAE (Fig."
+      ]
+    }
+  ],
+  "fetched_at": "2026-09-07T21:42:43Z"
+}

@@ -1,0 +1,335 @@
+{
+  "paper_id": "openalex_w4376609015",
+  "run_id": "run_20260907_063159_471c07",
+  "silver_record_id": "silver_run_20260907_063159_471c07_openalex_w4376609015",
+  "bronze_record_id": "bronze_0d43c2dfb4e87513",
+  "units": [
+    {
+      "silver_unit_id": "silver_unit_57f50370fc065759",
+      "statement": "TomoTwin uses deep metric learning to embed 3D macromolecular subvolumes from cryo-electron tomograms into a high-dimensional embedding space organized by structural similarity, enabling de novo localization of previously unseen proteins without requiring manual annotation or retraining for each new protein. The model learns a generalized representation of macromolecular shapes during training on a diverse set of simulated protein structures and transfers that representation to new targets.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 43,
+      "source_span_ids": [
+        "openalex_w4376609015-span-0001",
+        "openalex_w4376609015-span-0002",
+        "openalex_w4376609015-span-0003",
+        "openalex_w4376609015-span-0004",
+        "openalex_w4376609015-span-0006",
+        "openalex_w4376609015-span-0007",
+        "openalex_w4376609015-span-0008",
+        "openalex_w4376609015-span-0009",
+        "openalex_w4376609015-span-0011",
+        "openalex_w4376609015-span-0012",
+        "openalex_w4376609015-span-0013",
+        "openalex_w4376609015-span-0014",
+        "openalex_w4376609015-span-0017",
+        "openalex_w4376609015-span-0021"
+      ],
+      "source_quotes": [
+        "# The picking model generalizes across protein shape and size\n\nBecause a priori information on the ground-truth locations of all mol- ecules in a tomogram is not possible to obtain for experimental data, we first assessed the picking performance of the trained model on simulated tomograms containing proteins from the training set.",
+        "# TomoTwin generalizes to unseen proteins",
+        "# TomoTwin generalizes to unseen proteins\n\nTo assess the generalization of the general picking model to particles that were not in the training dataset, we measured the picking performance on a simulated tomogram, called the generalization tomogram that con- tains proteins not included in the training set, with the reference-based workflow.",
+        "## Article\n\n**[https://doi.org/10.1038/s41592-023-01878-z**](https://doi.org/10.1038/s41592-023-01878-z**)\n\n**a b** **c d**\n\n1.0\n0.8\n0.6\nF1 score\n\n0.4\n0.2\n90Â° 90Â° 0\n\n100 50 20120 proteins proteins proteins proteins\n\n**Fig.",
+        "## Article\n\n**[https://doi.org/10.1038/s41592-023-01878-z**](https://doi.org/10.1038/s41592-023-01878-z**)\n\n**c a b**\n\n1.00 â0.55\nParticles in bad classes\n\nParticles in good classes\n\nApof RhsA TcdA1\n\n0.953 0.784 0.730\n**Fig. 3 | TomoTwin accurately localizes multiple proteins simultaneously**\n\nRhsA, 2196; and TcdA1, 122. Scale bar, 50 nm."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_f7832999ec167777",
+      "statement": "TomoTwin provides two complementary localization workflows: a reference-based workflow that starts by identifying an example particle of the target protein in the tomogram and mapping it to the embedding space, and a clustering workflow that starts by selecting a region of the embedding manifold and mapping back to the tomogram, enabling exploratory de novo localization without prior target knowledge when protein abundance is sufficient to form a detectable cluster.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 29,
+      "source_span_ids": [
+        "openalex_w4376609015-span-0001",
+        "openalex_w4376609015-span-0002",
+        "openalex_w4376609015-span-0003",
+        "openalex_w4376609015-span-0004",
+        "openalex_w4376609015-span-0005",
+        "openalex_w4376609015-span-0006",
+        "openalex_w4376609015-span-0007",
+        "openalex_w4376609015-span-0008",
+        "openalex_w4376609015-span-0011",
+        "openalex_w4376609015-span-0012",
+        "openalex_w4376609015-span-0013",
+        "openalex_w4376609015-span-0021",
+        "openalex_w4376609015-span-0023"
+      ],
+      "source_quotes": [
+        "## Article\n\n**[https://doi.org/10.1038/s41592-023-01878-z**](https://doi.org/10.1038/s41592-023-01878-z**)\n\n**a b**\n\n**c** **d**\n\n6,958 subvolumes 7,039 subvolumes at 4.644 Ã per pixel at 4.644 Ã per pixel\n\n3D refinement with 3D refinement with spherical reference spherical reference\n\n3D classification 3D classification without alignment without alignment\n\n3D refinement 3D refinement\n\n**Fig.",
+        "## Article\n\n**[https://doi.org/10.1038/s41592-023-01878-z**](https://doi.org/10.1038/s41592-023-01878-z**)\n\n**a b** **c d**\n\n1.0\n0.8\n0.6\nF1 score\n\n0.4\n0.2\n90Â° 90Â° 0\n\n100 50 20120 proteins proteins proteins proteins\n\n**Fig.",
+        "## Article\n\npicking for each protein in the generalization tomogram (Fig. 5b,e and Extended Data Fig. 7f,g). The clustering-based picking identified each protein with high accuracy across a range of sizes, indicating that this workflow provides an alternative, but effective, method of particle picking.",
+        "Conversely, the clustering workflow offers advantages for exploring the macromolecular contents of a tomogram without requiring a priori knowledge.",
+        "Each workflow picks particles with high accuracy, but the reference-based approach begins with identifying an example of the protein of interest in the tomogram and mapping this to the embedding space whereas the clustering workflow begins with identifying a region of the embedding space and mapping this to the tomogram."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_d712bd9971b35018",
+      "statement": "A TomoTwin model trained on simulated tomograms of 120 structurally diverse proteins generalizes to previously untrained proteins in held-out generalization tomograms (median F1 0.82), maintains robust picking accuracy across crowded environments (mean F1 0.82 in fivefold-density tomograms), and transfers to experimental tomograms including cellular ribosomes in Mycoplasma pneumoniae. Picking accuracy is consistent across the full protein size range from 142 kDa to 896 kDa.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 64,
+      "source_span_ids": [
+        "openalex_w4376609015-span-0001",
+        "openalex_w4376609015-span-0002",
+        "openalex_w4376609015-span-0003",
+        "openalex_w4376609015-span-0004",
+        "openalex_w4376609015-span-0005",
+        "openalex_w4376609015-span-0006",
+        "openalex_w4376609015-span-0007",
+        "openalex_w4376609015-span-0008",
+        "openalex_w4376609015-span-0011",
+        "openalex_w4376609015-span-0015",
+        "openalex_w4376609015-span-0017",
+        "openalex_w4376609015-span-0018",
+        "openalex_w4376609015-span-0019",
+        "openalex_w4376609015-span-0020"
+      ],
+      "source_quotes": [
+        "## Article\n\n**[https://doi.org/10.1038/s41592-023-01878-z**](https://doi.org/10.1038/s41592-023-01878-z**)\n\n**b**\n\n1 2 4 6 5 3 7\n\n**ca d**\n\n**e**\n\n|2|3|4|5 6|7||\n|---|---|---|---|---|---|\n|2DF7|1FPY|1JZ8|1OAO|1E9R|1AVO|\n||Size (kDa)||896 F1 (ref)|632|512 1.00|\n\nCluster 1 PDB\n\n**Fig. 5 | TomoTwin enables structural data mining on the embedding**\n\nthat corresponds to the 70S ribosome.",
+        "## Article\n\nTo date, no methods have demonstrated the accuracy of deep learning-based picking with an unexceptionable level of usability for cryo-ET.",
+        "## Article\n\npicking for each protein in the generalization tomogram (Fig. 5b,e and Extended Data Fig. 7f,g). The clustering-based picking identified each protein with high accuracy across a range of sizes, indicating that this workflow provides an alternative, but effective, method of particle picking.",
+        "## Article [https://doi.org/10.1038/s41592-023-01878-z](https://doi.org/10.1038/s41592-023-01878-z)\n\nOne of the principal advantages of cryo-ET is the ability to directly **a** visualize proteins in their native cellular environments.",
+        "**nature methods**\n\n### Article [https://doi.org/10.1038/s41592-023-01878-z](https://doi.org/10.1038/s41592-023-01878-z)\n\n# TomoTwin: generalized 3D localization of macromolecules in cryo-electron\n\n# tomograms with structural data mining\n\n**Received: 24 June 2022 Gavin Rice** **1,2** **, Thorsten Wagner** **1,2** **, Markus Stabrin** **1** **, Oleg Sitsel** **1** **,** **Daniel PrumbaumÂ¹ & Stefan"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_fcda2b87b972f83c",
+      "statement": "The organized embedding manifold enables structural data mining: embedding clusters correspond to proteins organized globally by size, density-based unsupervised clustering (HDBSCAN) can automatically recover five of seven proteins of interest, and cluster-targeted picks followed by subtomogram averaging yield structurally interpretable reconstructions including the 70S bacterial ribosome at 15.5 Ã and a previously undescribed RNA-polymerase-like protein at 18.6 Ã in Yersinia entomophaga tomograms.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 33,
+      "source_span_ids": [
+        "openalex_w4376609015-span-0001",
+        "openalex_w4376609015-span-0002",
+        "openalex_w4376609015-span-0005",
+        "openalex_w4376609015-span-0006",
+        "openalex_w4376609015-span-0007",
+        "openalex_w4376609015-span-0008",
+        "openalex_w4376609015-span-0020"
+      ],
+      "source_quotes": [
+        "# Structural data mining on the embedding manifold\n\nThe embedding feature of TomoTwin maps tomograms as a series of embeddings organized according to their macromolecular contents.",
+        "5 | TomoTwin enables structural data mining on the embedding manifold.",
+        "Additionally, the appearance of protein clusters in the clustering workflow largely depends on the copy number of the protein in the tomogram.",
+        "After embedding the tomograms, performing the clustering workflow on one tomogram revealed several clusters, two of which corresponded to identifiable biomolecules in the tomograms",
+        "After embedding the tomograms, performing the clustering workflow on one tomogram revealed several clusters, two of which corresponded to identifiable biomolecules in the tomograms (Fig. 6a,b)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_34ac9708557b3f0c",
+      "statement": "TomoTwin's picking utility is bounded by several documented limitations: the model is not designed to pick membrane proteins or filaments, cannot distinguish multiple conformations of the same protein at the picking level due to the 10 Ã/pixel representation, has an approximate lower size limit of 150 kDa for reliable generalization, clustering effectiveness depends on sufficient protein copy number, and picking accuracy degrades with restricted tilt range and reduced electron dose.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 59,
+      "source_span_ids": [
+        "openalex_w4376609015-span-0001",
+        "openalex_w4376609015-span-0002",
+        "openalex_w4376609015-span-0003",
+        "openalex_w4376609015-span-0004",
+        "openalex_w4376609015-span-0005",
+        "openalex_w4376609015-span-0006",
+        "openalex_w4376609015-span-0007",
+        "openalex_w4376609015-span-0008",
+        "openalex_w4376609015-span-0011",
+        "openalex_w4376609015-span-0012",
+        "openalex_w4376609015-span-0013",
+        "openalex_w4376609015-span-0015",
+        "openalex_w4376609015-span-0017",
+        "openalex_w4376609015-span-0023"
+      ],
+      "source_quotes": [
+        "## Article\n\n1:2:2:20:10 (tobacco mosaic virus:apoferritin:liposomes:Tc toxin:RhsA) was chosen.\n\n**Grid preparation** Grids were prepared using a Vitrobot Mark IV (Thermo Fisher Scientific) at 4 Â°C and 100% humidity. Then 4 Âµl of the freshly prepared mixture were applied to glow-discharged (Quorum GloQube) R1.2/1.4 Cu 200 (Quantifoil) grids.",
+        "## Article\n\npicking for each protein in the generalization tomogram (Fig. 5b,e and Extended Data Fig. 7f,g). The clustering-based picking identified each protein with high accuracy across a range of sizes, indicating that this workflow provides an alternative, but effective, method of particle picking.",
+        "Additionally, the appearance of protein clusters in the clustering workflow largely depends on the copy number of the protein in the tomogram.",
+        "Architecture PDB ID from TomoTwin 3D CNN in first training epoch and best model after of 3D convolutional network utilized by TomoTwin to embed tomogram 600 training epochs.",
+        "By removing the steps of anno- tating training data and retraining a picking model for each protein, TomoTwin combines the accuracy of deep learning-based particle picking with a high degree of usability and allows for the simultaneous picking of several proteins of interest in each tomogram."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_98c2ad6c06f2046e",
+      "statement": "TomoTwin demonstrates superior F1 picking performance compared to EMAN2 template matching across a validation dataset of 120 proteins (30 kDa to 2.7 mDa), showing greater consistency in accuracy across the full protein-size range with the advantage persisting on the generalization tomogram.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 15,
+      "source_span_ids": [
+        "openalex_w4376609015-span-0003",
+        "openalex_w4376609015-span-0004",
+        "openalex_w4376609015-span-0005",
+        "openalex_w4376609015-span-0008",
+        "openalex_w4376609015-span-0021"
+      ],
+      "source_quotes": [
+        "TomoTwin demonstrated superior picking performance compared to EMAN2 as measured by the F1 accuracy score",
+        "as well as a greater consist- ency in picking accuracy across the entire range of proteins",
+        "Moreover, this advantage was carried over to picking performance on the generalization tomogram",
+        "# TomoTwin establishes new standards of accuracy and usability\n\nTo establish how TomoTwin compares with available methods for par- ticle picking in cryo-ET, we directly measured the picking performance first against template matching and subsequently against nongeneral- izing machine learning workflows.",
+        "Despite this, picking on the validation tomograms demonstrated high accuracy for proteins across a wide array of shapes and sizes."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_d083da93141e95af",
+      "statement": "In a crowded Chlamydomonas reinhardtii pyrenoid tomogram, TomoTwin localized RuBisCO with a recall of 0.8 using a single reference particle, and the resulting picks were sufficient for direct subtomogram averaging, producing a reconstruction of comparable or superior quality to the published EMD-3694 map at 13.7 Ã resolution in under one hour total working time without manual annotation or retraining.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 15,
+      "source_span_ids": [
+        "openalex_w4376609015-span-0002",
+        "openalex_w4376609015-span-0004",
+        "openalex_w4376609015-span-0005",
+        "openalex_w4376609015-span-0013",
+        "openalex_w4376609015-span-0022"
+      ],
+      "source_quotes": [
+        "When applied to a tomogram from the same dataset (EMPIAR 10694), TomoTwin was able to localize RuBisCO with a recall of 0.8",
+        "based on a single reference",
+        "These picks proved suffi- cient for direct analysis by STA surpassing the previously reported resolution while maintaining a highly efficient workflow",
+        "Comparing the map of RuBisCO from TomoTwin raw picked particles 42 with the original (EMD-3694) shows that the reconstruction from TomoTwin picked particles is of a comparable if not superior quality",
+        "thus TomoTwin picking did not limit the resolution that can be achieved by STA"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_f2f6f5294e0920ef",
+      "statement": "TomoTwin's generalized model is robust across common cryo-ET acquisition variations despite being trained on simulated data alone: restricting the tilt range from 60 to 50 and 40 degrees reduces mean F1 by 5.4% and 10.3% respectively, reducing total dose from 150 to 135 and 120 e/ÃÂ² reduced performance by 2.3% and 8.6% respectively, and the model maintained effective picking across detector types and tilt-step differences.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 14,
+      "source_span_ids": [
+        "openalex_w4376609015-span-0002",
+        "openalex_w4376609015-span-0003",
+        "openalex_w4376609015-span-0004",
+        "openalex_w4376609015-span-0005",
+        "openalex_w4376609015-span-0006",
+        "openalex_w4376609015-span-0007",
+        "openalex_w4376609015-span-0008",
+        "openalex_w4376609015-span-0013",
+        "openalex_w4376609015-span-0021"
+      ],
+      "source_quotes": [
+        "F1 scores are 0.49, 0.73 and 0.82 for a model trained on 20, 50 and 100 proteins, respectively",
+        "Overall, we observe a 5.4 and 10.3% decrease in mean F1 picking performance when the tilt range is restricted from â60Â°60Â° to â50Â°50Â° and â40Â°40Â°, respectively",
+        "the model trained on the full training set of 120 proteins reached a mean F1 score of 0.82 but has the highest median F1 score of 0.85",
+        "Tilt range, tilt step, total dose, and detector implementation with a density as reference generated by the respective protein used for each dataset picked with TomoTwin.",
+        "While trained solely on simulated tomograms with a total dose of 150 e/ÃÂ², collected from tilt series ranging from â60Â° to 60Â° in 2Â° increments, the aforementioned picking examples on experimental tomograms demonstrate several additional degrees of generaliza- tion including tilt range, tilt step, total dose and detector (Extended Data Fig."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_5f2ddb873ed73db6",
+      "statement": "In the TomoTwin embedding space, individual protein clusters are globally organized by size, with structurally similar macromolecules placed closer together, and particles of the same protein are embedded consistently regardless of whether they are inside or outside lysed cells, indicating that the embedding captures intrinsic structural features rather than cellular context.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 13,
+      "source_span_ids": [
+        "openalex_w4376609015-span-0001",
+        "openalex_w4376609015-span-0002",
+        "openalex_w4376609015-span-0003",
+        "openalex_w4376609015-span-0004",
+        "openalex_w4376609015-span-0005",
+        "openalex_w4376609015-span-0006",
+        "openalex_w4376609015-span-0007",
+        "openalex_w4376609015-span-0008",
+        "openalex_w4376609015-span-0012",
+        "openalex_w4376609015-span-0013"
+      ],
+      "source_quotes": [
+        "Also notable in the visualized embeddings is the fact that individual protein clusters are globally organized by size",
+        "indicating that the model accurately represents similarities in macromolecular shapes as distance in the embedding space",
+        "The embedding feature of TomoTwin maps tomograms as a series of embeddings organized according to their macromolecular contents.",
+        "These clusters represent common structural moieties in the tomogram including prominently expressed proteins, but also in the case of experimental data, membranes, fidu- cials and embeddings containing off centered proteins.",
+        "individual protein clusters are globally organized by size"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_9712137280b7c74a",
+      "statement": "The clustering workflow achieves picking accuracy comparable to or slightly better than the reference-based workflow (mean F1 0.84 vs 0.82) across the generalization tomogram, identified each protein with high accuracy across a range of sizes with no false positives for well-separated clusters, and can be combined with HDBSCAN to automatically locate five of seven proteins of interest.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 21,
+      "source_span_ids": [
+        "openalex_w4376609015-span-0002",
+        "openalex_w4376609015-span-0003",
+        "openalex_w4376609015-span-0004",
+        "openalex_w4376609015-span-0005",
+        "openalex_w4376609015-span-0006",
+        "openalex_w4376609015-span-0007",
+        "openalex_w4376609015-span-0008",
+        "openalex_w4376609015-span-0023"
+      ],
+      "source_quotes": [
+        "In both cases there were no false-positive selections.",
+        "On average, the clustering performed slightly better (0.84 versus 0.82 mean F1 score).",
+        "One of which, when picked, produces accurate particle locations for 70S ribosomes nearly identical to those produced by the reference-based approach",
+        "further underlining the robustness of both workflows",
+        "# TomoTwin generalizes to unseen proteins\n\nTo assess the generalization of the general picking model to particles that were not in the training dataset, we measured the picking performance on a simulated tomogram, called the generalization tomogram that con- tains proteins not included in the training set, with the reference-based workflow."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_aeb480ef25123f46",
+      "statement": "The TomoTwin 3D CNN was trained on 123 data classes including 120 structurally dissimilar PDB-derived proteins (30 kDa to 2.7 mDa, mean cross-correlation 0.22), using triplet-loss metric learning with online semi-hard mining for 600 epochs, with hyperparameter optimization (Optuna) identifying group normalization as optimal over batch normalization and standard triplet loss outperforming SphereFace and ArcFace, with Adam as optimizer.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 56,
+      "source_span_ids": [
+        "openalex_w4376609015-span-0003",
+        "openalex_w4376609015-span-0004",
+        "openalex_w4376609015-span-0006",
+        "openalex_w4376609015-span-0011",
+        "openalex_w4376609015-span-0012",
+        "openalex_w4376609015-span-0013",
+        "openalex_w4376609015-span-0014",
+        "openalex_w4376609015-span-0015",
+        "openalex_w4376609015-span-0016",
+        "openalex_w4376609015-span-0017",
+        "openalex_w4376609015-span-0021",
+        "openalex_w4376609015-span-0024"
+      ],
+      "source_quotes": [
+        "# The picking model generalizes across protein shape and size\n\nBecause a priori information on the ground-truth locations of all mol- ecules in a tomogram is not possible to obtain for experimental data, we first assessed the picking performance of the trained model on simulated tomograms containing proteins from the training set.",
+        "A set of 120 structurally dissimilar pro- teins procured from the Protein Data Bank (PDB) ranging in size from 30 kDa to 2.7 mDa were used to simulate 84 tomograms containing a total of 120,000 particles (Extended Data Fig.",
+        "Whisker lines correspond to box edges Â±1.5 times increasing the number of proteins used during training, the mean F1 score for interquartile range.",
+        "## Article\n\n# Methods\n\n**Training data generation** TomoTwin was trained on 123 data classes composed of subvolumes of 120 different proteins, membranes, noise and fiducials from simulated tomograms.",
+        "During training, triplets are generated by online semihard triplet mining wherein a batch of subvolumes are embedded and triplets generated automatically with the negative subvolume embedding being selected from those only with a distance to the anchor greater than the positive subvolume embedding but not greater than a margin *Î±*miner:\n\n*D* ( **a**, **p**) < *D* ( **a**, **n**) < *d* ( **a**, **p**) + *Î±*miner\n\nwhere **a**, **p** and **n** are the embedding vectors of the anchor, positive and negative, respectively, and *Î±*miner is the margin of the miner."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_30c6fbb2b2fca175",
+      "statement": "TomoTwin is released as an open-source tool with a pretrained general model, provides a Napari-based GUI for interactive particle visualization and filtering, and integrates with standard STA workflows. The embedding computation takes approximately 80 min on a local workstation or 30 min on a distributed GPU setup. The code and data are openly released for reproducible use.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 37,
+      "source_span_ids": [
+        "openalex_w4376609015-span-0001",
+        "openalex_w4376609015-span-0002",
+        "openalex_w4376609015-span-0003",
+        "openalex_w4376609015-span-0004",
+        "openalex_w4376609015-span-0005",
+        "openalex_w4376609015-span-0006",
+        "openalex_w4376609015-span-0008",
+        "openalex_w4376609015-span-0011",
+        "openalex_w4376609015-span-0012",
+        "openalex_w4376609015-span-0013",
+        "openalex_w4376609015-span-0015"
+      ],
+      "source_quotes": [
+        "## Article\n\nTo date, no methods have demonstrated the accuracy of deep learning-based picking with an unexceptionable level of usability for cryo-ET.",
+        "By removing the steps of anno- tating training data and retraining a picking model for each protein, TomoTwin combines the accuracy of deep learning-based particle picking with a high degree of usability and allows for the simultaneous picking of several proteins of interest in each tomogram.",
+        "The advantage of nongeneralizing deep learning approaches,at bin2 Nyquist at bin2 (13.68 Ã) such as DeepFinderÂ¹â¹, over template matching has been previously(6.84 Ã per pix) demonstrated in the ability to achieve a low-resolution reconstruc- tion of the enzyme ribulose-1,5-biphosphase carboxylase-oxygenase (RuBisCO) with fewer particles than were needed when picking with template matchingÂ¹â¹.",
+        "Finally, the Pick function of TomoTwin in tandem with the graphical user interface uses these candidate positions along with adjustable size and similarity thresholds to pick particles in the tomogram producing a coordinate file for each protein of interest suitable for STA or other analysis (Fig.",
+        "The Map function of TomoTwin takes as input the tomogram embeddings and target embedding(s) and calculates the distance between the target(s) and each subvolume in the embeddings."
+      ]
+    }
+  ],
+  "fetched_at": "2026-09-07T21:42:39Z"
+}

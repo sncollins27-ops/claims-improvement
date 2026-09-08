@@ -1,0 +1,1021 @@
+{
+  "paper_id": "openalex_w4409855429",
+  "run_id": "run_20260907_063159_471c07",
+  "silver_record_id": "silver_run_20260907_063159_471c07_openalex_w4409855429",
+  "bronze_record_id": "bronze_adcda4336023d05e",
+  "units": [
+    {
+      "silver_unit_id": "silver_unit_1cc3ef9d18646a36",
+      "statement": "DGlyTAC is a modular platform that fuses Peptide-N-glycosidase F (PNGF) to a target-recognition nanobody or affibody via a stiff helical linker, enabling selective, in situ removal of N-glycans from chosen cell-surface glycoproteins while minimally affecting the global glycosylation landscape.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 11,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0001",
+        "openalex_w4409855429-span-0002",
+        "openalex_w4409855429-span-0005",
+        "openalex_w4409855429-span-0009",
+        "openalex_w4409855429-span-0010",
+        "openalex_w4409855429-span-0011"
+      ],
+      "source_quotes": [
+        "By leveraging the specificity of target recognition elements and the enzymatic activity of PNGF, this approach could revolutionize the study and therapeutic targeting of glycosylated immune check- point proteins.",
+        "DGlyTACs can specifically remove N-glycans from various target proteins on different cells.",
+        "Even using a high concentration (1 Î¼M) of PNGF, only one or two N-glycan sites can be removed",
+        "Here, we developed a novel technique for specifically removing N-glycans from a target protein on the cell surface, named deglycosylation targeting chimera (DGlyTAC), which employs a fusing protein consisting of Peptide-N-glycosidase F (PNG",
+        "Here, we developed a novel technique for specifically removing N-glycans from a target protein on the cell surface, named deglycosylation targeting chimera (DGlyTAC), which employs a fusing protein consisting of Peptide-N-glycosidase F (PNGF) and target-specific nanobody/ affibody (Nb/Af)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_d3d1035f77bfb79f",
+      "statement": "Targeted N-deglycosylation by DGlyTAC functionally alters immune-checkpoint interactions: removing N-glycans from CD24 and CD47 increases macrophage phagocytosis, and PD-L1 deglycosylation blocks PD-1 engagement without affecting PD-L1 stability or membrane abundance.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 4,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0003",
+        "openalex_w4409855429-span-0004",
+        "openalex_w4409855429-span-0005",
+        "openalex_w4409855429-span-0006",
+        "openalex_w4409855429-span-0010",
+        "openalex_w4409855429-span-0011"
+      ],
+      "source_quotes": [
+        "N-deglycosylation targeting chimera (DGlyTAC): a strategy for... <u>Li et al.</u>\n\nFig. 1 Design of DGlyTAC nbGFP-PNGF for protein-specific de-N-glycosylation on eGFP-CD24.",
+        "N-deglycosylation targeting chimera (DGlyTAC): a strategy for... <u>Li et al.</u>\n\n|Fig. 2|In vitro assessment of the effects of DGlyTAC on phagocytosis. (aâc) In vitro phagocytosis assays by incubating bone marrow-derived||||\n|---|---|---|---|---|\n|macrophages (BMDMs) with different types of cells.",
+        "N-deglycosylation targeting chimera (DGlyTAC): a strategy for... <u>Li et al.</u>  |Fig. 2|In vitro assessment of the effects of DGlyTAC on phagocytosis. (aâc) In vitro phagocytosis assays by incubating bone marrow-derived|||| |---|---|---|",
+        "N-glycosylation showing no impact on PD-L1 stability but vital for its interaction to PD-1",
+        "N-glycosylation showing no impact on PD-L1 stability but vital for its interaction to PD-1. aâc Immunoblotting of PD-L1 after 2-hour  incubation with concentration gradient of PNGF and nbhPDL1-PNGF/nbmPDL1-PNGF for MDA-MB231, 4T1, and E0771"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_830afd04447e345c",
+      "statement": "DGlyTACs exhibit good target specificity and potent immunotherapeutic capacity with immune checkpoints as targets, combining high specificity with therapeutic potential.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0010",
+        "openalex_w4409855429-span-0011"
+      ],
+      "source_quotes": [
+        "We have showed that DGlyTACs exhibit good target specificity and potent immunotherapeutic capacity with ICs as targets.",
+        "Secondly, the efficacy of the antibody-sialidase conjugates necessitates a sufficiently high expression level of the target protein;\nconversely, DGlyTACs merely require that the N-glycosylation of\ntarget proteins possesses biological functionality.",
+        "We have showed that DGlyTACs exhibit good target specificity\nand potent immunotherapeutic capacity with ICs as targets."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_b12e30a5fd6fda56",
+      "statement": "PD-1 and the PD-L1-targeting nanobody (nbhPD-L1) share the same binding site on PD-L1, explaining the structural basis for how DGlyTAC blocks PD-1 engagement.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0005",
+        "openalex_w4409855429-span-0013"
+      ],
+      "source_quotes": [
+        "The findings indicate that PD-1 and nbhPD-L1 utilize the same binding site on PD-L1.",
+        "NbPDL1-PNGF share the same binding sites as PD-1 and thus\nblocking the PD-1 and PD-L1 interaction (Fig. 3d).",
+        "PD-L1, PD-1, and nbhPD-L1 interactions alignment\nUpon alignment in PyMOL, the structures of PDB 4zqk (binding of\nPD-L1 to PD-1) and PDB 5jds (binding of PD-L1 to nbhPD-L1) are\nobtained.",
+        "The findings indicate that PD-1 and nbhPD-L1\nutilize the same binding site on PD-L1."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_bfe841d630fd4f3a",
+      "statement": "DGlyTAC generality is demonstrated across four nanobodies and three affibodies directed against seven distinct protein targets, showing broad applicability of the platform.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0009"
+      ],
+      "source_quotes": [
+        "DISCUSSION We have indicated the generality of DGlyTACs using four nanobodies and three affibodies directed against seven protein targets representing a wide range of N-glycosylated substrates.",
+        "We have indicated the generality of DGlyTACs using four\nnanobodies and three affibodies directed against seven protein\ntargets representing a wide range of N-glycosylated substrates."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_33579c91767a61a4",
+      "statement": "The glycosylation of PD-L1 controls its immunosuppressive function, and targeted removal of N-glycans via DGlyTAC can regulate PD-L1-mediated immune suppression.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0001",
+        "openalex_w4409855429-span-0005",
+        "openalex_w4409855429-span-0008"
+      ],
+      "source_quotes": [
+        "The glycosylation of PD-L1 can control its immunosuppressive function.",
+        "Glycosylation of cell surface growth factors is a\nsophisticated and crucial biological process that markedly\ninfluences cell function and behavior.",
+        "N-glycosylation is found to be essential for the function of various immune checkpoint proteins, playing a critical role in their\nstability and interaction with immune cells.",
+        "The glycosylation of PD-L1 can control its immunosuppressive\nfunction."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_48fd84c55e2932a8",
+      "statement": "Anti-PD-L1 and anti-PD-1 antibodies show high clinical toxicity toward lung, liver, and kidney, motivating the development of alternative approaches such as DGlyTAC with an improved safety profile.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0009"
+      ],
+      "source_quotes": [
+        "While, abPD-L1 and abPD-1 both show high clinical toxicity toward lung, liver and kidney. 40",
+        "While, abPD-L1 and abPD-1 both show high clinical toxicity toward lung, liver and kidney. 40 The accumulation of DGlyTAC in the heart and spleen is minimal."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_f0397dce64141c42",
+      "statement": "N-glycans on CD24 account for more than 82% of the CD24âSiglec-10 interaction, with both sialyl and non-sialyl N-glycans contributing; removal causes CD24 to lose most Siglec-10 binding, demonstrating the essential role of N-glycans in this immune checkpoint recognition.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 12,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0002",
+        "openalex_w4409855429-span-0003",
+        "openalex_w4409855429-span-0004",
+        "openalex_w4409855429-span-0011",
+        "openalex_w4409855429-span-0013"
+      ],
+      "source_quotes": [
+        "N-glycans accounted for more than 82% of the CD24/Siglec-10 interaction",
+        "de-N-glycosylated CD24 lost most of the interaction with Siglec-10",
+        "de-N-glycosylation of both CD24 and CD47 significantly increased the phagocytosis by macrophages",
+        "In CHO-CD24 cells, N-glycans accounted for more than 82% of the CD24/Siglec-10 interaction",
+        "nbGFP-PNGF increased phagocytosis by approximately 0.5-fold compared with that of control ... de-N-glycosylation of both CD24 and CD47 significantly increased the phagocytosis by macrophages"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_bc1f44e1004869f8",
+      "statement": "De-N-glycosylation of CD24 and CD47 by DGlyTAC significantly increases macrophage phagocytosis of tumor cells, indicating that N-glycans on these checkpoint proteins suppress innate immune clearance.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 17,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0001",
+        "openalex_w4409855429-span-0002",
+        "openalex_w4409855429-span-0003",
+        "openalex_w4409855429-span-0004",
+        "openalex_w4409855429-span-0013"
+      ],
+      "source_quotes": [
+        "N-glycans accounted for more than 82% of the CD24/Siglec-10 interaction",
+        "de-N-glycosylated CD24 lost most of the interaction with Siglec-10",
+        "de-N-glycosylation of both CD24 and CD47 significantly increased the phagocytosis by macrophages",
+        "In CHO-CD24 cells, N-glycans accounted for more than 82% of the CD24/Siglec-10 interaction",
+        "nbGFP-PNGF increased phagocytosis by approximately 0.5-fold compared with that of control ... de-N-glycosylation of both CD24 and CD47 significantly increased the phagocytosis by macrophages"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_38f46cba1b506d98",
+      "statement": "CD47 glycosylation contributes to anti-phagocytic checkpoint function: nbCD47-PNGF shifts CD47 bands to smaller sizes with partial N-glycosylation erased, and deglycosylated CD47 promotes macrophage phagocytosis.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 4,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0003",
+        "openalex_w4409855429-span-0004"
+      ],
+      "source_quotes": [
+        "Using nbCD47-PNGF, bands shifted to smaller sizes with partial N-glycosylation erased.",
+        "The highly glycosy- lated portion of CD47 is also essential for its interaction with ligands like integrins.",
+        "N-glycosylation sites on CD47 are responsible for keeping the interaction interface reachable.",
+        "There existed a significant increase in phagocytosis upon treatment of DGlyTAC nbCD47-PNGF rather than PNGF or the inhibitor"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_a04679217496ba70",
+      "statement": "DGlyTAC-mediated removal of N-glycans from PD-L1 (nbhPDL1-PNGF) causes complete or nearly complete deglycosylation, reduces PD-L1 molecular weight, and blocks PD-1 binding (~16-fold at 50 nM) in a dose-dependent manner while preserving PD-L1 membrane abundance and stability.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 20,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0005",
+        "openalex_w4409855429-span-0006",
+        "openalex_w4409855429-span-0009",
+        "openalex_w4409855429-span-0011"
+      ],
+      "source_quotes": [
+        "DGlyTAC nbhPDL1-PNGF can act as a PD-L1 specific glycosidase, which erase the N-glycans on PD-L1 as well as its binding to PD-1",
+        "DGlyTAC nbhPDL1-PNGF markedly decrease the binding between PD-1 and PD-L1 ( ~ 16-fold) at 50 nM",
+        "Our data showed that de-N-glycosylation had no effect on the stability of PD-L1",
+        "showed little change in PD-L1 protein level on the membrane of E0771 cells with or without nbmPDL1-PNGF",
+        "A significant reduction in the molecular weight of PD-L1 were observed in the presence of nbhPDL1-PNGF or nbmPDL1-PNGF"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_94c21f32ad297da5",
+      "statement": "PD-L1 deglycosylation by DGlyTAC has no effect on PD-L1 protein stability, membrane abundance, or expression rate, as shown by cycloheximide-chase immunoblots, confocal imaging, and flow cytometry.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 8,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0001",
+        "openalex_w4409855429-span-0002",
+        "openalex_w4409855429-span-0003",
+        "openalex_w4409855429-span-0005",
+        "openalex_w4409855429-span-0006"
+      ],
+      "source_quotes": [
+        "DGlyTAC nbhPDL1-PNGF can act as a PD-L1 specific glycosidase, which erase the N-glycans on PD-L1 as well as its binding to PD-1",
+        "DGlyTAC nbhPDL1-PNGF markedly decrease the binding between PD-1 and PD-L1 ( ~ 16-fold) at 50 nM",
+        "Our data showed that de-N-glycosylation had no effect on the stability of PD-L1",
+        "showed little change in PD-L1 protein level on the membrane of E0771 cells with or without nbmPDL1-PNGF",
+        "confocal imaging and flow cytometry were conducted and showed little change in PD-L1 protein level on the membrane of E0771 cells with or without nbmPDL1-PNGF"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_e4494b229458def4",
+      "statement": "PNGF alone is ineffective for human PD-L1 deglycosylation, whereas the targeted nbhPDL1-PNGF removes nearly all N-glycans, demonstrating the necessity of the targeting moiety.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0005"
+      ],
+      "source_quotes": [
+        "Nevertheless, PNGF seemed ineffective for human PD-L1 de-N- glycosylation",
+        "nbhPDL1-PNGF removed nearly all N-glycans of PD-L1 while PNGF or nbhPDL1-PNGF-E206K was not",
+        "PNGF\nseemed ineffective for human PD-L1 de-N-glycosylation (Fig. 3a)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_5c0ce0dc2adf2fbe",
+      "statement": "DGlyTAC achieves highly specific de-N-glycosylation of target proteins while minimally affecting the overall N-glycosylation landscape of other representative membrane proteins and global cellular glycosylation.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 14,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0001",
+        "openalex_w4409855429-span-0002",
+        "openalex_w4409855429-span-0003",
+        "openalex_w4409855429-span-0005",
+        "openalex_w4409855429-span-0009",
+        "openalex_w4409855429-span-0010",
+        "openalex_w4409855429-span-0011"
+      ],
+      "source_quotes": [
+        "Treatment with nbGFP-PNGF exhibited com- pleted removal of N-glycans on eGFP-CD24, while its effect on the global N-glycosylation levels was negligible",
+        "especially these immune checkpointsâCD24, CD47, and PD-L1, which minimally affected the overall N-glycosylation landscape and the N-glycosylation of other representative membrane proteins",
+        "Moreover, nbGFP-PNGF did not significantly reduce the N-glycosylation level of H2-K1 (MHC class I heavy chain precursor) on CHO cells, which could be de-N-glycosylated with high concentration of PNGF",
+        "while its effect on the global N-glycosylation levels was negligible (Fig. 1d, e).",
+        "Treatment of nbhPDL1-PNGF had a negligible effect on global cellular N-glycosylation level"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_cca53dd62f7749aa",
+      "statement": "Targeted DGlyTAC (nbGFP-PNGF) achieves complete deglycosylation at 5 nM, whereas 500 nM untargeted PNGF cannot; DGlyTAC acts within 2 hours with effects lasting ~24 hours, is effective in serum-containing medium, and requires only one-hundredth the concentration of untargeted PNGF.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 15,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0002",
+        "openalex_w4409855429-span-0003",
+        "openalex_w4409855429-span-0010",
+        "openalex_w4409855429-span-0011",
+        "openalex_w4409855429-span-0012"
+      ],
+      "source_quotes": [
+        "De-N-glycosylation of eGFP-CD24 was completely achieved with 5 nM nbGFP-PNGF ... whereas 500 nM PNGF ... could not ... nbGFP-PNGF required only one-hundredth of the concentration of PNGF to obtain optimal results.",
+        "nbGFP-PNGF exhibited completed removal of N-glycans on eGFP-CD24, while its effect on the global N-glycosylation levels was negligible",
+        "nbGFP-PNGF required only one-hundredth of the concentration of PNGF to obtain optimal results",
+        "We then confirmed that treatment with 500 nM PNGF for 2 h in serum-free RPMI medium removed nearly all N-linked glycans from eGFP-CD24",
+        "treatment with 500 nM PNGF for 2 h in serum-free RPMI medium removed nearly all N-linked glycans from eGFP-CD24 and resulted in the appear- ance of protein bands with lower molecular weights"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_ecf51528e31ef3b1",
+      "statement": "The target specificity of DGlyTAC is conferred by high-affinity binding of the nanobody or affibody (Kd in low nanomolar range; nbGFP-eGFP Kd = 5.58 Â± 2.73 nM), directing PNGF to the intended glycoprotein.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 3,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0001",
+        "openalex_w4409855429-span-0002",
+        "openalex_w4409855429-span-0003"
+      ],
+      "source_quotes": [
+        "The remarkable difference between PNGF and nbGFP-PNGF was because of a high binding affinity of nbGFP to eGFP (Kd = 5.58 Â± 2.73 nM, Supplementary Fig. 1b).",
+        "Here, we developed a novel technique for specifically removing N-glycans from a target protein on the cell surface, named deglycosylation targeting chimera (DGlyTAC), which employs a fusing protein consisting of Peptide-N-glycosidase F (PNGF) and target-specific nanobody/ affibody (Nb/Af).",
+        "The DGlyTAC technique was developed to target a range of glycosylated surface proteins, especially these immune checkpointsâCD24, CD47, and PD-L1, which minimally affected the overall N-glycosylation landscape and the N-glycosylation of other representative membrane proteins, ensuring high specificity and minimal off-target effects.",
+        "The remarkable difference between PNGF and nbGFP-PNGF was because of a high binding affinity of nbGFP to eGFP (Kd = 5.58 Â± 2.73 nM, Supplementary Fig.",
+        "1k, l, Supplementary Fig."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_1aefeeb508ea11e9",
+      "statement": "Mutation of PNGF catalytic residue 206 (E206K) abolishes enzyme activity, providing an inactive negative control that confirms catalytic activity is required for DGlyTAC function.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 3,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0002",
+        "openalex_w4409855429-span-0003",
+        "openalex_w4409855429-span-0012",
+        "openalex_w4409855429-span-0013"
+      ],
+      "source_quotes": [
+        "mutation of PNGF at catalytic residue 206 from glutamic acid to lysine rendered an inactive enzyme (nbGFP-PNGF-E206K), which was served as a negative control",
+        "In parallel, mutation of PNGF at catalytic residue 206 from glutamic acid to lysine rendered an inactive enzyme (nbGFP-PNGF-E206K), which was served as a negative control (Fig.",
+        "N-deglycosylation targeting chimera (DGlyTAC): a strategy for... <u>Li et al.</u>\n\nFig. 1 Design of DGlyTAC nbGFP-PNGF for protein-specific de-N-glycosylation on eGFP-CD24.",
+        "bacteria were cultured at 37 Â°C in 2ÃTB media with 100 Î¼g/mL ampicillin and induced with 1 mM IPTG at 20 Â°C when OD600 reached 0.8 ~ 1.2. After induction of expression at 20 Â°C for 24 h, bacteria were harvested by centrifugation at 8000 rpm for 5 min at 4 Â°C.",
+        "bacteria were cultured at 37 Â°c in 2Ãtb media with 100 Î¼g/ml ampicillin and induced with 1 mm iptg at 20 Â°c when od600 reached 0.8 ~ 1.2. after induction of expression at 20 Â°c for 24 h, bacteria were harvested by centrifugation at 8000 rpm for 5 min at 4 Â°c."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_93fd560f36b503c7",
+      "statement": "Cytochalasin D treatment confirms that the observed DGlyTAC-mediated phagocytosis signal is genuine phagocytosis rather than passive cell adhesion.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 1,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0003"
+      ],
+      "source_quotes": [
+        "We also used cytochalasin D (decrease the polymerization and depolymerization of actin, an inhibitor of phagocytosis), 23 to present that the phagocytosis is not fake rather than two cells stuck together"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_fabde64e384aa4a7",
+      "statement": "MDA-MB231, HeLa, and SW620 cancer cells are partially deglycosylated by untargeted PNGF treatment.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 1,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0004"
+      ],
+      "source_quotes": [
+        "(MDA-MB231, HeLa, and SW620) were partially deglycosylated by PNGF"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_14d8c03c07ad3b94",
+      "statement": "DGlyTAC targeting IGF1R (afIGF1R-PNGF) removes more N-glycans from IGF1R-Î² than PNGF alone across MCF7, HepG2, and SK-BR-3 cancer cell lines, shifting the IGF1R-Î² band to ~70 kDa.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 6,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0001",
+        "openalex_w4409855429-span-0002",
+        "openalex_w4409855429-span-0003",
+        "openalex_w4409855429-span-0005",
+        "openalex_w4409855429-span-0007",
+        "openalex_w4409855429-span-0012"
+      ],
+      "source_quotes": [
+        "After partially de-N- glycosylation by PNGF or afIGF1R-PNGF in serum-free RPMI medium for 2 h in different kinds of cancer cells (MCF7, HepG2 and SK-BR-3), the bands shifted to the smaller size (~70 kDa)",
+        "The afIGF1R-PNGF showed higher ability than PNGF in removal of N-glycans from IGF1R-Î² (Supplementary Fig. 3aâc, l).",
+        "The afIGF1R-PNGF showed higher ability than PNGF in removal of N-glycans from IGF1R-Î²",
+        "31 After partially de-N- glycosylation by PNGF or afIGF1R-PNGF in serum-free RPMI medium for 2 h in different kinds of cancer cells (MCF7, HepG2 and SK-BR-3), the bands shifted to the smaller size (~70 kDa) compared to that of control group.",
+        "39 DGlyTAC nbmPDL1-PNGF shows much better effect than the MC38 cell line, a well-characterized model for colorectal cancer, inhibitor competitor nbmPDL1 in vivo, effectively inhibiting tumor was chosen to represent the therapeutic potential of DGlyTAC growth and promoting the infiltration of immune cells."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_8d4a5d013310debb",
+      "statement": "Large membrane receptors EGFR and HER2 are only partially deglycosylated by DGlyTACs because PNGF preferentially cleaves N-glycosylation sites in loop regions; even 1 ÂµM PNGF removes only one or two N-glycan sites; effectiveness is limited by large molecular weight and site accessibility.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 15,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0001",
+        "openalex_w4409855429-span-0002",
+        "openalex_w4409855429-span-0004",
+        "openalex_w4409855429-span-0005",
+        "openalex_w4409855429-span-0010",
+        "openalex_w4409855429-span-0011"
+      ],
+      "source_quotes": [
+        "EGFR and HER2 are large proteins with substantial molecular weights, which complicates the ability of DGlyTACs to access all glycosylation sites on these proteins.",
+        "Even using a high concentration (1 Î¼M) of PNGF, only one or two N-glycan sites can be removed, indicating that other glycosylation sites are not accessible to PNGF.",
+        "only one or two N-glycan sites can be removed, indicating that other glycosylation sites are not accessible to PNGF",
+        "Even using a high concentration (1 Î¼M) of PNGF, only one or two N-glycan sites can be removed",
+        "Like antibody drugs, the off-target organ toxicity will be the greatest challenge for further translational applications for the non-specific expression of target proteins on tumors."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_6be41fee0af3224a",
+      "statement": "PD-L1-targeted DGlyTAC (nbmPDL1-PNGF) markedly diminishes tumor growth in multiple mouse models (E0771, 4T1, MC38), promotes immune-cell infiltration, prolongs survival, and shows efficacy comparable to or better than anti-PD-1/PD-L1 antibodies, with no effect on body weights.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 26,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0001",
+        "openalex_w4409855429-span-0005",
+        "openalex_w4409855429-span-0006",
+        "openalex_w4409855429-span-0007",
+        "openalex_w4409855429-span-0008",
+        "openalex_w4409855429-span-0009",
+        "openalex_w4409855429-span-0011",
+        "openalex_w4409855429-span-0012"
+      ],
+      "source_quotes": [
+        "enhancing T-cell immunity in vivo. a Schematic  illustration of the tumor-inhibition study and the general treatment procedure. E0771 cells were injected subcutaneously in the mammary pad of C57BL/6 mice. Drugs were administrated from day 7",
+        "optimal effect of DGlyTAC nbmPDL1-PNGF in tumor growth inhibition (Fig. 5aâc, eâg). Indeed, DGlyTAC showed obvious improvement over abPD-L1 in 5 mg/kg dosage (Fig. 5f). The glycosylation of PD-L1 can control its immunosuppressive function.",
+        "prolonging survival of xenografted tumor mice and enhancing T-cell immunity in vivo. a Schematic  illustration of the tumor-inhibition study and the general treatment procedure. E0771 cells were injected subcutaneously in the mammary pad of",
+        "tumor growth inhibition (Fig. 5aâc, eâg). Indeed, DGlyTAC showed obvious improvement over abPD-L1 in 5 mg/kg dosage (Fig. 5f). The glycosylation of PD-L1 can control its immunosuppressive function. In order to compare the inhibitory efficie",
+        "nbmPDL1-PNGF ... markedly diminished tumor growth"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_9d04cbc147c1b573",
+      "statement": "DGlyTAC (nbhPDL1-PNGF) enhances T-cell cytotoxicity against tumor cells more effectively than the marketed PD-1 inhibitor Tislelizumab in co-culture assays, and DGlyTAC can be combined with T cell-based immunotherapy.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 5,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0001",
+        "openalex_w4409855429-span-0005",
+        "openalex_w4409855429-span-0007",
+        "openalex_w4409855429-span-0008",
+        "openalex_w4409855429-span-0011",
+        "openalex_w4409855429-span-0014"
+      ],
+      "source_quotes": [
+        "In terms of enhancing the cytotoxicity of T cells, nbhPDL1-PNGF had better efficacy compared to Tislelizumab.",
+        "we evaluated T cell responses by measuring apoptotic tumor cells co-cultured with primary human T cells (Supplemen- tary Fig. 5h).",
+        "39 DGlyTAC nbmPDL1-PNGF shows much better effect than the MC38 cell line, a well-characterized model for colorectal cancer, inhibitor competitor nbmPDL1 in vivo, effectively inhibiting tumor was chosen to represent the therapeutic potential of DGlyTAC growth and promoting the infiltration of immune cells.",
+        "Cell culture The human cancer MCF7, MDA-MB231, SK-BR-3, PANC1, HepG2, A375, SW620 cells, and mouse cancer E0771 and 4T1 cells were a gift from the lab of Professor Tingxiu Xiang in Chongqing University Cancer Hospital.",
+        "In order to compare the inhibitory efficiency of an already marketed PD-1 inhibitor (Tislelizumab) and nbhPDL1- PNGF, we evaluated T cell responses by measuring apoptotic tumor cells co-cultured with primary human T cells (Supplemen- tary Fig."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_63f6bdfe1840b3d4",
+      "statement": "nbmPDL1-PNGF treatment produces evident deviations in intratumoral CD8+ and CD4+ TILs and alters macrophage populations in the tumor microenvironment.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0006",
+        "openalex_w4409855429-span-0007",
+        "openalex_w4409855429-span-0008"
+      ],
+      "source_quotes": [
+        "a breakdown of CD45+ immune cells together with a detailed comparison of T cells were observed",
+        "we found evident deviation of CD8+ TILs and CD4+ TILs upon treatment of nbmPDL1-PNGF and abPD-1",
+        "39 DGlyTAC nbmPDL1-PNGF shows much better effect than the MC38 cell line, a well-characterized model for colorectal cancer, inhibitor competitor nbmPDL1 in vivo, effectively inhibiting tumor was chosen to represent the therapeutic potential of DGlyTAC growth and promoting the infiltration of immune cells.",
+        "5 Anti-tumor efficacy and safety evaluation of DGlyTAC nbmPDL1-PNGF.",
+        "g, I, k Single-cell suspensions from E0771 tumors were stained for tumor-infiltrating CD4 and CD8 T cells as well as macrophage cells, and then determined by FACS."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_53e3d02108a148ee",
+      "statement": "DGlyTAC nbmPDL1-PNGF preferentially accumulates in tumors (40â60% of injected dose) where it achieves nearly complete PD-L1 deglycosylation, while distributing to liver, lung, and kidney with minimal deglycosylation in normal organs except lung, predicting tumor-targeted activity with lung as the primary potential toxicity site.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 27,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0001",
+        "openalex_w4409855429-span-0002",
+        "openalex_w4409855429-span-0003",
+        "openalex_w4409855429-span-0007",
+        "openalex_w4409855429-span-0008",
+        "openalex_w4409855429-span-0009",
+        "openalex_w4409855429-span-0011",
+        "openalex_w4409855429-span-0014",
+        "openalex_w4409855429-span-0015"
+      ],
+      "source_quotes": [
+        "About 40%â60% of the injected dose could be detected in tumors that are highly expressing PD-L1",
+        "Animal handling and experimental procedures were approved by the Institutional Animal Care and Use Committee at Tongji University",
+        "nbmPDL1-PNGF ... markedly diminished tumor growth",
+        "the highest and nearly complete de-N-glycosylation efficiency of nbmPDL1-PNGF was detected in tumors",
+        "the off-target organ toxicity will be the greatest challenge for further translational applications for the non-specific expression of target proteins on tumors"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_7cc09556126141f9",
+      "statement": "DGlyTAC does not cause histological damage in heart, liver, spleen, lung, or kidney by H&E and TUNEL staining, maintains normal hematological parameters and body weights, but PNGF immunogenicity and off-target organ toxicity from nonspecific target expression remain identified translational challenges.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 9,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0002",
+        "openalex_w4409855429-span-0005",
+        "openalex_w4409855429-span-0008",
+        "openalex_w4409855429-span-0009",
+        "openalex_w4409855429-span-0010",
+        "openalex_w4409855429-span-0011"
+      ],
+      "source_quotes": [
+        "EGFR and HER2 are large proteins with substantial molecular weights, which complicates the ability of DGlyTACs to access all glycosylation sites on these proteins.",
+        "Even using a high concentration (1 Î¼M) of PNGF, only one or two N-glycan sites can be removed",
+        "Like antibody drugs, the off-target organ toxicity will be the greatest challenge for further translational applications for the non-specific expression of target proteins on tumors.",
+        "PNGF does possess immunogenicity in humans or mice.",
+        "EGFR and HER2 ... have a large molecular weight and many N-glycosylation sites. Even using a high concentration (1 Î¼M) of PNGF, only one or two N-glycan sites can be removed"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_66a78c67f0333c48",
+      "statement": "PNGF from Flavobacterium meningosepticum specifically hydrolyzes N-linked oligosaccharides and is widely used in glycoprotein research; PNGF possesses immunogenicity in humans or mice, but mice do not exhibit acute immune responses.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 5,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0009",
+        "openalex_w4409855429-span-0010"
+      ],
+      "source_quotes": [
+        "It can specifically hydrolyze N-linked oligosaccharides on glycoproteins or glyco- peptides, thereby releasing intact N-glycan chains.",
+        "We have chosen PNGF from Flavobacterium meningosepticum, which is an enzyme widely used in protein glycosylation research.",
+        "PNGF does possess immunogenicity in humans or mice. However, mice do not exhibit acute immune responses.",
+        "PNGF does possess immunogenicity in humans or mice.",
+        "and let PNGF to erase the N-glycans."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_f04d17fc61a140f4",
+      "statement": "DGlyTAC targets proteins through protein-specific deglycosylation with a fixed enzyme-to-target geometry (~4 nm), whereas antibody-sialidase conjugates target sialic acids with an indeterminate distance (~4â10 nm); DGlyTACs require â¤5 nM for efficacy compared to >10 nM for conjugates.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 4,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0010"
+      ],
+      "source_quotes": [
+        "DGlyTACs engage in protein-specific deglycosylation (wherein the target protein constitutes the drug target), whereas the antibody-sialidase conjugates execute cell- specific desialylation (with sialic acids serving as the drug target).",
+        "The DGlyTACs we designed and the antibody-sialidase conju- gates previously developed by Carolyn R. Bertozzi can both be utilized for cancer immunotherapy.",
+        "the antibody-sialidase con- jugates demands a higher concentration for its operation (specifi- cally exceeding 10 nM); whereas low concentration of DGlyTACs (no more than 5 nM) exhibits high efficacy alongside low toxicity.",
+        "the distance between the target protein and the enzyme remains indeterminate (e.g., 4â10 nm), permitting the sialidases to affect not only the target protein but also neighboring proteins.",
+        "low concentration of DGlyTACs (no more than 5 nM) exhibits high efficacy alongside low toxicity"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_a1c7ba8badeed4b8",
+      "statement": "DGlyTACs act irreversibly and recyclably through enzymatic catalysis: PNGF catalytically removes glycans without being consumed, enabling sustained protein inactivation at lower doses than conventional stoichiometric inhibitors, and maximal recycling capacity could be increased through directed evolution.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 10,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0001",
+        "openalex_w4409855429-span-0002",
+        "openalex_w4409855429-span-0005",
+        "openalex_w4409855429-span-0010",
+        "openalex_w4409855429-span-0015"
+      ],
+      "source_quotes": [
+        "Similar to PROTACs and LYTACs, the DGlyTACs works in an irreversible and recyclable manner, enabling protein inactivation at a lower concentration over inhibitors.",
+        "The maximal recycling capacity of DGlyTACs is the same as the total turnover number of the enzyme PNGF, which could be enhanced using enzymatic directed evolution.",
+        "Moreover, similar to other advanced protein-targeting technolo- gies like PROTACs (Proteolysis Targeting Chimeras), LYTACs (Lysosome-Targeting Chimeras), and AbTACs (Antibody-Based PROTACs), which have emerged recently as powerful tools for targeting membrane proteins, these approaches leverage the catalytic and recyclable nature of the fusion complex to achieve precise and efficient modulation of protein function.",
+        "Unlike conventional inhibi- tors that suppress protein activity through sustained binding, PROTACs induce targeted protein degradation, allowing them to achieve therapeutic effects at lower concentrations with degrader recycling.",
+        "Here, we developed a novel technique for specifically removing N-glycans from a target protein on the cell surface, named deglycosylation targeting chimera (DGlyTAC), which employs a fusing protein consisting of Peptide-N-glycosidase F (PNGF) and target-specific nanobody/ affibody (Nb/Af)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_ccfdbcdc61a076a4",
+      "statement": "DGlyTAC provides a generalizable in situ tool for studying N-glycan function on cell-surface proteins and a therapeutic platform for targeted inactivation of membrane proteins through enzymatic glycan removal, without relying on intracellular degradation machinery unlike PROTACs/LYTACs.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 20,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0001",
+        "openalex_w4409855429-span-0002",
+        "openalex_w4409855429-span-0003",
+        "openalex_w4409855429-span-0004",
+        "openalex_w4409855429-span-0005",
+        "openalex_w4409855429-span-0006",
+        "openalex_w4409855429-span-0007",
+        "openalex_w4409855429-span-0008",
+        "openalex_w4409855429-span-0009",
+        "openalex_w4409855429-span-0010",
+        "openalex_w4409855429-span-0011"
+      ],
+      "source_quotes": [
+        "Because not all N-glycosylation modifications exhibit clearly defined biological functions, the comprehensive functional study of these N-glycosylation is of great urgency before applying DGlyTACs to a series of target proteins and subsequent clinical trials.",
+        "Here, we developed a novel technique for specifically removing N-glycans from a target protein on the cell surface, named deglycosylation targeting chimera (DGlyTAC), which employs a fusing protein consisting of Peptide-N-glycosidase F (PNGF) and target-specific nanobody/ affibody (Nb/Af).",
+        "So this design is guided by in situ N-glycan removal of target proteins while minimally affecting other cell surface N-glycosylated proteins.",
+        "The DGlyTAC technique was developed to target a range of glycosylated surface proteins, especially these immune checkpointsâCD24, CD47, and PD-L1, which minimally affected the overall N-glycosylation landscape and the N-glycosylation of other representative membrane proteins, ensuring high specificity and minimal off-target effects.",
+        "To further confirm whether the cell membrane stability (that present the half-life period of membrane proteins to be degraded in the lysosomal pathway) of PD-L1 depends on N-glycosylation, confocal imaging and flow cytometry were conducted and showed little change in PD-L1 protein level on the membrane of E0771 cells with or without nbmPDL1-PNGF (Fig."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_742dd34af585bd50",
+      "statement": "DGlyTAC-mediated de-N-glycosylation of PD-L1 blocks PD-L1/PD-1 binding dose-dependently, more effectively than non-enzymatic competitors, functionally inactivating this immune checkpoint pathway.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 7,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0001",
+        "openalex_w4409855429-span-0002",
+        "openalex_w4409855429-span-0005",
+        "openalex_w4409855429-span-0010",
+        "openalex_w4409855429-span-0011"
+      ],
+      "source_quotes": [
+        "After MD-MB231 cells were treated with 5 nM or 50 nM PNGF, nbhPDL1-PNGF, and nbhPDL1-PNGF- E206K for 24 h, PD-1 binding was measured using flow cytometry.",
+        "In comparison with the PBS as control, PNGF did not prevent PD-L1 from its association with PD-1",
+        "DGlyTAC nbhPDL1-PNGF exhibited a significant disturbance on PD-L1/PD-1 binding in a dose-dependent manner, which was much better to that of the inhibitor competitor nbhPDL1-PNGF-E206K",
+        "k, l Quantitation of the PD-1/PD-L1 binding calculated from (j).",
+        "DGlyTAC technique is a general strategy for in situ elimination N-glycans to disrupt the binding of CD24/Siglec-10, as well as the affinity of PD-L1/PD-1."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_8cc2b1daa870a20d",
+      "statement": "DGlyTAC led to inactivation of immune checkpoints and showed more potential in cancer immunotherapy than inhibitors; PD-L1-targeted DGlyTAC showed therapeutic effects on several tumors in vivo, even better than PD-L1 antibody.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 5,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0001",
+        "openalex_w4409855429-span-0007",
+        "openalex_w4409855429-span-0008",
+        "openalex_w4409855429-span-0009",
+        "openalex_w4409855429-span-0010"
+      ],
+      "source_quotes": [
+        "Importantly, DGlyTAC technique was successfully applied to lead inactivation of these immune checkpoints, especially PD-L1, and showed more 1234567890();,: potential in cancer immunotherapy than inhibitors.",
+        "Overall, we created a novel target-specific N-glysocylation erasing technique that establishes a modular strategy for directing membrane proteins inactivation",
+        "Finally, PD-L1 targeted DGlyTAC showed therapeutic effects on several tumors in vivo, even better than PD-L1 antibody.",
+        "DGlyTAC showed obvious improvement over abPD-L1 in 5 mg/kg dosage (Fig. 5f).",
+        "We conclude that DGlyTAC nbmPDL1-PNGF can be a better therapy than abPD-L1 (Fig. 5) while maybe with lower toxicity (Fig. 6)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_f7b86507e3ec4bf6",
+      "statement": "The DGlyTAC strategy is applicable to both human and mouse PD-L1 by using species-specific nanobodies, enabling preclinical evaluation.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 1,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0002",
+        "openalex_w4409855429-span-0005"
+      ],
+      "source_quotes": [
+        "15 Thus, we focused on protein-specific de-N- glycosylation for PD-L1, in which human PD-L1 nanobody (nbhPDL1) and mouse PD-L1 nanobody (nbmPDL1) were utilized to generate DGlyTACs nbhPDL1-PNGF and nbmPDL1-PNGF.",
+        "RESULTS Specific removal of N-glycans from overexpressed eGFP-CD24 using DGlyTAC To prove the concept, we first applied our strategy to a tag- fused protein with fewer N-glycosylation sites and a smaller molecular weight."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_f974e07102e95f30",
+      "statement": "Mice do not exhibit acute immune responses.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 1,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0010"
+      ],
+      "source_quotes": [
+        "However, mice do not exhibit acute immune responses."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_66df82864a743902",
+      "statement": "Treatment with 5 nM nbGFP-PNGF for more than 2 h, but not PNGF, compromised CD24 quantity in serum-free RPMI medium.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0002",
+        "openalex_w4409855429-span-0003"
+      ],
+      "source_quotes": [
+        "Furthermore, we also explored the effects of the enzyme on eGFP-CD24 protein level at different time points.",
+        "Treatment with 5 nM nbGFP-PNGF, but not PNGF, for morethan2hcouldcompromise the CD24 quantity in serum-free RPMI medium because of the removal of N-glycans",
+        "Western blot analyzed the effect on the\n\nexpression and glycosylation of eGFP-CD24 which overexpression on CHO cell lines after the treatment of different concentrations of PNGF\n\n(a), nbGFP-PNGF (b), and nbGFP-PNGF-E206K (c)for2h.(d) eGFP-CD24 was enriched by anti-eGFP beads and analyzed by immunoblotting to reveal protein levels (anti-GFP) and N-glycosylation level (ConA)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_4d40332c019614f0",
+      "statement": "Biodistribution, off-target organ exposure, and PNGF immunogenicity constrain translation of DGlyTAC despite its modular targeting design.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 1,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0009",
+        "openalex_w4409855429-span-0010",
+        "openalex_w4409855429-span-0011"
+      ],
+      "source_quotes": [
+        "PNGF does possess immunogenicity in humans or mice. However, mice do not exhibit acute immune responses. It is well-known that PROTACs are designed to selectively degrade target proteins by exploiting the ubiquitin-proteasome pathwaywithinc",
+        "distributed in various organs (liver, lung and tumor), the highest and nearly complete de-N-glycosylation efficiency of nbmPDL1-PNGF was detected in tumors (Fig. 6e, f, Supplementary Fig. 6bâg). Only lung exhibited a bit de-N- glycosylation",
+        "greatest challenge for further translational applications for the non-specific expression of target proteins on tumors. We anticipate that the tunability and modularity of DGlyTACs will provide new opportu- nities for protein drug designs a",
+        "off-target organ toxicity will be the greatest challenge for further translational applications for the non-specific expression of target proteins on tumors. We anticipate that the tunability and modularity of DGlyTACs will provide new oppo"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_ab8e2bd913361c3f",
+      "statement": "P-3Fax-Neu5Ac significantly decreased Siglec-10 interaction in all groups, and no Siglec-10 binding was observed in CHO-WT after treatment.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 1,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0002"
+      ],
+      "source_quotes": [
+        "We also evaluated the contribution of sialic acids to CD24 with Siglec-10 binding through the use of P-3Fax-Neu5Ac",
+        "a significant decrease in Siglec-10 interaction of all groups was observed (Fig. 1k, l). As expected, no Siglec-10 binding was observed in CHO-WT with P-3Fax-Neu5Ac treatment."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_ddf2ac5229a3cfff",
+      "statement": "The relative benefit of PD-L1-directed treatment depends on the tumorâs competing PD-L2 biology: abundant PD-L2 can preserve PD-1 engagement and favor anti-PD-1 therapy, whereas minimal PD-L2 makes PD-L1 targeting more effective.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 1,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0007"
+      ],
+      "source_quotes": [
+        "MC38 had a minimal nbmPDL1-PNGF has a similar efficacy to abPD-1, a better PD-L1/ expression of PD-L2 (data not shown) to exhibit the best efficacy.",
+        "Single-cell suspensions from E0771 tumors were stained for tumor-infiltrating CD4 and CD8 T cells as well as macrophage cells, and then determined by FACS."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_100e85010f1384db",
+      "statement": "The comparison between E0771 and MC38 indicates that DGlyTAC efficacy is governed not only by PD-L1 abundance, but also by which alternative ligand-receptor interactions remain available in the tumor model.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 1,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0007"
+      ],
+      "source_quotes": [
+        "MC38 had a minimal nbmPDL1-PNGF has a similar efficacy to abPD-1, a better PD-L1/ expression of PD-L2 (data not shown) to exhibit the best efficacy.",
+        "Single-cell suspensions from E0771 tumors were stained for tumor-infiltrating CD4 and CD8 T cells as well as macrophage cells, and then determined by FACS."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_e11b5a90f1fff130",
+      "statement": "DGlyTACs act extracellularly on surface substrates and therefore bypass the intracellular access and degradation-receptor requirements that constrain PROTAC and LYTAC mechanisms, while retaining the conceptual advantages of catalytic target modulation.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 1,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0010"
+      ],
+      "source_quotes": [
+        "Additionally, their construction methodologies are different: DGlyTACs incorporate a fixed linker, ensuring that, upon binding of the nanobody to the target protein, the distance between the target protein and the enzyme approximates 4 nm, thereby enabling PNGF to act exclusively on the target prote",
+        "DGlyTACs share conceptual parallels with targeted protein degradation strategies such as PROTACs and LYTACs, yet it operates independently the presence of degradation-associated proteins (such as E3 ligases and ASGPR)"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_7b062603df894f4d",
+      "statement": "The fixed helical linker is a selectivity-control element rather than merely a structural connector: it constrains enzyme-target spacing, unlike antibody-sialidase conjugates whose variable geometry permits effects on neighboring glycoconjugates.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 1,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0010"
+      ],
+      "source_quotes": [
+        "Additionally, their construction methodologies are different: DGlyTACs incorporate a fixed linker, ensuring that, upon binding of the nanobody to the target protein, the distance between the target protein and the enzyme approximates 4 nm, thereby enabling PNGF to act exclusively on the target prote",
+        "In contrast, within the antibody- sialidase conjugates, the distance between the target protein and the enzyme remains indeterminate (e.g., 4â10 nm), permitting the sialidases to affect not only the target protein but also neighboring proteins."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_2309bad06b79424f",
+      "statement": "DGlyTACs are not universal glycan erasers for every substrate: their effectiveness depends on whether a targetâs N-glycosylation sites are exposed and biologically consequential, making accessibility and function prerequisites for therapeutic deployment.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 1,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0005"
+      ],
+      "source_quotes": [
+        "Additionally, EGFR and HER2 proteins have a large molecular weight and many N-glycosylation sites.",
+        "Even using a high concentration (1 Î¼M) of PNGF, only one or two N-glycan sites can be removed"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_f0c8217c4585bf61",
+      "statement": "Translation remains constrained by the foreign enzyme component: although PNGF is immunogenic in principle, the mouse experiments did not show acute immune responses, leaving human immunogenicity unresolved rather than demonstrated safe.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 1,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0010"
+      ],
+      "source_quotes": [
+        "In contrast, within the antibody- sialidase conjugates, the distance between the target protein and the enzyme remains indeterminate (e.g., 4â10 nm), permitting the sialidases to affect not only the target protein but also neighboring proteins.",
+        "The maximal recycling capacity of DGlyTACs is the same as the total turnover number of the enzyme PNGF, which could be enhanced using enzymatic directed evolution."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_77fd8453aadedc73",
+      "statement": "The reported absence of major tissue injury does not eliminate off-target risk, because PD-L1 is present in normal organs and the authors identify nonspecific target expression as the central translational challenge.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 1,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0011"
+      ],
+      "source_quotes": [
+        "In summary, we have developed a method using Nb/Af to target and inactivate extracellular and membrane-associated glycoproteins, which we refer to as DGlyTAC.",
+        "The DGlyTAC platform can directly target glycoproteins, promoting the removal of N-glycans, thereby effectively inactivating the target proteins."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_c5899767c40057c9",
+      "statement": "DGlyTAC is a modular technique that enables protein-specific removal of N-glycans from cell-surface glycoproteins.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0001",
+        "openalex_w4409855429-span-0002"
+      ],
+      "source_quotes": [
+        "achieving targeted removal of N-glycans from the desired proteins, including growth factor receptors (EGFR, HER2, IGF1R) and ICs (CD24, CD47, PD-L1), while exerting minimal influence on the overall N-glycosylation landscape.",
+        "De-N-glycosylation of eGFP-CD24 was completely achieved with 5 nM nbGFP-PNGF ... whereas 500 nM PNGF ... could not",
+        "The target proteins used in this study were eGFP-CD24, CD47, IGF1R, PD-L1, EGFR and HER2",
+        "named deglycosylation targeting chimera (DGlyTAC)"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_23e0c2979d5c1592",
+      "statement": "De-N-glycosylation of eGFP-CD24 was\ncompletely achieved with 5 nM nbGFP-PNGF (PNGF fused to\nnanobody with targeting capability), whereas 500 nM PNGF (lack\nof targeting capability) could not (Fig. 1a, b)âin other words,\nnbGFP-PNGF required only one-hundredth of the concentration\nof PNGF to obtain optimal results.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 1,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0002",
+        "openalex_w4409855429-span-0003",
+        "openalex_w4409855429-span-0012"
+      ],
+      "source_quotes": [
+        "(e) Quantitation of N-glycosylation level on eGFP-CD24 calculated from (d).",
+        "De-N-glycosylation of eGFP-CD24 was\ncompletely achieved with 5 nM nbGFP-PNGF (PNGF fused to\nnanobody with targeting capability), whereas 500 nM PNGF (lack\nof targeting capability) could not (Fig. 1a, b)âin other words,\nnbGFP-PNGF required only one-hundredth of the concentration\nof PNGF to obtain optimal results.",
+        "The expression plasmid pET21a-NbGFP-PNGF was constructed\nby fusing eGFP nanobody, linker, and PNGF."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_1aea70bed8b07edf",
+      "statement": "Here, we developed a technique that can specifically erase the glycans from a target protein on live cells through combination of PNGF with the specific nanobody/affibody (Nb/Af) of the target protein, in which the complex was termed Deglycosylation Targeting Chimera (DGlyTAC).",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0001",
+        "openalex_w4409855429-span-0002",
+        "openalex_w4409855429-span-0003",
+        "openalex_w4409855429-span-0004",
+        "openalex_w4409855429-span-0005",
+        "openalex_w4409855429-span-0006",
+        "openalex_w4409855429-span-0007",
+        "openalex_w4409855429-span-0008",
+        "openalex_w4409855429-span-0009",
+        "openalex_w4409855429-span-0010",
+        "openalex_w4409855429-span-0011"
+      ],
+      "source_quotes": [
+        "DGlyTACs are tailored for the targeted inactivation of membrane proteins through the specific erasing of N-glycans.",
+        "Here, we developed a novel technique for specifically removing N-glycans from a target protein on the cell surface, named deglycosylation targeting chimera (DGlyTAC), which employs a fusing protein consisting of Peptide-N-glycosidase F (PNGF) and target-specific nanobody/ affibody (Nb/Af).",
+        "It can specifically hydrolyze N-linked oligosaccharides on glycoproteins or glyco- peptides, thereby releasing intact N-glycan chains. 16 When DGlyTACs are applied alternately to the target proteins, they do not interfere with the N-glycosylation modifications of non-target proteins, showing perfect orthogonality (Supplementary Fig. 8b-c).",
+        "We have chosen PNGF from Flavobacterium meningosepticum, which is an enzyme widely used in protein glycosylation research.",
+        "DGlyTAC nbmPDL1-PNGF shows much better effect than the\ninhibitor competitor nbmPDL1 in vivo, effectively inhibiting tumor\ngrowth and promoting the infiltration of immune cells."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_02af4dd431e7bf72",
+      "statement": "Particularly in the subtype of E0771 triple-negative breast\ncancer, an increased immune infiltration was noted which\nrepresents better therapeutic responsiveness and improved\nsurvival chances (Fig. 4f).",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 1,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0006"
+      ],
+      "source_quotes": [
+        "Particularly in the subtype of E0771 triple-negative breast\ncancer, an increased immune infiltration was noted which\nrepresents better therapeutic responsiveness and improved\nsurvival chances (Fig. 4f)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_1ffdd8d137a1bf70",
+      "statement": "whereas low concentration of DGlyTACs (no more than 5 nM) exhibits high efficacy alongside low toxicity.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 1,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0010"
+      ],
+      "source_quotes": [
+        "whereas low concentration of DGlyTACs (no\nmore than 5 nM) exhibits high efficacy alongside low toxicity."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_ca9a0bdbc1c963f1",
+      "statement": "DGlyTACs use a fixed linker that places the target protein and PNGF approximately 4 nm apart, enabling PNGF to act exclusively on the target protein.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0010"
+      ],
+      "source_quotes": [
+        "DGlyTACs incorporate a fixed linker, ensuring that, upon binding of the nanobody to the target protein, the distance between the target protein and the enzyme approximates 4 nm, thereby enabling PNGF to act exclusively on the target protein.",
+        "In contrast, within the antibody- sialidase conjugates, the distance between the target protein and the enzyme remains indeterminate (e.g., 4â10 nm)",
+        "Additionally, their construction methodologies are different: DGlyTACs incorporate a fixed linker, ensuring that, upon binding of the nanobody to the target protein, the distance between the target protein and the enzyme approximates 4 nm, thereby enabling PNGF to act exclusively on the target protein.",
+        "Furthermore, to effectuate the removal of sialic acid modifications across the entire cell, the antibody-sialidase con- jugates demands a higher concentration for its operation (specifi- cally exceeding 10 nM); whereas low concentration of DGlyTACs (no more than 5 nM) exhibits high efficacy alongside low toxicity.",
+        "In contrast, within the antibody- sialidase conjugates, the distance between the target protein and the enzyme remains indeterminate (e.g., 4â10 nm), permitting the sialidases to affect not only the target protein but also neighboring proteins."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_4e076283430055bd",
+      "statement": "Removal of N-glycans from CD24 by DGlyTAC disrupts CD24 binding to Siglec-10, indicating that N-glycosylation is essential for this immune checkpoint interaction.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 1,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0001",
+        "openalex_w4409855429-span-0002",
+        "openalex_w4409855429-span-0003"
+      ],
+      "source_quotes": [
+        "1dâf), indicating that even without sialic acid modification, the N-glycosylation on CD24 still participates in the binding of CD24/Siglec-10.",
+        "DGlyTAC technique is a general strategy for in situ elimination N-glycans to disrupt the binding of CD24/Siglec-10, as well as the affinity of PD-L1/PD-1.",
+        "N-glycosylation is found to be essential for the function of various immune checkpoint proteins, playing a critical role in their stability and interaction with immune cells.",
+        "RESULTS Specific removal of N-glycans from overexpressed eGFP-CD24 using DGlyTAC To prove the concept, we first applied our strategy to a tag- fused protein with fewer N-glycosylation sites and a smaller molecular weight."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_3e19f738fac30a32",
+      "statement": "DGlyTAC operates independently of cellular degradation machineries, unlike PROTACs and LYTACs, and instead inactivates target proteins by enzymatic removal of N-glycans.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 3,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0010",
+        "openalex_w4409855429-span-0011"
+      ],
+      "source_quotes": [
+        "DGlyTACs share conceptual parallels with targeted protein degradation strategies such as PROTACs and LYTACs",
+        "the DGlyTACs works independently the presence of degradation-associated proteins (such as E3 ligases and ASGPR)",
+        "DGlyTACs share conceptual parallels with targeted protein degradation strategies such as PROTACs and LYTACs, yet it operates independently the presence of degradation-associated proteins (such as E3 ligases and ASGPR), sharing the same targets and clinical indications as antibody inhibitors.",
+        "Finally, we applied the system to characterize the importance of N-glycans to target proteins in the context of cellular biological functions and tumor immunotherapy.",
+        "The DGlyTAC platform can directly target glycoproteins, promoting the removal of N-glycans, thereby effectively inactivating the target proteins."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_2cf5e4c659c1100b",
+      "statement": "In the MC38 colorectal cancer model, PD-L1-targeting DGlyTAC shows superior tumor growth inhibition compared to anti-PD-L1 antibody at a matched dose.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 1,
+      "source_span_ids": [
+        "openalex_w4409855429-span-0007",
+        "openalex_w4409855429-span-0008",
+        "openalex_w4409855429-span-0009"
+      ],
+      "source_quotes": [
+        "39 DGlyTAC nbmPDL1-PNGF shows much better effect than the MC38 cell line, a well-characterized model for colorectal cancer, inhibitor competitor nbmPDL1 in vivo, effectively inhibiting tumor was chosen to represent the therapeutic potential of DGlyTAC growth and promoting the infiltration of immune cells.",
+        "Inter- group comparison revealed an optimal effect of DGlyTAC nbmPDL1-PNGF in tumor growth inhibition (Fig.",
+        "Moreover, this is the first attempt to use DGlyTAC nbPDL1-PNGF as a tumor-targeting N- glycosidase to significantly restrain the growth of tumors."
+      ]
+    }
+  ],
+  "fetched_at": "2026-09-07T21:42:42Z"
+}

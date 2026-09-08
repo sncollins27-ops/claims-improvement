@@ -1,0 +1,181 @@
+{
+  "paper_id": "openalex_w3215052327",
+  "run_id": "run_20260907_063159_471c07",
+  "silver_record_id": "silver_run_20260907_063159_471c07_openalex_w3215052327",
+  "bronze_record_id": "bronze_bef1c1a1730c96d3",
+  "units": [
+    {
+      "silver_unit_id": "silver_unit_4a8945223e612f6a",
+      "statement": "The human-specific long non-coding RNA PKMYT1AR is significantly upregulated in NSCLC tissues, cell lines, and patient serum, and its high expression correlates with worse clinical outcomes and has diagnostic/prognostic value (AUC 0.719 in LUAD).",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 62,
+      "source_span_ids": [
+        "openalex_w3215052327-span-0001",
+        "openalex_w3215052327-span-0002",
+        "openalex_w3215052327-span-0004",
+        "openalex_w3215052327-span-0005",
+        "openalex_w3215052327-span-0006",
+        "openalex_w3215052327-span-0008",
+        "openalex_w3215052327-span-0010",
+        "openalex_w3215052327-span-0011",
+        "openalex_w3215052327-span-0012",
+        "openalex_w3215052327-span-0014",
+        "openalex_w3215052327-span-0018",
+        "openalex_w3215052327-span-0019",
+        "openalex_w3215052327-span-0020",
+        "openalex_w3215052327-span-0021"
+      ],
+      "source_quotes": [
+        "(Blue): Next Generation Sequencing (RNAseq) from NSCLC, GSE144520 (Red): whole-transcriptome sequencing of A549 cells and cisplatin-resistant A549/DPP cells, GSE157427 (Green): gene expression profile for lung cancer stem cells. **b** The relative expression level of PKMYT1AR in fresh paired tissues isolated from NSCLC patients using Real-time RT-PCR assay, *n*=24. **c** The expression of PKMYT1AR in paired NSCLC peripheral blood serum examined by the Real-time RT-PCR assay, *n*=30. **d** The relative expression level of PKMYT1AR in TCGA-LUAD (adenocarcinoma; Normal: 59; Tumor:",
+        "533) and TCGA-LUSC (squamous cell carcinoma; Normal: 49; Tumor: 502), respectively. **e** The relative expression pattern of PKMYT1AR in GSE81089 dataset (Normal: 19, Tumor: 197). **f** The relative expression level of PKMYT1AR in NSCLC cancerous cell lines, including H358, H1975, H1299, H1650, A549 and SPC-A1 examined by Real-time RT-PCR, compared to normal human bronchial epithelial cell line: BEAS-2B. **g** PKMYT1AR high expression correlates with worse survival rate. **h** The ROC curve for PKMYT1AR (AUC=0.719) in LUAD using TCGA dataset. **i** The subcellular localization of PKMYT1AR was predicted by LncLocater. **j** PKMYT1AR was majorly localized in the cytoplasm of A549 cells using nuclear and cytoplasmic RNA fractionation assay followed by Real-time RT-PCR. Î²-actin and U1 expressions were used as cytoplasmic and nuclear fraction controls, respectively. **k** The sub-cellular localization of PKMYT1AR was examined by FISH.",
+        "Cell proliferation, migration, and CSCs selfrenewal abilities were also inhibited upon PKMYT1AR\ntargeting ASOs treatment compared with control group\n(Fig.Â 9b-h and Fig.Â S9b-h).",
+        "Consistent with\nformer findings [14,  36], PKMYT1 is highly expressed\nand frequently mutated in multiple types of human cancers including NSCLC, which results in worse clinical\noutcome (Fig.Â  4d-g and Fig.Â  S4a-c, TableÂ  S4-S5).",
+        "Furthermore, we revealed that\nknockdown of PKMYT1AR or PKMYT1, but overexpression of miR-485-5p, inhibited the tumor sphere formation\nability (Fig.Â  7b, e, h-i and Fig.Â  S7b, e, h-i)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_8daf17f819e47410",
+      "statement": "The transcription factor YY1 binds the PKMYT1AR promoter and induces PKMYT1AR expression in NSCLC cells; YY1 knockdown reduces PKMYT1AR levels and YY1 expression correlates with worse survival.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 17,
+      "source_span_ids": [
+        "openalex_w3215052327-span-0001",
+        "openalex_w3215052327-span-0002",
+        "openalex_w3215052327-span-0004",
+        "openalex_w3215052327-span-0005",
+        "openalex_w3215052327-span-0006",
+        "openalex_w3215052327-span-0008",
+        "openalex_w3215052327-span-0013",
+        "openalex_w3215052327-span-0014",
+        "openalex_w3215052327-span-0019",
+        "openalex_w3215052327-span-0021"
+      ],
+      "source_quotes": [
+        "PKMYT1AR high expression correlates with worse clinical outcome",
+        "PKMYT1AR high expression patients exhibit worse clinical outcome compared to the patients with lower PKMYT1AR expression",
+        "The ROC curve for PKMYT1AR (AUC=0.719) in LUAD using TCGA dataset.",
+        "YY1 was confirmed to be highly expressed in NSCLC... PKMYT1AR was decreased upon YY1 knockdown",
+        "The YY1 binding motif within the PKMYT1AR promoter region was predicted using JASPAR."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_80e594afc1d7a9dc",
+      "statement": "PKMYT1AR functions as a competing endogenous RNA (ceRNA) for miR-485-5p, directly binding and sequestering the miRNA to relieve its inhibitory effect on PKMYT1, thereby upregulating PKMYT1 expression in NSCLC.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 16,
+      "source_span_ids": [
+        "openalex_w3215052327-span-0001",
+        "openalex_w3215052327-span-0002",
+        "openalex_w3215052327-span-0004",
+        "openalex_w3215052327-span-0008",
+        "openalex_w3215052327-span-0011",
+        "openalex_w3215052327-span-0013",
+        "openalex_w3215052327-span-0014",
+        "openalex_w3215052327-span-0019",
+        "openalex_w3215052327-span-0020"
+      ],
+      "source_quotes": [
+        "PKMYT1 forced expression could overcome the cellular effect resulted from PKMYTAR knockdown",
+        "PKMYT1 was the only shared common gene among all the dataset, which positively, but negatively, associates with PKMYT1AR and miR-485-5p expressions in NSCLC, respectively",
+        "PKMYT1AR functions as a ceRNA for miR-485-5p to promote PKMYT1 expression",
+        "the luciferase activity of wild-type but not the mutant PKMYT1AR 3â-UTR containing reporter construct was inhibited by miR-485-5p mimics overexpression",
+        "PKMYT1AR functions as a ceRNA for miRâ485â5p to promote PKMYT1 expression"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_c4f9f6022108ecb4",
+      "statement": "miR-485-5p is downregulated in NSCLC cancerous tissues, cell lines, and patient serum; forced expression of miR-485-5p inhibits tumor cell proliferation, colony formation, migration, and tumor growth, supporting its tumor-suppressive role in NSCLC.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 26,
+      "source_span_ids": [
+        "openalex_w3215052327-span-0001",
+        "openalex_w3215052327-span-0002",
+        "openalex_w3215052327-span-0003",
+        "openalex_w3215052327-span-0006",
+        "openalex_w3215052327-span-0008",
+        "openalex_w3215052327-span-0010",
+        "openalex_w3215052327-span-0011",
+        "openalex_w3215052327-span-0013",
+        "openalex_w3215052327-span-0014",
+        "openalex_w3215052327-span-0019",
+        "openalex_w3215052327-span-0020",
+        "openalex_w3215052327-span-0021"
+      ],
+      "source_quotes": [
+        "Furthermore, we uncover that miR-485-5p is downregulated in both cancerous cell lines and peripheral blood serum isolated from NSCLC patients compared to reciprocal control groups.",
+        "Consistently, forced expression of miR- 485-5p inhibits the proliferation and migration abilities of tumor cells.",
+        "**Result:** Here, we identify a human-specific long non-coding RNA (lncRNA, ENST00000595422), termed PKMYT1AR (PKMYT1 associated lncRNA), that is induced in NSCLC by Yin Yang 1 (YY1) factor, especially in cancerous cell lines (H358, H1975, H1299, H1650, A549 and SPC-A1) compared to that in normal human bronchial epithelium cell line (BEAS-2B).",
+        "Here, we demonstrated that PKMYT1AR was increased, whereas miR-485-5p was decreased, in cancerous tissues as well as peripheral blood serum isolated from NSCLC patients compared with reciprocal control groups, sug- gesting that PKMYT1AR and miR-485-5p functions as an oncogene, and a tumor suppressor, respectively, during NSCLC progression.",
+        "Next, the upregulation of PKMYT1AR was verified in paired NSCLC cancerous tissues (*n*=24), and periph- eral blood serum (*n*=30), using Real-time RT-PCR com- pared with reciprocal controls (Fig."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_dad232cbf64d67d0",
+      "statement": "PKMYT1AR knockdown inhibits NSCLC cell proliferation, colony formation, migration, and invasion, induces G0/G1 cell-cycle arrest and apoptosis, and suppresses xenograft tumor growth; PKMYT1AR overexpression enhances these malignant phenotypes.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 50,
+      "source_span_ids": [
+        "openalex_w3215052327-span-0001",
+        "openalex_w3215052327-span-0002",
+        "openalex_w3215052327-span-0004",
+        "openalex_w3215052327-span-0006",
+        "openalex_w3215052327-span-0008",
+        "openalex_w3215052327-span-0011",
+        "openalex_w3215052327-span-0014",
+        "openalex_w3215052327-span-0019",
+        "openalex_w3215052327-span-0020"
+      ],
+      "source_quotes": [
+        "PKMYT1AR knockdown inhibited A549 and SPC-A1 cell proliferation",
+        "PKMYT1AR knockdown inhibited tumor cell growth and migration",
+        "PKMYT1AR knockdown markedly retarded tumor progression in vivo",
+        "the tumor cell migration ability was dramatically repressed in PKMYT1AR knockdown cells",
+        "potential molecular events associated with PKMYT1AR were analyzed using GSEA dataset"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_2aa727411efb792c",
+      "statement": "The PKMYT1AR/miR-485-5p/PKMYT1 axis maintains cancer stem cell properties in NSCLC through Î²-catenin stabilization: PKMYT1 physically interacts with Î²-catenin and blocks Î²-TrCP-mediated ubiquitination and degradation, leading to constitutive Wnt signaling activation, cancer stem cell self-renewal, and therapy resistance. PKMYT1AR-targeting antisense oligonucleotides (ASOs) suppress NSCLC cell proliferation, migration, stemness, and xenograft tumor growth, demonstrating preclinical therapeutic efficacy.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 138,
+      "source_span_ids": [
+        "openalex_w3215052327-span-0001",
+        "openalex_w3215052327-span-0002",
+        "openalex_w3215052327-span-0004",
+        "openalex_w3215052327-span-0006",
+        "openalex_w3215052327-span-0008",
+        "openalex_w3215052327-span-0010",
+        "openalex_w3215052327-span-0011",
+        "openalex_w3215052327-span-0012",
+        "openalex_w3215052327-span-0013",
+        "openalex_w3215052327-span-0014",
+        "openalex_w3215052327-span-0016",
+        "openalex_w3215052327-span-0017",
+        "openalex_w3215052327-span-0018",
+        "openalex_w3215052327-span-0019",
+        "openalex_w3215052327-span-0020",
+        "openalex_w3215052327-span-0021"
+      ],
+      "source_quotes": [
+        "(h) is the quantifica- tion data for (g). **i** PKMYT1AR targeting ASOs inhibited cancer stem cell marker genes expressions examined by immunoblot with indicated antibodies. **j-k** Representative IHC staining of CD44, Sox2 and Î²-catenin for indicated xenograft tumors (j).",
+        "CD133: beyond a cancer stem cell\nbiomarker.",
+        "Conclusions\nOur findings reveal that PKMYT1AR/miR-485-5p /PKMYT1 axis is important for cancer stem cell maintenance and NSCLC progression both inÂ vitro and inÂ vivo,\nsuggesting that PKMYT1AR, miR-485-5p or PKMYT1\ncould be used as novel therapeutic targets in the future.",
+        "He*etÂ al. Molecular Cancer (2021) 20:156* Page 11 of 21\n\nname the newly identified lncRNA-ENST00000595422 as PKMYT1AR. We further surveyed the protein expression and cellular location of PKMYT1 in NSCLC (including lung SCC and ADC) and noncancerous control lung tissues (NCLT) by immunohistochemical staining (IHC) using tissue micro- array and immunoblot using fresh tissues.",
+        "He*etÂ al. Molecular Cancer (2021) 20:156* Page 14 of 21\n\n(Fig.Â  8m and Fig.Â  S8i-l). The above results suggest that PKMYT1 reduces Î²-catenin degradation by blocking Î²-TrCP E3-ligase SCF binding to Î²-catenin, leading to the constitutive activation of Wnt signaling and self-renewal of cancer stem cells."
+      ]
+    }
+  ],
+  "fetched_at": "2026-09-07T21:42:37Z"
+}

@@ -1,0 +1,172 @@
+{
+  "paper_id": "openalex_w4384664135",
+  "run_id": "run_20260907_063159_471c07",
+  "silver_record_id": "silver_run_20260907_063159_471c07_openalex_w4384664135",
+  "bronze_record_id": "bronze_d664f9791f96805e",
+  "units": [
+    {
+      "silver_unit_id": "silver_unit_93899c2c1a1e2db2",
+      "statement": "Clinical development of mRNA therapies against solid tumors remains at an early stage, characterized by a predominance of phase I trials, a high proportion of investigator-initiated studies, and geographic concentration of sponsors, with only two phase III trials identified.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 38,
+      "source_span_ids": [
+        "openalex_w4384664135-span-0001",
+        "openalex_w4384664135-span-0002",
+        "openalex_w4384664135-span-0003"
+      ],
+      "source_quotes": [
+        "**Keywords** Solid tumor, Messenger RNA, Clinical trial, Delivery system, Tumor antigen\n\n#### To theÂ editor\n\nSince the clinical application of COVID-19 vaccines, messenger RNA (mRNA)-based therapeutics have cancer.",
+        "Based on the Trialtrove database [4], a total of 108 clinical trials for mRNA therapies against solid tumors were identified worldwide by the cut-off date December 31, 2021. Most of the trials were at phase I (79, 73.1%) (Table 1). The exploratory investigator-initiated trials (IITs) accounted for a large proportion (49, 45.4%)",
+        "Based on the Trialtrove database, a total of 108 clinical trials from 1999 to 2021 were retrospectively analyzed.",
+        "Based on the Trialtrove database, a total of 108 clinical trials from 1999 to 2021 were retrospectively analyzed. We have demonstrated that the clinical development of mRNA therapies against solid tumors is still at an early stage.",
+        "Here, we summa- rize the current progress, put forward suggestions for future clinical development and provide data supports for industries and research institutions."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_46c257f38d25e3d7",
+      "statement": "The field has undergone notable shifts in delivery systems (from dendritic-cell to lipid-based platforms) and encoding strategies (from fixed tumor antigens to personalized neoantigens), with adjuvant or maintenance therapy and combination treatment with immune checkpoint inhibitors emerging as the leading clinical-development orientations, positioning mRNA agents as an adjunct rather than a treatment backbone.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 67,
+      "source_span_ids": [
+        "openalex_w4384664135-span-0001",
+        "openalex_w4384664135-span-0002",
+        "openalex_w4384664135-span-0003"
+      ],
+      "source_quotes": [
+        "(LPX) (8, 14.0%) and lipopolyplex (LPP) (6, 10.5%), in aggregate accounted for the largest proportion (27,\n\n47.4%)",
+        "**Keywords** Solid tumor, Messenger RNA, Clinical trial, Delivery system, Tumor antigen\n\n#### To theÂ editor\n\nSince the clinical application of COVID-19 vaccines, messenger RNA (mRNA)-based therapeutics have cancer.",
+        "Analyzing the delivery systems, the lipid-based plat- form, namely lipid nanoparticle (LNP) (13, 22.8%), lipo- plex (LPX) (8, 14.0%) and lipopolyplex (LPP) (6, 10.5%), in aggregate accounted for the largest proportion (27,",
+        "Analyzing the delivery systems, the lipid-based plat- form, namely lipid nanoparticle (LNP) (13, 22.8%), lipo- plex (LPX) (8, 14.0%) and lipopolyplex (LPP) (6, 10.5%), in aggregate accounted for the largest proportion (27,\n\n47.4%) (Fig.Â  1, Additional fileÂ  1: TableÂ S2).",
+        "Compared with DCs, the lipid-based delivery systems are capable of rapid manufacture, with high plasticity,"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_a01d96334534f9a3",
+      "statement": "Lipid-based delivery platforms, including LNP, LPX, and LPP, accounted for 27 of 57 mRNA agents (47.4%), becoming the mainstream platform after 2015 (27/30, 90.0%), replacing dendritic-cell delivery which was the main platform from 1999 to 2014, because lipid systems offer rapid manufacture, high plasticity, transfection rate, and immunogenicity compared with the laborious ex vivo manipulation of dendritic cells.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 13,
+      "source_span_ids": [
+        "openalex_w4384664135-span-0002"
+      ],
+      "source_quotes": [
+        "A total of 57 mRNA agents were further identified.",
+        "The lipid-based plat- form, namely lipid nanoparticle (LNP) (13, 22.8%), lipo- plex (LPX) (8, 14.0%) and lipopolyplex (LPP) (6, 10.5%), in aggregate accounted for the largest proportion (27,",
+        "Annual numbers of newly tested mRNA therapeutics\n\nby delivery system",
+        "The dendritic cell (DC) was the main platform for drugs developed from 1999 to 2014 (15/25, 60.0%)",
+        "Compared with DCs, the lipid-based delivery systems are capable of rapid manufacture, with high plasticity, transfection rate and immunogenicity [6]."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_ed160fe65dda38a4",
+      "statement": "Fixed tumor antigens were the most common coding category (27 agents, 47.4%), followed by neoantigens (8, 14.0%) and autologous tumor cell antigens (5, 8.8%), with MAGE-A1/A3 and survivin as the most common encoded proteins. Since 2009, neoantigen-based trials have tended to exceed fixed-antigen trials, and representative personalized neoantigen programs (mRNA-4157, BNT-122) have shown promising short-term efficacy, though the reliability of neoantigen prediction and the capacity to encode multiple antigens remain unresolved.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 32,
+      "source_span_ids": [
+        "openalex_w4384664135-span-0001",
+        "openalex_w4384664135-span-0002",
+        "openalex_w4384664135-span-0003"
+      ],
+      "source_quotes": [
+        "The personalized neoantigen-based therapies are expected to overcome the obstacles. These highly individualized and flexible products perfectly fit the fast manufacture of mRNA, with the development of bio-informatics technology",
+        "due to the insufficient immunogenicity and the spaceâtime heterogeneity of classic tumor antigens, mRNA agents encoding fixed, single antigens have not shown definite clinical benefit yet",
+        "mRNA agents encoding fixed, single antigens have not shown definite clinical benefit yet",
+        "the reliability of the neoantigen prediction system and the encoding capacity of the mRNA sequences for multiple antigens still need to be investigated",
+        "The tumor antigen is the most common coding cat- egory of mRNA therapies."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_2bf3d13f0b39d51f",
+      "statement": "Adjuvant and combination therapies are the trends in clinical scenarios for mRNA therapies, with immunotherapy being the dominant combination partner and combination treatment being more common than monotherapy.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 4,
+      "source_span_ids": [
+        "openalex_w4384664135-span-0001",
+        "openalex_w4384664135-span-0003"
+      ],
+      "source_quotes": [
+        "The adjuvant or maintenance therapy and the combination treatment with checkpoint inhibitors are becoming\nthe major clinical development orientation.",
+        "Therefore, adjuvant and\ncombination therapies are the trends in the clinical scenarios for mRNA therapies.",
+        "59 (54.6%) involving combination treatment",
+        "The adjuvant or maintenance therapy and the combination treatment with",
+        "The adjuvant or maintenance therapy and the combination treatment with checkpoint inhibitors are becoming the major clinical development orientation."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_62bdd07ee703bc6c",
+      "statement": "Clinical translation of mRNA therapies faces challenges in optimizing delivery system manufacturing, reducing unpredictable clinical effects, and selecting appropriate clinical scenarios, with the reliability of neoantigen prediction and multi-antigen encoding capacity still requiring investigation.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 5,
+      "source_span_ids": [
+        "openalex_w4384664135-span-0001",
+        "openalex_w4384664135-span-0002",
+        "openalex_w4384664135-span-0003"
+      ],
+      "source_quotes": [
+        "Given the complexity of the molecular structure, further optimizing the manufacturing process and reducing the unpredictable clinical effects will be the future direction of the lipid-based platform.",
+        "As a result, many challenges and uncer- tainties have been raised, including how to optimize the delivery systems and encoded proteins of mRNA sequences and how to select clinical scenario.",
+        "The representatives, mRNA-4157 and BNT-122, have already achieved promising short-term efficacy (Additional fileÂ  1: TableÂ S3), though the reliabil- ity of the neoantigen prediction system and the encoding capacity of the mRNA sequences for multiple antigens still need to be investigated [9].",
+        "Given the complexity of the molecular structure",
+        "Given the complexity of the molecular structure, further optimizing the manufacturing process"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_5179457d6e0a6a04",
+      "statement": "Further optimization of lipid-based manufacturing and reduction of unpredictable clinical effects remain future priorities.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4384664135-span-0002",
+        "openalex_w4384664135-span-0003"
+      ],
+      "source_quotes": [
+        "further optimizing the manufacturing process and reducing the unpredictable clinical effects will be the future direction of the lipid-based platform",
+        "the reliability of the neoantigen prediction system and the encoding capacity of the mRNA sequences for multiple antigens still need to be investigated"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_eea0dded8e999b68",
+      "statement": "Personalized neoantigen therapies require reliable neoantigen prediction systems and sufficient mRNA encoding capacity for multiple antigens.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4384664135-span-0002",
+        "openalex_w4384664135-span-0003"
+      ],
+      "source_quotes": [
+        "further optimizing the manufacturing process and reducing the unpredictable clinical effects will be the future direction of the lipid-based platform",
+        "the reliability of the neoantigen prediction system and the encoding capacity of the mRNA sequences for multiple antigens still need to be investigated"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_1a17674f7b8a6d3c",
+      "statement": "A total of 57 mRNA agents were identified from the 108 clinical trials.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 3,
+      "source_span_ids": [
+        "openalex_w4384664135-span-0002"
+      ],
+      "source_quotes": [
+        "A total of 57 mRNA agents were further identified."
+      ]
+    }
+  ],
+  "fetched_at": "2026-09-07T21:42:40Z"
+}

@@ -1,0 +1,221 @@
+{
+  "paper_id": "openalex_w4414114341",
+  "run_id": "run_20260907_063159_471c07",
+  "silver_record_id": "silver_run_20260907_063159_471c07_openalex_w4414114341",
+  "bronze_record_id": "bronze_29a52be2256b20f1",
+  "units": [
+    {
+      "silver_unit_id": "silver_unit_c2925eeecdd138e0",
+      "statement": "Trametinib induces adaptive resistance in KRAS-mutant NSCLC through feedback activation of ERK/AKT signaling and multiple RTKs (PDGFR, FGFR, c-KIT), with the specific RTK set varying by cellular context.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 34,
+      "source_span_ids": [
+        "openalex_w4414114341-span-0001",
+        "openalex_w4414114341-span-0002",
+        "openalex_w4414114341-span-0003",
+        "openalex_w4414114341-span-0004",
+        "openalex_w4414114341-span-0005",
+        "openalex_w4414114341-span-0006",
+        "openalex_w4414114341-span-0007",
+        "openalex_w4414114341-span-0008",
+        "openalex_w4414114341-span-0011",
+        "openalex_w4414114341-span-0013",
+        "openalex_w4414114341-span-0014",
+        "openalex_w4414114341-span-0015"
+      ],
+      "source_quotes": [
+        "Adaptive resistance to trametinib in KRAS-mutant NSCLC cells is attributed to the activation of ERK/AKT signaling and RTK signaling.",
+        "Coinhibition of the MEK/RTK pathway has high therapeutic efficacy in... <u>Lu et al.</u>\n\nFig. 1 Mechanistic analyses of trametinib resistance in KRAS-mutant NSCLC. a Viability of human KRAS-mutant lung cancer cell lines (H23,\n\nH358, SW1573, Calu-1: KRAS G12C; H460: KRAS Q61H; A549: KRAS G12S; SW900: KRAS G12V; SK-LU-1: KRAS G12D ) after 72 h of treatment with the indicated doses of trametinib.",
+        "We observed the upregulation of p-PDGFR, PDGFR, ... p-SHP2, SHP2, p-EGFR, EGFR, p-ERBB3, ERBB3, p-VEGFR",
+        "are involved in adaptive resistance to the MEK inhibitor trametinib",
+        "different RTKs are activated in various KRAS-mutant NSCLC cell"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_d92c0ab56c37ad9f",
+      "statement": "IGFBP2 functions as a mechanistic intermediary in the trametinib-anlotinib synergy: combined treatment downregulates IGFBP2, and exogenous IGFBP2 reverses combination-induced suppression of invasion, viability, RTK signaling, and c-MYC levels, while IGFBP2 knockdown inhibits cell-cycle gene transcription.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 25,
+      "source_span_ids": [
+        "openalex_w4414114341-span-0002",
+        "openalex_w4414114341-span-0003",
+        "openalex_w4414114341-span-0005",
+        "openalex_w4414114341-span-0006",
+        "openalex_w4414114341-span-0007",
+        "openalex_w4414114341-span-0008",
+        "openalex_w4414114341-span-0013",
+        "openalex_w4414114341-span-0014",
+        "openalex_w4414114341-span-0016"
+      ],
+      "source_quotes": [
+        "Fig. 4 IGFBP2 contributes to the high antitumor efficacy of MEK inhibitor-trametinib and RTK inhibitor-anlotinib combination treatments.",
+        "Furthermore, the combined treatment-induced decrease in the c-MYC protein level could be rescued via the addition of exogenous IGFBP2 (Fig. 4m, n).",
+        "More importantly, the combined treatment-induced inactivation of RTK pathways (including PDGFR, FSR (FGFR), EGFR, and ERBB3) along with downstream SHP2 could be reversed upon the addition of exogenous IGFBP2 (Fig. 4o).",
+        "The addition of exogenous IGFBP2 can rejuvenate RTK inactivation induced by coinhibition of the MEK and RTK pathways.",
+        "These results suggest that the synergistic antitumor activity induced by coinhibition of the MEK and RTK pathways is mediated through a reduction in IGFBP2."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_0d90eef2b99e7368",
+      "statement": "The trametinib-anlotinib combination synergistically suppresses proliferation, colony formation, cell cycle regulators (CCNE2, CDK2, CCND1), and c-MYC expression, and promotes apoptosis in KRAS-mutant NSCLC cells in vitro.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 21,
+      "source_span_ids": [
+        "openalex_w4414114341-span-0001",
+        "openalex_w4414114341-span-0002",
+        "openalex_w4414114341-span-0003",
+        "openalex_w4414114341-span-0004",
+        "openalex_w4414114341-span-0005",
+        "openalex_w4414114341-span-0006",
+        "openalex_w4414114341-span-0007",
+        "openalex_w4414114341-span-0008",
+        "openalex_w4414114341-span-0009",
+        "openalex_w4414114341-span-0010",
+        "openalex_w4414114341-span-0011",
+        "openalex_w4414114341-span-0013",
+        "openalex_w4414114341-span-0014",
+        "openalex_w4414114341-span-0016"
+      ],
+      "source_quotes": [
+        "Considering that the binding protein (IGFBP) family proteins (including IGFBP1, IGFBP2, RTK inhibitor anlotinib acts as an antiangiogenic drug, we and IGFBP3) and thymidylate kinase Tmp (TMP) family proteins performed angiogenesis-related protein chip screening on KRAS-(TMP1 and TMP4) following treatment with trametinib plus mutant NSCLC cells treated with the combined strategy.",
+        "Here, we found that MEK inhibitor-trametinib treatment results in the feedback activation of multiple receptor tyrosine kinases (RTKs) and that treatment with the pan-RTK inhibitor anlotinib effectively inhibits the progression of KRAS-mutant NSCLC.",
+        "In this study, we further investigated the molecular mechanism of adaptive resistance to the MEK inhibitor trametinib in KRAS- mutant NSCLC cells and revealed that trametinib-induced multiple receptor tyrosine kinase (RTK) activation plays a key role in adaptive resistance, suggesting that coinhibition of the MEK/RTK pathways via trametinib plus anlotinib administration has potential value in the treatment of KRAS-mutant NSCLC in preclinical and clinical settings.",
+        "RESULTS Trametinib-induced short-term proliferation inhibition in KRAS- mutant NSCLC cells via inhibition of the MEK-ERK pathway We first treated the KRAS-mutant human NSCLC cell lines (A549, KRAS G12S; H460, KRAS Q61H; SK-LU-1, KRAS G12D; SW900, KRAS G12V; H23, KRAS G12C; H358, KRAS G12C; SW1573, KRAS G12C; and Calu-1, KRAS G12C ) with trametinib for 3 days.",
+        "Taken together, our preclinical data suggest that the combination strategy of trametinib plus anlotinib synergistically induces antitumor activity in KRAS-mutant NSCLC, potentially via the MEK/RTK-IGFBP2-RTK signaling loop."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_698c8f773a16dd2f",
+      "statement": "In KRAS-mutant NSCLC xenograft models (A549, H460, H23, Calu-1), trametinib plus anlotinib produces significantly smaller tumor volumes, continuous tumor shrinkage without rebound, and decreases p-ERK and c-MYC immunofluorescence compared to monotherapy.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 12,
+      "source_span_ids": [
+        "openalex_w4414114341-span-0005",
+        "openalex_w4414114341-span-0006",
+        "openalex_w4414114341-span-0007",
+        "openalex_w4414114341-span-0008",
+        "openalex_w4414114341-span-0013",
+        "openalex_w4414114341-span-0014",
+        "openalex_w4414114341-span-0016"
+      ],
+      "source_quotes": [
+        "Considering that the binding protein (IGFBP) family proteins (including IGFBP1, IGFBP2, RTK inhibitor anlotinib acts as an antiangiogenic drug, we and IGFBP3) and thymidylate kinase Tmp (TMP) family proteins performed angiogenesis-related protein chip screening on KRAS-(TMP1 and TMP4) following treatment with trametinib plus mutant NSCLC cells treated with the combined strategy.",
+        "Our findings indicated that treatment with the MEK inhibitor trametinib plus the RTK inhibitor anlotinib significantly inhibited the growth of KRAS- mutant NSCLC cells (G12C, G12D, G12V, G12S, and Q61H).",
+        "Using xenograft tumor models derived from A549, H460, H23 and Calu-1 cells, we further demonstrated the high efficacy of combined treatment with trametinib and anlotinib (Fig.",
+        "Additionally, this combined strategy induced tumor shrinkage in various KRAS-mutant NSCLC xenograft models (G12C, G12S, and Q61H) as well as in various KRAS-mutant NSCLC patients (G12D, G12F, G12S, G12V, and Q61H).",
+        "Taken together, our preclinical data suggest that the combination strategy of trametinib plus anlotinib synergistically induces antitumor activity in KRAS-mutant NSCLC, potentially via the MEK/RTK-IGFBP2-RTK signaling loop."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_1038ad2c2c68a362",
+      "statement": "In the phase I clinical trial (NCT04967079) of 33 advanced non-G12C KRAS-mutant NSCLC patients, trametinib plus anlotinib achieved an integrated ORR of 66.7%, median PFS of 10.3 months, median OS of 19.7 months, average tumor shrinkage of 34.4%, and DCR of 97%, with phase Ia ORR 69.2% (6.9-month PFS) and phase Ib ORR 65% (11.5-month PFS).",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 22,
+      "source_span_ids": [
+        "openalex_w4414114341-span-0001",
+        "openalex_w4414114341-span-0005",
+        "openalex_w4414114341-span-0007",
+        "openalex_w4414114341-span-0009",
+        "openalex_w4414114341-span-0010",
+        "openalex_w4414114341-span-0013",
+        "openalex_w4414114341-span-0014",
+        "openalex_w4414114341-span-0015",
+        "openalex_w4414114341-span-0016"
+      ],
+      "source_quotes": [
+        "Seven patients (35%) reported grade 3 AEs",
+        "The most common AEs were rash (80%), diarrhea (50%), hypertension (45%), decreased appetite (40%) and fatigue (40%).",
+        "The phase Ia containing 13 patients showed that the recommended phase 2 dose (RP2D) is trametinib (2 mg) plus anlotinib (8 mg), the objective response rate (ORR) is 69.2%",
+        "The phase Ib containing 20 patients demonstrated the high efficacy of this combinational therapy with RP2D, with the ORR at 65%",
+        "the median PFS is 11.5 months"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_3c2afc363fbcc022",
+      "statement": "Trametinib plus anlotinib has a manageable safety profile in non-G12C KRAS-mutant NSCLC patients, with no grade 4 or 5 adverse events; grade 3 AEs occurred in 35% of phase Ib patients (rash, hypertension, fatigue) and common AEs included rash, diarrhea, hypertension, decreased appetite, and fatigue.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 15,
+      "source_span_ids": [
+        "openalex_w4414114341-span-0001",
+        "openalex_w4414114341-span-0005",
+        "openalex_w4414114341-span-0007",
+        "openalex_w4414114341-span-0008",
+        "openalex_w4414114341-span-0010",
+        "openalex_w4414114341-span-0011",
+        "openalex_w4414114341-span-0013",
+        "openalex_w4414114341-span-0014",
+        "openalex_w4414114341-span-0016"
+      ],
+      "source_quotes": [
+        "Among the 33 enrolled non-G12C KRAS-mutant NSCLC patients, the median PFS was 10.3 months ... and the median OS was 19.7 months",
+        "the overall ORR was 66.7% (22/33)",
+        "there were no grade 4 or 5 AEs observed after trametinib plus anlotinib therapy",
+        "Adverse events for phase Ia and Ib",
+        "Seven patients (35%) reported grade 3 AEs with symptoms of rash, hypertension, and fatigue (Table 2)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_e155c80287860979",
+      "statement": "Anlotinib monotherapy shows modest antitumor activity in KRAS-mutant NSCLC: a retrospective analysis of 29 patients from ALTER-0303 reports a 27.6% ORR, median PFS of 127 days, and median OS of 240 days, with durable responses across KRAS subtypes including G12C, G12V, A146, and Q61K.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 5,
+      "source_span_ids": [
+        "openalex_w4414114341-span-0004",
+        "openalex_w4414114341-span-0005",
+        "openalex_w4414114341-span-0007",
+        "openalex_w4414114341-span-0013",
+        "openalex_w4414114341-span-0015",
+        "openalex_w4414114341-span-0016"
+      ],
+      "source_quotes": [
+        "As no DLTs were observed in non-G12C KRAS-mutant NSCLC patients across all dosage groups, the sample size for each anlotinib dosage was set at 3.",
+        "Furthermore, we analyzed patients who achieved a partial response (PR), and the results suggested that patients harboring various KRAS mutation subtypes, including G12C, G12V, A146, and Q61K, achieved a durable response to anlotinib monotherapy (Supplementary Fig.",
+        "Taken together, our preclinical data suggest that the combination strategy of trametinib plus anlotinib synergistically induces antitumor activity in KRAS-mutant NSCLC, potentially via the MEK/RTK-IGFBP2-RTK signaling loop.",
+        "These advanced pan-KRAS-mutant NSCLC patients (n = 29) who received anlotinib monotherapy had a total objective response rate (ORR) of 27.6%, a median progression-free survival (PFS) of 127 days, and a median overall survival (OS) of 240 days (Supplementary Fig.",
+        "Retrospective efficacy analysis of patients with KRAS-mutant NSCLC in the ALTER0303 clinical trial ALTER0303 is a phase III clinical trial (NCT02388919) to examine the efficacy of anlotinib in advanced NSCLC (stage IIIB/IV) patients who have received chemotherapy or driver gene inhibitors for at least two lines of therapy."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_4be4f6acfee70635",
+      "statement": "Exploratory subgroup analyses and dose-finding results: non-smokers had more favorable PFS (8.4 months), patients with <3 metastases had longer PFS, patients with >=3 metastases had greater ORR benefit, and RP2D was defined as trametinib 2 mg plus anlotinib 8 mg with no DLTs observed.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 12,
+      "source_span_ids": [
+        "openalex_w4414114341-span-0005",
+        "openalex_w4414114341-span-0007",
+        "openalex_w4414114341-span-0008",
+        "openalex_w4414114341-span-0009",
+        "openalex_w4414114341-span-0010",
+        "openalex_w4414114341-span-0011",
+        "openalex_w4414114341-span-0013",
+        "openalex_w4414114341-span-0014",
+        "openalex_w4414114341-span-0015",
+        "openalex_w4414114341-span-0016"
+      ],
+      "source_quotes": [
+        "Patients with a history of smoking had a higher ORR\n\n(86%), whereas those without a smoking history had a more favorable PFS (8.4 months) (Supplementary Table 1).",
+        "The phase I study demonstrated a significantly favorable ORR, PFS, and OS for non-G12C KRAS-mutant NSCLC patients treated with the combination therapy of trametinib plus anlotinib.",
+        "These advanced pan-KRAS-mutant NSCLC patients (n = 29) who received anlotinib monotherapy had a total objective response rate (ORR) of 27.6%, a median progression-free survival (PFS) of 127 days, and a median overall survival (OS) of 240 days (Supplementary Fig.",
+        "Among the 29 patients harboring KRAS mutations, 25 (86.2%) had mutations occurring in exon 2, while 4 (13.8%) had mutations occurring in exons 3 or 4; 18 (62.1%) had previously undergone two regimens of systemic therapy, and 11 (37.9%) had received more than three lines of therapy (Supplementary Fig.",
+        "Definition of RP2D via clinical evaluation of combined MEK inhibitor-trametinib and RTK inhibitor-anlotinib therapy in non- G12C KRAS-mutant patients On the basis of the above results, we initiated a clinical trial (phase Ia) to define the recommended phase 2 dose (RP2D) and evaluate the efficacy and safety of combined trametinib plus anlotinib therapy in advanced NSCLC patients with non-G12C KRAS mutations."
+      ]
+    }
+  ],
+  "fetched_at": "2026-09-07T21:42:43Z"
+}

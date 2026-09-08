@@ -1,0 +1,272 @@
+{
+  "paper_id": "openalex_w4406365831",
+  "run_id": "run_20260907_063159_471c07",
+  "silver_record_id": "silver_run_20260907_063159_471c07_openalex_w4406365831",
+  "bronze_record_id": "bronze_6baab936b4d4a0ae",
+  "units": [
+    {
+      "silver_unit_id": "silver_unit_16798f92ff0e4248",
+      "statement": "A trans-ancestry GWAS meta-analysis of 688,808 major depression cases and 4,364,225 controls from 29 countries identified 697 independent associations at 635 loci, of which 293 (46%) were novel, substantially expanding the depression association map beyond previous European-only analyses.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 35,
+      "source_span_ids": [
+        "openalex_w4406365831-span-0001",
+        "openalex_w4406365831-span-0002",
+        "openalex_w4406365831-span-0003",
+        "openalex_w4406365831-span-0004",
+        "openalex_w4406365831-span-0005",
+        "openalex_w4406365831-span-0006",
+        "openalex_w4406365831-span-0008",
+        "openalex_w4406365831-span-0009",
+        "openalex_w4406365831-span-0016",
+        "openalex_w4406365831-span-0017",
+        "openalex_w4406365831-span-0018",
+        "openalex_w4406365831-span-0020"
+      ],
+      "source_quotes": [
+        "About half (293/635; 46%) of the discovered loci were novel MD associations",
+        "In a genome-wide association study (GWAS) meta-analysis of 688,808 individuals with major depression (MD) and 4,364,225 controls from 29 countries across diverse and admixed ancestries, we identify 697 associations at 635 loci, 293 of which are novel.",
+        "The European-only analysis identified 622 SNPs in 570 regions with a net change in the full meta-analysis of 65 (142 regions gained, 77 regions became non-significant).",
+        "we identify 697 associations at 635 loci, 293 of which are novel",
+        "Trans-ancestry GWAS identified 697 variants and 308 genes associated with depression"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_38d4d916f35b6f8f",
+      "statement": "Including ancestrally diverse and admixed cohorts in the GWAS meta-analysis yielded 100 additional loci beyond the European-only analysis, increasing the effective sample size through ancestry-aware modeling and demonstrating that trans-ancestry sampling expands locus discovery and enables genetic risk prediction across ancestry groups.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 82,
+      "source_span_ids": [
+        "openalex_w4406365831-span-0003",
+        "openalex_w4406365831-span-0004",
+        "openalex_w4406365831-span-0005",
+        "openalex_w4406365831-span-0007",
+        "openalex_w4406365831-span-0009",
+        "openalex_w4406365831-span-0010",
+        "openalex_w4406365831-span-0012",
+        "openalex_w4406365831-span-0013",
+        "openalex_w4406365831-span-0015",
+        "openalex_w4406365831-span-0016",
+        "openalex_w4406365831-span-0017",
+        "openalex_w4406365831-span-0018",
+        "openalex_w4406365831-span-0019",
+        "openalex_w4406365831-span-0020"
+      ],
+      "source_quotes": [
+        "of which 100 were identified due to the inclusion of cohorts with ancestrally diverse samples.",
+        "The European-only analysis iden- tified 622 SNPs in 570 regions with a net change in the full meta-analysis of 65 (142 regions gained, 77 regions became non-significant).",
+        "we identified 697 significant indepen- dent single-nucleotide polymorphisms (SNPs) in 635 genomic regions.",
+        "We also show a significant MD prediction in diverse non-European and admixed ancestries.",
+        "the additional ancestrally diverse partici-pants helped identify novel genetic associations and enabled us to demonstrate significant genetic risk prediction across diverse ancestry groups."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_cf9cc3b533116f16",
+      "statement": "Integrative fine-mapping, SNP-based prioritization (PolyFun/SuSiE), transcriptome-wide association (TWAS), and proteome-wide association (PWAS) analyses identified 308 high-confidence depression-associated gene or protein associations, with convergence across methods for 15 genes including CYP7B1, DCC, FURIN, and DRD2, implicating multiple biological pathways rather than a single molecular mechanism.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 112,
+      "source_span_ids": [
+        "openalex_w4406365831-span-0002",
+        "openalex_w4406365831-span-0003",
+        "openalex_w4406365831-span-0004",
+        "openalex_w4406365831-span-0005",
+        "openalex_w4406365831-span-0006",
+        "openalex_w4406365831-span-0007",
+        "openalex_w4406365831-span-0008",
+        "openalex_w4406365831-span-0009",
+        "openalex_w4406365831-span-0011",
+        "openalex_w4406365831-span-0012",
+        "openalex_w4406365831-span-0013",
+        "openalex_w4406365831-span-0014",
+        "openalex_w4406365831-span-0016",
+        "openalex_w4406365831-span-0017",
+        "openalex_w4406365831-span-0018",
+        "openalex_w4406365831-span-0019",
+        "openalex_w4406365831-span-0020",
+        "openalex_w4406365831-span-0021",
+        "openalex_w4406365831-span-0022"
+      ],
+      "source_quotes": [
+        "In total, across SNP-based fine-mapping, eQTL, and pQTL analyses, 308 high-confidence associations were identified (Table S8).",
+        "Results were only regarded as high-confidence when altered expression was supported by significant SMR and COLOC findings.",
+        "308 high-confidence associations were identified",
+        "At the post-synapse, there was enrichment of synaptic specialization, density, and receptor clustering",
+        "In total, across SNP-based fine-mapping, eQTL, and pQTL analyses, 308 high-confidence associations were identified."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_b3e260d16ac1baff",
+      "statement": "The prioritized depression-associated genes showed consistent enrichment for postsynaptic density, receptor clustering, presynaptic processes including cytosol, active-zone membrane, calcium levels, and vesicle cycle, and neural tissue specificity, with stronger enrichment patterns than prior PGC analyses.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 21,
+      "source_span_ids": [
+        "openalex_w4406365831-span-0002",
+        "openalex_w4406365831-span-0003",
+        "openalex_w4406365831-span-0005",
+        "openalex_w4406365831-span-0006",
+        "openalex_w4406365831-span-0008",
+        "openalex_w4406365831-span-0018",
+        "openalex_w4406365831-span-0022"
+      ],
+      "source_quotes": [
+        "308 high-confidence associations were identified",
+        "At the post-synapse, there was enrichment of synaptic specialization, density, and receptor clustering",
+        "In total, across SNP-based fine-mapping, eQTL, and pQTL analyses, 308 high-confidence associations were identified.",
+        "308 high-confidence gene associations were identified",
+        "In total, across SNP-based fine-mapping, eQTL, and pQTL analyses, 308 high-confidence associations were identified"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_7b8393cb511bc6da",
+      "statement": "Depression-associated genetic variation is enriched in neuronal cell types including excitatory and inhibitory neurons, multiple inhibitory neuron subcategories, medium spiny neurons, and peptidergic neurons across midbrain, amygdala, hippocampus, thalamus, and cortex, with the strongest new signals in amygdala excitatory neurons and MGE/CGE interneurons in both mouse and human single-cell analyses.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 64,
+      "source_span_ids": [
+        "openalex_w4406365831-span-0002",
+        "openalex_w4406365831-span-0003",
+        "openalex_w4406365831-span-0005",
+        "openalex_w4406365831-span-0006",
+        "openalex_w4406365831-span-0007",
+        "openalex_w4406365831-span-0009",
+        "openalex_w4406365831-span-0011",
+        "openalex_w4406365831-span-0012",
+        "openalex_w4406365831-span-0013",
+        "openalex_w4406365831-span-0016",
+        "openalex_w4406365831-span-0018",
+        "openalex_w4406365831-span-0019"
+      ],
+      "source_quotes": [
+        "Cell-type enrichment analysis. 20 categories of brain cell types are listed (from a total of 39 broad brain cell-type categories tested)",
+        "Implicates postsynaptic density, neuronal dysregulation, and amygdala involvement",
+        "Our results confirm and extend previous findings showing the enrichment of expression signals in excitatory and inhibitory neurons.",
+        "Our results confirm and extend previous findings showing the enrichment of expression signals in excitatory and inhibitory neurons. Importantly, the increased power in this genetic analysis provided additional evidence for involvement of amygdala and hippocampal excitatory neurons, including granule cells and medium spiny neurons.",
+        "Associated cell types using both methods included midbrain ... amygdala ... hippocampal ... thalamic ... and cortical excitatory neurons"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_074db9b279ed9e9d",
+      "statement": "Depression genetic association signals are significantly enriched for gene targets of antidepressants (ATC class N06A) and other drug classes including antipsychotics (N05A), identifying possible repurposing opportunities for compounds such as pregabalin, modafinil, and several anti-cancer therapies, though the enrichment test is non-directional and cannot distinguish therapeutic from risk-exacerbating mechanisms.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 80,
+      "source_span_ids": [
+        "openalex_w4406365831-span-0002",
+        "openalex_w4406365831-span-0003",
+        "openalex_w4406365831-span-0004",
+        "openalex_w4406365831-span-0006",
+        "openalex_w4406365831-span-0007",
+        "openalex_w4406365831-span-0008",
+        "openalex_w4406365831-span-0009",
+        "openalex_w4406365831-span-0010",
+        "openalex_w4406365831-span-0011",
+        "openalex_w4406365831-span-0012",
+        "openalex_w4406365831-span-0013",
+        "openalex_w4406365831-span-0014",
+        "openalex_w4406365831-span-0016",
+        "openalex_w4406365831-span-0017",
+        "openalex_w4406365831-span-0018",
+        "openalex_w4406365831-span-0020",
+        "openalex_w4406365831-span-0021",
+        "openalex_w4406365831-span-0022"
+      ],
+      "source_quotes": [
+        "Table 2. Significant drug target enrichments",
+        "Table shows the top 16 most significantly enriched drugs based on capture of their targets within the gene-based associations of the current MD GWAS analysis. One topical preparation is not shown. The test for drug enrichment is not directional and may indicate compounds that confer risk of MD or exacerbate depressive symptoms, as well as those that ameliorate risk or depressive symptoms.",
+        "The test for drug enrichment is not directional and may indicate compounds that confer risk of MD or exacerbate depressive symptoms, as well as those that ameliorate risk or depressive symptoms.",
+        "The identified drugs provide possible repurposing opportunities and examples included several anti-cancer therapies and the agents pregabalin and modafinil",
+        "The test for drug enrichment is not directional and may indicate compounds that confer risk of MD or exacerbate depressive symptoms, as well as those that ameliorate risk or depressive symptoms"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_85fe387ad3eccb8f",
+      "statement": "Polygenic scores trained on European or multi-ancestry GWAS summary statistics predict major depression case-control status across ancestries, explaining up to 5.8% of liability-scale variance in European cohorts (a substantial increase from 3.2% in prior studies), with prediction significantly lower in African-ancestry studies and no consistent improvement from multi-ancestry over European-only training sets.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 60,
+      "source_span_ids": [
+        "openalex_w4406365831-span-0002",
+        "openalex_w4406365831-span-0003",
+        "openalex_w4406365831-span-0004",
+        "openalex_w4406365831-span-0007",
+        "openalex_w4406365831-span-0008",
+        "openalex_w4406365831-span-0009",
+        "openalex_w4406365831-span-0018",
+        "openalex_w4406365831-span-0019",
+        "openalex_w4406365831-span-0021"
+      ],
+      "source_quotes": [
+        "Polygenic scores trained using European or multi-ancestry data predicted MD status across all ancestries, explaining up to 5.8% of MD liability variance in Europeans.",
+        "Results using the multi-ancestry summary statistics showed only minor and non-significant differences from European-only PGS GWAS-trained scores in all ancestry groups.",
+        "The rÂ²lwas calculated using a prevalence of 0.15 with the P+CT method.",
+        "Values were lowest in studies with participants of African descent",
+        "The RÂ² are estimated across 42 cohorts with individual-level data."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_28f3bd57164bd599",
+      "statement": "A genomic SEM common-factor model is consistent with the data (chi2_3=4.49, p=0.213), with strong positive loadings for clinical/interview (reference), EHR (0.92), questionnaire (0.95), and self-reported (0.85) depression phenotypes, which have high genetic correlations (LD score rg 0.78-0.88), supporting a shared genetic liability across depression definitions with one notable exception at the NEGR1 locus showing phenotype-dependent heterogeneity.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 39,
+      "source_span_ids": [
+        "openalex_w4406365831-span-0003",
+        "openalex_w4406365831-span-0004",
+        "openalex_w4406365831-span-0005",
+        "openalex_w4406365831-span-0006",
+        "openalex_w4406365831-span-0009",
+        "openalex_w4406365831-span-0011",
+        "openalex_w4406365831-span-0013",
+        "openalex_w4406365831-span-0016",
+        "openalex_w4406365831-span-0017",
+        "openalex_w4406365831-span-0018",
+        "openalex_w4406365831-span-0019",
+        "openalex_w4406365831-span-0020",
+        "openalex_w4406365831-span-0021",
+        "openalex_w4406365831-span-0023"
+      ],
+      "source_quotes": [
+        "The different phenotype definitions of MD had strong genetic correlations (LD score *rg*from 0.78 to 0.88).",
+        "This factor model was consistent with the data (cÂ²3= 4.49, *p* = 0.213)",
+        "therefore, we could not reject the null hypothesis that a single factor capturing all the variance of the primary method ex- plained the intercorrelations between the other depression phe- notypes.",
+        "Most MD phenotypes had strong positive loadings on the common factor (clinical/interview = 1.0 [reference], EHR = 0.92 Â± 0.04, questionnaire = 0.95 Â± 0.04)",
+        "Most MD phenotypes had strong positive loadings on the common factor"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_3599dd74cf8e46b9",
+      "statement": "SNP-based heritability of major depression in European ancestries is estimated at 8.4% (SE 0.07%) on the liability scale, with the study estimating polygenicity at approximately 6% and a selection parameter near 0.54, implying that common SNP effects explain roughly 69% of the additive genetic variance for major depression, consistent with a highly polygenic architecture and highlighting the need for larger and more globally representative samples.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 18,
+      "source_span_ids": [
+        "openalex_w4406365831-span-0003",
+        "openalex_w4406365831-span-0005",
+        "openalex_w4406365831-span-0009",
+        "openalex_w4406365831-span-0011",
+        "openalex_w4406365831-span-0018"
+      ],
+      "source_quotes": [
+        "The SNP-*hÂ²* in this study of 8.4% implies that approximately 69% of the additive genetic variance for MD associated with common SNPs across studies can now be accounted for by PGSs.",
+        "a considerable increase from an *RÂ²* of 3.2% in our previous ana-lyses to 5.8% using SBayesR.",
+        "4,7 Analyses of the genetic architecture using SBayesS estimated a polygenicity of 6% and selection parameter of 0.54.",
+        "Genome-wide association analyses identify 44 risk variants and refine the genetic architecture of major depression.",
+        "Compared with previously reported estimates for 155 traits, MD has a relatively higher polygenicity, but its associated vari- ants are under weaker negative selection."
+      ]
+    }
+  ],
+  "fetched_at": "2026-09-07T21:42:42Z"
+}

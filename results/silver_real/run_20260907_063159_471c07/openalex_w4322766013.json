@@ -1,0 +1,469 @@
+{
+  "paper_id": "openalex_w4322766013",
+  "run_id": "run_20260907_063159_471c07",
+  "silver_record_id": "silver_run_20260907_063159_471c07_openalex_w4322766013",
+  "bronze_record_id": "bronze_33136488c3db3bd8",
+  "units": [
+    {
+      "silver_unit_id": "silver_unit_47477e18fb4cfa1b",
+      "statement": "Low-dose ionizing radiation (as low as 0.25 Gy) induces endothelial P-selectin expression selectively in SHH-MB tumour vasculature, with elevation confined to tumour regions and absent from adjacent normal brain tissue, creating a tumour-selective vascular targeting window that is enhanced in a time- and dose-dependent manner.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 20,
+      "source_span_ids": [
+        "openalex_w4322766013-span-0001",
+        "openalex_w4322766013-span-0002",
+        "openalex_w4322766013-span-0003",
+        "openalex_w4322766013-span-0004",
+        "openalex_w4322766013-span-0007",
+        "openalex_w4322766013-span-0011",
+        "openalex_w4322766013-span-0012",
+        "openalex_w4322766013-span-0016",
+        "openalex_w4322766013-span-0020",
+        "openalex_w4322766013-span-0026"
+      ],
+      "source_quotes": [
+        "**Extended Data Fig. 3 | Timecourse of P-selectin expression in SHH-MB** and 24 hour time points (n = 2 mice at each time point) and untreated control **following ionizing radiation.** Western blot analysis of *Ptf1acre;Ptch1fl/fl* SHH-MB (NT).",
+        "1 | Low-dose irradiation induces P-selectin expression on tumour**\n\n**vasculature in medulloblastoma.",
+        "As with efficacy studies, mice\nwere irradiated with 0.25 Gy XRT.",
+        "P-selectin expression could still be robustly induced\nfollowing a single dose of 0.25 Gy XRT (Fig. 1b and Extended Data Fig. 2).",
+        "P-selectin expression could still be robustly induced following a single dose of 0.25 Gy XRT"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_f8d7d0f9d2f9ac87",
+      "statement": "P-selectin-targeted fucoidan nanocarriers induce active, caveolin-1-dependent transcytosis across an intact blood-brain barrier, enabling tumour-selective delivery of nanoparticles and their therapeutic cargo into the brain tumour microenvironment.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 23,
+      "source_span_ids": [
+        "openalex_w4322766013-span-0001",
+        "openalex_w4322766013-span-0002",
+        "openalex_w4322766013-span-0003",
+        "openalex_w4322766013-span-0004",
+        "openalex_w4322766013-span-0006",
+        "openalex_w4322766013-span-0008"
+      ],
+      "source_quotes": [
+        "Localization of FiVis nanoparticles to tumours was abrogated in P-selectin knockout (KO) SHH-MB mice",
+        "P-selectin targeting results in active transport in tumour endothelium to enable delivery of fucoidan-based nanoparticles selectively into the tumour microenvironment",
+        "We observed minimal extravasation of TMR-dextran into parenchymal brain tumour tissue",
+        "P-selectin targeting results in active transport in tumour endothelium to enable delivery of fucoidan-based nanoparticles selectively into the tumour microenvironment, which is enhanced by RT.",
+        "This mechanism of transport potentially enables the delivery of nanoparticles and other large cargoes across the BBB without impacting the structural integrity of the neurovascular unit."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_34b5c58b266aa784",
+      "statement": "Caveolin-1-dependent endocytosis and transcytosis, rather than clathrin-mediated uptake or passive paracellular passage, is the primary mechanism by which P-selectin-targeted nanoparticles cross brain endothelial cells and reach tumour parenchyma; Cav1 loss restricts uptake and prevents parenchymal extravasation.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 24,
+      "source_span_ids": [
+        "openalex_w4322766013-span-0001",
+        "openalex_w4322766013-span-0003",
+        "openalex_w4322766013-span-0004",
+        "openalex_w4322766013-span-0005",
+        "openalex_w4322766013-span-0006",
+        "openalex_w4322766013-span-0007",
+        "openalex_w4322766013-span-0008",
+        "openalex_w4322766013-span-0009",
+        "openalex_w4322766013-span-0011",
+        "openalex_w4322766013-span-0026"
+      ],
+      "source_quotes": [
+        "These results sug- gest that FiVis entry into murine brain endothelial cells was mediated by caveolin-dependent endocytosis.",
+        "We observed a similar trend following inhibition of these path- ways via short-hairpin RNA-mediated knockdown of Cav1 and clathrin heavy-chain (CLTC) genes",
+        "groups treated with CD showed significantly reduced FiVis uptake in a dose-dependent manner",
+        "the cellular entry and transendothelial BBB transport of P-selectin-targeted materials to SHH-MB tumour tissue is Cav1 dependent",
+        "we found that FiVis enhanced Cav1 expression in endothelial cells in vitro"
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_751c825221d931e0",
+      "statement": "In Cav1 knockout SHH-MB mice, P-selectin-targeted nanoparticles bind to tumour vasculature but cannot extravasate into brain tumour parenchyma, and Gli1 target inhibition is diminished, confirming Cav1-mediated transcytosis is required for parenchymal delivery and pathway inhibition.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 6,
+      "source_span_ids": [
+        "openalex_w4322766013-span-0004",
+        "openalex_w4322766013-span-0006",
+        "openalex_w4322766013-span-0012"
+      ],
+      "source_quotes": [
+        "These Cav1 null SHH-MB tumour mice showed latency and penetrance similar to those in Cav1 WT SHH-MB mice, with resultant tumours having similar histological features and levels of P-selectin expression",
+        "we bred the Cav1 null allele onto our SHH-MB GEM model to gen- erate homozygous Cav1 null SHH-MB mice",
+        "Cav1KO SHH-MB mice following low-dose XRT and observed that nanoparticles localized to tumour vasculature",
+        "We surmise that the nanoparticles bound to endothelial P-selectin in this case but that they could not extravasate into the brain tumour parenchyma.",
+        "Caveolin-1 null mice are viable but show evidence of hyperproliferative and vascular abnormalities."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_d6f880f6045483e8",
+      "statement": "P-selectin targeting is essential for nanoparticle tumour localization; genetic deletion of Selp in SHH-MB mice abrogates FiVis nanoparticle binding and tumour accumulation, and control nanoparticles lacking P-selectin affinity show no comparable tumour localization.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 8,
+      "source_span_ids": [
+        "openalex_w4322766013-span-0001",
+        "openalex_w4322766013-span-0002",
+        "openalex_w4322766013-span-0003",
+        "openalex_w4322766013-span-0004",
+        "openalex_w4322766013-span-0006",
+        "openalex_w4322766013-span-0008",
+        "openalex_w4322766013-span-0026"
+      ],
+      "source_quotes": [
+        "Localization of FiVis nanoparticles to tumours was abrogated in P-selectin knockout (KO) SHH-MB mice (SELP null SHH-MB, Ptf1a cre/+ ; Ptch1 fl/fl ; Selp â/â )",
+        "further confirming the importance of P-selectin for BBB penetration.",
+        "Here, we found that the targeting of P-selectin on tumour vas- culature facilitates Cav1-dependent transendothelial transport and enhances drug delivery across an intact BBB.",
+        "Upon varying the dose of radiation, we found that both P-selectin enhance- ment and tumour accumulation of FiVis NPs largely increased with XRT dose (Extended Data Fig.",
+        "Using a genetic mouse model of SHH-MB with an intact BBB, we found that P-selectin targeting results in active transport in tumour endothelium to enable delivery of fucoidan-based nanoparticles selectively into the tumour microenvironment, which is enhanced by RT."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_a7d53d13070025c2",
+      "statement": "The blood-brain barrier in the Ptf1a cre/+;Ptch1 fl/fl SHH-MB mouse model remains intact at advanced tumour stages, with minimal TMR-dextran extravasation into parenchymal brain tumour tissue even after low-dose irradiation, paralleling human SHH-MB physiology.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 7,
+      "source_span_ids": [
+        "openalex_w4322766013-span-0001",
+        "openalex_w4322766013-span-0004",
+        "openalex_w4322766013-span-0011",
+        "openalex_w4322766013-span-0025"
+      ],
+      "source_quotes": [
+        "We observed minimal extravasation of TMR-dextran into parenchymal brain tumour tissue, including following the administration of low-dose ionizing radiation",
+        "the BBB of these mice appears to remain intact well into advanced tumour stages",
+        "## Assessment of mouse SHH-MB BBB integrity\n\nA bolus of 100 Î¼l of a 10 mg ml â1 70 kDa dextran-TMR solution (Life Tech- nologies) was injected via the tail vein into tumour-bearing SHH-MB mice at advanced symptomatic stages, as previously describedâ¶.",
+        "Here, we report a nanotherapeutic approach targeting endothelial tumour vasculature to enhance bloodâbrain barrier crossing.",
+        "Using a genetic mouse model of SHH-MB with an intact BBB, we found that P-selectin targeting results in active transport in tumour endothelium to enable delivery of fucoidan-based nanoparticles selectively into the tumour microenvironment, which is enhanced by RT."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_de8f6d1a2a6f238c",
+      "statement": "Human paediatric SHH-MB tumour tissue shows P-selectin expression in tumour-adjacent vasculature, supporting the clinical translatability of P-selectin-targeted nanoparticle delivery for this disease.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 9,
+      "source_span_ids": [
+        "openalex_w4322766013-span-0002",
+        "openalex_w4322766013-span-0003",
+        "openalex_w4322766013-span-0004",
+        "openalex_w4322766013-span-0008"
+      ],
+      "source_quotes": [
+        "Immunohistochemical analysis similarly showed P-selectin expression in tumour-adjacent vasculature (Fig. 1f).",
+        "we examined human SHH-MB tumour tissue surgically resected from paediatric patients",
+        "1 | Low-dose irradiation induces P-selectin expression on tumour**\n\n**vasculature in medulloblastoma.",
+        "To confirm the clinical relevance of endothelial P-selectin expression as a potential target mol- ecule, we examined human SHH-MB tumour tissue surgically resected from paediatric patients.",
+        "We found that P-selectin is expressed in SHH-MB tumour vasculature in the absence of radiation (Fig."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_ce392f5b196496c6",
+      "statement": "Pharmacological inhibition of caveolae-mediated endocytosis (methyl-beta-cyclodextrin) reduces FiVis nanoparticle uptake in bEnd.3 cells in a dose-dependent manner, whereas clathrin inhibition (chlorpromazine) does not; parallel effects are observed with Cav1 and CLTC gene knockdown, confirming caveolae-dependent uptake.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 8,
+      "source_span_ids": [
+        "openalex_w4322766013-span-0003",
+        "openalex_w4322766013-span-0004",
+        "openalex_w4322766013-span-0005",
+        "openalex_w4322766013-span-0006",
+        "openalex_w4322766013-span-0007",
+        "openalex_w4322766013-span-0008",
+        "openalex_w4322766013-span-0009"
+      ],
+      "source_quotes": [
+        "Uptake of FiVis nanoparticles (NP) into bEnd.3 cells following pretreatment with pharmacological inhibitors of endocytosis pathways",
+        "While treatment with CPZ did not affect",
+        "we saw similarly reduced uptake following the introduction of CD (Supplementary",
+        "We observed a similar trend following inhibition of these path- ways via short-hairpin RNA-mediated knockdown of Cav1 and clathrin heavy-chain (CLTC) genes",
+        "Differential uptake of nanoparticles by endothelial cells through polyelectrolytes with affinity for caveolae."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_a6473f1e8742942e",
+      "statement": "Transwell assays show FiVis nanoparticle passage across bEnd.3 brain endothelial monolayers is significantly restricted in Cav1KO compared to WT cells, and dynamic light scattering confirms intact nanoparticle-sized objects in the bottom chamber, supporting transcellular transport of intact carriers rather than disassembly.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 11,
+      "source_span_ids": [
+        "openalex_w4322766013-span-0001",
+        "openalex_w4322766013-span-0004",
+        "openalex_w4322766013-span-0006",
+        "openalex_w4322766013-span-0007",
+        "openalex_w4322766013-span-0008",
+        "openalex_w4322766013-span-0010",
+        "openalex_w4322766013-span-0012"
+      ],
+      "source_quotes": [
+        "FiVis nanoparticles introduced to the upper chamber of the insert were quantified by fluorescence in the bottom chamber over the course of a 4 h incubation.",
+        "The passage of FiVis across the cells and into the bot- tom chamber was significantly restricted in Cav1KO compared with WT cells (Fig. 3f and Supplementary Fig. 6).",
+        "DLS data showed FiVis nanoparticle-sized objects in the bottom chamber after incubation, suggesting that intact particles had passaged across bEnd.3 cells",
+        "consistent with a transcytosis mechanism.",
+        "Of note, DLS data showed FiVis nanoparticle-sized objects in the bottom chamber after incuba- tion, suggesting that intact particles had passaged across bEnd.3 cells (Fig."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_135eabf84bac66a0",
+      "statement": "Transmission electron microscopy reveals P-selectin-targeted fucoidan nanoparticles within endosomal vesicular structures of brain endothelial cells at the BBB, including vesicles that appear to be both caveolae and lysosomes; gold-core FiGNPs exhibit similar extravasation within tumour cerebellum.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 13,
+      "source_span_ids": [
+        "openalex_w4322766013-span-0001",
+        "openalex_w4322766013-span-0003",
+        "openalex_w4322766013-span-0004",
+        "openalex_w4322766013-span-0006",
+        "openalex_w4322766013-span-0007",
+        "openalex_w4322766013-span-0008",
+        "openalex_w4322766013-span-0011",
+        "openalex_w4322766013-span-0025"
+      ],
+      "source_quotes": [
+        "We conducted transmission electron microscopy imaging of cer- ebellar tumour tissue from SHH-MB mice treated with FiGNPs.",
+        "We first confirmed that FiGNPs administered to irradiated (1 Gy) SHH-MB mice exhibit similar extravasation within the cerebellum",
+        "The vesicles harbouring FiGNPs appeared to be both caveolae and lysosomes.",
+        "These data suggest that FiGNPs are taken up into vesicles/caveolae by endothelial cells that form the BBB.",
+        "Confocal live cell imaging studies showed FiGNP engagement with P-selectin and subsequent uptake in Cav1-associated vesicles (Supplementary Figs."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_1cba55100562bcc9",
+      "statement": "Low-dose irradiation (0.25-1 Gy) significantly increases FiVis nanoparticle accumulation in SHH-MB tumour tissue, producing up to a threefold increase at tumour sites versus adjacent normal forebrain at 0.25 Gy, with pronounced tumour accumulation observed after irradiation.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 17,
+      "source_span_ids": [
+        "openalex_w4322766013-span-0001",
+        "openalex_w4322766013-span-0003",
+        "openalex_w4322766013-span-0004",
+        "openalex_w4322766013-span-0007",
+        "openalex_w4322766013-span-0008",
+        "openalex_w4322766013-span-0012",
+        "openalex_w4322766013-span-0020",
+        "openalex_w4322766013-span-0023"
+      ],
+      "source_quotes": [
+        "In nonirradiated mice, treatment with FiVis nano- particles resulted in a slight increase in targeting to the cerebellar tumour compared with adjacent normal forebrain tissue",
+        "in mice pretreated with irradiation (1 Gy) we observed pronounced tumour accumulation of FiVis emission in contrast to nontumour-bearing WT mice, where it remained apparently intra- vascular.",
+        "Treatment with 0.25 Gy XRT resulted in upwards of a threefold increase in FiVis nanoparticle localization at tumour sites as compared with normal adjacent forebrain tissue",
+        "and the signal increased with nanoparticle dose (Extended Data Fig. 10).",
+        "In a Sonic hedgehog medulloblastoma animal model, fucoidan-based nanoparticles encapsulating vismodegib exhibit a striking efficacy and marked reduced bone toxicity and drug exposure to healthy brain tissue."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_16092d139fa32b69",
+      "statement": "Dextran sulfate-based DexVis nanoparticles that lack affinity for P-selectin do not exhibit comparable tumour localization to FiVis, even after irradiation or when matched for particle size and drug encapsulation, confirming tumour-selective targeting depends on P-selectin recognition rather than particle properties.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 5,
+      "source_span_ids": [
+        "openalex_w4322766013-span-0001",
+        "openalex_w4322766013-span-0003",
+        "openalex_w4322766013-span-0004"
+      ],
+      "source_quotes": [
+        "These nanoparticles, exhibiting size and drug encapsulation characteristics similar to FiVis, did not exhibit compa- rable tumour localization, even following irradiation (Fig. 2d).",
+        "We also synthesized control dextran sulfate-based vismod- egib (DexVis) nanoparticles that do not exhibit affinity to P-selectin",
+        "2 | P-selectin-targeted nanoparticles preferentially target SHH-MB**\n\nFiVis nanoparticles in tumour regions (cerebellum) and nontumour regions **tumours following low-dose irradiation.",
+        "These nanoparticles, exhibiting size and drug encapsulation characteristics similar to FiVis, did not exhibit compa- rable tumour localization, even following irradiation (Fig.",
+        "We also synthesized control dextran sulfate-based vismod- egib (DexVis) nanoparticles that do not exhibit affinity to P-selectin (Extended Data Fig."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_5cb6e9fa7df1bfc8",
+      "statement": "LC-MS quantification shows FiVis with low-dose irradiation produces substantially preferential vismodegib accumulation in cerebellar SHH-MB tumour regions versus normal forebrain, and the targeting advantage is amplified by increasing nanoparticle dose, confirming biochemical tumour-selective drug delivery.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 8,
+      "source_span_ids": [
+        "openalex_w4322766013-span-0001",
+        "openalex_w4322766013-span-0003",
+        "openalex_w4322766013-span-0004",
+        "openalex_w4322766013-span-0007",
+        "openalex_w4322766013-span-0008",
+        "openalex_w4322766013-span-0012",
+        "openalex_w4322766013-span-0022"
+      ],
+      "source_quotes": [
+        "To assess the fate of the nanoparticle drug cargo, we measured vismodegib by liquid chromatographyâmass spectrometry (LCâMS).",
+        "We found substantially preferential accumulation of the drug within cerebellar tumour regions as compared with normal adjacent forebrain regions in mice treated with FiVis and 0.25 Gy XRT",
+        "### Mass spectrometry for quantification of vismodegib in brain tissue\n\nAnalysis of vismodegib concentrations in brain tissue was performed by Integrated Analytical Solutions.",
+        "2 | P-selectin-targeted nanoparticles preferentially target SHH-MB**\n\nFiVis nanoparticles in tumour regions (cerebellum) and nontumour regions **tumours following low-dose irradiation.",
+        "In nonirradiated mice, treatment with FiVis nano- particles resulted in a slight increase in targeting to the cerebellar tumour compared with adjacent normal forebrain tissue (Fig."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_6c6460069a2e5eb9",
+      "statement": "FiVis nanoparticles combined with low-dose irradiation synergistically inhibit Sonic hedgehog pathway target Gli1 in SHH-MB tumours, achieving approximately 80-90% target suppression at drug doses (10-20 mg kg-1) far below those required for free vismodegib, and this efficacy is sustained even at lower FiVis doses.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 9,
+      "source_span_ids": [
+        "openalex_w4322766013-span-0001",
+        "openalex_w4322766013-span-0002",
+        "openalex_w4322766013-span-0003",
+        "openalex_w4322766013-span-0004",
+        "openalex_w4322766013-span-0006",
+        "openalex_w4322766013-span-0007",
+        "openalex_w4322766013-span-0022"
+      ],
+      "source_quotes": [
+        "# P-selectin-targeted nanoparticles cross the BBB\n\nTo target an SHH pathway modulator to P-selectin, we synthesized nanoparticles encapsulating the Smoothened inhibitor vismodegib.",
+        "1 | Low-dose irradiation induces P-selectin expression on tumour**\n\n**vasculature in medulloblastoma.",
+        "2 | P-selectin-targeted nanoparticles preferentially target SHH-MB**\n\nFiVis nanoparticles in tumour regions (cerebellum) and nontumour regions **tumours following low-dose irradiation.",
+        "When combined with 1 Gy XRT, FiVis treatment resulted in Gli1 target inhibition in a dose-dependent manner (~80% inhibition with FiVis 10 mg kg â1 and ~90% inhibition with FiVis 20 mg kg â1 ) (Fig.",
+        "Fucoidan nanoparticles encapsulating the Smooth- ened inhibitor vismodegib (FiVis) exhibited potent effector inhibi- tion at low drug doses, striking antitumour efficacy and attenuated on-target bone-related toxicities."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_15962628e61fb4ef",
+      "statement": "FiVis nanoparticles at 10 mg kg-1 combined with 0.25 Gy XRT extend survival in advanced SHH-MB mice by more than twofold, whereas free vismodegib at the same dose does not enhance survival over radiation alone, demonstrating that only targeted nanoparticle delivery provides a survival benefit at low drug doses.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 6,
+      "source_span_ids": [
+        "openalex_w4322766013-span-0006",
+        "openalex_w4322766013-span-0007",
+        "openalex_w4322766013-span-0011",
+        "openalex_w4322766013-span-0012",
+        "openalex_w4322766013-span-0027"
+      ],
+      "source_quotes": [
+        "*P* not significant (log-rank, MantelâCox) when XRT + vismodegib (pink) compared with XRT alone (blue).",
+        "We did not observe enhanced mouse survival by administration of free vismodegib at 10 mg kg â1 following 0.25 Gy XRT",
+        "## In vivo treatment studies\n\nSHH-MB mice at advanced symptomatic stages (domed head, weight loss, ataxia) were treated with whole-body XRT using a RS2000 small animal irradiator (Rad Source) at the indicated doses (0, 0.25, 1 or 2 Gy) alone, with free vismodegib alone, with nanoparticle-encapsulated vismodegib (FiVis or DexVis) alone or in combinations as indicated in individual figure legends.",
+        "4 | FiVis nanoparticles synergize with low-dose irradiation to enhance**\n\n**Gli1 target inhibition and survival in SHH-MB.",
+        "Furthermore, in our survival studies we compared control treated mice that typically succumb to disease within one week due to this large tumor volume and showed efficacy with fucoidan-encapsulated vismodegib through its effects on this large bulk population therefore further minimizing the applicability of absolute cell population abundance to this study."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_c10701828d94c408",
+      "statement": "Control DexVis nanoparticles combined with XRT do not inhibit Gli1 compared with XRT alone, confirming that P-selectin targeting is required for effective Sonic hedgehog pathway inhibition and that the therapeutic benefit depends on the targeting chemistry.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 3,
+      "source_span_ids": [
+        "openalex_w4322766013-span-0007"
+      ],
+      "source_quotes": [
+        "RTâqPCR analysis of Gli1 expression comparing treatment of P-selectin-targeting FiVis with control nontargeting DexVis at indicated doses in combination with ionizing radiation.",
+        "Treatment with control DexVis nanoparticles in combination with XRT did not result in Gli1 inhibition as compared with XRT alone",
+        "Treatment with control DexVis nanoparticles in combination\nwith XRT did not result in Gli1 inhibition as compared with XRT alone\n(Fig. 4b)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_3193effc191784ed",
+      "statement": "FiVis nanoparticles at 10-20 mg kg-1 cause no noticeable toxicities or growth defects in juvenile mice; in contrast, free vismodegib at 100 mg kg-1 causes growth restriction, reduced body weight, bone abnormalities, and femur length defects, demonstrating that targeted nanoparticle encapsulation abrogates vismodegib-related bone and growth toxicity while maintaining therapeutic efficacy.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 20,
+      "source_span_ids": [
+        "openalex_w4322766013-span-0001",
+        "openalex_w4322766013-span-0002",
+        "openalex_w4322766013-span-0004",
+        "openalex_w4322766013-span-0007",
+        "openalex_w4322766013-span-0008",
+        "openalex_w4322766013-span-0011",
+        "openalex_w4322766013-span-0012",
+        "openalex_w4322766013-span-0021",
+        "openalex_w4322766013-span-0027"
+      ],
+      "source_quotes": [
+        "Doses of FiVis at 10 or 20 mg kgâ1 did not result in noticeable toxicities.",
+        "when combined with 0.25 Gy XRT, FiVis treatment at 10 mg kgâ1 further extended survival by more than twofold",
+        "At a free vismodegib dose of 100 mg kgâ1, mice exhibited growth restriction while the weights of FiVis-treated mice paralleled those of vehicle-treated control mice.",
+        "Doses of FiVis at 10 or 20 mg kgâ1 did not result in noticeable toxicities.",
+        "FiVis treatment at 10 mg kgâ1 further extended survival by more than twofold."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_834a3c4fc23fe5f6",
+      "statement": "FiVis nanoparticles have an average size of approximately 80 nm with low polydispersity (PDI = 0.121), exhibit effective drug encapsulation in serum for up to 12 hours, remain stable across storage at 4 degrees C and incubation at 37 degrees C, and their size and drug release characteristics are comparable to DexVis controls.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 11,
+      "source_span_ids": [
+        "openalex_w4322766013-span-0001",
+        "openalex_w4322766013-span-0002",
+        "openalex_w4322766013-span-0003",
+        "openalex_w4322766013-span-0004",
+        "openalex_w4322766013-span-0006",
+        "openalex_w4322766013-span-0007",
+        "openalex_w4322766013-span-0008",
+        "openalex_w4322766013-span-0009",
+        "openalex_w4322766013-span-0012",
+        "openalex_w4322766013-span-0018",
+        "openalex_w4322766013-span-0019"
+      ],
+      "source_quotes": [
+        "FiVis nanoparticles were also tested for their stability in serum and exhibited effective drug encapsulation for up to 12 h",
+        "as determined by quantification of free drug released into the serum mixture, which would be indicative of nanoparticle disassembly",
+        "Affinity of low molecular weight fucoidan for P-selectin triggers its binding to activated human platelets.",
+        "FiGNPs exhibited size and zeta potential characteristics similar to those of FiVis nanoparticles (Supplementary Fig.",
+        "We did not observe enhanced mouse survival by administration of free vismodegib at 10 mg kg â1 following 0.25 Gy XRT, suggesting that the efficacy observed with P-selectin-targeted FiVis nanoparticles was probably not mediated by any potential BBB leaki- ness induced by this low level of ionizing radiation."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_ab93705f7dc330ad",
+      "statement": "FiVis nanoparticle treatment enhances Cav1 expression in endothelial cells within SHH-MB tumour regions and in bEnd.3 cells in vitro, suggesting nanoparticle engagement may actively upregulate the transcytosis machinery.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 5,
+      "source_span_ids": [
+        "openalex_w4322766013-span-0004",
+        "openalex_w4322766013-span-0007",
+        "openalex_w4322766013-span-0012"
+      ],
+      "source_quotes": [
+        "We also found that FiVis enhanced Cav1 expression in endothelial cells in vitro (Supplementary Fig. 2a).",
+        "We observed from immunohisto- logical analysis that Cav1 expression was enhanced in endothelial cells within SHH-MB tumour regions when mice were treated with FiVis nanoparticles",
+        "We observed from immunohisto- logical analysis that Cav1 expression was enhanced in endothelial cells within SHH-MB tumour regions when mice were treated with FiVis nanoparticles (Fig. 3aâc and quantified in Supplementary Fig. 1).",
+        "We observed from immunohisto- logical analysis that Cav1 expression was enhanced in endothelial cells within SHH-MB tumour regions when mice were treated with FiVis nanoparticles (Fig. 3aâc and quantified in Supplementary Fig. 1). We also found that FiVis enhanced Cav1 expression in endothelial cell",
+        "3f and Supplementary Fig."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_2fc090c0500330ed",
+      "statement": "Activated brain endothelial cells exhibit substantial colocalization of P-selectin and caveolin-1, and P-selectin partitioning into caveolae may prime P-selectin-bound nanoparticles for caveolae-mediated endocytosis and transcytosis.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 7,
+      "source_span_ids": [
+        "openalex_w4322766013-span-0006",
+        "openalex_w4322766013-span-0008"
+      ],
+      "source_quotes": [
+        "Interestingly, activated endothelial cells following tumour necrosis factor-alpha stimulation also resulted in apical distribution and restricted mobility of caveolae with subsequent colocalization of caveolae with P-selectin.",
+        "Notably, activated endothelial cells exhibit substantial colocalization of P-selectin and Cav1, a primary constituent of caveolaeÂ²â´.",
+        "activated endothelial cells following tumour necrosis factor-alpha stimulation also resulted in apical distribution and restricted mobility of caveolae with subsequent colocalization of caveolae with P-selectin.",
+        "Our data support the notion that the tendency for P-selectin to partition into caveolae may effectively prime P-selectin-bound FiVis nanoparticles for uptake by caveolae-mediated endocytosis and transcytosis across the BBB.",
+        "Nota- bly, activated endothelial cells exhibit substantial colocalization of P-selectin and Cav1, a primary constituent of caveolaeÂ²â´."
+      ]
+    }
+  ],
+  "fetched_at": "2026-09-07T21:42:38Z"
+}

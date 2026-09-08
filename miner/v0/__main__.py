@@ -1,0 +1,64 @@
+from __future__ import annotations
+
+import argparse
+import logging
+from pathlib import Path
+
+from dotenv import load_dotenv
+
+from .config import SectionContextV1Config
+from .runner import SectionContextV1Runner
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Run the v0 claim-evidence miner pipeline on one paper.")
+    parser.add_argument("--pdf", type=Path)
+    parser.add_argument("--pdf-url")
+    parser.add_argument("--pdf-sha256", default="")
+    parser.add_argument("--tei-xml", type=Path)
+    parser.add_argument("--artifact-json", type=Path)
+    parser.add_argument(
+        "--pdf-extraction-method",
+        choices=("pdf-inspector", "grobid", "pypdf"),
+        default="pdf-inspector",
+        help="How to parse a PDF input before mining.",
+    )
+    parser.add_argument("--output-dir", type=Path)
+    parser.add_argument(
+        "--mode",
+        choices=("section-local", "abstract-full-paper"),
+        default="section-local",
+        help="Extraction mode. section-local preserves the existing v0 behavior; abstract-full-paper extracts claims from the abstract and links full-paper evidence.",
+    )
+    args = parser.parse_args()
+    if sum(bool(value) for value in (args.pdf, args.pdf_url, args.tei_xml, args.artifact_json)) != 1:
+        raise SystemExit("Provide exactly one of --pdf, --pdf-url, --tei-xml, or --artifact-json.")
+    base_dir = Path(__file__).resolve().parents[2]
+    load_dotenv(base_dir / ".env")
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(name)s | %(message)s")
+    config = SectionContextV1Config.from_env(base_dir)
+    runner = SectionContextV1Runner(config)
+    if args.pdf:
+        runner.run_from_pdf(
+            args.pdf,
+            output_dir=args.output_dir,
+            extraction_method=args.pdf_extraction_method,
+            mode=args.mode,
+        )
+    elif args.pdf_url:
+        runner.run_from_pdf_url(
+            args.pdf_url,
+            output_dir=args.output_dir,
+            expected_sha256=args.pdf_sha256,
+            extraction_method=args.pdf_extraction_method,
+            mode=args.mode,
+        )
+    elif args.tei_xml:
+        runner.run_from_tei_xml(args.tei_xml, output_dir=args.output_dir, mode=args.mode)
+    else:
+        runner.run_from_artifact_json(args.artifact_json, output_dir=args.output_dir, mode=args.mode)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

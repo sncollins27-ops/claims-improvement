@@ -1,0 +1,268 @@
+{
+  "paper_id": "openalex_w4388551909",
+  "run_id": "run_20260907_063159_471c07",
+  "silver_record_id": "silver_run_20260907_063159_471c07_openalex_w4388551909",
+  "bronze_record_id": "bronze_0b6e2a9aa7c014ff",
+  "units": [
+    {
+      "silver_unit_id": "silver_unit_3c9b9d2f3f6c7782",
+      "statement": "The HuBMAP consortium reported multi-model single-cell and spatial atlases covering more than one million cells each and mapping them to specific anatomical locations, establishing new standards for studying human organs in both health and disease.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 16,
+      "source_span_ids": [
+        "openalex_w4388551909-span-0001"
+      ],
+      "source_quotes": [
+        "Each work covered more than a million cells and mapped them to specific locations in the body, providing new standards to study human organs in both health and disease states.",
+        "Recently, in a series of three papers published in Nature, the Human Biomolecular Atlas Program (HuBMAP) consortium reported three multi-model single-cell and spatial atlases. 1â3 Each work covered more than a million cells and mapped them to specific locations in the body, providing new standards to study human organs in both health and disease states.",
+        "They collected 500,000 live cells from multiple organ donors, depicting over 400 cell types across 24 tissues.",
+        "By integrating spatial proteomics, single-cell RNA and ATAC technologies, this study has provided a valuable resource for understanding the human intestine.",
+        "In these three recent papers from HuBMAP, Lake et al."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_c609df96c6f83d84",
+      "statement": "The Tabula Sapiens pan-organ human single-cell atlas collected 500,000 live cells from multiple organ donors, depicting over 400 cell types across 24 tissues and revealing both shared cellular behavior and subtle organ-specific differences in cell-type organization.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 19,
+      "source_span_ids": [
+        "openalex_w4388551909-span-0001",
+        "openalex_w4388551909-span-0002"
+      ],
+      "source_quotes": [
+        "They have revealed discoveries relating to shared behavior and subtle, organ-specific differences across cell types.",
+        "This study analyzed 330,000 immune cells from 16 tissues of 12 adult donors, revealing 100 distinct cell types and their distribution.",
+        "The Tabula Sapiens Consortium constructed a pan-organ human single-cell atlas, called Tabula Sapiens. They collected 500,000 live cells from multiple organ donors, depicting over 400 cell types across 24 tissues. They have revealed discoveries relating to shared behavior and subtle, organ-specific differences across cell types.",
+        "They collected 500,000 live cells from multiple organ donors, depicting over 400 cell types across 24 tissues. They have revealed discoveries relating to shared behavior and subtle, organ-specific differences across cell types.",
+        "This comprehensive analysis shed light on the relationships between tissue resident immune cells and their microenvironments."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_2731967aac9c71d9",
+      "statement": "Lake et al. constructed an extensive kidney single-cell atlas spanning the cortico-medullary axis from healthy to acute and chronic kidney disease, defining 51 major cell types including rare and previously unidentified populations and linking cell states to injury and disease progression.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 17,
+      "source_span_ids": [
+        "openalex_w4388551909-span-0001",
+        "openalex_w4388551909-span-0002"
+      ],
+      "source_quotes": [
+        "1 The authors defined 51 major cell types, including rare and previously unidentified cell populations.",
+        "constructed an extensive single-cell atlas spanning the cortico- medullary axis of the kidney, covering the spectrum of conditions from healthy to acute kidney injury (AKI) and chronic kidney disease (CKD).",
+        "6 This study analyzed 330,000 immune cells from 16 tissues of 12 adult donors, revealing 100 distinct cell types and their distribution.",
+        "An atlas of healthy and injured cell states and niches in the human kidney.",
+        "Finally, the application of Artificial intelligence (AI) for interpreta- tion and modeling of complex atlas data may help to achieve predictive human biology at the single-cell level."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_1b043eb1a9cc70f7",
+      "statement": "Spatial mapping in the kidney atlas localized maladaptive tissue-repair states associated with injury that may impede renal tubule formation and promote disease progression, with evidence of cell-cell communication between maladaptive cells and adjacent stromal and inflammatory cells, and cell senescence proposed as an underlying mechanism leading to renal failure.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 26,
+      "source_span_ids": [
+        "openalex_w4388551909-span-0001",
+        "openalex_w4388551909-span-0002"
+      ],
+      "source_quotes": [
+        "Spatial mapping localized maladaptive tissue repair states that may impede renal tubule formation after injury and promote disease progression.",
+        "This study revealed significant heterogeneity in cellular composition and organization along the intestine.",
+        "This study revealed significant heterogeneity in cellular composition and organization along the intestine. The authors also identified novel subtypes of secretory cells. Notably, the authors highlighted that immune cells also exhibit spatial restriction and zonation, which was previously found in epithelial subtypes.",
+        "By integrating spatial proteomics, single-cell RNA and ATAC technologies, this study has provided a valuable resource for understanding the human intestine.",
+        "The authors also identified cell-cell communication between maladaptive cells and adjacent stroma and inflammatory cells."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_02dae974c4f4b13e",
+      "statement": "Hickey et al. performed an in-depth spatial single-cell analysis of the human intestine using CODEX and single-nucleus RNA-sequencing, revealing significant heterogeneity in cellular composition along the intestine, identifying novel subtypes of secretory cells, and demonstrating that immune cells exhibit spatial restriction and zonation analogous to previously observed epithelial patterns.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 35,
+      "source_span_ids": [
+        "openalex_w4388551909-span-0001",
+        "openalex_w4388551909-span-0002"
+      ],
+      "source_quotes": [
+        "2 They used co-detection by indexing (CODEX) and single-nucleus RNA to map eight locations along the intestine using samples from nine individuals.",
+        "This study revealed significant heterogeneity in cellular composition and organization along the intestine.",
+        "5 They collected 500,000 live cells from multiple organ donors, depicting over 400 cell types across 24 tissues.",
+        "By integrating spatial proteomics, single-cell RNA and ATAC technologies, this study has provided a valuable resource for understanding the human intestine.",
+        "Notably, the authors highlighted that immune cells also exhibit spatial restriction and zonation, which was previously found in epithelial subtypes."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_7e6fe6e51bf49e74",
+      "statement": "Greenbaum et al. built a spatiotemporal atlas of the human maternal-fetal interface using multiplexed ion beam imaging (MIBI), documenting a shift in maternal immune compartment composition from lymphoid to myeloid cells with enrichment of tolerogenic subsets correlated with gestational age, and showing how fetal cells invade and remodel maternal uterine blood vessels while maternal immune cells promote tolerance.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 34,
+      "source_span_ids": [
+        "openalex_w4388551909-span-0001",
+        "openalex_w4388551909-span-0002"
+      ],
+      "source_quotes": [
+        "Overall, this study explained how fetal cells invade and remodel blood vessels of maternal uterus and how maternal immune cells promote a tolerant environment between maternal uterine and fetal placental cells.",
+        "They found a remarkable shift in the immune compartment composition from maternal lymphoid to myeloid cells, along with an enrichment of tolerogenic subsets that tightly correlated with gestational age.",
+        "3 They found a remarkable shift in the immune compartment composition from maternal lymphoid to myeloid cells, along with an enrichment of tolerogenic subsets that tightly correlated with gestational age.",
+        "A spatially resolved timeline of the human maternal-fetal interface.",
+        "employed multiplexed ion beam imaging (MIBI) to build a spatiotemporal cell atlas of the maternal-fetal interface of from 66 individuals during the pre-pregnancy period (between 6 and 20 weeks)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_82e95f7cfd1707bd",
+      "statement": "In 2020, colleagues from Zhejiang University developed the first human whole-organism cell atlas, permitting systematic analysis of the human cell landscape at single-cell resolution across all major organ systems and serving as a foundational reference for subsequent atlas efforts.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 7,
+      "source_span_ids": [
+        "openalex_w4388551909-span-0001",
+        "openalex_w4388551909-span-0002"
+      ],
+      "source_quotes": [
+        "Construction of a human cell landscape at single-cell level.",
+        "Itâs worth noting that in 2020, colleagues from Zhejiang University in China developed the first human whole-organism cell atlas, 4 permitting systematic analysis of human cell landscape at the single-cell level.",
+        "Organization of the human intestine at single-cell resolution.",
+        "The Tabula Sapiens Consortium constructed a pan-organ human single-cell atlas, called Tabula Sapiens."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_a5a0c0cf03855f6a",
+      "statement": "Cambridge teams analyzed 330,000 immune cells from 16 tissues of 12 adult donors, identifying 100 distinct immune cell types using CellTypist and revealing tissue-resident immune cell distributions and their relationships with tissue microenvironments, demonstrating tissue-specific immune organization.",
+      "importance": "central",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 23,
+      "source_span_ids": [
+        "openalex_w4388551909-span-0001",
+        "openalex_w4388551909-span-0002"
+      ],
+      "source_quotes": [
+        "They have revealed discoveries relating to shared behavior and subtle, organ-specific differences across cell types.",
+        "This comprehensive analysis shed light on the relationships between tissue resident immune cells and their microenvironments.",
+        "This study analyzed 330,000 immune cells from 16 tissues of 12 adult donors, revealing 100 distinct cell types and their distribution. Using a machine learning algorithm called CellTypist, researchers identified unique immune cell populations, and mapped their presence in different tissues. This comprehensive analysis shed light on the relationships between tissue resident immune cells and their microenvironments.",
+        "5 They collected 500,000 live cells from multiple organ donors, depicting over 400 cell types across 24 tissues.",
+        "6 This study analyzed 330,000 immune cells from 16 tissues of 12 adult donors, revealing 100 distinct cell types and their distribution."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_783140baf97a8ef0",
+      "statement": "As technologies evolve, it is becoming possible to integrate additional information layers into human cell atlases â including spatial and temporal dynamics, epigenetic modifications, and protein expression â broadening atlases toward multidimensional representations of human biology.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 9,
+      "source_span_ids": [
+        "openalex_w4388551909-span-0001"
+      ],
+      "source_quotes": [
+        "As technologies continue to evolve, it is now possible to integrate additional layers of information into the atlas, such as spatial and temporal dynamics, epigenetic modifications, and protein expressions.",
+        "As we move forward, the integration of single-cell and spatial technologies, functional genomics, computational analysis, and machine learning will continue to enhance our understanding of human biology.",
+        "Itâs worth noting that in 2020, colleagues from Zhejiang University in China developed the first human whole-organism cell atlas, 4 permitting systematic analysis of human cell landscape at the single-cell level.",
+        "Recently, in a series of three papers published in Nature, the Human Biomolecular Atlas Program (HuBMAP) consortium reported three multi-model single-cell and spatial atlases.",
+        "Each work covered more than a million cells and mapped them to specific locations in the body, providing new standards to study human organs in both health and disease states."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_5960a28f8242ca36",
+      "statement": "Current research faces major challenges in integrating cross-platform, cross-laboratory, and cross-omics data for human cell atlases, with batch effects from available technologies remaining a persistent problem that will require standardization of technical protocols and optimization of analytical pipelines.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 27,
+      "source_span_ids": [
+        "openalex_w4388551909-span-0001"
+      ],
+      "source_quotes": [
+        "However, current research faces major challenges in integrating cross-platform, cross-laboratory, and cross-omics data. The batch effects from available technologies remains a problem. Future directions may include standardization of technical protocols and optimization of analytical pipelines.",
+        "The batch effects from available technologies remains a problem. Future directions may include standardization of technical protocols and optimization of analytical pipelines.",
+        "Future directions may include standardization of technical protocols and optimization of analytical pipelines.",
+        "However, current research faces major challenges in integrating cross-platform, cross-laboratory, and cross-omics data. The batch effects from available technologies remains a problem.",
+        "By integrating spatial proteomics, single-cell RNA and ATAC technologies, this study has provided a valuable resource for understanding the human intestine."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_909a36fe5fe83d41",
+      "statement": "In 2022, the Human Cell Atlas (HCA) international collaborative effort published a monumental achievement, successfully mapping the molecular landscape of the human body and providing unprecedented insights into the complexity of human biology through the involvement of scientists from diverse disciplines.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 17,
+      "source_span_ids": [
+        "openalex_w4388551909-span-0001",
+        "openalex_w4388551909-span-0002"
+      ],
+      "source_quotes": [
+        "The exciting progress in Human Cell/Biomolecular Atlas represents a remarkable milestone in our quest to unravel the intricacies of human system (Fig.",
+        "This international colla- borative effort, involving scientists from diverse disciplines, has successfully mapped the molecular landscape of the human body, providing unprecedented insights into the complexity of human system.",
+        "As we move forward, the integration of single-cell and spatial technologies, functional genomics, computational analysis, and machine learning will continue to enhance our understanding of human biology.",
+        "In 2022, the Human Cell Atlas (HCA) project published their monumental achievement in the field.",
+        "The exciting progress in Human Cell/Biomolecular Atlas represents a remarkable milestone in our quest to unravel the intricacies of human system (Fig. 1)."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_a7a4ae55afb6b779",
+      "statement": "The ongoing exploration of the human cell atlas holds promise for transforming healthcare by enabling precision medicine, disease diagnosis, and predictive human biology â with artificial intelligence and computational analysis expected to play key roles in interpreting atlas data and building predictive models.",
+      "importance": "minor",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 53,
+      "source_span_ids": [
+        "openalex_w4388551909-span-0001",
+        "openalex_w4388551909-span-0002"
+      ],
+      "source_quotes": [
+        "In addition, A more compre- hensive cell atlas that covers disease cell stages is on the way.",
+        "constructed an extensive single-cell atlas spanning the cortico- medullary axis of the kidney, covering the spectrum of conditions from healthy to acute kidney injury (AKI) and chronic kidney disease (CKD).",
+        "Finally, the application of Artificial intelligence (AI) for interpreta- tion and modeling of complex atlas data may help to achieve predictive human biology at the single-cell level.",
+        "As we move forward, the integration of single-cell and spatial technologies, functional genomics, computational analysis, and machine learning will continue to enhance our understanding of human biology.",
+        "Organization of the human intestine at single-cell resolution."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_10ddaf10c200ee41",
+      "statement": "Across kidney, intestine, and maternal-fetal tissues, spatially resolved atlas measurements demonstrate that spatial context is essential for understanding disease-associated cell states, immune-cell organization, tissue microenvironments, and the cell-cell communication networks that underpin tissue homeostasis and repair.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 7,
+      "source_span_ids": [
+        "openalex_w4388551909-span-0001",
+        "openalex_w4388551909-span-0002"
+      ],
+      "source_quotes": [
+        "Spatial mapping localized maladaptive tissue repair states that may impede renal tubule formation after injury and promote disease progression.",
+        "They found a remarkable shift in the immune compartment composition from maternal lymphoid to myeloid cells, along with an enrichment of tolerogenic subsets that tightly correlated with gestational age.",
+        "By integrating spatial proteomics, single-cell RNA and ATAC technologies, this study has provided a valuable resource for understanding the human intestine.",
+        "Organization of the human intestine at single-cell resolution.",
+        "conducted the pioneering in-depth spatial analysis in the intestine at the single-cell level."
+      ]
+    },
+    {
+      "silver_unit_id": "silver_unit_0cd2de7ee1d23696",
+      "statement": "The three HuBMAP papers use complementary spatial technologies (CODEX, MIBI, spatial transcriptomics) to provide a multi-faceted view of human organs, and together with Tabula Sapiens cover most human organ systems at complementary scales.",
+      "importance": "supporting",
+      "required_for_completeness": true,
+      "scoring_mode": "required",
+      "candidate_count": 2,
+      "source_span_ids": [
+        "openalex_w4388551909-span-0001"
+      ],
+      "source_quotes": [
+        "1â3 Each work covered more than a million cells and mapped them to specific locations in the body, providing new standards to study human organs in both health and disease states.",
+        "The Tabula Sapiens Consortium constructed a pan-organ human single-cell atlas, called Tabula Sapiens.",
+        "new standards to study human organs in both health and disease states"
+      ]
+    }
+  ],
+  "fetched_at": "2026-09-07T21:42:41Z"
+}
